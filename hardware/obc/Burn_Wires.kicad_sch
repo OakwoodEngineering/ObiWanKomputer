@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "671910a5-99c6-4322-8650-e4fd73d8b866")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
 		(title "PyCubed Mainboard")
 		(date "2021-06-09")
@@ -2413,7 +2413,7 @@
 	)
 	(polyline
 		(pts
-			(xy 176.53 165.1) (xy 176.53 162.56)
+			(xy 158.75 171.45) (xy 158.75 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3093,7 +3093,7 @@
 	)
 	(polyline
 		(pts
-			(xy 176.53 162.56) (xy 284.48 162.56)
+			(xy 158.75 168.91) (xy 266.7 168.91)
 		)
 		(stroke
 			(width 0)
@@ -3234,7 +3234,7 @@
 	)
 	(text "Burn Wires"
 		(exclude_from_sim no)
-		(at 218.44 176.53 0)
+		(at 200.66 182.88 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -3280,7 +3280,7 @@
 	)
 	(text "NOTE: Components labeled \"do not install\" (DNI) are not populated by default"
 		(exclude_from_sim no)
-		(at 177.8 165.1 0)
+		(at 160.02 171.45 0)
 		(effects
 			(font
 				(size 1.651 1.651)
