@@ -2725,7 +2725,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.61 66.04) (xy 115.57 66.04)
+			(xy 180.34 35.56) (xy 114.3 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2885,7 +2885,7 @@
 	)
 	(polyline
 		(pts
-			(xy 115.57 66.04) (xy 115.57 119.38)
+			(xy 114.3 35.56) (xy 114.3 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3065,7 +3065,7 @@
 	)
 	(polyline
 		(pts
-			(xy 181.61 119.38) (xy 181.61 66.04)
+			(xy 180.34 88.9) (xy 180.34 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3075,7 +3075,7 @@
 	)
 	(polyline
 		(pts
-			(xy 115.57 119.38) (xy 181.61 119.38)
+			(xy 114.3 88.9) (xy 180.34 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3105,7 +3105,7 @@
 	)
 	(text "These novel bus protection circuits\nprevent traditional I2C/SPI failure \nmodes where a single slave failure\ncan disable the entire bus.\n\nLearn more: \nhttps://doi.org/10.36227/techrxiv.15166620\n\nBy default, slave clock and/or data lines \ncan be held low and the Master (SAMD51) \nwill still be able to communicate with the \nremainder of the bus.\n\nThey can individually be bypassed by \nremoving the transistor(s) and soldering\nthe 0ohm the jumpers below."
 		(exclude_from_sim no)
-		(at 119.38 116.84 0)
+		(at 118.11 86.36 0)
 		(effects
 			(font
 				(size 1.7526 1.7526)
@@ -3149,7 +3149,7 @@
 	)
 	(text "NOTE"
 		(exclude_from_sim no)
-		(at 116.84 71.12 0)
+		(at 115.57 40.64 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -3184,6 +3184,17 @@
 		)
 		(uuid "ac41685c-833d-48fb-b37c-87fe118dbe53")
 	)
+	(text "I2C Bus Protection - Stacking"
+		(exclude_from_sim no)
+		(at 120.142 94.488 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "b6b4c419-c88c-49ab-b50f-814a9cdd591b")
+	)
 	(text "I2C Bus Protection - IMU"
 		(exclude_from_sim no)
 		(at 44.45 20.32 0)
@@ -3205,6 +3216,16 @@
 			(justify left bottom)
 		)
 		(uuid "e3b2e73c-dc6a-437d-b9ef-4f9e0fe7fae1")
+	)
+	(text "XXX Add another instance of the bus protection,\nproducing SCL_STK and SDA_STK.\n\nAdd those two signals to the stacking connector."
+		(exclude_from_sim no)
+		(at 147.574 106.426 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e939e314-ec03-4bcc-97eb-436ff6d980be")
 	)
 	(text "Bus Protection - Bypass Jumpers"
 		(exclude_from_sim no)

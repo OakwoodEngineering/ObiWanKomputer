@@ -10233,6 +10233,16 @@
 		)
 		(uuid "083f10bf-5359-4d4a-a844-a6b2af2fa8b5")
 	)
+	(text "XXX identify which of these pins go elsewhere in the design.\nThose that don't, remove hierarchal connector and add\nno-connect (X)"
+		(exclude_from_sim no)
+		(at 175.26 112.014 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3c4cfbe2-7855-40af-b651-dc90cad82c2a")
+	)
 	(text "Mounting Holes"
 		(exclude_from_sim no)
 		(at 146.05 25.654 0)
@@ -10244,6 +10254,16 @@
 		)
 		(uuid "443c27ae-679f-4598-b143-dcc710efd5a8")
 	)
+	(text "XXX - do the JTAG signals (TCK/SWCLK, TMS/SWDIO) go\nanywhere?  They should go to at least a pin header\nwith GND, 3V3, and those two signals, that we can use\nfor debugging."
+		(exclude_from_sim no)
+		(at 90.424 64.516 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "59a38dbc-0ddc-453f-83a3-d2d8d0a11c51")
+	)
 	(text "NOTE: Components labeled \"do not install\" (DNI) are not populated by default"
 		(exclude_from_sim no)
 		(at 160.02 171.45 0)
@@ -10254,6 +10274,16 @@
 			(justify left bottom)
 		)
 		(uuid "654cf8ca-144e-4358-8bba-f9c0c748cfd1")
+	)
+	(text "XXX make these hierarchal connectors\nthe same size / not look wonky"
+		(exclude_from_sim no)
+		(at 158.496 71.628 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6f660e2b-7faf-499e-8308-776d8f8f09ac")
 	)
 	(text "Avionics"
 		(exclude_from_sim no)
@@ -10418,6 +10448,16 @@
 			(justify left bottom)
 		)
 		(uuid "d8d46ca9-1d29-4ca5-aa7d-7be626e95949")
+	)
+	(text "XXX if these connectors on the right\nare obsoleted, remove"
+		(exclude_from_sim no)
+		(at 238.76 103.632 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "dba6de38-ed3e-4d02-b8be-4f61ace4bb6a")
 	)
 	(label "XTAL1"
 		(at 86.36 105.41 0)
@@ -11718,7 +11758,7 @@
 	)
 	(global_label "SDA_IMU"
 		(shape bidirectional)
-		(at 209.55 127 180)
+		(at 191.77 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11727,7 +11767,7 @@
 		)
 		(uuid "cabeb57c-ddda-4989-bb6c-5e2c4e01a099")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.55 127 0)
+			(at 191.77 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
