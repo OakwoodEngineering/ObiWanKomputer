@@ -6332,10 +6332,10 @@
 		(uuid "4b05319c-cf94-4750-8699-fbf355603988")
 	)
 	(junction
-		(at 215.9 60.96)
+		(at 215.9 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4c53642c-ad3f-42aa-a3f0-b5e04cec8edd")
+		(uuid "4c25473f-4d26-46d7-9a49-4fc79fce531d")
 	)
 	(junction
 		(at 208.28 138.43)
@@ -6892,6 +6892,26 @@
 			(type default)
 		)
 		(uuid "1452f6aa-d108-495c-9a5f-6c39053dc26f")
+	)
+	(wire
+		(pts
+			(xy 215.9 62.23) (xy 215.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151afa4a-d19a-4c79-86e5-7ff39deaaade")
+	)
+	(wire
+		(pts
+			(xy 215.9 63.5) (xy 215.9 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15399404-bedf-4674-9e30-d84194ae3eb7")
 	)
 	(wire
 		(pts
@@ -8465,6 +8485,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 62.23) (xy 233.68 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af63da71-9a52-4bd7-a0e8-3fd6f9179805")
+	)
+	(wire
+		(pts
 			(xy 140.97 46.99) (xy 140.97 44.45)
 		)
 		(stroke
@@ -9005,7 +9035,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 60.96) (xy 215.9 60.96)
+			(xy 233.68 62.23) (xy 215.9 62.23)
 		)
 		(stroke
 			(width 0)
@@ -9386,7 +9416,7 @@
 		)
 		(uuid "25b42490-576c-4f15-978e-c1f0ce50e92e")
 	)
-	(text "XXX: This page should be transitioned to letter"
+	(text "XXX: This page should be transitioned to letter size, but that requires\nmore shuffling than the rest."
 		(exclude_from_sim no)
 		(at 210.058 16.764 0)
 		(effects
@@ -9398,7 +9428,7 @@
 	)
 	(text "RF Regulator"
 		(exclude_from_sim no)
-		(at 62.23 87.63 0)
+		(at 62.992 89.154 0)
 		(effects
 			(font
 				(size 2.159 2.159)
@@ -9420,7 +9450,7 @@
 	)
 	(text "XXX: Make accessible from access port"
 		(exclude_from_sim no)
-		(at 246.38 68.58 0)
+		(at 246.38 80.772 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9439,6 +9469,16 @@
 			(justify left bottom)
 		)
 		(uuid "4a1584a8-c5b9-471c-8877-b19880f65151")
+	)
+	(text "XXX calculate these values from\nOC and maximum power voltages in\nsolar panel design.\n\n(4X cells in series, so the voltages\nwill be 4X that of one cell)."
+		(exclude_from_sim no)
+		(at 72.644 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "68267d7d-8da2-4e58-b194-961ad80773cd")
 	)
 	(text "VSOLAR 9V to 40V"
 		(exclude_from_sim no)
@@ -9574,6 +9614,16 @@
 		)
 		(uuid "bf4103aa-f5c5-4a1f-809a-cb2cd4973a58")
 	)
+	(text "XXX I think these little \"global labels\"\nare silly; We are already connected to net\n\"GND\" by the power symbol on the left."
+		(exclude_from_sim no)
+		(at 240.538 66.294 0)
+		(effects
+			(font
+				(size 1 1)
+			)
+		)
+		(uuid "c78807dd-de63-4e74-8537-7df02e206b59")
+	)
 	(text "Vfloat=8.4V\n(2S Li-ion)"
 		(exclude_from_sim no)
 		(at 156.21 63.5 0)
@@ -9628,6 +9678,16 @@
 			(justify left bottom)
 		)
 		(uuid "e80706ab-3bf2-46c6-9d45-d11b0c3a007b")
+	)
+	(text "XXX consider removing this\ndiode as we have added diodes\nto the panel assemblies."
+		(exclude_from_sim no)
+		(at 29.21 60.198 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f704eb5e-ed56-4a67-951f-93f20b49aa92")
 	)
 	(label "V_RF"
 		(at 39.37 105.41 0)
@@ -9895,20 +9955,21 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 233.68 60.96 180)
+		(at 233.68 62.23 0)
 		(effects
 			(font
 				(size 0.254 0.254)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "3ab7b5dd-aa6d-4ef9-b6da-455a514359a1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 233.68 60.96 0)
+			(at 233.68 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -19654,7 +19715,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:GND")
-		(at 215.9 63.5 0)
+		(at 215.9 66.04 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19662,7 +19723,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000f278bc0e")
 		(property "Reference" "#GND020"
-			(at 215.9 63.5 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19671,7 +19732,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 213.36 66.04 0)
+			(at 213.36 68.58 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -19680,7 +19741,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 63.5 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19689,7 +19750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 63.5 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19698,7 +19759,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 215.9 63.5 0)
+			(at 215.9 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

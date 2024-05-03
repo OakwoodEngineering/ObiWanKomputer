@@ -3247,6 +3247,16 @@
 		)
 		(uuid "6e16c75c-238c-44c8-b418-1ba1aa32b009")
 	)
+	(text "XXX - make into a single 6 pin hi-rel connector\nfor interlock wire harness"
+		(exclude_from_sim no)
+		(at 232.156 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "75b4570e-29e8-45ec-a248-b6ca627ac740")
+	)
 	(text "(Screw Terminals)"
 		(exclude_from_sim no)
 		(at 193.04 105.41 0)
@@ -3269,9 +3279,19 @@
 		)
 		(uuid "8c8fe7ac-3887-4853-bc37-ac1b8774c1bf")
 	)
+	(text "XXX make into a single 2 high-power high-rel connector\nXXX put on the same connector (on finer pins) 3 more \"grounds\" (GNDREF) and 1 thermistor (ADC)"
+		(exclude_from_sim no)
+		(at 189.738 35.306 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ceca98f1-2760-4341-aa09-6cc56deaa8c2")
+	)
 	(text "Power Connectors: USB-C Power Delivery to 2S Li-ion Battery"
 		(exclude_from_sim no)
-		(at 127 30.48 0)
+		(at 61.976 26.416 0)
 		(effects
 			(font
 				(size 2.159 2.159)
