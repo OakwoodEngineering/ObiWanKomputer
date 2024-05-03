@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "e3ac22ea-6806-4807-a025-571315789c25")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
 		(title "PyCubed Mainboard")
 		(date "2021-06-09")
@@ -13,7 +13,7 @@
 	(lib_symbols)
 	(text "PyCubed"
 		(exclude_from_sim no)
-		(at 212.09 177.8 0)
+		(at 193.802 182.88 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -139,7 +139,7 @@
 		)
 	)
 	(sheet
-		(at 224.79 67.31)
+		(at 134.62 106.68)
 		(size 30.48 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -151,7 +151,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005cec6281")
 		(property "Sheetname" "RF and GPS"
-			(at 224.79 65.9634 0)
+			(at 134.62 105.3334 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -160,7 +160,7 @@
 			)
 		)
 		(property "Sheetfile" "RF_and_GPS.kicad_sch"
-			(at 224.79 88.7226 0)
+			(at 134.62 128.0926 0)
 			(effects
 				(font
 					(size 2.54 2.54)

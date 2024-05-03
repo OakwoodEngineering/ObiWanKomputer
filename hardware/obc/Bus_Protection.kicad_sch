@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "3414efb3-c246-4b5e-aa39-e25f953ad7ab")
-	(paper "A4")
+	(paper "USLetter")
 	(title_block
 		(title "PyCubed Mainboard")
 		(date "2021-06-09")
@@ -2075,7 +2075,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 193.04) (xy 63.5 193.04)
+			(xy 62.23 198.12) (xy 63.5 198.12)
 		)
 		(stroke
 			(width 0)
@@ -2145,7 +2145,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 180.34) (xy 106.68 180.34)
+			(xy 107.95 185.42) (xy 106.68 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2165,7 +2165,7 @@
 	)
 	(polyline
 		(pts
-			(xy 176.53 162.56) (xy 284.48 162.56)
+			(xy 160.02 168.91) (xy 267.97 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2185,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 190.5) (xy 99.06 190.5)
+			(xy 97.79 195.58) (xy 99.06 195.58)
 		)
 		(stroke
 			(width 0)
@@ -2235,7 +2235,7 @@
 	)
 	(polyline
 		(pts
-			(xy 176.53 165.1) (xy 176.53 162.56)
+			(xy 160.02 171.45) (xy 160.02 168.91)
 		)
 		(stroke
 			(width 0)
@@ -2285,7 +2285,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 189.23) (xy 63.5 189.23)
+			(xy 62.23 194.31) (xy 63.5 194.31)
 		)
 		(stroke
 			(width 0)
@@ -2375,7 +2375,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 179.07) (xy 63.5 179.07)
+			(xy 62.23 184.15) (xy 63.5 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2435,7 +2435,7 @@
 	)
 	(polyline
 		(pts
-			(xy 12.7 166.37) (xy 176.53 166.37)
+			(xy 12.7 170.18) (xy 157.48 171.45)
 		)
 		(stroke
 			(width 0)
@@ -2535,7 +2535,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 185.42) (xy 106.68 185.42)
+			(xy 107.95 190.5) (xy 106.68 190.5)
 		)
 		(stroke
 			(width 0)
@@ -2565,7 +2565,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 179.07) (xy 71.12 179.07)
+			(xy 72.39 184.15) (xy 71.12 184.15)
 		)
 		(stroke
 			(width 0)
@@ -2615,7 +2615,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 189.23) (xy 71.12 189.23)
+			(xy 72.39 194.31) (xy 71.12 194.31)
 		)
 		(stroke
 			(width 0)
@@ -2635,7 +2635,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 180.34) (xy 99.06 180.34)
+			(xy 97.79 185.42) (xy 99.06 185.42)
 		)
 		(stroke
 			(width 0)
@@ -2675,7 +2675,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 182.88) (xy 63.5 182.88)
+			(xy 62.23 187.96) (xy 63.5 187.96)
 		)
 		(stroke
 			(width 0)
@@ -2805,7 +2805,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 190.5) (xy 106.68 190.5)
+			(xy 107.95 195.58) (xy 106.68 195.58)
 		)
 		(stroke
 			(width 0)
@@ -2915,7 +2915,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 185.42) (xy 99.06 185.42)
+			(xy 97.79 190.5) (xy 99.06 190.5)
 		)
 		(stroke
 			(width 0)
@@ -2925,7 +2925,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 193.04) (xy 71.12 193.04)
+			(xy 72.39 198.12) (xy 71.12 198.12)
 		)
 		(stroke
 			(width 0)
@@ -3045,7 +3045,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 182.88) (xy 71.12 182.88)
+			(xy 72.39 187.96) (xy 71.12 187.96)
 		)
 		(stroke
 			(width 0)
@@ -3138,7 +3138,7 @@
 	)
 	(text "NOTE: Components labeled \"do not install\" (DNI) are not populated by default"
 		(exclude_from_sim no)
-		(at 177.8 165.1 0)
+		(at 161.29 171.45 0)
 		(effects
 			(font
 				(size 1.651 1.651)
@@ -3208,7 +3208,7 @@
 	)
 	(text "Bus Protection - Bypass Jumpers"
 		(exclude_from_sim no)
-		(at 59.69 172.72 0)
+		(at 59.69 177.8 0)
 		(effects
 			(font
 				(size 2.159 2.159)
@@ -3219,7 +3219,7 @@
 	)
 	(global_label "SDA_IMU"
 		(shape bidirectional)
-		(at 72.39 182.88 0)
+		(at 72.39 187.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3228,7 +3228,7 @@
 		)
 		(uuid "0390486d-f09d-4416-b78c-89aa29a0117e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 182.88 0)
+			(at 72.39 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3439,7 +3439,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 62.23 182.88 180)
+		(at 62.23 187.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3448,7 +3448,7 @@
 		)
 		(uuid "462792c5-423b-4607-851c-4883065b951d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 182.88 0)
+			(at 62.23 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3479,7 +3479,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 62.23 179.07 180)
+		(at 62.23 184.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3488,7 +3488,7 @@
 		)
 		(uuid "532056e1-125f-4a68-b64e-b92cc90488f0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 179.07 0)
+			(at 62.23 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3679,7 +3679,7 @@
 	)
 	(global_label "MISO_RF1"
 		(shape input)
-		(at 107.95 185.42 0)
+		(at 107.95 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3688,7 +3688,7 @@
 		)
 		(uuid "7b496bd7-0962-4ff9-b2ad-6b1aae1d0eb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 185.42 0)
+			(at 107.95 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3719,7 +3719,7 @@
 	)
 	(global_label "MISO"
 		(shape output)
-		(at 97.79 190.5 180)
+		(at 97.79 195.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3728,7 +3728,7 @@
 		)
 		(uuid "a1efc01f-fdea-40fc-b923-cb3ab3558e78")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 190.5 0)
+			(at 97.79 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3759,7 +3759,7 @@
 	)
 	(global_label "SDA_PWR"
 		(shape bidirectional)
-		(at 72.39 193.04 0)
+		(at 72.39 198.12 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3768,7 +3768,7 @@
 		)
 		(uuid "a9413fc6-daa3-420d-ab40-918910e0f7b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 193.04 0)
+			(at 72.39 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3819,7 @@
 	)
 	(global_label "SCL"
 		(shape input)
-		(at 62.23 189.23 180)
+		(at 62.23 194.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3828,7 +3828,7 @@
 		)
 		(uuid "bbdb7713-6ac8-49dd-af61-d03f37b30c77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 189.23 0)
+			(at 62.23 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3879,7 +3879,7 @@
 	)
 	(global_label "SCL_IMU"
 		(shape output)
-		(at 72.39 179.07 0)
+		(at 72.39 184.15 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3888,7 +3888,7 @@
 		)
 		(uuid "d16fb10e-18c0-4ff2-aeb6-c4bd2c951229")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 179.07 0)
+			(at 72.39 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3919,7 +3919,7 @@
 	)
 	(global_label "SCL_PWR"
 		(shape output)
-		(at 72.39 189.23 0)
+		(at 72.39 194.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3928,7 +3928,7 @@
 		)
 		(uuid "d7df60ec-ef73-4338-a50c-d9a907e204b8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 72.39 189.23 0)
+			(at 72.39 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +3939,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 62.23 193.04 180)
+		(at 62.23 198.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3948,7 +3948,7 @@
 		)
 		(uuid "e3b48a39-ce75-48a5-9649-8d5d71678431")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 62.23 193.04 0)
+			(at 62.23 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3959,7 +3959,7 @@
 	)
 	(global_label "MISO"
 		(shape output)
-		(at 97.79 180.34 180)
+		(at 97.79 185.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3968,7 +3968,7 @@
 		)
 		(uuid "e3fd4d9e-881c-4253-a965-b8f8d21acb49")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 180.34 0)
+			(at 97.79 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3979,7 +3979,7 @@
 	)
 	(global_label "MISO_RF2"
 		(shape input)
-		(at 107.95 180.34 0)
+		(at 107.95 185.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3988,7 +3988,7 @@
 		)
 		(uuid "f13ee105-3cee-4771-8c11-1dfe3696e6b4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 180.34 0)
+			(at 107.95 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4019,7 @@
 	)
 	(global_label "MISO"
 		(shape output)
-		(at 97.79 185.42 180)
+		(at 97.79 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4028,7 +4028,7 @@
 		)
 		(uuid "f73e373f-91cb-4822-8244-28b65d9d0f01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 97.79 185.42 0)
+			(at 97.79 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +4059,7 @@
 	)
 	(global_label "MISO_SD"
 		(shape input)
-		(at 107.95 190.5 0)
+		(at 107.95 195.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4068,7 +4068,7 @@
 		)
 		(uuid "f9e5c1af-a44a-4b3f-aaaa-0b01677a7b17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 107.95 190.5 0)
+			(at 107.95 195.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10193,7 +10193,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 67.31 193.04 270)
+		(at 67.31 198.12 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10201,7 +10201,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef1a04a")
 		(property "Reference" "R109"
-			(at 63.5 191.77 90)
+			(at 63.5 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10209,7 +10209,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 69.85 191.77 90)
+			(at 69.85 196.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10217,7 +10217,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.056 194.056 90)
+			(at 67.056 199.136 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10226,7 +10226,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 193.04 0)
+			(at 67.31 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10235,7 +10235,7 @@
 			)
 		)
 		(property "Description" "0 0603"
-			(at 66.04 191.77 0)
+			(at 66.04 196.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10244,7 +10244,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 67.31 194.31 90)
+			(at 67.31 199.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10252,7 +10252,7 @@
 			)
 		)
 		(property "LCSC" "C2654002"
-			(at 67.31 193.04 0)
+			(at 67.31 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10261,7 +10261,7 @@
 			)
 		)
 		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 67.31 193.04 0)
+			(at 67.31 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10270,7 +10270,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 67.31 193.04 0)
+			(at 67.31 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10279,7 +10279,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 67.31 193.04 0)
+			(at 67.31 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10304,7 +10304,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 67.31 179.07 270)
+		(at 67.31 184.15 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10312,7 +10312,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef31159")
 		(property "Reference" "R97"
-			(at 63.5 177.8 90)
+			(at 63.5 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10320,7 +10320,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 69.85 177.8 90)
+			(at 69.85 182.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10328,7 +10328,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.056 180.086 90)
+			(at 67.056 185.166 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10337,7 +10337,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 179.07 0)
+			(at 67.31 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10346,7 +10346,7 @@
 			)
 		)
 		(property "Description" "0 0603"
-			(at 66.04 177.8 0)
+			(at 66.04 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10355,7 +10355,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 67.31 180.34 90)
+			(at 67.31 185.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10363,7 +10363,7 @@
 			)
 		)
 		(property "LCSC" "C2654002"
-			(at 67.31 179.07 0)
+			(at 67.31 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10372,7 +10372,7 @@
 			)
 		)
 		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 67.31 179.07 0)
+			(at 67.31 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,7 +10381,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 67.31 179.07 0)
+			(at 67.31 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10390,7 +10390,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 67.31 179.07 0)
+			(at 67.31 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10415,7 +10415,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 67.31 182.88 270)
+		(at 67.31 187.96 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10423,7 +10423,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef31160")
 		(property "Reference" "R98"
-			(at 63.5 181.61 90)
+			(at 63.5 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10431,7 +10431,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 69.85 181.61 90)
+			(at 69.85 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10439,7 +10439,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.056 183.896 90)
+			(at 67.056 188.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10448,7 +10448,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 182.88 0)
+			(at 67.31 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10457,7 +10457,7 @@
 			)
 		)
 		(property "Description" "0 0603"
-			(at 66.04 181.61 0)
+			(at 66.04 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10466,7 +10466,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 67.31 184.15 90)
+			(at 67.31 189.23 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10474,7 +10474,7 @@
 			)
 		)
 		(property "LCSC" "C2654002"
-			(at 67.31 182.88 0)
+			(at 67.31 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10483,7 +10483,7 @@
 			)
 		)
 		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 67.31 182.88 0)
+			(at 67.31 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10492,7 +10492,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 67.31 182.88 0)
+			(at 67.31 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10501,7 +10501,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 67.31 182.88 0)
+			(at 67.31 187.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10526,7 +10526,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 102.87 185.42 270)
+		(at 102.87 190.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10534,117 +10534,6 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef467b2")
 		(property "Reference" "R101"
-			(at 99.06 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 105.41 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 102.616 186.436 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 102.87 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 0603"
-			(at 101.6 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "DNI"
-			(at 102.87 186.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C2654002"
-			(at 102.87 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 102.87 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 102.87 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 102.87 185.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d25f1c0-0ad3-45ce-b611-a0a5e8297a5a")
-		)
-		(pin "2"
-			(uuid "c99ef0eb-5e9e-4ae5-bec3-c05ece8fcaf5")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
-					(reference "R101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 102.87 190.5 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ef467b9")
-		(property "Reference" "R104"
 			(at 99.06 189.23 90)
 			(effects
 				(font
@@ -10732,6 +10621,117 @@
 			)
 		)
 		(pin "1"
+			(uuid "5d25f1c0-0ad3-45ce-b611-a0a5e8297a5a")
+		)
+		(pin "2"
+			(uuid "c99ef0eb-5e9e-4ae5-bec3-c05ece8fcaf5")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
+					(reference "R101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 102.87 195.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005ef467b9")
+		(property "Reference" "R104"
+			(at 99.06 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 105.41 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 102.616 196.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "0 0603"
+			(at 101.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "DNI"
+			(at 102.87 196.85 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C2654002"
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " Vishay Intertech"
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 102.87 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
 			(uuid "69140bc3-ebab-46ad-9480-2f668c20bc96")
 		)
 		(pin "2"
@@ -10748,7 +10748,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 67.31 189.23 270)
+		(at 67.31 194.31 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10756,7 +10756,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef467c4")
 		(property "Reference" "R108"
-			(at 63.5 187.96 90)
+			(at 63.5 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10764,7 +10764,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 69.85 187.96 90)
+			(at 69.85 193.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10772,7 +10772,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 67.056 190.246 90)
+			(at 67.056 195.326 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10781,7 +10781,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 189.23 0)
+			(at 67.31 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10790,7 +10790,7 @@
 			)
 		)
 		(property "Description" "0 0603"
-			(at 66.04 187.96 0)
+			(at 66.04 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10799,7 +10799,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 67.31 190.5 90)
+			(at 67.31 195.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10807,7 +10807,7 @@
 			)
 		)
 		(property "LCSC" "C2654002"
-			(at 67.31 189.23 0)
+			(at 67.31 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10816,7 +10816,7 @@
 			)
 		)
 		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 67.31 189.23 0)
+			(at 67.31 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10825,7 +10825,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 67.31 189.23 0)
+			(at 67.31 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10834,7 +10834,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 67.31 189.23 0)
+			(at 67.31 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10859,7 +10859,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 102.87 180.34 270)
+		(at 102.87 185.42 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10867,7 +10867,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005ef4afb5")
 		(property "Reference" "R107"
-			(at 99.06 179.07 90)
+			(at 99.06 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10875,7 +10875,7 @@
 			)
 		)
 		(property "Value" "0"
-			(at 105.41 179.07 90)
+			(at 105.41 184.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10883,7 +10883,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 102.616 181.356 90)
+			(at 102.616 186.436 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10892,7 +10892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 180.34 0)
+			(at 102.87 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10901,7 +10901,7 @@
 			)
 		)
 		(property "Description" "0 0603"
-			(at 101.6 179.07 0)
+			(at 101.6 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10910,7 +10910,7 @@
 			)
 		)
 		(property "DNI" "DNI"
-			(at 102.87 181.61 90)
+			(at 102.87 186.69 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10918,7 +10918,7 @@
 			)
 		)
 		(property "LCSC" "C2654002"
-			(at 102.87 180.34 0)
+			(at 102.87 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10927,7 +10927,7 @@
 			)
 		)
 		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 102.87 180.34 0)
+			(at 102.87 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10936,7 +10936,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 102.87 180.34 0)
+			(at 102.87 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10945,7 +10945,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 102.87 180.34 0)
+			(at 102.87 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)

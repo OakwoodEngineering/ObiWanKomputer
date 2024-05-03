@@ -9386,6 +9386,16 @@
 		)
 		(uuid "25b42490-576c-4f15-978e-c1f0ce50e92e")
 	)
+	(text "XXX: This page should be transitioned to letter"
+		(exclude_from_sim no)
+		(at 210.058 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d34cb57-4c0b-47f7-bdcf-1aa7044b0d3c")
+	)
 	(text "RF Regulator"
 		(exclude_from_sim no)
 		(at 62.23 87.63 0)
