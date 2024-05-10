@@ -11,6 +11,16 @@
 		(company "Max Holliday")
 	)
 	(lib_symbols)
+	(text "GND is ground reference for components on the schematic. \nGNDREF is the negative terminal of the battery board."
+		(exclude_from_sim no)
+		(at 147.828 54.356 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9369ca93-d712-4852-86c1-8d6813170df1")
+	)
 	(text "PyCubed"
 		(exclude_from_sim no)
 		(at 193.802 182.88 0)

@@ -1,4 +1,4 @@
-(footprint "L_TDK_4.9x5.5mm"
+(footprint "TDK_1008_4.9x5.5mm"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "L_TDK_4.9x5.5mm"
+	(property "Value" "TDK_1008_4.9x5.5mm"
 		(at -0.05 4.75 0)
 		(unlocked yes)
 		(layer "F.Fab")
