@@ -9336,6 +9336,16 @@
 		)
 		(uuid "0e67594f-6c58-4418-814a-a4d824e8f0d9")
 	)
+	(text "XXX: Super sus, don't understand what's going on"
+		(exclude_from_sim no)
+		(at 255.016 149.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "15e3c3e8-7cef-4cbf-8487-63d726371081")
+	)
 	(text "Value is convenient,\nnot necessary. \n10K-80K would\nalso work for R29"
 		(exclude_from_sim no)
 		(at 129.54 140.97 0)
@@ -10572,6 +10582,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 57.15 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 57.15 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 57.15 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a19d4b9-9828-4a53-924d-1976446c3413")
 		)
@@ -10704,6 +10741,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 31.75 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A"
 			(uuid "2923e6f1-ef59-4531-85bb-8ea86cbce871")
 		)
@@ -10771,7 +10835,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844759"
+		(property "LCSC" " C2838732"
 			(at 138.43 186.69 0)
 			(effects
 				(font
@@ -10780,7 +10844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Vishay Intertech"
+		(property "Manufacturer_Name" " YAGEO"
 			(at 138.43 186.69 0)
 			(effects
 				(font
@@ -10789,7 +10853,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW060322K1FKEA"
+		(property "Manufacturer_Part_Number" " AF0603FR-0722K1L"
 			(at 138.43 186.69 0)
 			(effects
 				(font
@@ -10799,6 +10863,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 138.43 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 138.43 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 138.43 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 138.43 186.69 0)
 			(effects
 				(font
@@ -10903,7 +10994,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 46.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 46.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 46.99 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 46.99 57.15 0)
 			(effects
 				(font
@@ -11131,6 +11249,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 119.38 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7105683e-6f99-4f5a-a3ab-bb81fc903163")
 		)
@@ -11238,7 +11383,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "mainboard:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 231.14 55.88 0)
 			(effects
 				(font
@@ -11319,6 +11464,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b0787058-a6b4-41bc-a373-529eac09a229")
 		)
@@ -11382,7 +11554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 1uF X7R 20V 0603"
+		(property "Description" " 16V 1uF X7R ±10% 0603"
 			(at 148.59 189.23 0)
 			(effects
 				(font
@@ -11400,7 +11572,52 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "16V ok?"
+			(at 148.59 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 148.59 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 148.59 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 148.59 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+			(at 148.59 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " CL10B105KO8NNNC"
 			(at 148.59 189.23 0)
 			(effects
 				(font
@@ -11505,7 +11722,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 29.21 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 29.21 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 29.21 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 29.21 163.83 0)
 			(effects
 				(font
@@ -11676,7 +11920,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 142.24 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 142.24 72.39 0)
 			(effects
 				(font
@@ -11865,6 +12136,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 138.43 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5555f1aa-e856-4304-a4c8-5d6047fff507")
 		)
@@ -11962,6 +12260,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 148.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 148.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 148.59 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 148.59 171.45 0)
 			(effects
 				(font
@@ -12082,7 +12407,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "33uH for solar charging, kinda big"
+		(property "Notes" "Footprint Marked as Issue  - 33uH for solar charging, kinda big"
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 86.36 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 86.36 52.07 0)
 			(effects
 				(font
@@ -12203,7 +12555,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "3.3uH for 3V3 switching"
+		(property "Notes" "Footprint Marked as Issue - 3.3uH for 3V3 switching"
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 45.72 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 45.72 166.37 0)
 			(effects
 				(font
@@ -12325,6 +12704,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 110.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 110.49 49.53 0)
 			(effects
 				(font
@@ -12611,6 +13017,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 243.84 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e87da7a-d5c0-4328-97a3-c8d720e98397")
 		)
@@ -12707,7 +13140,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 250.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 250.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 250.19 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 250.19 119.38 0)
 			(effects
 				(font
@@ -12877,7 +13337,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 254 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 254 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 254 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 254 130.81 0)
 			(effects
 				(font
@@ -13055,6 +13542,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 232.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 232.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 232.41 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8c1b2b3-4abc-4af9-96c0-5ac245f1271b")
 		)
@@ -13151,7 +13665,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 212.09 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 212.09 146.05 0)
 			(effects
 				(font
@@ -13285,7 +13826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 1uF X7R 20V 0603"
+		(property "Description" " 16V 1uF X7R ±10% 0603"
 			(at 205.74 86.36 0)
 			(effects
 				(font
@@ -13303,7 +13844,52 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "16V ok?"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+			(at 205.74 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " CL10B105KO8NNNC"
 			(at 205.74 86.36 0)
 			(effects
 				(font
@@ -13424,7 +14010,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "1uH for USB charging"
+		(property "Notes" "Footprint Marked as Issue  - 1uH for USB charging"
+			(at 246.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 246.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 246.38 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 246.38 109.22 0)
 			(effects
 				(font
@@ -13536,7 +14149,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "NotAvailable"
+		(property "LCSC" "C657860"
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -13545,7 +14158,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Marked as issue, unsure"
+		(property "Notes" "Consigned parts to JLCPCB."
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 127 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 127 81.28 0)
 			(effects
 				(font
@@ -13674,7 +14314,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 237.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 237.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 237.49 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 237.49 86.36 0)
 			(effects
 				(font
@@ -13779,7 +14446,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 254 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 254 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 254 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 254 119.38 0)
 			(effects
 				(font
@@ -13894,6 +14588,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 204.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 204.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 204.47 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32edd480-27af-497d-9b48-7ab6c30d9de8")
 		)
@@ -13964,7 +14685,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844775"
+		(property "LCSC" " C137745"
 			(at 204.47 142.24 0)
 			(effects
 				(font
@@ -13973,7 +14694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay Intertech"
+		(property "Manufacturer_Name" " YAGEO"
 			(at 204.47 142.24 0)
 			(effects
 				(font
@@ -13982,7 +14703,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW060330K1FKEA"
+		(property "Manufacturer_Part_Number" " RC0603FR-0730K1L"
 			(at 204.47 142.24 0)
 			(effects
 				(font
@@ -13992,6 +14713,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 204.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 204.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 204.47 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 204.47 142.24 0)
 			(effects
 				(font
@@ -14170,6 +14918,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 125.73 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f03ac7da-5bcf-4078-8124-9e80a5786b03")
 		)
@@ -14265,6 +15040,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 172.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 172.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 172.72 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 172.72 95.25 0)
 			(effects
 				(font
@@ -14443,6 +15245,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 217.17 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "943f9f83-e1d9-4ac3-97aa-45a0de7e6139")
 		)
@@ -14548,6 +15377,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 208.28 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 208.28 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 208.28 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d8de788-1988-44df-b2d4-2fd92314f647")
 		)
@@ -14581,7 +15437,7 @@
 				)
 			)
 		)
-		(property "Value" "GREEN LED"
+		(property "Value" "GREEN"
 			(at 240.2078 143.0528 0)
 			(effects
 				(font
@@ -14662,6 +15518,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 240.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 240.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 240.03 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 240.03 146.05 0)
 			(effects
 				(font
@@ -14785,6 +15668,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 158.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 158.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 158.75 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 158.75 147.32 0)
 			(effects
 				(font
@@ -14930,6 +15840,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 144.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 144.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 144.78 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "2bec4c61-0810-4dbe-91f5-f3d869b38502")
 		)
@@ -15058,6 +15995,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 133.35 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 133.35 153.67 0)
 			(effects
 				(font
@@ -15195,6 +16159,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 171.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 171.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 171.45 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 171.45 147.32 0)
 			(effects
 				(font
@@ -15387,6 +16378,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 176.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 176.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 176.53 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "28bead30-c22f-4ebd-bc4b-077800b9281c")
 		)
@@ -15485,6 +16503,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 161.29 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 161.29 133.35 0)
 			(effects
 				(font
@@ -15599,6 +16644,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 151.13 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8499eed5-da15-4e4d-a0f1-273db3ee40e2")
 		)
@@ -15697,6 +16769,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 142.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 142.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 142.24 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 142.24 133.35 0)
 			(effects
 				(font
@@ -15943,6 +17042,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 130.81 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "54d58d68-0089-41be-bb51-ffc70927d2a7")
 		)
@@ -16012,7 +17138,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2180446"
+		(property "LCSC" "C90143"
 			(at 36.83 181.61 0)
 			(effects
 				(font
@@ -16021,7 +17147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Kyocera AVX"
+		(property "Manufacturer_Name" " Taiyo Yuden"
 			(at 36.83 181.61 0)
 			(effects
 				(font
@@ -16030,7 +17156,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " 1210YD107MAT2A"
+		(property "Manufacturer_Part_Number" " EMK325ABJ107MM-P"
 			(at 36.83 181.61 0)
 			(effects
 				(font
@@ -16039,7 +17165,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "16V ok?"
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 36.83 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 36.83 181.61 0)
 			(effects
 				(font
@@ -16142,7 +17295,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 153.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 153.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 153.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 153.67 142.24 0)
 			(effects
 				(font
@@ -16255,6 +17435,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 149.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 149.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 149.86 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83d06250-9df9-4e70-a465-d46de31504cd")
 		)
@@ -16295,7 +17502,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mainboard:TPS7A4501DCQT"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-6"
 			(at 87.63 95.25 0)
 			(effects
 				(font
@@ -16372,6 +17579,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 55.88 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 55.88 97.79 0)
 			(effects
 				(font
@@ -16554,7 +17788,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 44.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 44.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 44.45 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 44.45 113.03 0)
 			(effects
 				(font
@@ -16669,6 +17930,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 49.53 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6725c77f-770f-4eca-9129-0895fc34e943")
 		)
@@ -16767,6 +18055,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 49.53 123.19 0)
 			(effects
 				(font
@@ -17005,6 +18320,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 30.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 30.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 30.48 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a6122661-f09d-4cd4-aa8d-156042f9c41e")
 		)
@@ -17098,6 +18440,33 @@
 			)
 		)
 		(property "Notes" "Output voltage for radio."
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 30.48 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 30.48 121.92 0)
 			(effects
 				(font
@@ -17280,6 +18649,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 68.58 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c66ffd3f-f194-465c-8a0c-64cb0627d148")
 		)
@@ -17385,6 +18781,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 144.78 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90f3c737-c66d-4908-b70b-083b3586751d")
 		)
@@ -17480,6 +18903,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 128.27 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 128.27 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 128.27 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 128.27 186.69 0)
 			(effects
 				(font
@@ -17725,6 +19175,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 233.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 233.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 233.68 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "04d00612-0f06-44e7-b088-a7542f3aa23b")
 		)
@@ -17792,7 +19269,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2992526"
+		(property "LCSC" "C861095"
 			(at 82.55 62.23 0)
 			(effects
 				(font
@@ -17801,7 +19278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Vishay Intertech"
+		(property "Manufacturer_Name" " YAGEO"
 			(at 82.55 62.23 0)
 			(effects
 				(font
@@ -17810,7 +19287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " TNPW0603121KBEEA"
+		(property "Manufacturer_Part_Number" " RT0603BRD07121KL"
 			(at 82.55 62.23 0)
 			(effects
 				(font
@@ -17820,6 +19297,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 82.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 82.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 82.55 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 82.55 62.23 0)
 			(effects
 				(font
@@ -17933,6 +19437,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 154.94 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "17ffac39-73cd-4474-a90a-793f17482b62")
 		)
@@ -18030,6 +19561,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 147.32 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 147.32 36.83 0)
 			(effects
 				(font
@@ -18143,6 +19701,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 156.21 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a42ee89-7690-40dd-84fe-7b67e7261443")
 		)
@@ -18248,6 +19833,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 140.97 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "79eebdf1-b7d2-4918-b28f-a41f17e90830")
 		)
@@ -18343,6 +19955,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 223.52 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 223.52 50.8 0)
 			(effects
 				(font
@@ -18522,6 +20161,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 215.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 215.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 215.9 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4eec5bee-bea8-4a17-849e-a19ef13fa0f2")
 		)
@@ -18619,6 +20285,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 77.47 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 77.47 49.53 0)
 			(effects
 				(font
@@ -18733,6 +20426,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 49.53 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 49.53 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 49.53 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 49.53 24.13 0)
 			(effects
 				(font
@@ -18969,7 +20689,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 36.83 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 36.83 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 36.83 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 36.83 163.83 0)
 			(effects
 				(font
@@ -19073,6 +20820,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 59.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 59.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 59.69 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 59.69 31.75 0)
 			(effects
 				(font
@@ -19216,7 +20990,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2180446"
+		(property "LCSC" "C90143"
 			(at 46.99 181.61 0)
 			(effects
 				(font
@@ -19225,7 +20999,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Kyocera AVX"
+		(property "Manufacturer_Name" " Taiyo Yuden"
 			(at 46.99 181.61 0)
 			(effects
 				(font
@@ -19234,7 +21008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " 1210YD107MAT2A"
+		(property "Manufacturer_Part_Number" " EMK325ABJ107MM-P"
 			(at 46.99 181.61 0)
 			(effects
 				(font
@@ -19243,7 +21017,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "16V ok?"
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 46.99 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 46.99 181.61 0)
 			(effects
 				(font
@@ -19294,7 +21095,7 @@
 				(justify right top)
 			)
 		)
-		(property "Footprint" "mainboard:PWP14_2P31X2P46-L"
+		(property "Footprint" "Package_SO:HTSSOP-14-1EP_4.4x5mm_P0.65mm_EP3.4x5mm_Mask3x3.1mm"
 			(at 125.73 181.61 0)
 			(effects
 				(font
@@ -19367,6 +21168,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 125.73 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 125.73 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 125.73 181.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 125.73 181.61 0)
 			(effects
 				(font
@@ -19519,6 +21347,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 77.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 77.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 77.47 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "af8e45da-12f6-4c21-b568-73188076697a")
 		)
@@ -19615,6 +21470,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 198.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 198.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 198.12 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34532d30-7235-4f5d-8008-604cc825f254")
 		)
@@ -19655,7 +21537,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SSE_Footprints:SO-8_3.9x4.9mm_P1.27mm"
+		(property "Footprint" "Package_SO:SO-8_3.9x4.9mm_P1.27mm"
 			(at 251.46 30.48 0)
 			(effects
 				(font
@@ -19710,6 +21592,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 251.46 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 251.46 30.48 0)
 			(effects
 				(font
@@ -19778,7 +21687,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "mainboard:QFN50P400X400X100-25N-D"
 			(at 226.06 83.82 0)
 			(effects
 				(font
@@ -19787,7 +21696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25886.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1715374979410&ref_url=https%253A%252F%252Fwww.ti.com%252Fgeneral%252Fdocs%252Fsuppproductinfo.tsp%253FdistId%253D10%2526gotoUrl%253Dhttps%253A%252F%252Fwww.ti.com%252Flit%252Fgpn%252Fbq25886"
 			(at 226.06 83.82 0)
 			(effects
 				(font
@@ -19796,7 +21705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2-A Boost Switchmode Battery Charge"
 			(at 226.06 83.82 0)
 			(effects
 				(font
@@ -19814,7 +21723,52 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "footprint in mainboard files"
+		(property "Notes" ""
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Texas Instruments"
+			(at 226.06 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "BQ25886RGER"
 			(at 226.06 83.82 0)
 			(effects
 				(font

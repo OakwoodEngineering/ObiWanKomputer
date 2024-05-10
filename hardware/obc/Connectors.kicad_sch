@@ -4916,6 +4916,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 64.77 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3fb03fcf-3bfb-4677-9c5b-a8f65eff32ba")
 		)
@@ -5127,7 +5154,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2883762"
+		(property "LCSC" ""
 			(at 245.11 132.08 0)
 			(effects
 				(font
@@ -5136,7 +5163,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "Not placed by JLCPCB"
+			(at 245.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 245.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 245.11 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 245.11 132.08 0)
 			(effects
 				(font
@@ -5260,7 +5314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mainboard:USB_C_Receptacle_XKB_U262-161N-4BVC11"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_G-Switch_GT-USB-7010ASV"
 			(at 62.23 60.96 0)
 			(effects
 				(font
@@ -5269,7 +5323,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheet.lcsc.com/szlcsc/XKB-U262-16XN-4BVC11_C319148.pdf"
+		(property "Datasheet" "https://www.dg-conn.com/uploads/soft/190828/GT-USB-7010X.pdf"
 			(at 62.23 60.96 0)
 			(effects
 				(font
@@ -5278,7 +5332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "USB Type-C Connector - Single sided"
+		(property "Description" "USB 2.0 3A 1 260℃ Surface Mount，Right Angle"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -5296,7 +5350,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "XKB Connectivity"
+		(property "Manufacturer_Name" " G-Switch"
 			(at 61.1378 36.3982 0)
 			(effects
 				(font
@@ -5305,7 +5359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "U262-161N-4BVC11"
+		(property "Manufacturer_Part_Number" " GT-USB-7010ASV"
 			(at 61.1378 36.3982 0)
 			(effects
 				(font
@@ -5323,7 +5377,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C319148"
+		(property "LCSC" "C2988369"
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -5333,6 +5387,33 @@
 			)
 		)
 		(property "Notes" ""
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 58.42 60.96 0)
 			(effects
 				(font
@@ -5491,6 +5572,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a2af951-43d6-4b05-85ff-2dec645e0ad2")
 		)
@@ -5587,7 +5695,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -5692,6 +5827,33 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+			(at 45.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 45.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 45.72 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 45.72 113.03 0)
 			(effects
 				(font
@@ -5870,6 +6032,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 102.87 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85b3733b-0bc3-4130-bf67-7165f3d4cb73")
 		)
@@ -5974,6 +6163,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7605c5f7-31b9-4a39-8b3c-a2be98a0e413")
 		)
@@ -6070,7 +6286,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 125.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 125.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 125.73 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 125.73 68.58 0)
 			(effects
 				(font
@@ -6437,6 +6680,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 64.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 64.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 64.77 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "25b66fe0-1b92-4c57-9ca6-bc4928003bcb")
 		)
@@ -6689,6 +6959,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 124.46 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "768c5b5e-0315-434d-ad82-23d1ee5b25d7")
 		)
@@ -6729,7 +7026,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SSE_Footprints:Harwin_G125-MH104M3-02AD000P_4S2P_P1.25mm_Horizontal"
 			(at 154.94 40.64 0)
 			(effects
 				(font
@@ -6757,6 +7054,42 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "G125-MH104M3-02AD000P"
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
 			(at 154.94 48.26 0)
 			(effects
 				(font
@@ -6932,6 +7265,33 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 82.55 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 82.55 135.89 0)
 			(effects
 				(font
@@ -7152,7 +7512,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2883763"
+		(property "LCSC" ""
 			(at 180.34 128.27 0)
 			(effects
 				(font
@@ -7161,7 +7521,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "Not placed by JLCPCB"
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 180.34 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 180.34 128.27 0)
 			(effects
 				(font
@@ -7278,6 +7665,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 105.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 105.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 105.41 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "e3d7b7bd-2a9d-4809-be9d-51c298ece9e7")
 		)
@@ -7339,7 +7753,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SSE_Footprints:Harwin_M300-MV30645M1_6P_P3.0mm_Vertical"
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -7367,6 +7781,42 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "M300-MV30645M1"
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Harwin"
 			(at 185.42 80.01 0)
 			(effects
 				(font

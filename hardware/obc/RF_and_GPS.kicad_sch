@@ -3862,6 +3862,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4954ce33-a87f-4bb7-9a6a-790508b8f73a")
 		)
@@ -4041,7 +4068,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C429844/C3174972"
+		(property "LCSC" ""
 			(at 237.49 35.56 0)
 			(effects
 				(font
@@ -4050,7 +4077,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" " Potential LCSC parts. Replace on schematic."
+		(property "Notes" "Not placed by JLCPCB"
+			(at 237.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 237.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 237.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 237.49 35.56 0)
 			(effects
 				(font
@@ -4173,7 +4227,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C429844/C3174972"
+		(property "LCSC" ""
 			(at 237.49 49.53 0)
 			(effects
 				(font
@@ -4182,7 +4236,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" " Potential LCSC parts. Replace on schematic."
+		(property "Notes" "Not placed by JLCPCB"
+			(at 237.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 237.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 237.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 237.49 49.53 0)
 			(effects
 				(font
@@ -4294,7 +4375,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C429844/C3174972"
+		(property "LCSC" ""
 			(at 113.03 53.34 0)
 			(effects
 				(font
@@ -4303,7 +4384,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" " Potential LCSC parts. Replace on schematic."
+		(property "Notes" "Not placed by JLCPCB"
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 113.03 53.34 0)
 			(effects
 				(font
@@ -4416,7 +4524,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "NotAvailable"
+		(property "LCSC" ""
 			(at 83.82 66.04 0)
 			(effects
 				(font
@@ -4425,7 +4533,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Soldering ourselves (other side of board)"
+		(property "Notes" "Not placed by JLCPCB (Soldering to back of board)"
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 83.82 66.04 0)
 			(effects
 				(font
@@ -4651,6 +4786,33 @@
 				(hide yes)
 			)
 		)
+		(property "Height" ""
+			(at 41.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 41.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 41.91 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f0844bad-720f-4ef8-8753-f9213e78aaee")
 		)
@@ -4811,7 +4973,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" ""
+		(property "Notes" "10V ok?"
+			(at 80.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 80.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 80.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 80.01 48.26 0)
 			(effects
 				(font
@@ -5172,7 +5361,34 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Soldering ourselves"
+		(property "Notes" "Not placed by JLCPCB"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -5297,7 +5513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.minicircuits.com/pdfs/GP2S1+.pdf"
 			(at 213.36 35.56 0)
 			(effects
 				(font
@@ -5306,7 +5522,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2 Ways MMIC DC Pass Power Splitter, 500 - 2500 MHz, 50Ω"
 			(at 213.36 35.56 0)
 			(effects
 				(font
@@ -5316,6 +5532,51 @@
 			)
 		)
 		(property "LCSC" "C879828"
+			(at 213.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 213.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 213.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 213.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Mini Circuits"
+			(at 213.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GP2S1+"
 			(at 213.36 35.56 0)
 			(effects
 				(font
@@ -5400,7 +5661,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
 			(at 96.52 100.33 0)
 			(effects
 				(font
@@ -5418,7 +5679,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x08, script generated"
+		(property "Description" "01x08 Radio signal verification"
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 96.52 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Not placed by JLCPCB"
 			(at 96.52 100.33 0)
 			(effects
 				(font
