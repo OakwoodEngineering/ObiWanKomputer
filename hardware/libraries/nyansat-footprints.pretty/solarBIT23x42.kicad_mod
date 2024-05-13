@@ -149,7 +149,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "7bb90133-7ad8-4026-9a3d-17c49d7a9c41")
 	)
-	(model "${KIPRJMOD}/Sidepanel-footprints.pretty/KXOB101K08TF.step"
+	(model "solarBIT23x42.step"
 		(offset
 			(xyz 0 0 0)
 		)

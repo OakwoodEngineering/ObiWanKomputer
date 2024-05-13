@@ -149,4 +149,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "faa9b95e-279f-45ed-a03a-1b0f77d6c943")
 	)
+	(model "solarBIT8x23.step"
+		(offset
+			(xyz 0 0 1.3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
