@@ -4146,7 +4146,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "NP_JLC"
 			(at 215.9 67.31 90)
 			(effects
 				(font
@@ -5689,7 +5689,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "NP_JLC"
 			(at 215.9 43.18 90)
 			(effects
 				(font
@@ -5984,7 +5984,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "NP_JLC"
 			(at 35.56 158.75 90)
 			(effects
 				(font
@@ -6788,7 +6788,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "NP_JLC"
 			(at 31.75 127 0)
 			(effects
 				(font
@@ -7364,7 +7364,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "NP_JLC"
 			(at 215.9 92.71 90)
 			(effects
 				(font
@@ -7895,7 +7895,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "NP_JLC"
 			(at 74.93 158.75 90)
 			(effects
 				(font
@@ -8124,7 +8124,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "NP_JLC"
 			(at 115.57 160.02 90)
 			(effects
 				(font
@@ -8633,7 +8633,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "NP_JLC"
 			(at 111.76 127 0)
 			(effects
 				(font
@@ -8795,7 +8795,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "NP_JLC"
 			(at 72.39 127 0)
 			(effects
 				(font

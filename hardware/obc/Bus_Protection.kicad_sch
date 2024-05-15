@@ -10473,7 +10473,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
+		(property "DNI" ""
 			(at 199.39 109.22 90)
 			(effects
 				(font
@@ -10481,7 +10481,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2654002"
+		(property "LCSC" ""
 			(at 199.39 107.95 0)
 			(effects
 				(font
@@ -10611,7 +10611,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
+		(property "DNI" ""
 			(at 199.39 95.25 90)
 			(effects
 				(font
@@ -10619,7 +10619,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2654002"
+		(property "LCSC" ""
 			(at 199.39 93.98 0)
 			(effects
 				(font
@@ -10749,7 +10749,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
+		(property "DNI" ""
 			(at 199.39 99.06 90)
 			(effects
 				(font
@@ -10757,7 +10757,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2654002"
+		(property "LCSC" ""
 			(at 199.39 97.79 0)
 			(effects
 				(font
@@ -10887,7 +10887,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
+		(property "DNI" ""
 			(at 234.95 101.6 90)
 			(effects
 				(font
@@ -10895,7 +10895,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2654002"
+		(property "LCSC" ""
 			(at 234.95 100.33 0)
 			(effects
 				(font
@@ -11025,7 +11025,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
+		(property "DNI" ""
 			(at 234.95 106.68 90)
 			(effects
 				(font
@@ -11033,7 +11033,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2654002"
+		(property "LCSC" ""
 			(at 234.95 105.41 0)
 			(effects
 				(font
@@ -11163,7 +11163,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
+		(property "DNI" ""
 			(at 199.39 105.41 90)
 			(effects
 				(font
@@ -11171,7 +11171,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2654002"
+		(property "LCSC" ""
 			(at 199.39 104.14 0)
 			(effects
 				(font
@@ -11301,7 +11301,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
+		(property "DNI" ""
 			(at 234.95 96.52 90)
 			(effects
 				(font
@@ -11309,7 +11309,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2654002"
+		(property "LCSC" ""
 			(at 234.95 95.25 0)
 			(effects
 				(font

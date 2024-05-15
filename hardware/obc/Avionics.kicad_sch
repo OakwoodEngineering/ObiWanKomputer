@@ -9958,16 +9958,6 @@
 		)
 		(uuid "d8d46ca9-1d29-4ca5-aa7d-7be626e95949")
 	)
-	(text "XXX: On datasheet, package is 3 x 3 mm, but footprint is 3.9x4.9 mm. \nAm I crazy??"
-		(exclude_from_sim no)
-		(at 88.392 21.336 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e4b2b156-84d3-4c69-bb41-45d99c6f5396")
-	)
 	(label "XTAL1"
 		(at 86.36 105.41 0)
 		(fields_autoplaced yes)
@@ -13312,7 +13302,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Consigned parts to JLCPCB."
+		(property "Notes" ""
 			(at 107.95 130.81 0)
 			(effects
 				(font
@@ -14874,7 +14864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole Pad"
 			(at 149.86 43.18 0)
 			(effects
 				(font
@@ -14993,7 +14983,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole Pad"
 			(at 149.86 49.53 0)
 			(effects
 				(font
@@ -15112,7 +15102,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole Pad"
 			(at 149.86 55.88 0)
 			(effects
 				(font
@@ -15231,7 +15221,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Mounting Hole Pad"
 			(at 149.86 62.23 0)
 			(effects
 				(font
@@ -16736,7 +16726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0603"
 			(at 157.48 43.18 0)
 			(effects
 				(font
@@ -16773,6 +16763,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 157.48 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Between mounting hole and ground."
 			(at 157.48 43.18 0)
 			(effects
 				(font
@@ -16985,7 +16984,7 @@
 		(dnp no)
 		(uuid "24544982-5bbf-47f7-8739-a87ecda92e88")
 		(property "Reference" "J101"
-			(at 210.82 41.91 0)
+			(at 210.82 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16993,7 +16992,7 @@
 			)
 		)
 		(property "Value" "Conn_02x20_Odd_Even"
-			(at 213.868 44.45 0)
+			(at 213.614 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17052,6 +17051,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DNI" "NP_JLC"
+			(at 211.074 45.466 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
 			)
 		)
 		(pin "1"
@@ -17835,7 +17843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0603"
 			(at 157.48 49.53 0)
 			(effects
 				(font
@@ -17872,6 +17880,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 157.48 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Between mounting hole and ground."
 			(at 157.48 49.53 0)
 			(effects
 				(font
@@ -18390,7 +18407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0603"
 			(at 157.48 55.88 0)
 			(effects
 				(font
@@ -18427,6 +18444,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 157.48 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Between mounting hole and ground."
 			(at 157.48 55.88 0)
 			(effects
 				(font
@@ -18692,7 +18718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0603"
 			(at 157.48 62.23 0)
 			(effects
 				(font
@@ -18729,6 +18755,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 157.48 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" "Between mounting hole and ground."
 			(at 157.48 62.23 0)
 			(effects
 				(font

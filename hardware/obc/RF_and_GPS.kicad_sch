@@ -3996,7 +3996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 237.49 35.56 0)
 			(effects
 				(font
@@ -4023,7 +4023,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
+		(property "DNI" "NP_JLC"
 			(at 245.11 35.56 90)
 			(effects
 				(font
@@ -4077,7 +4077,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Not placed by JLCPCB"
+		(property "Notes" ""
 			(at 237.49 35.56 0)
 			(effects
 				(font
@@ -4155,7 +4155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 237.49 49.53 0)
 			(effects
 				(font
@@ -4182,7 +4182,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
+		(property "DNI" "NP_JLC"
 			(at 245.11 49.53 90)
 			(effects
 				(font
@@ -4236,7 +4236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Not placed by JLCPCB"
+		(property "Notes" ""
 			(at 237.49 49.53 0)
 			(effects
 				(font
@@ -4312,7 +4312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_901-144_Vertical"
+		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
 			(at 113.03 53.34 0)
 			(effects
 				(font
@@ -4384,7 +4384,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Not placed by JLCPCB"
+		(property "Notes" ""
 			(at 113.03 53.34 0)
 			(effects
 				(font
@@ -4420,6 +4420,15 @@
 				(hide yes)
 			)
 		)
+		(property "DNI" "NP_JLC"
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "555f0657-a617-4d43-a841-1a5b1d436d8c")
 		)
@@ -4445,7 +4454,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d44fe4a")
 		(property "Reference" "U601"
-			(at 78.74 54.61 0)
+			(at 91.694 51.562 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -4533,7 +4542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Not placed by JLCPCB (Soldering to back of board)"
+		(property "Notes" ""
 			(at 83.82 66.04 0)
 			(effects
 				(font
@@ -4567,6 +4576,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DNI" "NP_JLC"
+			(at 91.694 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
 			)
 		)
 		(pin "17"
@@ -5334,7 +5352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "GPS"
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -5343,7 +5361,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "NP_JLC"
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -5389,6 +5407,24 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Sky Traq"
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "S1216V8"
 			(at 172.72 80.01 0)
 			(effects
 				(font
@@ -5641,7 +5677,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "68c621bd-c55e-4b75-b600-654a97b0ece4")
 		(property "Reference" "J601"
 			(at 97.79 100.3299 0)
@@ -5715,13 +5750,22 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Not placed by JLCPCB"
+		(property "Notes" ""
 			(at 96.52 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DNI" "NP_JLC"
+			(at 101.6 105.156 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
 			)
 		)
 		(pin "3"

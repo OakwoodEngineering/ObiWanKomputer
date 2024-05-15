@@ -5257,7 +5257,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
+		(property "DNI" "NP_JLC"
 			(at 248.92 132.08 0)
 			(effects
 				(font
@@ -5275,7 +5275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Not placed by JLCPCB"
+		(property "Notes" ""
 			(at 245.11 132.08 0)
 			(effects
 				(font
@@ -7507,7 +7507,7 @@
 		(dnp no)
 		(uuid "9acbd34d-4fb6-40a4-9389-65d527a88c9c")
 		(property "Reference" "J302"
-			(at 152.4 36.83 0)
+			(at 151.892 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7515,7 +7515,7 @@
 			)
 		)
 		(property "Value" "Conn_High-Rel_4S2P"
-			(at 151.384 39.37 0)
+			(at 151.384 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7592,6 +7592,16 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DNI" "NP_JLC"
+			(at 155.702 39.624 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify right top)
 			)
 		)
 		(pin "3"
@@ -8129,14 +8139,13 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" "DNI"
+		(property "DNI" "NP_JLC"
 			(at 194.31 128.27 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(bold yes)
 				)
-				(hide yes)
 			)
 		)
 		(property "LCSC" ""
@@ -8148,7 +8157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Not placed by JLCPCB"
+		(property "Notes" ""
 			(at 180.34 128.27 0)
 			(effects
 				(font
@@ -8359,7 +8368,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fbf2f8b7-d2e0-410e-91ba-04a40895bb37")
 		(property "Reference" "J304"
 			(at 205.74 80.0099 90)
@@ -8449,6 +8457,15 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "DNI" "NP_JLC"
+			(at 209.296 84.836 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
 			)
 		)
 		(pin "3"
