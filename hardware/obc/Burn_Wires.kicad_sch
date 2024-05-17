@@ -3437,6 +3437,16 @@
 		)
 		(uuid "2b53b622-eaff-499d-af37-2438b5f6c02f")
 	)
+	(text "XXX: Relay has 10 mm height.\nConsider removing this component as it may interfere with stack requirements."
+		(exclude_from_sim no)
+		(at 68.326 18.542 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "37c30e53-8206-4d46-991a-7e93b7a3b4e3")
+	)
 	(text "Burn Wire Control (Antenna Deployment)"
 		(exclude_from_sim no)
 		(at 114.3 20.32 0)
@@ -6314,7 +6324,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1563209"
+		(property "LCSC" ""
 			(at 81.28 33.02 0)
 			(effects
 				(font
@@ -6323,7 +6333,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "(Potentially) Not placed by JLCPCB"
+		(property "Notes" ""
 			(at 81.28 33.02 0)
 			(effects
 				(font
@@ -6351,6 +6361,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 81.28 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "NP_JLC"
 			(at 81.28 33.02 0)
 			(effects
 				(font

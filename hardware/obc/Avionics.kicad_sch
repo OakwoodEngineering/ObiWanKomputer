@@ -13228,7 +13228,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mainboard:QFP50P1200X1200X120-64N"
+		(property "Footprint" "Package_QFP:TQFP-64_10x10mm_P0.5mm"
 			(at 107.95 130.81 0)
 			(effects
 				(font
