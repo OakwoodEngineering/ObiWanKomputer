@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "J**"
-		(at 0 -5.2 0)
+		(at 0 -5.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "de2a502b-e004-481f-b0ab-7db9e186e0fe")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "Harwin_M300-MV30645M1_6P_P3.0mm_Vertical"
-		(at 0 4.4 0)
+		(at 0 5.7 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "54c68460-769d-4fcd-9a8d-cb30d1c3f865")
@@ -67,20 +67,9 @@
 		)
 	)
 	(attr through_hole)
-	(fp_rect
-		(start 2.8 -3.45)
-		(end 3.8 -3.15)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "557e24a7-084e-4520-9c07-2fbf6aef7e28")
-	)
 	(fp_line
-		(start -4.9 -3.6)
-		(end 4.7 -3.6)
+		(start -11 -4.8)
+		(end 11 -4.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -89,8 +78,8 @@
 		(uuid "f5b94e56-3420-4c40-bde2-1af0101b1a50")
 	)
 	(fp_line
-		(start -4.9 3.3)
-		(end -4.9 -3.6)
+		(start -11 4.8)
+		(end -11 -4.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -99,8 +88,8 @@
 		(uuid "e6fe74d1-9c48-4904-b216-3962613a6a35")
 	)
 	(fp_line
-		(start 4.7 -3.6)
-		(end 4.7 3.3)
+		(start 11 -4.8)
+		(end 11 4.75)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -109,8 +98,8 @@
 		(uuid "793b4899-d675-4b60-ad27-9da4e0f0ba4d")
 	)
 	(fp_line
-		(start 4.7 3.3)
-		(end -4.9 3.3)
+		(start 11 4.8)
+		(end -11 4.8)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -119,38 +108,28 @@
 		(uuid "9c62cbc4-d551-4709-8489-ff8eae0f442d")
 	)
 	(fp_line
-		(start -4.5 -2.9)
-		(end -4.5 2.9)
+		(start -10.7 -4.5)
+		(end -10.7 4.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "0a0913f1-7aa0-47d5-bd4a-e7b853943dd2")
+		(uuid "26b38833-8595-4952-8930-1d804351468d")
 	)
 	(fp_line
-		(start -4.5 -2.9)
-		(end 4.3 -2.9)
+		(start 10.65 -4.5)
+		(end -10.65 -4.5)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "d048b676-81a6-4fbf-abbf-d3d65182e18e")
+		(uuid "5cab6853-7d7c-49a3-908a-6e3ddc7d9a0e")
 	)
 	(fp_line
-		(start 4.3 -2.9)
-		(end 4.3 2.9)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "eb439628-c1c9-486e-ba8c-99f6e9775e67")
-	)
-	(fp_line
-		(start 4.3 2.9)
-		(end -4.5 2.9)
+		(start 10.65 4.5)
+		(end -10.65 4.5)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -158,8 +137,18 @@
 		(layer "F.Fab")
 		(uuid "35225d77-3b74-4e6d-85dd-3d3378874658")
 	)
+	(fp_line
+		(start 10.7 -4.5)
+		(end 10.7 4.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "eb439628-c1c9-486e-ba8c-99f6e9775e67")
+	)
 	(fp_text user "${REFERENCE}"
-		(at -0.1 -0.2 0)
+		(at -0.1 0.1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "19a9f7fa-a90b-46de-b742-db44b2516629")
@@ -170,7 +159,21 @@
 			)
 		)
 	)
-	(pad "1" thru_hole circle
+	(pad "" np_thru_hole circle
+		(at -8.1 0)
+		(size 2.3 2.3)
+		(drill 2.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "ac54f908-c3f6-447f-8b31-78b75ecb7548")
+	)
+	(pad "" np_thru_hole circle
+		(at 7.9 0)
+		(size 2.3 2.3)
+		(drill 2.3)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "911ae86e-c6ac-44c8-8dbb-2f161a665807")
+	)
+	(pad "1" thru_hole rect
 		(at 2.9 -1.5)
 		(size 2.5 2.5)
 		(drill 1.3)
@@ -217,5 +220,16 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "58a6839f-7eec-4102-a9c3-4202f374048a")
+	)
+	(model "${KIPRJMOD}/SSE_Footprints.pretty/m300-mv30645m1_asm.stp"
+		(offset
+			(xyz 0 0 -0.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
 	)
 )

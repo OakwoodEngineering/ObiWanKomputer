@@ -8111,7 +8111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Horizontal"
 			(at 180.34 128.27 0)
 			(effects
 				(font
@@ -8386,7 +8386,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SSE_Footprints:Harwin_M300-MV30645M1_6P_P3.0mm_Vertical"
+		(property "Footprint" "SSE_Footprints:MMCX-6_UMPT-06-01-L-RA-WT-TR_P2.0mm"
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -8395,7 +8395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.harwin.com/pdfs/G125-MH1XXM4-XXAD000P.pdf"
+		(property "Datasheet" "https://content.harwin.com/m/89c5f84cda5e98a6/original/DRG-00577-Technical-Drawing-Datasheet-M300-MV30645M1-pdf.pdf"
 			(at 185.42 80.01 0)
 			(effects
 				(font

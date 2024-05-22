@@ -10428,7 +10428,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ef1a04a")
 		(property "Reference" "R224"
 			(at 195.58 106.68 90)
@@ -10473,7 +10473,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "DNI"
 			(at 199.39 109.22 90)
 			(effects
 				(font
@@ -10566,7 +10566,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ef31159")
 		(property "Reference" "R221"
 			(at 195.58 92.71 90)
@@ -10611,7 +10611,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "DNI"
 			(at 199.39 95.25 90)
 			(effects
 				(font
@@ -10704,7 +10704,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ef31160")
 		(property "Reference" "R222"
 			(at 195.58 96.52 90)
@@ -10749,7 +10749,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "DNI"
 			(at 199.39 99.06 90)
 			(effects
 				(font
@@ -10842,7 +10842,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ef467b2")
 		(property "Reference" "R230"
 			(at 231.14 99.06 90)
@@ -10887,7 +10887,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "DNI"
 			(at 234.95 101.6 90)
 			(effects
 				(font
@@ -10980,7 +10980,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ef467b9")
 		(property "Reference" "R231"
 			(at 231.14 104.14 90)
@@ -11025,7 +11025,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "DNI"
 			(at 234.95 106.68 90)
 			(effects
 				(font
@@ -11118,7 +11118,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ef467c4")
 		(property "Reference" "R223"
 			(at 195.58 102.87 90)
@@ -11163,7 +11163,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "DNI"
 			(at 199.39 105.41 90)
 			(effects
 				(font
@@ -11256,7 +11256,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "00000000-0000-0000-0000-00005ef4afb5")
 		(property "Reference" "R229"
 			(at 231.14 93.98 90)
@@ -11301,7 +11301,7 @@
 				(hide yes)
 			)
 		)
-		(property "DNI" ""
+		(property "DNI" "DNI"
 			(at 234.95 96.52 90)
 			(effects
 				(font
