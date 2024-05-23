@@ -13287,7 +13287,7 @@
 			)
 		)
 		(property "Value" "4.7uF"
-			(at 213.36 148.59 90)
+			(at 210.312 150.114 90)
 			(effects
 				(font
 					(size 1.27 1.27)

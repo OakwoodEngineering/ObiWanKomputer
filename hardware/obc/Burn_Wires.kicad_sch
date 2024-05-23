@@ -3449,7 +3449,7 @@
 	)
 	(text "Burn Wire Control (Antenna Deployment)"
 		(exclude_from_sim no)
-		(at 114.3 20.32 0)
+		(at 117.094 19.304 0)
 		(effects
 			(font
 				(size 2.159 2.159)

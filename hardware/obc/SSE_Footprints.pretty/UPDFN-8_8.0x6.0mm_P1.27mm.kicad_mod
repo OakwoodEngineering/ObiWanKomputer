@@ -256,4 +256,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${KIPRJMOD}/SSE_Footprints.pretty/MT29F4G01ABAFDWB-IT_F TR.STEP"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
