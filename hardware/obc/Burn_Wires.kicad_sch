@@ -4129,7 +4129,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
 			(at 215.9 67.31 0)
 			(effects
 				(font
@@ -4138,7 +4138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
 			(at 215.9 67.31 0)
 			(effects
 				(font
@@ -4183,7 +4183,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "22-23-2037"
+		(property "Manufacturer_Part_Number" "	 0022112032"
 			(at 207.518 69.85 0)
 			(effects
 				(font
@@ -5672,7 +5672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
 			(at 215.9 43.18 0)
 			(effects
 				(font
@@ -5681,7 +5681,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
 			(at 215.9 43.18 0)
 			(effects
 				(font
@@ -5726,7 +5726,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "22-23-2037"
+		(property "Manufacturer_Part_Number" "	 0022112032"
 			(at 207.518 45.72 0)
 			(effects
 				(font
@@ -5967,7 +5967,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
 			(at 35.56 158.75 0)
 			(effects
 				(font
@@ -5976,7 +5976,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
 			(at 35.56 158.75 0)
 			(effects
 				(font
@@ -6021,7 +6021,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "22-23-2037"
+		(property "Manufacturer_Part_Number" "	 0022112032"
 			(at 27.178 161.29 0)
 			(effects
 				(font
@@ -6780,7 +6780,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
 			(at 31.75 127 0)
 			(effects
 				(font
@@ -6789,7 +6789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
 			(at 31.75 127 0)
 			(effects
 				(font
@@ -6834,7 +6834,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "22-23-2037"
+		(property "Manufacturer_Part_Number" "	 0022112032"
 			(at 29.21 118.618 0)
 			(effects
 				(font
@@ -7356,7 +7356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
 			(at 215.9 92.71 0)
 			(effects
 				(font
@@ -7365,7 +7365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
 			(at 215.9 92.71 0)
 			(effects
 				(font
@@ -7410,7 +7410,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "22-23-2037"
+		(property "Manufacturer_Part_Number" "	 0022112032"
 			(at 207.518 95.25 0)
 			(effects
 				(font
@@ -7887,7 +7887,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
 			(at 74.93 158.75 0)
 			(effects
 				(font
@@ -7896,7 +7896,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
 			(at 74.93 158.75 0)
 			(effects
 				(font
@@ -7941,7 +7941,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "22-23-2037"
+		(property "Manufacturer_Part_Number" "	 0022112032"
 			(at 66.548 161.29 0)
 			(effects
 				(font
@@ -8116,7 +8116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
 			(at 115.57 160.02 0)
 			(effects
 				(font
@@ -8125,7 +8125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
 			(at 115.57 160.02 0)
 			(effects
 				(font
@@ -8170,7 +8170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "22-23-2037"
+		(property "Manufacturer_Part_Number" "	 0022112032"
 			(at 107.188 162.56 0)
 			(effects
 				(font
@@ -8625,7 +8625,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
 			(at 111.76 127 0)
 			(effects
 				(font
@@ -8634,7 +8634,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
 			(at 111.76 127 0)
 			(effects
 				(font
@@ -8679,7 +8679,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "22-23-2037"
+		(property "Manufacturer_Part_Number" "	 0022112032"
 			(at 109.22 118.618 0)
 			(effects
 				(font
@@ -8787,7 +8787,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "mainboard:MOLEX-1X3_LOCK"
+		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
 			(at 72.39 127 0)
 			(effects
 				(font
@@ -8796,7 +8796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/276/022232037_sd-589157.pdf"
+		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
 			(at 72.39 127 0)
 			(effects
 				(font
@@ -8841,7 +8841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "22-23-2037"
+		(property "Manufacturer_Part_Number" "	 0022112032"
 			(at 69.85 118.618 0)
 			(effects
 				(font

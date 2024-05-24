@@ -217,7 +217,7 @@
 		(solder_mask_margin 0.0635)
 		(uuid "2bf9f303-5224-4795-894a-860d77e540c5")
 	)
-	(model "${KIPRJMOD}/SSE_Footprints.pretty/22-23-2037.stp"
+	(model "22-23-2037.stp"
 		(offset
 			(xyz 0 0 0)
 		)

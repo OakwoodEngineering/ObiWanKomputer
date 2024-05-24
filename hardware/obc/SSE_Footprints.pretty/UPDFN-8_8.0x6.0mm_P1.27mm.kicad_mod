@@ -245,18 +245,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "a39fe847-a463-4101-9edf-bd60c114446b")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-8-1EP_6x5mm_Pitch1.27mm.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/SSE_Footprints.pretty/MT29F4G01ABAFDWB-IT_F TR.STEP"
+	(model "MT29F4G01ABAFDWB-IT_F TR.STEP"
 		(offset
 			(xyz 0 0 0)
 		)

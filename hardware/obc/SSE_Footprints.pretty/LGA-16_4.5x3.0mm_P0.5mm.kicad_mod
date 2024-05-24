@@ -335,7 +335,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "91220637-8586-4a7f-a185-8a4289e55293")
 	)
-	(model "${KIPRJMOD}/SSE_Footprints.pretty/BMI088--3DModel-STEP-56544.STEP"
+	(model "BMI088--3DModel-STEP-56544.STEP"
 		(offset
 			(xyz 0 0 0)
 		)
