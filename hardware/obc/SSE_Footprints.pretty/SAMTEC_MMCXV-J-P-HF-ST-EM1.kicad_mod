@@ -378,13 +378,13 @@
 	)
 	(model "MMCXV-J-P-HF-ST-EM1.step"
 		(offset
-			(xyz 0 -0.5 0)
+			(xyz 0 -0.15 0.4)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 0 0 0)
+			(xyz 0 180 0)
 		)
 	)
 )
