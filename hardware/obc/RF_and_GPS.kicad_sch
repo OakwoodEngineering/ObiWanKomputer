@@ -3996,7 +3996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "SSE_Footprints:SAMTEC_MMCXV-J-P-HF-ST-EM1"
 			(at 237.49 35.56 0)
 			(effects
 				(font
@@ -4041,7 +4041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Samtec Inc."
 			(at 231.14 35.56 0)
 			(effects
 				(font
@@ -4050,7 +4050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "MMCXV-J-P-HF-ST-EM1-ND "
 			(at 231.14 35.56 0)
 			(effects
 				(font
@@ -4155,7 +4155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "SSE_Footprints:SAMTEC_MMCXV-J-P-HF-ST-EM1"
 			(at 237.49 49.53 0)
 			(effects
 				(font
@@ -4200,7 +4200,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Samtec Inc."
 			(at 231.14 49.53 0)
 			(effects
 				(font
@@ -4209,7 +4209,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "MMCXV-J-P-HF-ST-EM1-ND "
 			(at 231.14 49.53 0)
 			(effects
 				(font
@@ -4312,7 +4312,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount"
+		(property "Footprint" "SSE_Footprints:SAMTEC_MMCXV-J-P-HF-ST-EM1"
 			(at 113.03 53.34 0)
 			(effects
 				(font
@@ -4348,7 +4348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Samtec Inc."
 			(at 112.2934 47.3202 0)
 			(effects
 				(font
@@ -4357,7 +4357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "MMCXV-J-P-HF-ST-EM1-ND "
 			(at 112.2934 47.3202 0)
 			(effects
 				(font
