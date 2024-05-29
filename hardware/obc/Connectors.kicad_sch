@@ -8395,7 +8395,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://content.harwin.com/m/89c5f84cda5e98a6/original/DRG-00577-Technical-Drawing-Datasheet-M300-MV30645M1-pdf.pdf"
+		(property "Datasheet" "https://suddendocs.samtec.com/productspecs/umpx.pdf?_gl=1*19esy1c*_ga*MTEwMjE5MzYzMy4xNzE3MDIxOTU2*_ga_3KFNZC07WW*MTcxNzAyMTk1Ni4xLjAuMTcxNzAyMTk1Ni42MC4wLjA."
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -8413,7 +8413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "M300-MV30645M1"
+		(property "Manufacturer_Part_Number" "UMPT-06-01-L-RA-WT-TR"
 			(at 185.42 80.01 0)
 			(effects
 				(font
@@ -8449,7 +8449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Harwin"
+		(property "Manufacturer_Name" "Samtec Inc."
 			(at 185.42 80.01 0)
 			(effects
 				(font

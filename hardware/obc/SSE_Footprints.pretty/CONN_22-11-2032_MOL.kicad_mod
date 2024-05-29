@@ -256,7 +256,7 @@
 	)
 	(model "0022112032.stp"
 		(offset
-			(xyz 2.5 0 0)
+			(xyz 2.5 0 0.5)
 		)
 		(scale
 			(xyz 1 1 1)

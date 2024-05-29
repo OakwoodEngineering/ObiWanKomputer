@@ -221,7 +221,7 @@
 		(remove_unused_layers no)
 		(uuid "ccfc7fe1-b55a-4a39-bd53-44b23721997d")
 	)
-	(model "g125-mh104m4-02ad000_asm.stp"
+	(model "${KIPRJMOD}/SSE_Footprints.pretty/g125-mh104m4-02ad000_asm.stp"
 		(offset
 			(xyz 0 -6 2.5)
 		)

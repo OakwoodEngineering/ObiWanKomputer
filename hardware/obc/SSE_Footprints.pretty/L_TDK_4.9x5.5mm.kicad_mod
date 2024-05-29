@@ -241,7 +241,7 @@
 		(thermal_bridge_angle 45)
 		(uuid "bec71666-4c3f-4bd6-b084-68ef9d008f21")
 	)
-	(model "VLCF5024T-101MR28-2.step"
+	(model "${KIPRJMOD}/SSE_Footprints.pretty/VLCF5024T-101MR28-2.step"
 		(offset
 			(xyz 0 0 0)
 		)

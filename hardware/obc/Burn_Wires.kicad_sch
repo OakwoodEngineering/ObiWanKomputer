@@ -4423,7 +4423,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "mainboard:PWRDI-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 58.42 35.56 0)
 			(effects
 				(font
@@ -6261,7 +6261,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "mainboard:RELAY_PE014006"
+		(property "Footprint" "SSE_Footprints:RELAY_PE014006_REV-SSE"
 			(at 81.28 33.02 0)
 			(effects
 				(font
