@@ -13622,7 +13622,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SSE_Footprints:Murata_1008_2.5x2.0mm"
+		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
 			(at 246.38 109.22 0)
 			(effects
 				(font
