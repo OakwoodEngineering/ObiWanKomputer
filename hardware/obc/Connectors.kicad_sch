@@ -7514,7 +7514,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_High-Rel_4S2P"
+		(property "Value" "Conn_High-Rel_4S2P_Vertical"
 			(at 151.384 38.354 0)
 			(effects
 				(font
@@ -7522,7 +7522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SSE_Footprints:Harwin_G125-MH104M3-02AD000P_4S2P_P1.25mm_Horizontal"
+		(property "Footprint" "SSE_Footprints:Harwin_G125-FV104F3-02AB000P_P1.25mm_Vertical"
 			(at 154.94 40.64 0)
 			(effects
 				(font
@@ -7531,7 +7531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://cdn.harwin.com/pdfs/G125-MH1XXM4-XXAD000P.pdf"
+		(property "Datasheet" "https://content.harwin.com/m/d362e7884ec41c62/original/DRG-03148-Technical-Drawing-Datasheet-G125-FV1XXF3-XXAB000P-pdf.pdf"
 			(at 154.94 40.64 0)
 			(effects
 				(font
@@ -7549,7 +7549,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "G125-MH104M3-02AD000P"
+		(property "Manufacturer_Part_Number" "G125-FV104F3-02AB000P"
 			(at 154.94 48.26 0)
 			(effects
 				(font
