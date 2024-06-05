@@ -513,7 +513,15 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "/Burn Wires/VBURN_A_IN": "rgb(255, 251, 11)",
+      "3.3V": "rgb(255, 7, 242)",
+      "GND": "rgb(24, 40, 255)",
+      "GNDREF": "rgb(16, 255, 242)",
+      "VBATT_SENSE": "rgb(22, 255, 20)",
+      "VBUS_IN": "rgb(255, 4, 2)",
+      "VSOLAR": "rgb(255, 153, 5)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
