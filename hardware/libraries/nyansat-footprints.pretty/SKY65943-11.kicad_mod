@@ -236,4 +236,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "59fc25f6-5adc-4225-b043-a28722db9300")
 	)
+	(model "${KIPRJMOD}/../libraries/nyansat-footprints.pretty/SKY65943_11/SKY65943-11.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
