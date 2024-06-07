@@ -5,10 +5,11 @@
 	(uuid "3414efb3-c246-4b5e-aa39-e25f953ad7ab")
 	(paper "USLetter")
 	(title_block
-		(title "PyCubed Mainboard")
-		(date "2021-06-09")
-		(rev "v05c")
-		(company "Max Holliday")
+		(title "Obi Wan Komputer")
+		(date "2024-06-07")
+		(rev "vA")
+		(company "Ruchir Kavulli, Michael Lyle")
+		(comment 1 "Derived from PyCubed Mainboard v5")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -2961,7 +2962,7 @@
 	)
 	(text "Bus Protection"
 		(exclude_from_sim no)
-		(at 200.66 177.8 0)
+		(at 205.232 183.388 0)
 		(effects
 			(font
 				(size 5.08 5.08)

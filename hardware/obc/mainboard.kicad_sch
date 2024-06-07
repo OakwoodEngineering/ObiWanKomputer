@@ -5,10 +5,11 @@
 	(uuid "e3ac22ea-6806-4807-a025-571315789c25")
 	(paper "USLetter")
 	(title_block
-		(title "PyCubed Mainboard")
-		(date "2021-06-09")
-		(rev "v05c")
-		(company "Max Holliday")
+		(title "Obi Wan Komputer")
+		(date "2024-06-07")
+		(rev "vA")
+		(company "Ruchir Kavulli, Michael Lyle")
+		(comment 1 "Derived from PyCubed Mainboard v5")
 	)
 	(lib_symbols)
 	(text "GND is ground reference for components on the schematic. \nGNDREF is the negative terminal of the battery board."

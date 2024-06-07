@@ -5,10 +5,11 @@
 	(uuid "cdf1c7d2-cdae-459d-b34e-d0a4489cd9bd")
 	(paper "USLetter")
 	(title_block
-		(title "PyCubed Mainboard")
-		(date "2021-06-09")
-		(rev "v05c")
-		(company "Max Holliday")
+		(title "Obi Wan Komputer")
+		(date "2024-06-07")
+		(rev "vA")
+		(company "Ruchir Kavulli, Michael Lyle")
+		(comment 1 "Derived from PyCubed Mainboard v5")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x08_Socket"
@@ -3244,9 +3245,9 @@
 		)
 		(uuid "0ff3066a-4fd4-4759-a326-b97f052ddb1e")
 	)
-	(text "Radio, GPS, Payloads"
+	(text "Radio & GPS"
 		(exclude_from_sim no)
-		(at 175.26 182.88 0)
+		(at 207.772 183.896 0)
 		(effects
 			(font
 				(size 5.08 5.08)

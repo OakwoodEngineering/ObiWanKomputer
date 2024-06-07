@@ -5,10 +5,11 @@
 	(uuid "5098249f-07b3-4178-8b4a-f8bdca345722")
 	(paper "A4")
 	(title_block
-		(title "PyCubed Mainboard")
-		(date "2021-06-09")
-		(rev "v05c")
-		(company "Max Holliday")
+		(title "Obi Wan Komputer")
+		(date "2024-06-07")
+		(rev "vA")
+		(company "Ruchir Kavulli, Michael Lyle")
+		(comment 1 "Derived from PyCubed Mainboard v5")
 	)
 	(lib_symbols
 		(symbol "Device:C_Small"
@@ -9364,7 +9365,7 @@
 	)
 	(text "Power"
 		(exclude_from_sim no)
-		(at 224.79 177.8 0)
+		(at 234.442 177.8 0)
 		(effects
 			(font
 				(size 5.08 5.08)

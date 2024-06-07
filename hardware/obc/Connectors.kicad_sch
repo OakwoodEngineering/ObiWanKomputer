@@ -5,10 +5,11 @@
 	(uuid "51e4bfd2-ad68-4302-b33f-3d70ee2d68ba")
 	(paper "USLetter")
 	(title_block
-		(title "PyCubed Mainboard")
-		(date "2021-06-09")
-		(rev "v05c")
-		(company "Max Holliday")
+		(title "Obi Wan Komputer")
+		(date "2024-06-07")
+		(rev "vA")
+		(company "Ruchir Kavulli, Michael Lyle")
+		(comment 1 "Derived from PyCubed Mainboard v5")
 	)
 	(lib_symbols
 		(symbol "3.3V_1"
@@ -4267,7 +4268,7 @@
 	)
 	(text "Connectors"
 		(exclude_from_sim no)
-		(at 199.39 182.88 0)
+		(at 211.074 183.134 0)
 		(effects
 			(font
 				(size 5.08 5.08)
@@ -4277,6 +4278,17 @@
 			(justify left bottom)
 		)
 		(uuid "59432d6e-d4a4-497f-a12e-bd3a696b907c")
+	)
+	(text "Flash Memory"
+		(exclude_from_sim no)
+		(at 49.276 121.158 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "6b5ac242-89a8-47b6-bd3f-12833b220aab")
 	)
 	(text "Battery\nTerminals"
 		(exclude_from_sim no)
@@ -4346,7 +4358,7 @@
 	)
 	(text "Inhibit Switches"
 		(exclude_from_sim no)
-		(at 183.134 91.186 0)
+		(at 205.486 82.804 0)
 		(effects
 			(font
 				(size 2.159 2.159)
@@ -8369,7 +8381,7 @@
 		(dnp no)
 		(uuid "fbf2f8b7-d2e0-410e-91ba-04a40895bb37")
 		(property "Reference" "J304"
-			(at 205.74 80.0099 90)
+			(at 193.294 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8378,7 +8390,7 @@
 			)
 		)
 		(property "Value" "Conn_High-Rel_6P"
-			(at 205.74 82.5499 90)
+			(at 186.69 87.884 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8459,7 +8471,7 @@
 			)
 		)
 		(property "DNI" "NP_JLC"
-			(at 209.296 84.836 90)
+			(at 195.834 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)

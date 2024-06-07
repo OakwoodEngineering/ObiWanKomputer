@@ -5,10 +5,11 @@
 	(uuid "671910a5-99c6-4322-8650-e4fd73d8b866")
 	(paper "USLetter")
 	(title_block
-		(title "PyCubed Mainboard")
-		(date "2021-06-09")
-		(rev "v05c")
-		(company "Max Holliday")
+		(title "Obi Wan Komputer")
+		(date "2024-06-07")
+		(rev "vA")
+		(company "Ruchir Kavulli, Michael Lyle")
+		(comment 1 "Derived from PyCubed Mainboard v5")
 	)
 	(lib_symbols
 		(symbol "SSE_Symbols:MOSFET_IRF7406PbF"
@@ -3426,7 +3427,7 @@
 	)
 	(text "Burn Wires"
 		(exclude_from_sim no)
-		(at 200.66 182.88 0)
+		(at 211.582 183.134 0)
 		(effects
 			(font
 				(size 5.08 5.08)
