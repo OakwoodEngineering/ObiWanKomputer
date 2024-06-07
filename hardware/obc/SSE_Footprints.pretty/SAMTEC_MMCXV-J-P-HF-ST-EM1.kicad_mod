@@ -338,7 +338,7 @@
 		(solder_mask_margin 0.102)
 		(uuid "64974d2f-b785-4c14-a57e-d0e46ff42188")
 	)
-	(pad "S1" smd custom
+	(pad "2" smd custom
 		(at -1.8 2.01)
 		(size 1.1 2.8)
 		(layers "F.Cu")
@@ -357,7 +357,7 @@
 		)
 		(uuid "cd8345a2-5785-4f6c-bde0-034f65b4383f")
 	)
-	(pad "S2" smd custom
+	(pad "2" smd custom
 		(at 1.8 2.01)
 		(size 1.1 2.8)
 		(layers "F.Cu")
