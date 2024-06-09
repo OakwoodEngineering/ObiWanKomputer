@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 1,
+    "active_layer": 3,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -9,10 +9,7 @@
     "hidden_nets": [
       "",
       "GND",
-      "/Avionics/XTAL1",
-      "/Avionics/XTAL2",
       "3.3V",
-      "/Avionics/BATTERY",
       "~{RESET}",
       "Net-(U102-VDDCORE)",
       "Net-(Q201B-G1)",
@@ -23,6 +20,7 @@
       "GNDREF",
       "VBUS_IN",
       "VCHRG",
+      "VBATT",
       "/Power/V_RF",
       "VSOLAR",
       "Net-(U403-VBST)",
@@ -87,9 +85,6 @@
       "Net-(J603-In)",
       "Net-(J604-In)",
       "VCC_RF2",
-      "/Burn Wires/VBURN1",
-      "/Burn Wires/VBURN2",
-      "/Burn Wires/VBURN3",
       "Net-(U102-VSW)",
       "Net-(U402-CHGSNS)",
       "Net-(Q201A-D1)",
@@ -126,6 +121,7 @@
       "Net-(Q503-D)",
       "Net-(Q504-D)",
       "Net-(Q504-G)",
+      "/Burn Wires/VBURN_A_IN",
       "Net-(U101-~{RESET})",
       "WDT_WDI",
       "L1_PROG",
@@ -259,7 +255,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_7ffffffb",
+    "visible_layers": "fffffff_7ffffff9",
     "zone_display_mode": 0
   },
   "git": {
