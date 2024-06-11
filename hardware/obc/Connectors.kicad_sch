@@ -4244,6 +4244,17 @@
 		)
 		(uuid "0751979a-ad69-4ca7-bb72-2a49432e45b6")
 	)
+	(text "XXX: Add passives for long serial clock trace to memories"
+		(exclude_from_sim no)
+		(at 25.4 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1099ff15-b6c5-4dd7-aa23-dcfdd4290ae0")
+	)
 	(text "Add jumper to allow\nUSB battery charging\n(even inside P-Pod).\n"
 		(exclude_from_sim no)
 		(at 184.15 115.57 0)

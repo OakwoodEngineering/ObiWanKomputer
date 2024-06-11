@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 4,
+    "active_layer": 3,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -119,7 +119,6 @@
       "Net-(U102-PA07)",
       "MISO_RF2",
       "MISO_SD",
-      "FLASH_CS2",
       "USB_D-",
       "USB_D+",
       "Net-(U301-HOLD#{slash}IO3)",
@@ -141,14 +140,11 @@
       "Net-(U602-RSTN)",
       "Net-(U101-~{MR})",
       "unconnected-(U101-~{PFO}-Pad5)",
-      "FLASH_MOSI",
       "unconnected-(U102-PB07-Pad10)",
-      "FLASH_IO2",
       "unconnected-(U102-PA11-Pad20)",
       "TX",
       "unconnected-(U102-PA27-Pad51)",
       "RX",
-      "FLASH_MISO",
       "unconnected-(U103-INT2-Pad1)",
       "unconnected-(U103-INT4-Pad13)",
       "unconnected-(U103-INT3-Pad12)",
@@ -218,6 +214,7 @@
       13,
       15,
       16,
+      17,
       18,
       19,
       20,
@@ -239,7 +236,7 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_fffffff9",
+    "visible_layers": "fffffff_fffffffd",
     "zone_display_mode": 1
   },
   "git": {
