@@ -1956,16 +1956,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 95.25) (xy 238.76 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23eb22ce-1bfb-4e05-8b44-cad38e947860")
-	)
-	(wire
-		(pts
 			(xy 69.85 172.72) (xy 85.09 172.72)
 		)
 		(stroke
@@ -1993,16 +1983,6 @@
 			(type default)
 		)
 		(uuid "2bc9c8ce-c09e-48a2-82cc-2956dbd496cd")
-	)
-	(wire
-		(pts
-			(xy 229.87 105.41) (xy 231.14 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d6feed5-5b35-4db2-b461-265c0b7d14ae")
 	)
 	(wire
 		(pts
@@ -2436,16 +2416,6 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 95.25) (xy 231.14 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8af9b03b-a27e-435b-a80b-3858fb84379e")
-	)
-	(wire
-		(pts
 			(xy 27.94 86.36) (xy 27.94 93.98)
 		)
 		(stroke
@@ -2603,16 +2573,6 @@
 			(type default)
 		)
 		(uuid "b89b0d83-bfde-4e9d-b087-137514e062d0")
-	)
-	(wire
-		(pts
-			(xy 240.03 105.41) (xy 238.76 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b8bfd3eb-09f3-48bb-aedb-b62080652165")
 	)
 	(wire
 		(pts
@@ -3346,26 +3306,6 @@
 			)
 		)
 	)
-	(global_label "MISO"
-		(shape output)
-		(at 229.87 105.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a1efc01f-fdea-40fc-b923-cb3ab3558e78")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA_PWR"
 		(shape bidirectional)
 		(at 204.47 107.95 0)
@@ -3486,46 +3426,6 @@
 			)
 		)
 	)
-	(global_label "MISO"
-		(shape output)
-		(at 229.87 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e3fd4d9e-881c-4253-a965-b8f8d21acb49")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MISO_RF2"
-		(shape input)
-		(at 240.03 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f13ee105-3cee-4771-8c11-1dfe3696e6b4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.03 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA_IMU"
 		(shape bidirectional)
 		(at 95.25 64.77 0)
@@ -3558,26 +3458,6 @@
 		(uuid "f73e373f-91cb-4822-8244-28b65d9d0f01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 229.87 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MISO_SD"
-		(shape input)
-		(at 240.03 105.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f9e5c1af-a44a-4b3f-aaaa-0b01677a7b17")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.03 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10976,144 +10856,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 234.95 105.41 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-00005ef467b9")
-		(property "Reference" "R231"
-			(at 231.14 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 237.49 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 234.696 106.426 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 0603"
-			(at 233.68 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "DNI"
-			(at 234.95 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 234.95 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "69140bc3-ebab-46ad-9480-2f668c20bc96")
-		)
-		(pin "2"
-			(uuid "c59bec8e-f599-44ec-8cde-9cfdc3f77419")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
-					(reference "R231")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 199.39 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11245,144 +10987,6 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
 					(reference "R223")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 234.95 95.25 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-00005ef4afb5")
-		(property "Reference" "R229"
-			(at 231.14 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 237.49 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 234.696 96.266 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 0603"
-			(at 233.68 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "DNI"
-			(at 234.95 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 234.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 234.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 234.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 234.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 234.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 234.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 234.95 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3555efe5-d199-490b-9907-626045a5562f")
-		)
-		(pin "2"
-			(uuid "8e5a2b8f-4143-41e3-b6e9-9eb928b1dd5f")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
-					(reference "R229")
 					(unit 1)
 				)
 			)
