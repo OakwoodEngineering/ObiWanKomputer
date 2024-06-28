@@ -1,5 +1,5 @@
 (sym_lib_table
   (version 7)
-  (lib (name "mainboard")(type "Legacy")(uri "${KIPRJMOD}/mainboard.lib")(options "")(descr ""))
+  (lib (name "mainboard")(type "KiCad")(uri "${KIPRJMOD}/mainboard.kicad_sym")(options "")(descr ""))
   (lib (name "SSE_Symbols")(type "KiCad")(uri "${KIPRJMOD}/SSE_Symbols.kicad_sym")(options "")(descr ""))
 )
