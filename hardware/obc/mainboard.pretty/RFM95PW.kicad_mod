@@ -67,8 +67,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -17.7 -8.5)
-		(end 17.7 -8.5)
+		(start -19 -8.5)
+		(end 19 -8.5)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -77,8 +77,8 @@
 		(uuid "715dcbbd-a52a-4c13-aa96-bddc3cd1b29b")
 	)
 	(fp_line
-		(start -17.7 9.5)
-		(end -17.7 -8.5)
+		(start -19 9.5)
+		(end -19 -8.5)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -87,8 +87,8 @@
 		(uuid "893b07ec-c57e-4bb5-9d58-189dd09dcced")
 	)
 	(fp_line
-		(start -17.7 9.5)
-		(end 17.7 9.5)
+		(start -19 9.5)
+		(end 19 9.5)
 		(stroke
 			(width 0.127)
 			(type solid)
@@ -97,8 +97,8 @@
 		(uuid "14658673-c8ce-4a66-8f7a-a99a52501b64")
 	)
 	(fp_line
-		(start 17.7 9.5)
-		(end 17.7 -8.5)
+		(start 19 9.5)
+		(end 19 -8.5)
 		(stroke
 			(width 0.127)
 			(type solid)
