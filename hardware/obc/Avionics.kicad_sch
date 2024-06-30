@@ -6764,6 +6764,12 @@
 		(uuid "a481003f-30a0-4613-bb0a-95b26e32a2ab")
 	)
 	(junction
+		(at 248.92 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a5cd0e57-349e-4577-a9c2-1062cf1afa27")
+	)
+	(junction
 		(at 49.53 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7851,6 +7857,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 96.52) (xy 237.49 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47073fad-aba9-4dd1-9d03-3828c7c4010e")
+	)
+	(wire
+		(pts
 			(xy 228.6 135.89) (xy 233.68 135.89)
 		)
 		(stroke
@@ -8331,6 +8347,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 95.25) (xy 254 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6d1589e9-5071-43fd-b3b6-51aa203ed511")
+	)
+	(wire
+		(pts
 			(xy 200.66 55.88) (xy 200.66 58.42)
 		)
 		(stroke
@@ -8591,6 +8617,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 95.25) (xy 243.84 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d81e4fd-cd00-43a3-88b2-f8ef94156f84")
+	)
+	(wire
+		(pts
 			(xy 151.13 92.71) (xy 146.05 92.71)
 		)
 		(stroke
@@ -8811,6 +8847,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 86.36) (xy 248.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4ccb98d-8b62-44bd-9362-ec2374308060")
+	)
+	(wire
+		(pts
 			(xy 195.58 149.86) (xy 195.58 140.97)
 		)
 		(stroke
@@ -8938,6 +8984,16 @@
 			(type default)
 		)
 		(uuid "ad9f9df5-7e45-4034-852a-5a32e2964625")
+	)
+	(wire
+		(pts
+			(xy 248.92 85.09) (xy 248.92 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af929411-10da-4a13-9be9-17bb705001cb")
 	)
 	(wire
 		(pts
@@ -9191,6 +9247,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 99.06) (xy 237.49 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5e122b1-8897-4157-bd60-e5be79485558")
+	)
+	(wire
+		(pts
 			(xy 92.71 118.11) (xy 90.17 118.11)
 		)
 		(stroke
@@ -9421,6 +9487,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 86.36) (xy 254 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de231b4e-6e4a-42ff-a962-aaa88696e5bc")
+	)
+	(wire
+		(pts
 			(xy 43.18 166.37) (xy 57.15 166.37)
 		)
 		(stroke
@@ -9448,6 +9524,16 @@
 			(type default)
 		)
 		(uuid "df9786ed-90ba-4825-9e27-91a2c4fae8d3")
+	)
+	(wire
+		(pts
+			(xy 254 86.36) (xy 254 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0665962-c2e8-47ba-ab10-f4c2cde8d10f")
 	)
 	(wire
 		(pts
@@ -9538,6 +9624,16 @@
 			(type default)
 		)
 		(uuid "ece299fc-9285-46c0-ae34-fad1978f4834")
+	)
+	(wire
+		(pts
+			(xy 243.84 87.63) (xy 243.84 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee0417b6-bd53-4be5-81ea-9656f116e0dc")
 	)
 	(wire
 		(pts
@@ -9775,9 +9871,9 @@
 		)
 		(uuid "7050b320-9c2f-4763-a70a-6c5a477c2983")
 	)
-	(text "XXX: PA16&17 Need pullups\n\n - Extra pin on stacking connector\n\n"
+	(text "I2C Pullups"
 		(exclude_from_sim no)
-		(at 245.11 72.136 0)
+		(at 244.602 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10192,6 +10288,26 @@
 			)
 		)
 	)
+	(global_label "PA17"
+		(shape bidirectional)
+		(at 237.49 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2778b988-fdac-4699-b909-061f0d62d9be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.49 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "FLASH_CS2"
 		(shape bidirectional)
 		(at 127 130.81 0)
@@ -10364,6 +10480,26 @@
 		(uuid "5d5f7ef0-209b-47e9-8700-1b7d2fbce4ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 90.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PA16"
+		(shape bidirectional)
+		(at 237.49 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5fae8ea4-2bf3-49c9-a18e-a127d0b5e570")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.49 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17644,6 +17780,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 243.84 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e64de82-11ee-4537-bbb3-83e46983784e")
+		(property "Reference" "R115"
+			(at 239.522 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 240.538 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 244.856 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1K 0603"
+			(at 245.5672 87.7316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C844746"
+			(at 243.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Intertech"
+			(at 243.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " CRCW06031K00FKEAC"
+			(at 243.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 243.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 243.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 243.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 243.84 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e231f68-6757-4647-a879-e0ba26eecaf9")
+		)
+		(pin "2"
+			(uuid "b30d8f9f-9dec-41aa-a073-16be376ca2ad")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
+					(reference "R115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mainboard:RESISTOR0603")
 		(at 157.48 49.53 0)
 		(unit 1)
@@ -18274,6 +18540,136 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 254 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b9f9e37c-a6eb-4ea0-8751-b1884d7eff64")
+		(property "Reference" "R116"
+			(at 249.682 89.408 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 250.698 91.694 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 255.016 91.694 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1K 0603"
+			(at 255.7272 87.7316 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C844746"
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay Intertech"
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " CRCW06031K00FKEAC"
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 254 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "77dae8a5-38b6-4111-8126-8dc3969d5d04")
+		)
+		(pin "2"
+			(uuid "5db7496d-9aac-41f4-aad8-7a372cbcbfde")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
+					(reference "R116")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mainboard:C_Small")
 		(at 140.97 100.33 0)
 		(unit 1)
@@ -18400,6 +18796,72 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
 					(reference "C120")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:3.3V")
+		(at 248.92 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce9ad8c2-d06c-47a7-8b21-58c317f696a2")
+		(property "Reference" "#SUPPLY0111"
+			(at 248.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3.3V"
+			(at 246.38 81.28 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 248.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0c310dde-9ab2-4f0f-a48f-f4e26cbee49a")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
+					(reference "#SUPPLY0111")
 					(unit 1)
 				)
 			)
