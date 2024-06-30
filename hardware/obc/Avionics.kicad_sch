@@ -1327,134 +1327,6 @@
 				)
 			)
 		)
-		(symbol "Connector:TestPoint_2Pole"
-			(pin_names
-				(offset 0.762) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint_2Pole"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "2-polar test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_2Pole_0_1"
-				(circle
-					(center -1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.778 0)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_02x20_Odd_Even"
 			(pin_names
 				(offset 1.016) hide)
@@ -6826,12 +6698,6 @@
 		(uuid "877bbc85-25c8-429f-9b76-3eefb9a6f8ef")
 	)
 	(junction
-		(at 52.07 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "87fb701b-3217-468d-afae-20354c533658")
-	)
-	(junction
 		(at 146.05 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7382,16 +7248,6 @@
 			(type default)
 		)
 		(uuid "176f5e0c-07b3-4310-9b79-e05300e094a5")
-	)
-	(wire
-		(pts
-			(xy 39.37 85.09) (xy 39.37 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1776b43a-e25b-47a5-a02f-aea465f9c044")
 	)
 	(wire
 		(pts
@@ -8672,16 +8528,6 @@
 			(type default)
 		)
 		(uuid "84cabd8d-7a06-4710-af97-be217bcfab39")
-	)
-	(wire
-		(pts
-			(xy 49.53 85.09) (xy 52.07 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "852391d4-b30c-43cf-b1e3-b0015b3eab1e")
 	)
 	(wire
 		(pts
@@ -14179,72 +14025,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:GND")
-		(at 39.37 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005cfd5573")
-		(property "Reference" "#GND0101"
-			(at 39.37 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 36.83 97.79 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 39.37 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 39.37 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 39.37 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5cbd288e-10aa-4f7d-a9d2-6e5f76f3977b")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
-					(reference "#GND0101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mainboard:C_Small")
 		(at 60.96 132.08 0)
 		(mirror y)
@@ -16835,119 +16615,6 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
 					(reference "R110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint_2Pole")
-		(at 44.45 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0d345573-3c4c-4d7b-b798-c6f3c86e6e3e")
-		(property "Reference" "TP101"
-			(at 44.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint_2Pole"
-			(at 44.45 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "DNI"
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 44.45 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f6095fa7-9f60-4da1-8962-6e8bd45752d3")
-		)
-		(pin "1"
-			(uuid "a129b244-2b1e-45d9-b6ae-1a6a1e9ad884")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
-					(reference "TP101")
 					(unit 1)
 				)
 			)

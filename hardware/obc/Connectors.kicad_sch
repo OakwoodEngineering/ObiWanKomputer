@@ -6736,6 +6736,137 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 186.69 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3e1f66a8-12c7-42bf-b33a-60d970b2aa8a")
+		(property "Reference" "#PWR0101"
+			(at 186.69 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDREF"
+			(at 186.69 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 186.69 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d8a85fc-792e-432e-8cfd-a64d12d07f24")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec60eb"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "mainboard:GND")
+		(at 190.5 140.97 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4785add3-aad6-4931-b17f-582fa8d19f09")
+		(property "Reference" "#GND0109"
+			(at 190.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 190.5 146.05 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31589728-285b-443a-88bc-b971e1482440")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec60eb"
+					(reference "#GND0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mainboard:RESISTOR0603")
 		(at 109.22 135.89 90)
 		(unit 1)
@@ -7122,71 +7253,6 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec60eb"
 					(reference "R303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 190.5 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "73b0e368-0f7d-420f-a850-3383531b3737")
-		(property "Reference" "#PWR0304"
-			(at 190.5 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDREF"
-			(at 190.5 144.78 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c1719357-8e7f-453a-ab2b-b05036ce5265")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec60eb"
-					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -7970,72 +8036,6 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec60eb"
 					(reference "R305")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:GND")
-		(at 186.69 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d4f53716-1b05-4285-a02e-2b5743b4f0df")
-		(property "Reference" "#GND0305"
-			(at 186.69 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 186.69 146.05 90)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 186.69 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5f482cc0-ed63-4a2d-9823-7041a37818fd")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec60eb"
-					(reference "#GND0305")
 					(unit 1)
 				)
 			)
