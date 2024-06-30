@@ -13713,7 +13713,7 @@
 				)
 			)
 		)
-		(property "Footprint" "mainboard:ADM1176-1ARMZ-R7"
+		(property "Footprint" "Package_SO:MSOP-10_3x3mm_P0.5mm"
 			(at 157.48 75.184 0)
 			(effects
 				(font
