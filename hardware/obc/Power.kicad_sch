@@ -9142,16 +9142,6 @@
 		)
 		(uuid "0e67594f-6c58-4418-814a-a4d824e8f0d9")
 	)
-	(text "XXX: Super sus, don't understand what's going on"
-		(exclude_from_sim no)
-		(at 255.016 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "15e3c3e8-7cef-4cbf-8487-63d726371081")
-	)
 	(text "Value is convenient,\nnot necessary. \n10K-80K would\nalso work for R29"
 		(exclude_from_sim no)
 		(at 129.54 140.97 0)
@@ -9248,16 +9238,6 @@
 			)
 		)
 		(uuid "4516573b-be5a-47d3-9561-5f7fb5267006")
-	)
-	(text "XXX calculate these values from\nOC and maximum power voltages in\nsolar panel design.\n\n(4X cells in series, so the voltages\nwill be 4X that of one cell)."
-		(exclude_from_sim no)
-		(at 72.644 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "68267d7d-8da2-4e58-b194-961ad80773cd")
 	)
 	(text "VSOLAR 9V to 40V"
 		(exclude_from_sim no)
@@ -9360,16 +9340,6 @@
 		)
 		(uuid "bf4103aa-f5c5-4a1f-809a-cb2cd4973a58")
 	)
-	(text "XXX I think these little \"global labels\"\nare silly; We are already connected to net\n\"GND\" by the power symbol on the left."
-		(exclude_from_sim no)
-		(at 240.538 66.294 0)
-		(effects
-			(font
-				(size 1 1)
-			)
-		)
-		(uuid "c78807dd-de63-4e74-8537-7df02e206b59")
-	)
 	(text "Vfloat=8.4V\n(2S Li-ion)"
 		(exclude_from_sim no)
 		(at 163.83 68.834 0)
@@ -9381,7 +9351,7 @@
 		)
 		(uuid "d10b04c6-d201-4a33-a756-7123a7ce8476")
 	)
-	(text "XXX: [Current sense resistor] Needs Kelvin sense connection"
+	(text "[Current sense resistor] Needs Kelvin sense connection"
 		(exclude_from_sim no)
 		(at 118.11 113.792 0)
 		(effects

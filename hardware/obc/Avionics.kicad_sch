@@ -9785,7 +9785,7 @@
 		)
 		(uuid "797872de-6f17-484f-9e0c-52e065d437de")
 	)
-	(text "XXX: Place close to access"
+	(text "Place close to access"
 		(exclude_from_sim no)
 		(at 54.61 172.974 0)
 		(effects

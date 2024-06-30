@@ -2910,16 +2910,6 @@
 		)
 		(uuid "80bfc3bd-1751-40d4-8d59-8f41c2a821a7")
 	)
-	(text "XXX: Low LCSC stock of component (BSS138DWQ-7; Q12A, Q7A, etc.)\nPotentially research alternatives.\n"
-		(exclude_from_sim no)
-		(at 61.214 102.362 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "8ee048f2-3272-451a-821d-0ca8accf2516")
-	)
 	(text "Bus Protection"
 		(exclude_from_sim no)
 		(at 205.232 183.388 0)
