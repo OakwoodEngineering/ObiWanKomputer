@@ -7,7 +7,7 @@
 	(title_block
 		(title "Obi Wan Computer")
 		(date "2024-06-07")
-		(rev "vA")
+		(rev "1")
 		(company "Ruchir Kavulli, Michael Lyle")
 		(comment 1 "Derived from PyCubed Mainboard v5")
 	)

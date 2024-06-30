@@ -7,7 +7,7 @@
 	(title_block
 		(title "Obi Wan Computer")
 		(date "2024-06-07")
-		(rev "vA")
+		(rev "1")
 		(company "Ruchir Kavulli, Michael Lyle")
 		(comment 1 "Derived from PyCubed Mainboard v5")
 	)
@@ -12275,7 +12275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SSE_Footprints:Sunlord_0805_3.0x3.0mm"
+		(property "Footprint" "SSE_Footprints:L_Sunlord_2.0x1.6mm"
 			(at 128.27 100.33 0)
 			(effects
 				(font

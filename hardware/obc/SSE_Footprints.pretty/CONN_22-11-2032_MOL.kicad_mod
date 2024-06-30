@@ -256,13 +256,13 @@
 	)
 	(model "0022112032.stp"
 		(offset
-			(xyz 2.5 0 0.5)
+			(xyz 2.5 0 1.6)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -90 0 0)
+			(xyz -90 0 180)
 		)
 	)
 )
