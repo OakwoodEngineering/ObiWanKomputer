@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": true,
         "pads": {
-          "drill": 1.5,
-          "height": 2.1,
-          "width": 2.1
+          "drill": 0.0,
+          "height": 1.24,
+          "width": 1.24
         },
         "silk_line_width": 0.127,
         "silk_text_italic": false,
@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.127,
         "silk_text_upright": true,
         "zones": {
-          "min_clearance": 0.35
+          "min_clearance": 0.8
         }
       },
       "diff_pair_dimensions": [
@@ -189,6 +189,8 @@
         0.0,
         0.14,
         0.17,
+        0.18,
+        0.19,
         0.22,
         0.27,
         0.6,
@@ -519,6 +521,7 @@
       "3.3V": "rgb(255, 7, 242)",
       "GND": "rgb(24, 40, 255)",
       "GNDREF": "rgb(16, 255, 242)",
+      "Net-(J603-In)": "rgb(255, 0, 170)",
       "VBATT": "rgb(31, 255, 2)",
       "VBATT_SENSE": "rgb(22, 255, 20)",
       "VBUS_IN": "rgb(255, 4, 2)",
