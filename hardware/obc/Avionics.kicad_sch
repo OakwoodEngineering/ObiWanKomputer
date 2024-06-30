@@ -6722,6 +6722,12 @@
 		(uuid "8dc42c9f-5022-4aaf-90ca-59336cee8a26")
 	)
 	(junction
+		(at 105.41 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9006ee4c-f676-4441-b23d-9665b4f0e798")
+	)
+	(junction
 		(at 151.13 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6978,6 +6984,10 @@
 		(uuid "077af2e2-8be5-47cd-ba88-8e785a4fb1b7")
 	)
 	(no_connect
+		(at 64.77 48.26)
+		(uuid "0835ca60-7291-4967-896f-3fcd7f804f54")
+	)
+	(no_connect
 		(at 204.47 91.44)
 		(uuid "29f8a791-6e1b-41c6-bbdb-36f190ed7576")
 	)
@@ -7064,6 +7074,16 @@
 			(type default)
 		)
 		(uuid "080195af-265b-4aa3-8a53-724aa15cbc61")
+	)
+	(wire
+		(pts
+			(xy 105.41 38.1) (xy 100.33 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08129ca8-cee9-4bf2-a1cc-ccc8b489410b")
 	)
 	(wire
 		(pts
@@ -7497,23 +7517,13 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 48.26) (xy 64.77 45.72)
+			(xy 100.33 43.18) (xy 105.41 43.18)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a462723-1004-4e4e-ae3e-b5417f02bb0f")
-	)
-	(wire
-		(pts
-			(xy 100.33 45.72) (xy 100.33 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2b041a71-ed37-4c43-9c3b-3ea4e27c2b93")
+		(uuid "2b2c5b1f-8994-45d3-a361-0360d27cfc27")
 	)
 	(wire
 		(pts
@@ -7847,7 +7857,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 38.1) (xy 100.33 38.1)
+			(xy 115.57 38.1) (xy 105.41 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8177,16 +8187,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 45.72) (xy 100.33 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d60690d-a035-44bc-ae26-881cf896f5ed")
-	)
-	(wire
-		(pts
 			(xy 135.89 90.17) (xy 135.89 92.71)
 		)
 		(stroke
@@ -8474,6 +8474,16 @@
 			(type default)
 		)
 		(uuid "7cc35a09-752c-4f97-97aa-b19977f9c58b")
+	)
+	(wire
+		(pts
+			(xy 105.41 43.18) (xy 105.41 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f2b86b5-57e6-4c66-a27f-fc518b177ec1")
 	)
 	(wire
 		(pts
@@ -14659,7 +14669,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "680"
 			(at 48.26 55.88 0)
 			(effects
 				(font
@@ -14685,7 +14695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" "680 0603"
 			(at 48.26 55.88 0)
 			(effects
 				(font
@@ -14703,7 +14713,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" ""
 			(at 52.07 54.61 0)
 			(effects
 				(font
@@ -14721,7 +14731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 52.07 54.61 0)
 			(effects
 				(font
@@ -14730,7 +14740,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 52.07 54.61 0)
 			(effects
 				(font
