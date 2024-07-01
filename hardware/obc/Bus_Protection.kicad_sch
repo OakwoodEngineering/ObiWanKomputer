@@ -3475,7 +3475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138DWQ-7"
+		(property "Value" "BSS138PS,115"
 			(at 43.18 92.71 0)
 			(effects
 				(font
@@ -3514,7 +3514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "BSS138DWQ-7"
+		(property "Flight" "BSS138PS,115"
 			(at 29.21 81.28 0)
 			(effects
 				(font
@@ -3523,7 +3523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer_Name" ""
 			(at 25.4 87.63 0)
 			(effects
 				(font
@@ -3533,7 +3533,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " BSS138DWQ-7"
+		(property "Manufacturer_Part_Number" "BSS138PS,115"
 			(at 25.4 90.17 0)
 			(effects
 				(font
@@ -3543,7 +3543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proto" "BSS138DWQ-7"
+		(property "Proto" "BSS138PS,115"
 			(at 29.21 81.28 0)
 			(effects
 				(font
@@ -3552,7 +3552,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3280240"
+		(property "LCSC" "C193381"
 			(at 29.21 81.28 0)
 			(effects
 				(font
@@ -3643,7 +3643,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138DWQ-7"
+		(property "Value" "BSS138PS,115"
 			(at 48.26 91.44 0)
 			(effects
 				(font
@@ -3683,7 +3683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "BSS138DWQ-7"
+		(property "Flight" "BSS138PS,115"
 			(at 44.45 86.36 0)
 			(effects
 				(font
@@ -3692,7 +3692,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer_Name" ""
 			(at 40.64 92.71 0)
 			(effects
 				(font
@@ -3702,7 +3702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " BSS138DWQ-7"
+		(property "Manufacturer_Part_Number" "BSS138PS,115"
 			(at 40.64 95.25 0)
 			(effects
 				(font
@@ -3712,7 +3712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proto" "BSS138DWQ-7"
+		(property "Proto" "BSS138PS,115"
 			(at 44.45 86.36 0)
 			(effects
 				(font
@@ -3721,7 +3721,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3280240"
+		(property "LCSC" "C193381"
 			(at 44.45 86.36 0)
 			(effects
 				(font
@@ -5965,7 +5965,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138DWQ-7"
+		(property "Value" "BSS138PS,115"
 			(at 90.17 91.44 0)
 			(effects
 				(font
@@ -6005,7 +6005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "BSS138DWQ-7"
+		(property "Flight" "BSS138PS,115"
 			(at 86.36 86.36 0)
 			(effects
 				(font
@@ -6014,7 +6014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer_Name" ""
 			(at 82.55 92.71 0)
 			(effects
 				(font
@@ -6024,7 +6024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " BSS138DWQ-7"
+		(property "Manufacturer_Part_Number" "BSS138PS,115"
 			(at 82.55 95.25 0)
 			(effects
 				(font
@@ -6034,7 +6034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proto" "BSS138DWQ-7"
+		(property "Proto" "BSS138PS,115"
 			(at 86.36 86.36 0)
 			(effects
 				(font
@@ -6043,7 +6043,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3280240"
+		(property "LCSC" "C193381"
 			(at 86.36 86.36 0)
 			(effects
 				(font
@@ -6463,7 +6463,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138DWQ-7"
+		(property "Value" "BSS138PS,115"
 			(at 85.09 92.71 0)
 			(effects
 				(font
@@ -6502,7 +6502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "BSS138DWQ-7"
+		(property "Flight" "BSS138PS,115"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -6511,7 +6511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer_Name" ""
 			(at 67.31 87.63 0)
 			(effects
 				(font
@@ -6521,7 +6521,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " BSS138DWQ-7"
+		(property "Manufacturer_Part_Number" "BSS138PS,115"
 			(at 67.31 90.17 0)
 			(effects
 				(font
@@ -6531,7 +6531,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proto" "BSS138DWQ-7"
+		(property "Proto" "BSS138PS,115"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -6540,7 +6540,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3280240"
+		(property "LCSC" "C193381"
 			(at 71.12 81.28 0)
 			(effects
 				(font
@@ -7448,7 +7448,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138DWQ-7"
+		(property "Value" "BSS138PS,115"
 			(at 48.26 170.18 0)
 			(effects
 				(font
@@ -7488,7 +7488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "BSS138DWQ-7"
+		(property "Flight" "BSS138PS,115"
 			(at 44.45 165.1 0)
 			(effects
 				(font
@@ -7497,7 +7497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer_Name" ""
 			(at 40.64 171.45 0)
 			(effects
 				(font
@@ -7507,7 +7507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " BSS138DWQ-7"
+		(property "Manufacturer_Part_Number" "BSS138PS,115"
 			(at 40.64 173.99 0)
 			(effects
 				(font
@@ -7517,7 +7517,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proto" "BSS138DWQ-7"
+		(property "Proto" "BSS138PS,115"
 			(at 44.45 165.1 0)
 			(effects
 				(font
@@ -7526,7 +7526,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3280240"
+		(property "LCSC" "C193381"
 			(at 44.45 165.1 0)
 			(effects
 				(font
@@ -7946,7 +7946,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138DWQ-7"
+		(property "Value" "BSS138PS,115"
 			(at 42.926 171.45 0)
 			(effects
 				(font
@@ -7985,7 +7985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "BSS138DWQ-7"
+		(property "Flight" "BSS138PS,115"
 			(at 29.21 160.02 0)
 			(effects
 				(font
@@ -7994,7 +7994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer_Name" ""
 			(at 25.4 166.37 0)
 			(effects
 				(font
@@ -8004,7 +8004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " BSS138DWQ-7"
+		(property "Manufacturer_Part_Number" "BSS138PS,115"
 			(at 25.4 168.91 0)
 			(effects
 				(font
@@ -8014,7 +8014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proto" "BSS138DWQ-7"
+		(property "Proto" "BSS138PS,115"
 			(at 29.21 160.02 0)
 			(effects
 				(font
@@ -8023,7 +8023,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3280240"
+		(property "LCSC" "C193381"
 			(at 29.21 160.02 0)
 			(effects
 				(font
@@ -8931,7 +8931,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138DWQ-7"
+		(property "Value" "BSS138PS,115"
 			(at 90.17 170.18 0)
 			(effects
 				(font
@@ -8971,7 +8971,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "BSS138DWQ-7"
+		(property "Flight" "BSS138PS,115"
 			(at 86.36 165.1 0)
 			(effects
 				(font
@@ -8980,7 +8980,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer_Name" ""
 			(at 82.55 171.45 0)
 			(effects
 				(font
@@ -8990,7 +8990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " BSS138DWQ-7"
+		(property "Manufacturer_Part_Number" "BSS138PS,115"
 			(at 82.55 173.99 0)
 			(effects
 				(font
@@ -9000,7 +9000,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proto" "BSS138DWQ-7"
+		(property "Proto" "BSS138PS,115"
 			(at 86.36 165.1 0)
 			(effects
 				(font
@@ -9009,7 +9009,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3280240"
+		(property "LCSC" "C193381"
 			(at 86.36 165.1 0)
 			(effects
 				(font
@@ -9429,7 +9429,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "BSS138DWQ-7"
+		(property "Value" "BSS138PS,115"
 			(at 85.09 171.45 0)
 			(effects
 				(font
@@ -9468,7 +9468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "BSS138DWQ-7"
+		(property "Flight" "BSS138PS,115"
 			(at 71.12 160.02 0)
 			(effects
 				(font
@@ -9477,7 +9477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer_Name" ""
 			(at 67.31 166.37 0)
 			(effects
 				(font
@@ -9487,7 +9487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " BSS138DWQ-7"
+		(property "Manufacturer_Part_Number" "BSS138PS,115"
 			(at 67.31 168.91 0)
 			(effects
 				(font
@@ -9497,7 +9497,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proto" "BSS138DWQ-7"
+		(property "Proto" "BSS138PS,115"
 			(at 71.12 160.02 0)
 			(effects
 				(font
@@ -9506,7 +9506,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3280240"
+		(property "LCSC" "C193381"
 			(at 71.12 160.02 0)
 			(effects
 				(font
@@ -11259,7 +11259,7 @@
 				)
 			)
 		)
-		(property "Value" "MMDT2907"
+		(property "Value" "BC857BS,115"
 			(at 209.55 61.6204 90)
 			(effects
 				(font
@@ -11294,7 +11294,7 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "MMDT2907AQ-7-F"
+		(property "Flight" "BC857BS,115"
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -11303,7 +11303,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer_Name" ""
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -11312,7 +11312,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "MMDT2907AQ-7-F"
+		(property "Manufacturer_Part_Number" "BC857BS,115"
 			(at 212.09 59.309 0)
 			(effects
 				(font
@@ -11321,7 +11321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Proto" "MMDT2907A"
+		(property "Proto" "BC857BS,115"
 			(at 209.55 53.34 0)
 			(effects
 				(font
@@ -11330,7 +11330,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C526684"
+		(property "LCSC" "C8654"
 			(at 209.55 53.34 0)
 			(effects
 				(font
