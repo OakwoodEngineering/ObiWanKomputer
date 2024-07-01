@@ -10432,7 +10432,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C2838732"
+		(property "LCSC" "C137768"
 			(at 138.43 186.69 0)
 			(effects
 				(font
@@ -10441,7 +10441,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 138.43 186.69 0)
 			(effects
 				(font
@@ -10450,7 +10450,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " AF0603FR-0722K1L"
+		(property "Manufacturer_Part_Number" ""
 			(at 138.43 186.69 0)
 			(effects
 				(font
@@ -14282,7 +14282,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C137745"
+		(property "LCSC" "C137745"
 			(at 204.47 142.24 0)
 			(effects
 				(font
@@ -16996,7 +16996,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2076573"
+		(property "LCSC" "C105575"
 			(at 149.86 153.67 0)
 			(effects
 				(font
@@ -17005,7 +17005,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 149.86 153.67 0)
 			(effects
 				(font
@@ -17014,7 +17014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW060320K0FKEC"
+		(property "Manufacturer_Part_Number" ""
 			(at 149.86 153.67 0)
 			(effects
 				(font
@@ -17624,7 +17624,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844782"
+		(property "LCSC" "C108078"
 			(at 49.53 123.19 0)
 			(effects
 				(font
@@ -17633,7 +17633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 49.53 123.19 0)
 			(effects
 				(font
@@ -17642,7 +17642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW06033K30JNEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 49.53 123.19 0)
 			(effects
 				(font
@@ -18148,7 +18148,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2091473"
+		(property "LCSC" "C246013"
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -18157,7 +18157,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -18166,7 +18166,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW0603845KFKEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 144.78 58.42 0)
 			(effects
 				(font
@@ -18542,7 +18542,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844782"
+		(property "LCSC" "C108078"
 			(at 233.68 45.72 0)
 			(effects
 				(font
@@ -18551,7 +18551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 233.68 45.72 0)
 			(effects
 				(font
@@ -18560,7 +18560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW06033K30JNEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 233.68 45.72 0)
 			(effects
 				(font
@@ -18804,7 +18804,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2075334"
+		(property "LCSC" "C137732"
 			(at 154.94 50.8 0)
 			(effects
 				(font
@@ -18813,7 +18813,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 154.94 50.8 0)
 			(effects
 				(font
@@ -18822,7 +18822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "TNPW06033K01BEEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 154.94 50.8 0)
 			(effects
 				(font

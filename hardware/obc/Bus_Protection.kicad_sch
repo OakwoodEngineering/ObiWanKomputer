@@ -4693,7 +4693,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4244464"
+		(property "LCSC" "C112310"
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -4702,7 +4702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -4711,7 +4711,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW0603680RJNEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 39.37 66.04 0)
 			(effects
 				(font
@@ -5868,7 +5868,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4244464"
+		(property "LCSC" "C112310"
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -5877,7 +5877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -5886,7 +5886,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW0603680RJNEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 81.28 66.04 0)
 			(effects
 				(font
@@ -7351,7 +7351,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4244464"
+		(property "LCSC" "C112310"
 			(at 39.37 144.78 0)
 			(effects
 				(font
@@ -7360,7 +7360,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 39.37 144.78 0)
 			(effects
 				(font
@@ -7369,7 +7369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW0603680RJNEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 39.37 144.78 0)
 			(effects
 				(font
@@ -8834,7 +8834,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C4244464"
+		(property "LCSC" "C112310"
 			(at 81.28 144.78 0)
 			(effects
 				(font
@@ -8843,7 +8843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 81.28 144.78 0)
 			(effects
 				(font
@@ -8852,7 +8852,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW0603680RJNEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 81.28 144.78 0)
 			(effects
 				(font

@@ -12837,7 +12837,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844550"
+		(property "LCSC" "C25814"
 			(at 55.88 123.19 0)
 			(effects
 				(font
@@ -12846,7 +12846,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 55.88 123.19 0)
 			(effects
 				(font
@@ -12855,7 +12855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW0603316KFKEA"
+		(property "Manufacturer_Part_Number" ""
 			(at 55.88 123.19 0)
 			(effects
 				(font
