@@ -1,0 +1,3 @@
+- Revision 1
+    - U103 pin marking isn't visible with installed part / is under body
+    - Too many components require manual rotation
