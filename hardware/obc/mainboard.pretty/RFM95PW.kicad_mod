@@ -69,6 +69,54 @@
 		)
 	)
 	(attr through_hole)
+	(fp_poly
+		(pts
+			(xy 5.786966 2.0828) (xy 3.310466 2.0828) (xy 3.310466 -0.0127) (xy 5.786966 -0.0127)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Paste")
+		(uuid "9c1a355a-f952-4e2e-bafa-572bea1a9c01")
+	)
+	(fp_poly
+		(pts
+			(xy 5.786966 4.4958) (xy 3.310466 4.4958) (xy 3.310466 2.4003) (xy 5.786966 2.4003)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Paste")
+		(uuid "ec934a5a-5774-4a20-adfd-604ffb0e7c0a")
+	)
+	(fp_poly
+		(pts
+			(xy 8.7503 2.0828) (xy 6.2738 2.0828) (xy 6.2738 -0.0127) (xy 8.7503 -0.0127)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Paste")
+		(uuid "6fe63481-68af-4900-9851-48bad7bce676")
+	)
+	(fp_poly
+		(pts
+			(xy 8.7503 4.4958) (xy 6.2738 4.4958) (xy 6.2738 2.4003) (xy 8.7503 2.4003)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Paste")
+		(uuid "25e7da64-d240-4e8c-9948-b802444f0272")
+	)
 	(fp_line
 		(start -19 -8.5)
 		(end 19 -8.5)
@@ -108,54 +156,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "5549961f-f23d-4fd0-b18c-dba1b472bad2")
-	)
-	(fp_poly
-		(pts
-			(xy 5.786966 2.0828) (xy 3.310466 2.0828) (xy 3.310466 -0.0127) (xy 5.786966 -0.0127)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "Dwgs.User")
-		(uuid "9c1a355a-f952-4e2e-bafa-572bea1a9c01")
-	)
-	(fp_poly
-		(pts
-			(xy 5.786966 4.4958) (xy 3.310466 4.4958) (xy 3.310466 2.4003) (xy 5.786966 2.4003)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "Dwgs.User")
-		(uuid "ec934a5a-5774-4a20-adfd-604ffb0e7c0a")
-	)
-	(fp_poly
-		(pts
-			(xy 8.7503 2.0828) (xy 6.2738 2.0828) (xy 6.2738 -0.0127) (xy 8.7503 -0.0127)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "Dwgs.User")
-		(uuid "6fe63481-68af-4900-9851-48bad7bce676")
-	)
-	(fp_poly
-		(pts
-			(xy 8.7503 4.4958) (xy 6.2738 4.4958) (xy 6.2738 2.4003) (xy 8.7503 2.4003)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "Dwgs.User")
-		(uuid "25e7da64-d240-4e8c-9948-b802444f0272")
 	)
 	(fp_text user "RADIO 2"
 		(at 5.08 -6.1595 180)
