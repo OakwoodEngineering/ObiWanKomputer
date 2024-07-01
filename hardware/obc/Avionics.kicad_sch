@@ -9901,16 +9901,6 @@
 		)
 		(uuid "7cc373d9-f02d-4c75-9b80-da0c85103487")
 	)
-	(text "XXX: Too much resistance"
-		(exclude_from_sim no)
-		(at 30.48 54.864 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "86d3856e-663f-40c8-b99a-566f1d9ac092")
-	)
 	(text "TCK\nTMS"
 		(exclude_from_sim no)
 		(at 100.33 87.63 0)
