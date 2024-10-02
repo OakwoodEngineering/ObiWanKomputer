@@ -3,6 +3,7 @@
        > We have found the ATSAMD51 microcontroller used on PyCubed Mainboards (v00 - v05) exhibiting a surprisingly high sensitivity to 50MeV protons. Our KickSat-2 and VR3X missions had zero issues with the ATSAMD51 and the part does have some radiation literature. But after troubleshooting unexplained reboots on our recent PY4 mission, we decided to test it ourselves.
     - U103 pin marking isn't visible with installed part / is under body
     - Too many components require manual rotation during JLCPCB ordering
+    - Routing for CHRG# net is pretty terrible
     - From JLCPCB DFM review:
         - L101 doesn't fit; substituting 0806 inductor, DFE201610E-100M=P2
           C426327 for order
