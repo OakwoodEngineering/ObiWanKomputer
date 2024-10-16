@@ -2,6 +2,8 @@
     - From PyCubed, CRITICAL: high energy protons cause single-event latchup.  see: https://github.com/pycubed/forums/discussions/87
        > We have found the ATSAMD51 microcontroller used on PyCubed Mainboards (v00 - v05) exhibiting a surprisingly high sensitivity to 50MeV protons. Our KickSat-2 and VR3X missions had zero issues with the ATSAMD51 and the part does have some radiation literature. But after troubleshooting unexplained reboots on our recent PY4 mission, we decided to test it ourselves.
     - Thermal pad for radio is in incorrect mechanical position (mirror image?)
+    - Have not been able to make GPS work.  GPS enable circuit and UART work, but no satellite lock was achieved.
+    - Was not able to plug male connectors into MMCXV high-rel RF connectors.  Possble we did not have the correct mating connector, or possible insertion forces are implausibly high.
     - Connector labeling is insufficient.  Need polarity marking and connector purposes.
     - Board coordinate system is probably not correct wrt: satellite coordinate system.
     - U103 pin marking isn't visible with installed part / is under body
