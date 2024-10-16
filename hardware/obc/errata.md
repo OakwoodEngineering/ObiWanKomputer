@@ -9,6 +9,8 @@
     - U103 pin marking isn't visible with installed part / is under body
     - Too many components require manual rotation during JLCPCB ordering
     - Routing for CHRG# net is pretty terrible
+    - Our solar arrays could potentially create more than 400mA charge currents, and hit the current limit of the LTC4121.  Consider adding another '4121.
+        - The inductor is also oversized, being rated for 1.2A avg current.
     - From JLCPCB DFM review:
         - L101 doesn't fit; substituting 0806 inductor, DFE201610E-100M=P2
           C426327 for order
