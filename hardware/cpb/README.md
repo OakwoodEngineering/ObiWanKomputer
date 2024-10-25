@@ -1,7 +1,7 @@
 # NyanSat
 ## Combined Payload Board
 
-The Combined Payload Board (CPB) is part of the NyanSat project.  Its purpose is to provide interfaces for various payloads (imaging, material science experiment, ADACS, acoustic spacecraft mapping).
+The Combined Payload Board (CPB) is a component of the NyanSat project, designed to interface with a variety of payloads, including imaging, material science experiments, the Attitude Determination and Control Subsystem (ADACS), and the acoustic spacecraft mapping subsystem.
 
 ### Internal Interfaces
 * Mechanical: PC/104 form factor for holes and board outline.
@@ -60,9 +60,10 @@ The Combined Payload Board (CPB) is part of the NyanSat project.  Its purpose is
 * No high-level sequencing of experiments performed by this board; enabled and commanded from main On-Board Computer (OBC).
 * I2C is isolated from spacecraft bus if de-powered or peripheral locks up.
 * Large portions of functionality work even if non-volatile memory on a device is corrupted.
-	* I2C-UART/GPIO chip does not have nonvolatile memory, and directly controls 4 output switches, along with independent enabling of Raspberry Pi and microcontroller.
+	* I2C-UART/GPIO chip does not have nonvolatile memory, and directly controls 4 output switches.
 	* Microcontroller starts up held in reset until explicitly enabled by I2C-UART.
 	* If microcontroller is corrupted, Raspberry Pi is capable of reprogramming via on-chip debug features.
+    * Pi's power supply is separately enabled by I2C-UART.
 	* If Pi filesystem is corrupted, small chance of recovery through failsafe pin (indicates to boot from different part of SD card).
 
 ### Known Weaknesses & Shortcomings
