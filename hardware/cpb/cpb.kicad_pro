@@ -456,7 +456,13 @@
     "meta": {
       "version": 3
     },
-    "net_colors": null,
+    "net_colors": {
+      "+3.3V": "rgb(237, 255, 67)",
+      "+5V": "rgb(255, 127, 32)",
+      "+7.5V": "rgb(255, 35, 81)",
+      "+BATT": "rgb(255, 131, 213)",
+      "GND": "rgb(59, 60, 255)"
+    },
     "netclass_assignments": null,
     "netclass_patterns": []
   },
