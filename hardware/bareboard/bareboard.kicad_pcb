@@ -182,7 +182,7 @@
 		(at 191.655 67.13 180)
 		(descr "Mounting Hole 3.2mm, M3, DIN965")
 		(tags "mounting hole 3.2mm m3 din965")
-		(property "Reference" "H102"
+		(property "Reference" "H2"
 			(at 0 -3.8 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -312,7 +312,7 @@
 		(at 191.655 140.83 180)
 		(descr "Mounting Hole 3.2mm, M3, DIN965")
 		(tags "mounting hole 3.2mm m3 din965")
-		(property "Reference" "H101"
+		(property "Reference" "H1"
 			(at 0 -3.8 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -442,7 +442,7 @@
 		(at 105.955 63.33 180)
 		(descr "Mounting Hole 3.2mm, M3, DIN965")
 		(tags "mounting hole 3.2mm m3 din965")
-		(property "Reference" "H104"
+		(property "Reference" "H4"
 			(at 0 -3.8 180)
 			(layer "F.SilkS")
 			(hide yes)
@@ -1670,7 +1670,7 @@
 		(at 105.955 143.33 180)
 		(descr "Mounting Hole 3.2mm, M3, DIN965")
 		(tags "mounting hole 3.2mm m3 din965")
-		(property "Reference" "H103"
+		(property "Reference" "H3"
 			(at 0 -3.8 180)
 			(layer "F.SilkS")
 			(hide yes)
