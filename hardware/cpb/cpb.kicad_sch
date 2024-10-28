@@ -34274,7 +34274,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRF7406"
+		(property "Value" "IRF9393"
 			(at 88.9 32.766 90)
 			(effects
 				(font
@@ -34313,7 +34313,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3279781 "
+		(property "LCSC" "C520642"
 			(at 85.09 31.75 0)
 			(effects
 				(font
