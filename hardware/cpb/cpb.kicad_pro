@@ -456,13 +456,7 @@
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "+3.3V": "rgb(237, 255, 67)",
-      "+5V": "rgb(255, 127, 32)",
-      "+7.5V": "rgb(255, 35, 81)",
-      "+BATT": "rgb(255, 131, 213)",
-      "GND": "rgb(59, 60, 255)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": []
   },
@@ -606,6 +600,42 @@
     [
       "9a10a1ee-db5a-47ad-90f3-81b92d74d449",
       "Root"
+    ],
+    [
+      "1d0e9b27-ccf6-43da-9db7-61f18e9cbbee",
+      "FourFullBridges"
+    ],
+    [
+      "1baf42e5-d41c-4edc-a670-1c20eb05d484",
+      "I2CProtectionFB"
+    ],
+    [
+      "2d2068b8-f275-46f9-ba27-7b45c9dcb885",
+      "I2CProtectionUART"
+    ],
+    [
+      "04c52411-5652-493d-b256-01dbc15f3d32",
+      "I2CProtectionMicro"
+    ],
+    [
+      "ec545f39-b2bb-425c-89fa-e193d08e5f88",
+      "I2CProtectionExt"
+    ],
+    [
+      "0b014323-294a-4e8d-8f2c-f0cc43f970bf",
+      "PairPowerSwitches1"
+    ],
+    [
+      "9c60e90f-2c10-4010-a83f-debf9fdf427b",
+      "PairPowerSwitches2"
+    ],
+    [
+      "c4b912a8-df56-443f-ae2e-8b32629b6d47",
+      "PairPowerSwitches3"
+    ],
+    [
+      "ab224847-6263-484c-8532-6f07f9e113c5",
+      "PairPowerSwitches4"
     ]
   ],
   "text_variables": {}
