@@ -16004,7 +16004,7 @@
 		)
 		(uuid "2d1d1338-d40f-4ffe-a850-d11de84bdf4e")
 	)
-	(text "Threshold ~3A/V;\ndv/dt through thresh 909uV/us\ndA/dt 2.7mA/us XXX recalc\n370us to reach an ampere;\ncapacitors reach 7.5V in this time"
+	(text "Threshold ~3A/V;\ndv/dt through thresh 591uV/us\ndA/dt 1.8mA/us\npeaks at around 800mA"
 		(exclude_from_sim no)
 		(at 68.326 45.212 0)
 		(effects
@@ -19231,7 +19231,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 410.21 146.05 0)
+		(at 410.21 148.59 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19239,7 +19240,7 @@
 		(dnp no)
 		(uuid "258a69a3-c5d3-4cb7-942d-1c4df462d4cb")
 		(property "Reference" "J15"
-			(at 411.988 146.558 0)
+			(at 411.988 148.082 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19248,7 +19249,7 @@
 			)
 		)
 		(property "Value" "μSW2"
-			(at 411.734 148.59 0)
+			(at 411.734 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19257,7 +19258,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 410.21 146.05 0)
+			(at 410.21 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19266,7 +19267,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 410.21 146.05 0)
+			(at 410.21 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19275,7 +19276,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 410.21 146.05 0)
+			(at 410.21 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19365,7 +19366,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 410.21 157.48 0)
+		(at 410.21 160.02 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19373,7 +19375,7 @@
 		(dnp no)
 		(uuid "26567a44-a787-4a01-8208-8cf2c4365de0")
 		(property "Reference" "J16"
-			(at 411.988 157.988 0)
+			(at 411.988 159.512 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19382,7 +19384,7 @@
 			)
 		)
 		(property "Value" "μSW3"
-			(at 411.734 160.02 0)
+			(at 411.734 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19391,7 +19393,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 410.21 157.48 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19400,7 +19402,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 410.21 157.48 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19409,7 +19411,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 410.21 157.48 0)
+			(at 410.21 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23210,7 +23212,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 410.21 110.49 0)
+		(at 410.21 113.03 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23218,7 +23221,7 @@
 		(dnp no)
 		(uuid "61960a4d-1486-4ba8-9755-64f1af30c4cb")
 		(property "Reference" "J12"
-			(at 411.988 110.998 0)
+			(at 411.988 112.522 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23227,7 +23230,7 @@
 			)
 		)
 		(property "Value" "SW3"
-			(at 411.734 113.03 0)
+			(at 411.734 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23236,7 +23239,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 410.21 110.49 0)
+			(at 410.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23245,7 +23248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 410.21 110.49 0)
+			(at 410.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23254,7 +23257,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 410.21 110.49 0)
+			(at 410.21 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29875,7 +29878,8 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 410.21 168.91 0)
+		(at 410.21 171.45 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29883,7 +29887,7 @@
 		(dnp no)
 		(uuid "d55489fa-bae9-44bd-9c6c-e7e4852c963a")
 		(property "Reference" "J17"
-			(at 411.988 169.418 0)
+			(at 411.988 170.942 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29892,7 +29896,7 @@
 			)
 		)
 		(property "Value" "μSW4"
-			(at 411.734 171.45 0)
+			(at 411.734 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29901,7 +29905,7 @@
 			)
 		)
 		(property "Footprint" "Connector_JST:JST_PH_B2B-PH-K_1x02_P2.00mm_Vertical"
-			(at 410.21 168.91 0)
+			(at 410.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29910,7 +29914,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 410.21 168.91 0)
+			(at 410.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -29919,7 +29923,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 410.21 168.91 0)
+			(at 410.21 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
