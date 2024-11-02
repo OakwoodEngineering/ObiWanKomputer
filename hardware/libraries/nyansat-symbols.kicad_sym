@@ -120,7 +120,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Maxim_TDFN-12-1EP_3x3mm_P0.5mm_EP1.7x2.5mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.1x3.1mm_ThermalVias"
 			(at 11.684 1.27 0)
 			(effects
 				(font
