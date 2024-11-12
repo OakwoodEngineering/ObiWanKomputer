@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SSE_Footprints")(type "KiCad")(uri "${KIPRJMOD}/../libraries/nyansat-footprints.pretty")(options "")(descr ""))
+)
