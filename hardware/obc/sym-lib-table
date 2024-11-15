@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "mainboard")(type "KiCad")(uri "${KIPRJMOD}/mainboard.kicad_sym")(options "")(descr ""))
   (lib (name "SSE_Symbols")(type "KiCad")(uri "${KIPRJMOD}/../libraries/nyansat-symbols.kicad_sym")(options "")(descr ""))
+  (lib (name "mram_wson")(type "KiCad")(uri "/Users/luketiti/Downloads/mram_wson.kicad_sym")(options "")(descr ""))
 )
