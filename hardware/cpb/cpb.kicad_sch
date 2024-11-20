@@ -5069,6 +5069,7 @@
 						)
 					)
 					(alternate "" input line)
+					(alternate "" input line)
 					(alternate "TIM22_ETR" bidirectional line)
 					(alternate "TIM3_CH3" bidirectional line)
 					(alternate "TSC_G8_IO3" bidirectional line)
@@ -26217,7 +26218,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 50V 10nF X7R ±10% 0603"
+		(property "Description" "50V 10nF X7R ±10% 0603"
 			(at 264.16 68.58 0)
 			(effects
 				(font
@@ -30425,7 +30426,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 50V 10nF X7R ±10% 0603"
+		(property "Description" "50V 10nF X7R ±10% 0603"
 			(at 279.4 68.58 0)
 			(effects
 				(font
