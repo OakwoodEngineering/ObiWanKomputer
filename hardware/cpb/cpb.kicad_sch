@@ -5069,7 +5069,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 					(alternate "TIM22_ETR" bidirectional line)
 					(alternate "TIM3_CH3" bidirectional line)
 					(alternate "TSC_G8_IO3" bidirectional line)
@@ -6210,7 +6209,7 @@
 				)
 			)
 		)
-		(symbol "Regulator_Switching:AP63205WU"
+		(symbol "Regulator_Switching:AP62301WU"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -6222,7 +6221,7 @@
 					)
 				)
 			)
-			(property "Value" "AP63205WU"
+			(property "Value" "AP62301WU"
 				(at 2.54 6.35 0)
 				(effects
 					(font
@@ -6239,7 +6238,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6248,7 +6247,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"
+			(property "Description" "3A, 750kHz Buck DC/DC Converter, 4.2V-18V input voltage, 0.8V-7V adjustable output voltage, TSOT-23-6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6257,7 +6256,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "2A Buck DC/DC"
+			(property "ki_keywords" "3A Buck DC/DC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -6275,7 +6274,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "AP63205WU_0_1"
+			(symbol "AP62301WU_0_1"
 				(rectangle
 					(start -7.62 5.08)
 					(end 7.62 -5.08)
@@ -6288,11 +6287,11 @@
 					)
 				)
 			)
-			(symbol "AP63205WU_1_1"
-				(pin input line
-					(at 10.16 -2.54 180)
+			(symbol "AP62301WU_1_1"
+				(pin power_in line
+					(at 0 -7.62 90)
 					(length 2.54)
-					(name "FB"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6307,10 +6306,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -10.16 -2.54 0)
+				(pin output line
+					(at 10.16 2.54 180)
 					(length 2.54)
-					(name "EN"
+					(name "SW"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6343,10 +6342,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -7.62 90)
+				(pin input line
+					(at 10.16 -2.54 180)
 					(length 2.54)
-					(name "GND"
+					(name "FB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6361,10 +6360,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 10.16 2.54 180)
+				(pin passive line
+					(at -10.16 -2.54 0)
 					(length 2.54)
-					(name "SW"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -21852,6 +21851,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Switching:AP62301WU")
+		(at 205.74 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b03b490-ba79-4651-8959-d2af263ed872")
+		(property "Reference" "U5"
+			(at 205.74 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP62301WU"
+			(at 205.74 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
+			(at 205.74 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP62300_AP62301_AP62300T.pdf"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3A, 750kHz Buck DC/DC Converter, 4.2V-18V input voltage, 0.8V-7V adjustable output voltage, TSOT-23-6"
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "8a13401d-0694-484c-bad7-0aabcedbc164")
+		)
+		(pin "3"
+			(uuid "be5daf8f-7dbc-4687-8bbb-97ce7235efd1")
+		)
+		(pin "5"
+			(uuid "0906a897-4948-48cc-9f25-f6920d8acff4")
+		)
+		(pin "4"
+			(uuid "e4d0a1a3-f0ba-4e7c-9c91-95aeb6a365bf")
+		)
+		(pin "1"
+			(uuid "4f63c0e4-9059-4755-9d08-aceed2a1e8e5")
+		)
+		(pin "2"
+			(uuid "a86662c5-8d3f-41cd-81fa-b57f6e0c25e4")
+		)
+		(instances
+			(project "cpb"
+				(path "/9a10a1ee-db5a-47ad-90f3-81b92d74d449"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 193.04 224.79 0)
 		(unit 1)
@@ -25563,95 +25642,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_Switching:AP63205WU")
-		(at 205.74 31.75 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8b8fb8b6-e3e2-4ef0-be1a-defaaf51ddea")
-		(property "Reference" "U5"
-			(at 205.74 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "AP63205WU"
-			(at 205.74 24.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-6"
-			(at 205.74 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/AP63200-AP63201-AP63203-AP63205.pdf"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2A, 1.1MHz Buck DC/DC Converter, fixed 5.0V output voltage, TSOT-23-6"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C2071056"
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1edff36a-5da0-4290-bf51-9df306976ac5")
-		)
-		(pin "2"
-			(uuid "23e7fcc8-83ce-4bbf-8ba2-64cb49b0578a")
-		)
-		(pin "6"
-			(uuid "c34c9c4e-5c42-4cee-93b4-d0620ef9b9f1")
-		)
-		(pin "5"
-			(uuid "de0100ef-326c-481d-be32-8ffda62aef5d")
-		)
-		(pin "3"
-			(uuid "f456ff44-fdfa-45e9-a51b-773e88699948")
-		)
-		(pin "4"
-			(uuid "d0b91128-8920-4300-80b5-55c84f1bca9f")
-		)
-		(instances
-			(project "cpb"
-				(path "/9a10a1ee-db5a-47ad-90f3-81b92d74d449"
-					(reference "U5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 403.86 138.43 0)
 		(unit 1)
@@ -26765,7 +26755,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Horizontal"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
 			(at 134.62 125.73 0)
 			(effects
 				(font
@@ -29427,7 +29417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical"
+		(property "Footprint" "SSE_Footprints:RPI02W"
 			(at 269.24 228.6 0)
 			(effects
 				(font
