@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -79,7 +79,6 @@
       "unconnected-(J6-Pin_19-Pad19)",
       "unconnected-(J6-Pin_26-Pad26)",
       "/uRX",
-      "Net-(J6-Pin_2)",
       "/PITX",
       "unconnected-(J6-Pin_23-Pad23)",
       "unconnected-(J6-Pin_31-Pad31)",
@@ -305,8 +304,8 @@
       39,
       40
     ],
-    "visible_layers": "ffcffff_fffffffe",
-    "zone_display_mode": 1
+    "visible_layers": "ffeffff_fffffffb",
+    "zone_display_mode": 0
   },
   "git": {
     "repo_password": "",

@@ -8162,6 +8162,12 @@
 		(uuid "40343e27-4e56-48cd-9adb-8bf6cdd3118b")
 	)
 	(junction
+		(at 102.87 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "41e43cdb-9a33-4ee8-9264-fcddb2287248")
+	)
+	(junction
 		(at 262.89 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8360,6 +8366,12 @@
 		(uuid "72e42d33-b3f3-4dd1-a06d-e43448feb4ec")
 	)
 	(junction
+		(at 92.71 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "745a3689-2a04-4426-aff0-4e397988c40a")
+	)
+	(junction
 		(at 299.72 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8490,6 +8502,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96c47164-05b0-473d-87ac-7d9c7947aa4e")
+	)
+	(junction
+		(at 287.02 205.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9827ca64-6009-41fb-8d57-25f4669df1e4")
 	)
 	(junction
 		(at 193.04 69.85)
@@ -9923,7 +9941,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 81.28) (xy 102.87 83.82)
+			(xy 92.71 81.28) (xy 92.71 83.82)
 		)
 		(stroke
 			(width 0)
@@ -10180,6 +10198,16 @@
 			(type default)
 		)
 		(uuid "2275ddba-6882-449b-805e-8a24031c291c")
+	)
+	(wire
+		(pts
+			(xy 92.71 77.47) (xy 92.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2293ec15-664a-4c5b-89f6-be34e74eab5d")
 	)
 	(wire
 		(pts
@@ -11460,6 +11488,16 @@
 			(type default)
 		)
 		(uuid "5333bb70-6a75-4ca0-b334-7bd9fb036668")
+	)
+	(wire
+		(pts
+			(xy 92.71 69.85) (xy 92.71 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "535c8e73-bef1-4837-8bdb-11293dda1ab2")
 	)
 	(wire
 		(pts
@@ -12773,6 +12811,16 @@
 	)
 	(wire
 		(pts
+			(xy 292.1 204.47) (xy 292.1 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "826297ab-3a74-4f60-80bb-f9aac2074d16")
+	)
+	(wire
+		(pts
 			(xy 91.44 25.4) (xy 91.44 24.13)
 		)
 		(stroke
@@ -13300,6 +13348,16 @@
 			(type default)
 		)
 		(uuid "9d7780df-9c8e-4792-afb8-6a1c295233f3")
+	)
+	(wire
+		(pts
+			(xy 292.1 205.74) (xy 287.02 205.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9e5647fe-09be-46f5-9be2-2737f9411fee")
 	)
 	(wire
 		(pts
@@ -14553,6 +14611,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 67.31) (xy 102.87 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce39e300-f62f-450f-8035-273345b6bbf3")
+	)
+	(wire
+		(pts
 			(xy 314.96 139.7) (xy 295.91 139.7)
 		)
 		(stroke
@@ -15720,6 +15788,16 @@
 			(type default)
 		)
 		(uuid "f7509fbf-6576-4338-8a33-35bc6bc731f6")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 102.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f85f0174-df81-470c-83c0-0670042b2d67")
 	)
 	(wire
 		(pts
@@ -20120,6 +20198,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 292.1 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3037cf3e-7f4b-4531-a543-ecc5f06558bc")
+		(property "Reference" "#PWR076"
+			(at 292.1 208.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 291.846 200.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 292.1 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 292.1 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 292.1 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d0ed0158-ab08-436a-8c9c-9f413a573c48")
+		)
+		(instances
+			(project "cpb"
+				(path "/9a10a1ee-db5a-47ad-90f3-81b92d74d449"
+					(reference "#PWR076")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 232.41 39.37 0)
 		(unit 1)
@@ -24365,7 +24508,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 83.82 0)
+		(at 92.71 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -24373,7 +24516,7 @@
 		(dnp no)
 		(uuid "7403f0a6-c343-484b-bb29-ab14fa026f15")
 		(property "Reference" "#PWR013"
-			(at 102.87 90.17 0)
+			(at 92.71 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24382,7 +24525,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 88.9 0)
+			(at 92.71 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24390,7 +24533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 83.82 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24399,7 +24542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 83.82 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24408,7 +24551,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 83.82 0)
+			(at 92.71 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -24580,6 +24723,75 @@
 			(project "cpb"
 				(path "/9a10a1ee-db5a-47ad-90f3-81b92d74d449"
 					(reference "RN3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 92.71 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "774b6ec2-61b8-4000-9492-483210654fba")
+		(property "Reference" "C59"
+			(at 93.98 75.692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 93.98 77.724 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 93.6752 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d996ec89-5202-4211-9515-c676580db941")
+		)
+		(pin "2"
+			(uuid "6ace7ff8-a151-4019-83a4-47f58e8f6a94")
+		)
+		(instances
+			(project "cpb"
+				(path "/9a10a1ee-db5a-47ad-90f3-81b92d74d449"
+					(reference "C59")
 					(unit 1)
 				)
 			)
