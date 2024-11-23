@@ -8472,6 +8472,7 @@
 	(symbol
 		(lib_id "Device:D_Zener_Dual_CommonAnode_KKA")
 		(at 130.81 187.96 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8479,7 +8480,7 @@
 		(dnp no)
 		(uuid "d65049b4-8216-45b5-af89-b7c83a55d897")
 		(property "Reference" "D11"
-			(at 136.398 184.15 0)
+			(at 142.494 184.912 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8487,7 +8488,7 @@
 			)
 		)
 		(property "Value" "MMBZ15VALT1G"
-			(at 143.51 189.484 0)
+			(at 144.78 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
