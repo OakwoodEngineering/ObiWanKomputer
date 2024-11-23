@@ -533,6 +533,7 @@
       "/FourFullBridges/FBRDG3V3": "rgb(176, 73, 255)",
       "/FourFullBridges/VM": "rgb(255, 0, 21)",
       "/FourFullBridges/~{CS}": "rgb(248, 251, 255)",
+      "/REF2V": "rgb(182, 144, 255)",
       "GND": "rgb(35, 20, 255)",
       "Net-(U4-VDDA)": "rgb(40, 255, 193)"
     },
