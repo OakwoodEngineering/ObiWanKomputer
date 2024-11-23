@@ -5069,7 +5069,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 					(alternate "TIM22_ETR" bidirectional line)
 					(alternate "TIM3_CH3" bidirectional line)
 					(alternate "TSC_G8_IO3" bidirectional line)
@@ -16639,7 +16638,7 @@
 		)
 		(uuid "2b72f9b4-7433-4c16-a3b0-6c1add77c55c")
 	)
-	(label "FBSCL"
+	(label "SCL"
 		(at 349.25 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -17376,7 +17375,7 @@
 		)
 		(uuid "e0a7fa82-0c45-4c75-b883-352cae9e2816")
 	)
-	(label "FBSDA"
+	(label "SDA"
 		(at 349.25 45.72 0)
 		(fields_autoplaced yes)
 		(effects
