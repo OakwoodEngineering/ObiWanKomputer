@@ -2008,6 +2008,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C327044"
+			(at 120.65 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "1ed04ca3-177b-4d9c-bda9-13c429b0720f")
 		)
@@ -2099,6 +2108,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
+			(at 50.8 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C327044"
 			(at 50.8 59.69 0)
 			(effects
 				(font
@@ -2199,6 +2217,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 124.46 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C844918"
 			(at 124.46 45.72 0)
 			(effects
 				(font
@@ -2401,6 +2428,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C844918"
+			(at 59.69 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6c6d897c-2358-432d-bd77-70b0f69fa110")
 		)
@@ -2475,6 +2511,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
+			(at 55.88 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C327044"
 			(at 55.88 64.77 0)
 			(effects
 				(font
@@ -2574,6 +2619,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
+			(at 115.57 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C327044"
 			(at 115.57 59.69 0)
 			(effects
 				(font

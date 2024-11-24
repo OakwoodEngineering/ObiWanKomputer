@@ -5611,6 +5611,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C844742"
+			(at 172.72 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "94986205-5a8b-41a1-a3a0-86ad8a0ce612")
 		)
@@ -5645,7 +5654,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 182.88 101.5999 0)
 			(effects
 				(font
@@ -5673,6 +5682,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
+			(at 180.34 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C327044"
 			(at 180.34 100.33 0)
 			(effects
 				(font
@@ -5766,6 +5784,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22582"
+			(at 22.86 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d2fb796a-fa01-449f-99e1-2d3093747cce")
 		)
@@ -5832,6 +5859,15 @@
 		)
 		(property "Description" "I2C Bus to SPI Bridge"
 			(at 99.314 138.176 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5190384"
+			(at 99.06 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5950,6 +5986,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C327044"
+			(at 77.47 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "c20711f0-141d-4f78-b11b-677e4524c7b9")
 		)
@@ -6037,6 +6082,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77055"
+			(at 160.02 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "97c82f0f-f0ac-4604-bebe-b5ff9772bff7")
 		)
@@ -6099,6 +6153,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 217.17 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77055"
 			(at 217.17 57.15 0)
 			(effects
 				(font
@@ -6316,6 +6379,15 @@
 			)
 		)
 		(property "Description" "36V, 1A Octal Integrated Serial Controlled Solenoid and Motor Driver"
+			(at 212.09 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2845158"
 			(at 212.09 124.46 0)
 			(effects
 				(font
@@ -6551,6 +6623,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C2178186"
+			(at 100.33 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e87c32f-8af1-484f-808f-e85edc8480e1")
 		)
@@ -6702,6 +6783,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C29936"
+			(at 236.22 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "11a238b6-5cb7-419d-b615-be5cc0fefe8f")
 		)
@@ -6761,6 +6851,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
+			(at 35.56 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C327044"
 			(at 35.56 52.07 0)
 			(effects
 				(font
@@ -6921,6 +7020,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C21122"
+			(at 242.57 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "199e4a63-ba5d-495f-bd01-f1e7c40a07c7")
 		)
@@ -6982,6 +7090,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 88.9 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77047"
 			(at 88.9 66.04 0)
 			(effects
 				(font
@@ -7122,6 +7239,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C844918"
+			(at 142.24 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7e098684-fff9-4737-acd3-2304c7268a90")
 		)
@@ -7162,7 +7288,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+		(property "Footprint" "Resistor_SMD:R_2010_5025Metric"
 			(at 68.58 52.578 90)
 			(effects
 				(font
@@ -7181,6 +7307,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2073579"
 			(at 68.58 50.8 0)
 			(effects
 				(font
@@ -7222,7 +7357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 135.89 101.6 0)
 			(effects
 				(font
@@ -7250,6 +7385,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
+			(at 133.35 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C327044"
 			(at 133.35 100.33 0)
 			(effects
 				(font
@@ -7345,6 +7489,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77055"
+			(at 147.32 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "470ed181-7f87-4ee3-ae84-110fec3a9f5c")
 		)
@@ -7406,6 +7559,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
+			(at 40.64 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C327044"
 			(at 40.64 60.96 0)
 			(effects
 				(font
@@ -7501,6 +7663,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77055"
+			(at 242.57 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4a82b259-8766-45ef-9034-a90f0ea45f41")
 		)
@@ -7570,6 +7741,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77055"
+			(at 121.92 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "349ddd87-5101-410e-9f0f-5a5cc6eee29b")
 		)
@@ -7604,7 +7784,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 160.02 101.5999 0)
 			(effects
 				(font
@@ -7632,6 +7812,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
+			(at 157.48 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C327044"
 			(at 157.48 100.33 0)
 			(effects
 				(font
@@ -7719,6 +7908,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 184.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C77047"
 			(at 184.15 146.05 0)
 			(effects
 				(font
@@ -7862,6 +8060,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C844918"
+			(at 81.28 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a368a1b6-ef95-4f7e-9886-3c2c400112e5")
 		)
@@ -7932,6 +8139,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77055"
+			(at 229.87 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "910fe24a-67dc-49ea-990a-65d30f3bdca6")
 		)
@@ -7991,6 +8207,15 @@
 			)
 		)
 		(property "Description" "Dual Zener diode, common anode on pin 3"
+			(at 95.25 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22582"
 			(at 95.25 187.96 0)
 			(effects
 				(font
@@ -8302,6 +8527,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C327044"
+			(at 60.96 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "c20711f0-141d-4f78-b11b-677e4524c7b8")
 		)
@@ -8454,6 +8688,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77055"
+			(at 134.62 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6d855ebd-9ca0-4249-9b1d-8ba7832a0583")
 		)
@@ -8514,6 +8757,15 @@
 			)
 		)
 		(property "Description" "Dual Zener diode, common anode on pin 3"
+			(at 130.81 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22582"
 			(at 130.81 187.96 0)
 			(effects
 				(font
@@ -8660,6 +8912,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77055"
+			(at 204.47 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "54c56448-13b6-4ead-b482-99a7cb43550a")
 		)
@@ -8694,7 +8955,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "4.7k"
 			(at 171.45 101.5999 0)
 			(effects
 				(font
@@ -8722,6 +8983,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology, split"
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C327044"
 			(at 168.91 100.33 0)
 			(effects
 				(font
@@ -8807,6 +9077,15 @@
 			)
 		)
 		(property "Description" "Dual Zener diode, common anode on pin 3"
+			(at 58.42 187.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22582"
 			(at 58.42 187.96 0)
 			(effects
 				(font
@@ -9098,6 +9377,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C77047"
+			(at 110.49 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac4bcbe8-8d1b-41b9-bf22-0bdeaca74904")
 		)
@@ -9159,6 +9447,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 52.07 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C2178186"
 			(at 52.07 43.18 0)
 			(effects
 				(font
