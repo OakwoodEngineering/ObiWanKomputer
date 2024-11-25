@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.27
+          "min_clearance": 0.6
         }
       },
       "diff_pair_dimensions": [
@@ -157,7 +157,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
-          "td_height_ratio": 0.8,
+          "td_height_ratio": 0.75,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
@@ -168,7 +168,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 5,
-          "td_height_ratio": 0.8,
+          "td_height_ratio": 0.85,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
           "td_maxlen": 1.0,
@@ -558,7 +558,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "temp/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "cpb.step",
@@ -627,7 +627,7 @@
           "show": false
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "LCSC",
           "name": "LCSC",
           "show": true
