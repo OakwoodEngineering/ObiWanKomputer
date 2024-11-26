@@ -8411,7 +8411,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e"
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRF9393-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a401535611877d1db3"
 			(at 85.09 48.26 0)
 			(effects
 				(font

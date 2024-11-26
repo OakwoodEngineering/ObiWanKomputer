@@ -5069,7 +5069,6 @@
 						)
 					)
 					(alternate "" input line)
-					(alternate "" input line)
 					(alternate "TIM22_ETR" bidirectional line)
 					(alternate "TIM3_CH3" bidirectional line)
 					(alternate "TSC_G8_IO3" bidirectional line)
@@ -8404,6 +8403,12 @@
 		(uuid "641c0b00-8e37-4512-91b5-b311e60e810e")
 	)
 	(junction
+		(at 88.9 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "649fc706-b04c-4e0a-aff0-c731acb1376b")
+	)
+	(junction
 		(at 144.78 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8770,6 +8775,12 @@
 		(uuid "be2359f1-c9c1-4636-b497-7f908239ff69")
 	)
 	(junction
+		(at 88.9 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c375bd52-80f9-4db4-a542-fa6f8c059edc")
+	)
+	(junction
 		(at 82.55 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8816,12 +8827,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf01c78f-c2dd-4c09-be76-78b2d0adc303")
-	)
-	(junction
-		(at 87.63 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cf21e70d-abea-495e-b0a2-d462a9df2e26")
 	)
 	(junction
 		(at 123.19 214.63)
@@ -8930,12 +8935,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebcb2dee-3d79-4dff-b8f5-682916121b59")
-	)
-	(junction
-		(at 87.63 25.4)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecca43c8-d1cc-4a6a-9d72-244f18b6e8c9")
 	)
 	(junction
 		(at 85.09 243.84)
@@ -11533,6 +11532,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 25.4) (xy 92.71 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51a6adf9-ad8b-4074-ab72-d15ca77389d8")
+	)
+	(wire
+		(pts
 			(xy 57.15 29.21) (xy 57.15 30.48)
 		)
 		(stroke
@@ -11740,16 +11749,6 @@
 			(type default)
 		)
 		(uuid "593d6259-195e-441d-a6cb-55a664f73872")
-	)
-	(wire
-		(pts
-			(xy 87.63 29.21) (xy 86.36 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59dd3173-2909-477c-80ff-e354d5ac9017")
 	)
 	(wire
 		(pts
@@ -12183,6 +12182,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 29.21) (xy 93.98 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6989528e-64f1-4da3-a873-ac45ca3ee24a")
+	)
+	(wire
+		(pts
 			(xy 397.51 85.09) (xy 405.13 85.09)
 		)
 		(stroke
@@ -12303,7 +12312,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 25.4) (xy 87.63 29.21)
+			(xy 88.9 25.4) (xy 88.9 29.21)
 		)
 		(stroke
 			(width 0)
@@ -12933,7 +12942,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 25.4) (xy 91.44 24.13)
+			(xy 92.71 25.4) (xy 92.71 24.13)
 		)
 		(stroke
 			(width 0)
@@ -13123,7 +13132,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 29.21) (xy 93.98 29.21)
+			(xy 87.63 29.21) (xy 88.9 29.21)
 		)
 		(stroke
 			(width 0)
@@ -13183,7 +13192,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 20.32) (xy 87.63 25.4)
+			(xy 88.9 20.32) (xy 88.9 25.4)
 		)
 		(stroke
 			(width 0)
@@ -15200,16 +15209,6 @@
 			(type default)
 		)
 		(uuid "e09a74bc-6fab-4123-9dd4-a09636b8c7b5")
-	)
-	(wire
-		(pts
-			(xy 87.63 25.4) (xy 91.44 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e11ab177-5940-42c2-9917-61aec2a9b2cb")
 	)
 	(wire
 		(pts
@@ -21771,7 +21770,7 @@
 	)
 	(symbol
 		(lib_id "power:+7.5V")
-		(at 87.63 20.32 0)
+		(at 88.9 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21779,7 +21778,7 @@
 		(dnp no)
 		(uuid "44a2f651-c0a0-4159-b6b8-917c57d8a3ad")
 		(property "Reference" "#PWR011"
-			(at 87.63 24.13 0)
+			(at 88.9 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21788,7 +21787,7 @@
 			)
 		)
 		(property "Value" "+7.5V"
-			(at 87.63 16.51 0)
+			(at 88.9 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21796,7 +21795,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 87.63 20.32 0)
+			(at 88.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21805,7 +21804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 87.63 20.32 0)
+			(at 88.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21814,7 +21813,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
-			(at 87.63 20.32 0)
+			(at 88.9 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27912,7 +27911,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://ecsxtal.com/store/pdf/ecx-32.pdf"
 			(at 273.05 58.42 0)
 			(effects
 				(font
@@ -28742,7 +28741,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irf7404.pdf?fileId=5546d462533600a4015355fa2b5b1b9e"
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-IRF9393-DataSheet-v01_01-EN.pdf?fileId=5546d462533600a401535611877d1db3"
 			(at 78.74 26.67 0)
 			(effects
 				(font
@@ -32450,7 +32449,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 91.44 24.13 0)
+		(at 92.71 24.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -32458,7 +32457,7 @@
 		(dnp no)
 		(uuid "ec80526b-9432-41e8-b05d-5c5af6ed7b9c")
 		(property "Reference" "#FLG01"
-			(at 91.44 22.225 0)
+			(at 92.71 22.225 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32467,7 +32466,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 91.44 20.828 0)
+			(at 92.71 20.828 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -32475,7 +32474,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 24.13 0)
+			(at 92.71 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32484,7 +32483,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 24.13 0)
+			(at 92.71 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -32493,7 +32492,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 91.44 24.13 0)
+			(at 92.71 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

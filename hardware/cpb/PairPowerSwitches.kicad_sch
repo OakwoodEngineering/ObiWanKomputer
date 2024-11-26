@@ -1694,7 +1694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irf7324pbf.pdf?fileId=5546d462533600a4015355f5f0861b4b"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irf7306pbf.pdf?fileId=5546d462533600a4015355f1fc421b0a"
 			(at 135.89 38.1 0)
 			(effects
 				(font
@@ -2300,7 +2300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.infineon.com/dgdl/irf7324pbf.pdf?fileId=5546d462533600a4015355f5f0861b4b"
+		(property "Datasheet" "https://www.infineon.com/dgdl/irf7306pbf.pdf?fileId=5546d462533600a4015355f1fc421b0a"
 			(at 71.12 38.1 0)
 			(effects
 				(font
