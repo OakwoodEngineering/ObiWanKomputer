@@ -5069,6 +5069,7 @@
 						)
 					)
 					(alternate "" input line)
+					(alternate "" input line)
 					(alternate "TIM22_ETR" bidirectional line)
 					(alternate "TIM3_CH3" bidirectional line)
 					(alternate "TSC_G8_IO3" bidirectional line)
@@ -20058,7 +20059,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "DNP"
 			(at 298.45 99.0599 0)
 			(effects
 				(font
@@ -20202,7 +20203,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "DNP"
 			(at 411.226 197.104 90)
 			(effects
 				(font
@@ -21033,7 +21034,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "DNP"
 			(at 411.226 190.754 90)
 			(effects
 				(font
@@ -22892,7 +22893,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "DNP"
 			(at 255.27 99.0599 0)
 			(effects
 				(font
@@ -24254,7 +24255,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "DNP"
 			(at 255.27 109.2199 0)
 			(effects
 				(font
@@ -25075,7 +25076,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "DNP"
 			(at 255.27 125.7299 0)
 			(effects
 				(font
@@ -26103,7 +26104,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C110924"
+		(property "LCSC" "C723702"
 			(at 288.29 162.56 0)
 			(effects
 				(font
@@ -26899,7 +26900,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "DNP"
 			(at 411.226 184.404 90)
 			(effects
 				(font
@@ -29901,7 +29902,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C110924"
+		(property "LCSC" "C723702"
 			(at 311.15 162.56 0)
 			(effects
 				(font
@@ -29962,7 +29963,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "DNP"
 			(at 298.45 135.8899 0)
 			(effects
 				(font
@@ -30249,7 +30250,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "DNP"
 			(at 298.45 125.7299 0)
 			(effects
 				(font
@@ -31183,7 +31184,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C110924"
+		(property "LCSC" "C723702"
 			(at 299.72 162.56 0)
 			(effects
 				(font
@@ -31549,7 +31550,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "DNP"
 			(at 255.27 135.8899 0)
 			(effects
 				(font
@@ -32605,7 +32606,7 @@
 				)
 			)
 		)
-		(property "Value" "33"
+		(property "Value" "DNP"
 			(at 411.226 203.454 90)
 			(effects
 				(font
@@ -33023,7 +33024,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "DNP"
 			(at 298.45 109.2199 0)
 			(effects
 				(font
