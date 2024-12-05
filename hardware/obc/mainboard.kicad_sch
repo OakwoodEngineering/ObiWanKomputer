@@ -263,6 +263,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 197.485 106.045)
+		(size 31.115 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5728bec1-e38c-4cf8-8d7a-17e9d882a72f")
+		(property "Sheetname" "Solar Chargers"
+			(at 197.485 104.6984 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "solarchargers.kicad_sch"
+			(at 197.485 127.4576 0)
+			(effects
+				(font
+					(size 2.54 2.54)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25"
+					(page "8")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

@@ -744,6 +744,10 @@
     [
       "00000000-0000-0000-0000-00005cec6281",
       "RF and GPS"
+    ],
+    [
+      "5728bec1-e38c-4cf8-8d7a-17e9d882a72f",
+      "Solar Chargers"
     ]
   ],
   "text_variables": {}

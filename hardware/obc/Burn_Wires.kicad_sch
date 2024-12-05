@@ -2268,28 +2268,10 @@
 		)
 	)
 	(junction
-		(at 41.91 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "01cf350d-8238-4d03-bbdf-fae689f14f18")
-	)
-	(junction
-		(at 77.47 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "05440ad4-a0f7-49d8-9018-310f9ce3de8a")
-	)
-	(junction
 		(at 170.18 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05e5870a-5725-44cc-b5e9-595d48c2301b")
-	)
-	(junction
-		(at 82.55 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a4d1830-a21c-4e37-8ba5-a34d5f54a15a")
 	)
 	(junction
 		(at 50.8 43.18)
@@ -2308,12 +2290,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "23b89353-834a-44b6-b066-1d0fae4fe99a")
-	)
-	(junction
-		(at 118.11 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "273cf544-1ed0-4a2c-92b3-7cbcc99004da")
 	)
 	(junction
 		(at 152.4 92.71)
@@ -2442,12 +2418,6 @@
 		(uuid "dd275e07-120a-42c0-a4ea-4bcb10976263")
 	)
 	(junction
-		(at 121.92 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ddd42f35-fcae-46b8-8bac-47ff2938e36a")
-	)
-	(junction
 		(at 170.18 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2458,12 +2428,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9ef58d9-d111-4514-ad8e-0ba234748f21")
-	)
-	(junction
-		(at 38.1 148.59)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eca7a968-0bbd-42ff-94e4-d9c47b61c623")
 	)
 	(junction
 		(at 58.42 53.34)
@@ -2514,26 +2478,6 @@
 			(type default)
 		)
 		(uuid "02bc10ec-7bf9-4fea-bf66-d0b53c4b5377")
-	)
-	(wire
-		(pts
-			(xy 125.73 149.86) (xy 125.73 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "088a182b-c8cf-4465-83d9-90ca939ac7f8")
-	)
-	(wire
-		(pts
-			(xy 38.1 148.59) (xy 38.1 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08c4fb6b-890a-47a1-989a-469de42d165d")
 	)
 	(wire
 		(pts
@@ -2597,16 +2541,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 146.05) (xy 115.57 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1bf42801-27c2-4f85-86f6-3bdaf5d0b969")
-	)
-	(wire
-		(pts
 			(xy 203.2 66.04) (xy 203.2 71.12)
 		)
 		(stroke
@@ -2624,16 +2558,6 @@
 			(type default)
 		)
 		(uuid "22597bc8-a4bf-417f-9c88-a0c5b0645728")
-	)
-	(wire
-		(pts
-			(xy 35.56 144.78) (xy 35.56 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24dec116-219d-4113-87e5-15858694e3eb")
 	)
 	(wire
 		(pts
@@ -2667,16 +2591,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 129.54) (xy 119.38 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3371e26c-e62e-4fa5-8a7c-b669efd3a921")
-	)
-	(wire
-		(pts
 			(xy 177.8 60.96) (xy 177.8 66.04)
 		)
 		(stroke
@@ -2684,16 +2598,6 @@
 			(type default)
 		)
 		(uuid "345928bd-d3ec-45d4-9e4a-be4c68bdd291")
-	)
-	(wire
-		(pts
-			(xy 72.39 148.59) (xy 77.47 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "351b8ddb-8433-4f17-9bdb-fe75f879b927")
 	)
 	(wire
 		(pts
@@ -2727,16 +2631,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 127) (xy 48.26 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40f05448-b1ee-4872-9292-e1a65935af8d")
-	)
-	(wire
-		(pts
 			(xy 45.72 43.18) (xy 50.8 43.18)
 		)
 		(stroke
@@ -2747,16 +2641,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 127) (xy 88.9 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43e20e16-15a3-49f3-a1a1-a7d59d950177")
-	)
-	(wire
-		(pts
 			(xy 177.8 86.36) (xy 177.8 91.44)
 		)
 		(stroke
@@ -2764,16 +2648,6 @@
 			(type default)
 		)
 		(uuid "444f1afd-8b2f-4112-91ef-d922e49af200")
-	)
-	(wire
-		(pts
-			(xy 45.72 148.59) (xy 45.72 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4546ec7e-85b0-4778-bf8a-b4ebdcef01bc")
 	)
 	(wire
 		(pts
@@ -2847,16 +2721,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 149.86) (xy 125.73 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56b10c97-7dea-422a-bd25-5e9137db25f2")
-	)
-	(wire
-		(pts
 			(xy 215.9 57.15) (xy 215.9 59.69)
 		)
 		(stroke
@@ -2864,26 +2728,6 @@
 			(type default)
 		)
 		(uuid "58594a89-8f47-446b-8ccb-76186f3b7563")
-	)
-	(wire
-		(pts
-			(xy 39.37 124.46) (xy 41.91 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a58bfcb-a3c6-40ff-b8b5-8446b7b843c4")
-	)
-	(wire
-		(pts
-			(xy 38.1 148.59) (xy 45.72 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b26c265-a82b-4129-b851-7800b0a46b86")
 	)
 	(wire
 		(pts
@@ -2927,16 +2771,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 149.86) (xy 118.11 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "633551f4-4312-40b6-bd69-1791b007435e")
-	)
-	(wire
-		(pts
 			(xy 203.2 85.09) (xy 203.2 86.36)
 		)
 		(stroke
@@ -2964,16 +2798,6 @@
 			(type default)
 		)
 		(uuid "67bc3fb8-df5c-4eab-912b-6434c1d89266")
-	)
-	(wire
-		(pts
-			(xy 119.38 124.46) (xy 121.92 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b509df2-e49a-4bea-ab03-98627302b9bd")
 	)
 	(wire
 		(pts
@@ -3007,16 +2831,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 129.54) (xy 39.37 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7140fdc9-bf23-47a8-897d-dca1da2b8970")
-	)
-	(wire
-		(pts
 			(xy 170.18 96.52) (xy 170.18 92.71)
 		)
 		(stroke
@@ -3024,16 +2838,6 @@
 			(type default)
 		)
 		(uuid "7546a42c-1736-42ab-8499-b0454435fcb5")
-	)
-	(wire
-		(pts
-			(xy 121.92 124.46) (xy 121.92 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b10ca34-843f-42b2-9d68-2425b32fc686")
 	)
 	(wire
 		(pts
@@ -3047,16 +2851,6 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 132.08) (xy 41.91 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80bd8700-9b50-464d-8c4d-9cac3078f46c")
-	)
-	(wire
-		(pts
 			(xy 203.2 59.69) (xy 203.2 55.88)
 		)
 		(stroke
@@ -3064,16 +2858,6 @@
 			(type default)
 		)
 		(uuid "819e2686-f150-4d15-b3de-9dbd6d9415ec")
-	)
-	(wire
-		(pts
-			(xy 85.09 148.59) (xy 85.09 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "838bace6-ae5f-4b99-bb09-f762907c1c56")
 	)
 	(wire
 		(pts
@@ -3087,36 +2871,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 148.59) (xy 77.47 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "89c4a063-68ed-4af2-ae34-ce6a33a45abc")
-	)
-	(wire
-		(pts
-			(xy 119.38 127) (xy 128.27 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9000fc43-ff2f-4e29-94e3-9265cc9c8f1a")
-	)
-	(wire
-		(pts
-			(xy 72.39 151.13) (xy 72.39 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "95399390-6de2-4fa8-a00e-bd8e23b23a06")
-	)
-	(wire
-		(pts
 			(xy 203.2 40.64) (xy 203.2 45.72)
 		)
 		(stroke
@@ -3124,26 +2878,6 @@
 			(type default)
 		)
 		(uuid "97b77b77-d956-425f-94cc-1fc54ae0148d")
-	)
-	(wire
-		(pts
-			(xy 80.01 124.46) (xy 82.55 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97fa6585-a4ff-46a6-9f76-debd2925623f")
-	)
-	(wire
-		(pts
-			(xy 82.55 132.08) (xy 82.55 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ab3f1bc-7ccd-4a28-a2e3-86fc67d3b67f")
 	)
 	(wire
 		(pts
@@ -3247,36 +2981,6 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 152.4) (xy 113.03 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b10984a4-fca7-4473-950b-1fec787a9492")
-	)
-	(wire
-		(pts
-			(xy 41.91 124.46) (xy 41.91 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1ac4070-a43d-419e-8580-421c828281cd")
-	)
-	(wire
-		(pts
-			(xy 33.02 148.59) (xy 38.1 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3146931-7cf2-4242-b9b3-ca31d35efa13")
-	)
-	(wire
-		(pts
 			(xy 203.2 59.69) (xy 213.36 59.69)
 		)
 		(stroke
@@ -3304,16 +3008,6 @@
 			(type default)
 		)
 		(uuid "b367e29a-9763-4f24-b848-154407794821")
-	)
-	(wire
-		(pts
-			(xy 33.02 151.13) (xy 33.02 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b631901e-7594-4c4f-a151-caef24b6ea3f")
 	)
 	(wire
 		(pts
@@ -3357,36 +3051,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 124.46) (xy 82.55 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4560ed2-2243-437b-98e0-076964512849")
-	)
-	(wire
-		(pts
-			(xy 121.92 132.08) (xy 121.92 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdf66ff9-a70e-4f3f-bf49-7246824f63ce")
-	)
-	(wire
-		(pts
-			(xy 82.55 129.54) (xy 80.01 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf0d6699-cbd7-43da-9569-d55d84bbfb48")
-	)
-	(wire
-		(pts
 			(xy 203.2 85.09) (xy 203.2 81.28)
 		)
 		(stroke
@@ -3427,16 +3091,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 149.86) (xy 118.11 152.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e238c80c-b0c7-4eca-940e-2ce6f5ca4a4c")
-	)
-	(wire
-		(pts
 			(xy 162.56 87.63) (xy 162.56 82.55)
 		)
 		(stroke
@@ -3444,16 +3098,6 @@
 			(type default)
 		)
 		(uuid "e48cceef-b900-4dec-9aef-9ce3be36b753")
-	)
-	(wire
-		(pts
-			(xy 74.93 144.78) (xy 74.93 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5ede67e-a5c6-4b87-bcb8-1601324e0b35")
 	)
 	(wire
 		(pts
@@ -3474,16 +3118,6 @@
 			(type default)
 		)
 		(uuid "fc5e30a2-c627-44e8-a57f-36cfd464e3fb")
-	)
-	(wire
-		(pts
-			(xy 77.47 148.59) (xy 85.09 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fea7954e-71f9-4de3-930b-6e673a471d43")
 	)
 	(wire
 		(pts
@@ -3607,26 +3241,6 @@
 		)
 		(uuid "d1d06db5-aafb-4337-a8a4-9e3d88b4e435")
 	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 41.91 132.08 180)
-		(effects
-			(font
-				(size 0.254 0.254)
-			)
-			(justify right)
-		)
-		(uuid "03979ecc-cb0a-47ec-be9f-739a70ef9dae")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 41.91 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBATT"
 		(shape bidirectional)
 		(at 106.68 33.02 0)
@@ -3687,26 +3301,6 @@
 			)
 		)
 	)
-	(global_label "VSOLAR"
-		(shape bidirectional)
-		(at 35.56 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "38fd3ad6-8d76-4e19-9175-c163c49a60c6")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.56 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ENAB_BURN2"
 		(shape bidirectional)
 		(at 149.86 57.15 180)
@@ -3759,26 +3353,6 @@
 		(uuid "51a07930-0f91-4183-bccc-dce33cc4fc88")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 160.02 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSOLAR"
-		(shape bidirectional)
-		(at 115.57 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "53d13361-ac2d-43ec-a0e3-b6809fc88fe1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3867,26 +3441,6 @@
 			)
 		)
 	)
-	(global_label "VSOLAR"
-		(shape bidirectional)
-		(at 88.9 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "75f81f91-fdf4-4964-86ad-bcb7a7f59a5e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "GND"
 		(shape bidirectional)
 		(at 152.4 43.18 180)
@@ -3949,46 +3503,6 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 82.55 132.08 180)
-		(effects
-			(font
-				(size 0.254 0.254)
-			)
-			(justify right)
-		)
-		(uuid "8a4242e8-50f8-439a-a4cf-f7edb59c1865")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.55 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSOLAR"
-		(shape bidirectional)
-		(at 48.26 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "910eac1d-4373-4d34-b2d3-ef04f9c031d7")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 48.26 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape bidirectional)
 		(at 160.02 92.71 180)
 		(effects
 			(font
@@ -3999,26 +3513,6 @@
 		(uuid "99ceb84d-2098-49e9-9bcf-37d0602bac9e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 160.02 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GND"
-		(shape bidirectional)
-		(at 121.92 132.08 180)
-		(effects
-			(font
-				(size 0.254 0.254)
-			)
-			(justify right)
-		)
-		(uuid "b638420e-629c-4782-8bd5-c36358b287d2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 121.92 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,46 +3553,6 @@
 		(uuid "ef0527b0-7302-47ce-bce1-b7f385e511bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 215.9 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSOLAR"
-		(shape bidirectional)
-		(at 128.27 127 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef55c18d-e9ec-4dcf-9af3-4d908b00cdfd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 128.27 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VSOLAR"
-		(shape bidirectional)
-		(at 74.93 144.78 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fcabb8ed-29cd-4a9b-8877-c33ff89cc5c0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.93 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,72 +4199,6 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
 					(reference "R501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:GND")
-		(at 41.91 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000035d5721e")
-		(property "Reference" "#GND0501"
-			(at 41.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 39.37 137.16 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 41.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 41.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 41.91 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6634d043-3bfe-47ad-a457-c5380bb02955")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
-					(reference "#GND0501")
 					(unit 1)
 				)
 			)
@@ -6012,235 +5400,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:M03POLAR_LOCK")
-		(at 35.56 158.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000c8b46213")
-		(property "Reference" "JP502"
-			(at 29.718 161.29 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 43.18 161.29 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037"
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "NP_JLC"
-			(at 35.56 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Flight" "22-23-2037"
-			(at 27.178 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "	 0022112032"
-			(at 27.178 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "22-23-2037"
-			(at 27.178 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 35.56 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1b85669e-f3e6-4688-ae0e-4c6d0e25479b")
-		)
-		(pin "2"
-			(uuid "3b19e2c5-c492-42d5-a470-86682935b788")
-		)
-		(pin "3"
-			(uuid "cfadd9c3-a6e4-4efe-a829-574ec18a8535")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
-					(reference "JP502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:GND")
-		(at 45.72 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000cf583eca")
-		(property "Reference" "#GND0502"
-			(at 45.72 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 156.21 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 45.72 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "760612ab-4ac4-4714-a3f9-d0142bf5ee5c")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
-					(reference "#GND0502")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mainboard:GND")
 		(at 104.14 40.64 0)
 		(unit 1)
@@ -6820,168 +5979,6 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
 					(reference "#GND0503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:M03POLAR_LOCK")
-		(at 31.75 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000ff5f0bf4")
-		(property "Reference" "JP501"
-			(at 29.21 121.158 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 25.654 134.62 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037"
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "NP_JLC"
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Flight" "22-23-2037"
-			(at 29.21 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "	 0022112032"
-			(at 29.21 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "22-23-2037"
-			(at 29.21 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 31.75 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7397455c-60e8-48eb-bdce-6ecfbd0d8b9a")
-		)
-		(pin "2"
-			(uuid "415234a5-1f52-4036-a25b-1077f031ceb6")
-		)
-		(pin "3"
-			(uuid "9b63e674-67f5-45e3-a978-a99bd3237c22")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
-					(reference "JP501")
 					(unit 1)
 				)
 			)
@@ -7932,169 +6929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mainboard:M03POLAR_LOCK")
-		(at 74.93 158.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5fb6d801-efc5-4cf6-bf83-5640b3dbc575")
-		(property "Reference" "JP504"
-			(at 69.088 161.29 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 82.55 161.29 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
-			(at 74.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
-			(at 74.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037"
-			(at 74.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "NP_JLC"
-			(at 74.93 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Flight" "22-23-2037"
-			(at 66.548 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 74.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "	 0022112032"
-			(at 66.548 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "22-23-2037"
-			(at 66.548 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 74.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 74.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 74.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 74.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 74.93 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6110ef38-2b1b-4421-a06a-3162f8e6610e")
-		)
-		(pin "2"
-			(uuid "09e50867-79bd-48a6-8990-6e439f51e9af")
-		)
-		(pin "3"
-			(uuid "470b0202-711c-4d49-9aa7-b821cdbdcf21")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
-					(reference "JP504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mainboard:GND")
 		(at 152.4 97.79 0)
 		(unit 1)
@@ -8155,169 +6989,6 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
 					(reference "#GND0511")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:M03POLAR_LOCK")
-		(at 115.57 160.02 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6f753230-3332-4c41-9bfa-23c69716f1e2")
-		(property "Reference" "JP506"
-			(at 109.728 162.56 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 123.19 162.56 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
-			(at 115.57 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
-			(at 115.57 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037"
-			(at 115.57 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "NP_JLC"
-			(at 115.57 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Flight" "22-23-2037"
-			(at 107.188 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 115.57 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "	 0022112032"
-			(at 107.188 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "22-23-2037"
-			(at 107.188 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 115.57 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 115.57 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 115.57 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 115.57 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 115.57 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "56b66d7b-72a2-446d-8927-01c6dc8e617a")
-		)
-		(pin "2"
-			(uuid "987fc45d-3f07-4640-90b3-2e808d201aa8")
-		)
-		(pin "3"
-			(uuid "8f6098c5-cdd1-4746-ab05-9fd62bb286d5")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
-					(reference "JP506")
 					(unit 1)
 				)
 			)
@@ -8599,594 +7270,6 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
 					(reference "Q507")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:GND")
-		(at 82.55 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d415aa19-da7b-4832-9919-186ee9453f56")
-		(property "Reference" "#GND0504"
-			(at 82.55 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.01 137.16 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a0dbc90-adb7-432a-8099-3568572ac910")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
-					(reference "#GND0504")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:M03POLAR_LOCK")
-		(at 111.76 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "daf20439-5d33-4a06-adae-18e20d0fa45f")
-		(property "Reference" "JP505"
-			(at 109.22 121.158 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 105.664 134.874 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "NP_JLC"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Flight" "22-23-2037"
-			(at 109.22 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "	 0022112032"
-			(at 109.22 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "22-23-2037"
-			(at 109.22 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 111.76 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "24f92cb6-6fc6-427f-923d-8dbfeb039295")
-		)
-		(pin "2"
-			(uuid "47cc5801-6139-4822-9813-a0bf6d758fd1")
-		)
-		(pin "3"
-			(uuid "d5effc07-29ac-4fcd-953e-18f9037bc8b9")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
-					(reference "JP505")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:M03POLAR_LOCK")
-		(at 72.39 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dd74c667-4485-4e8f-a086-445b59eb2b39")
-		(property "Reference" "JP503"
-			(at 69.85 121.158 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 66.04 134.62 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "SSE_Footprints:CONN_22-11-2032_MOL"
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/022112032_sd.pdf"
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3-pin Vertical Header - 0.1in (2.54mm) Locking - Molex PN: 22-23-2037"
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "NP_JLC"
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "Flight" "22-23-2037"
-			(at 69.85 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Molex"
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "	 0022112032"
-			(at 69.85 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "22-23-2037"
-			(at 69.85 118.618 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" ""
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 72.39 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59c77e75-87f1-4833-a9ef-d973cdd7a927")
-		)
-		(pin "2"
-			(uuid "e43b724f-f1b8-4898-96ee-830af6774078")
-		)
-		(pin "3"
-			(uuid "c3137930-9634-4a68-a2df-f707c6a21f14")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
-					(reference "JP503")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:GND")
-		(at 85.09 153.67 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e35efa25-fda7-4cda-a191-2756b4c266fb")
-		(property "Reference" "#GND0505"
-			(at 85.09 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 156.21 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 85.09 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.09 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f6eae76f-5e1e-4a27-8089-432242ab8d24")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
-					(reference "#GND0505")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:GND")
-		(at 121.92 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ee6d1354-9a9a-4e2e-80cb-7c774285612d")
-		(property "Reference" "#GND0507"
-			(at 121.92 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 121.92 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "57350e41-d5f5-4ecb-8902-436829d293bc")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
-					(reference "#GND0507")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:GND")
-		(at 125.73 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f8784e6d-b868-4528-b020-b93d32a29aed")
-		(property "Reference" "#GND0508"
-			(at 125.73 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 123.19 157.48 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 125.73 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 125.73 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad5453cd-f40f-497f-9428-64510c86867a")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6476"
-					(reference "#GND0508")
 					(unit 1)
 				)
 			)

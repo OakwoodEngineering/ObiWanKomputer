@@ -5291,7 +5291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 10V 10uF X5R ±20% 0603"
+		(property "Description" "10V 10uF X5R ±20% 0603"
 			(at 80.01 48.26 0)
 			(effects
 				(font
@@ -5895,7 +5895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 50V 100nF X7R ±10% 0603"
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 87.63 130.81 0)
 			(effects
 				(font
@@ -6402,7 +6402,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 10V 10uF X5R ±20% 0603"
+		(property "Description" "10V 10uF X5R ±20% 0603"
 			(at 102.87 130.81 0)
 			(effects
 				(font
@@ -6534,7 +6534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 50V 100nF X7R ±10% 0603"
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 82.55 130.81 0)
 			(effects
 				(font
@@ -6732,7 +6732,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 16V 1uF X7R ±10% 0603"
+		(property "Description" "16V 1uF X7R ±10% 0603"
 			(at 92.71 130.81 0)
 			(effects
 				(font
@@ -6996,7 +6996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" " 16V 1uF X7R ±10% 0603"
+		(property "Description" "16V 1uF X7R ±10% 0603"
 			(at 97.79 130.81 0)
 			(effects
 				(font

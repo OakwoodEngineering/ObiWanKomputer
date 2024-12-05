@@ -4,7 +4,7 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "U23"
-		(at 1.016 -2.667 180)
+		(at -1 -0.5 180)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "67235ddc-ac4b-4185-82de-bad6558c0672")
@@ -71,7 +71,7 @@
 	(attr through_hole)
 	(fp_poly
 		(pts
-			(xy 5.786966 2.0828) (xy 3.310466 2.0828) (xy 3.310466 -0.0127) (xy 5.786966 -0.0127)
+			(xy 4 -1.5) (xy 1.5235 -1.5) (xy 1.5235 -3.5955) (xy 4 -3.5955)
 		)
 		(stroke
 			(width 0.1)
@@ -83,7 +83,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 5.786966 4.4958) (xy 3.310466 4.4958) (xy 3.310466 2.4003) (xy 5.786966 2.4003)
+			(xy 4 0.913) (xy 1.5235 0.913) (xy 1.5235 -1.1825) (xy 4 -1.1825)
 		)
 		(stroke
 			(width 0.1)
@@ -95,7 +95,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 8.7503 2.0828) (xy 6.2738 2.0828) (xy 6.2738 -0.0127) (xy 8.7503 -0.0127)
+			(xy 6.963334 -1.5) (xy 4.486834 -1.5) (xy 4.486834 -3.5955) (xy 6.963334 -3.5955)
 		)
 		(stroke
 			(width 0.1)
@@ -107,7 +107,7 @@
 	)
 	(fp_poly
 		(pts
-			(xy 8.7503 4.4958) (xy 6.2738 4.4958) (xy 6.2738 2.4003) (xy 8.7503 2.4003)
+			(xy 6.963334 0.913) (xy 4.486834 0.913) (xy 4.486834 -1.1825) (xy 6.963334 -1.1825)
 		)
 		(stroke
 			(width 0.1)
@@ -156,6 +156,46 @@
 		)
 		(layer "F.SilkS")
 		(uuid "5549961f-f23d-4fd0-b18c-dba1b472bad2")
+	)
+	(fp_line
+		(start -1.5 -3.6)
+		(end -1.5 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "79b2932c-ccd4-436d-a7a0-893f20aa125e")
+	)
+	(fp_line
+		(start -1.5 -3.6)
+		(end 10 -3.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6ee5e02f-e68b-4ba0-8718-f86193700566")
+	)
+	(fp_line
+		(start -1.5 1.1)
+		(end 10 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "8e51d315-f99e-4b79-9e47-fba9eb001651")
+	)
+	(fp_line
+		(start 10 -3.6)
+		(end 10 1.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "2ef8da00-4c64-4000-a65c-1f0fef4fc81f")
 	)
 	(fp_text user "RADIO 2"
 		(at 5.08 -6.1595 180)
@@ -283,7 +323,7 @@
 		(uuid "d2d6c5bb-93a1-439e-a7e5-36484bcb91c4")
 	)
 	(pad "17" thru_hole circle
-		(at 4.5 1)
+		(at 2.713034 -2.5828)
 		(size 2.1 2.1)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -291,7 +331,7 @@
 		(uuid "f5e20df5-8d7a-47d4-976d-7def1a987661")
 	)
 	(pad "17" thru_hole circle
-		(at 4.5 3.5)
+		(at 2.713034 -0.0828)
 		(size 2.1 2.1)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -299,7 +339,7 @@
 		(uuid "e3d8b070-bfc9-4c7d-af68-738566922bbb")
 	)
 	(pad "17" smd rect
-		(at 6.0325 2.25)
+		(at 4.245534 -1.3328)
 		(size 5.699999 4.800001)
 		(layers "F.Cu" "F.Mask")
 		(solder_mask_margin 0.0635)
@@ -307,7 +347,7 @@
 		(uuid "3cdd5371-173d-4d3c-b620-8dd41f91e885")
 	)
 	(pad "17" thru_hole circle
-		(at 7.5 1)
+		(at 5.713034 -2.5828)
 		(size 2.1 2.1)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
@@ -315,7 +355,7 @@
 		(uuid "4cc01211-82b0-4f09-a8d2-6def628bb8ef")
 	)
 	(pad "17" thru_hole circle
-		(at 7.5 3.5)
+		(at 5.713034 -0.0828)
 		(size 2.1 2.1)
 		(drill 1.5)
 		(layers "*.Cu" "*.Mask")
