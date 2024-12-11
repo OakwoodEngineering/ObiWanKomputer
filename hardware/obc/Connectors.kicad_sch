@@ -6859,7 +6859,7 @@
 			)
 		)
 	)
-	(global_label "PA17"
+	(global_label "SCL_2"
 		(shape bidirectional)
 		(at 208.28 132.08 180)
 		(effects
@@ -6939,7 +6939,7 @@
 			)
 		)
 	)
-	(global_label "PA22"
+	(global_label "GPIO_23"
 		(shape bidirectional)
 		(at 208.28 139.7 180)
 		(effects
@@ -7021,7 +7021,7 @@
 			)
 		)
 	)
-	(global_label "PB22"
+	(global_label "GPIO_18"
 		(shape bidirectional)
 		(at 208.28 147.32 180)
 		(effects
@@ -7101,7 +7101,7 @@
 			)
 		)
 	)
-	(global_label "PA19"
+	(global_label "GPIO_27"
 		(shape bidirectional)
 		(at 208.28 134.62 180)
 		(effects
@@ -7121,7 +7121,7 @@
 			)
 		)
 	)
-	(global_label "PB17"
+	(global_label "GPIO_22"
 		(shape bidirectional)
 		(at 208.28 144.78 180)
 		(effects
@@ -7141,7 +7141,7 @@
 			)
 		)
 	)
-	(global_label "PA16"
+	(global_label "SDA_2"
 		(shape bidirectional)
 		(at 245.11 157.48 180)
 		(effects
@@ -7161,7 +7161,7 @@
 			)
 		)
 	)
-	(global_label "PB16"
+	(global_label "GPIO_21"
 		(shape bidirectional)
 		(at 208.28 142.24 180)
 		(effects
@@ -7241,7 +7241,7 @@
 			)
 		)
 	)
-	(global_label "PA20"
+	(global_label "GPIO_28"
 		(shape bidirectional)
 		(at 208.28 137.16 180)
 		(effects
@@ -7281,7 +7281,7 @@
 			)
 		)
 	)
-	(global_label "PB23"
+	(global_label "GPIO_09"
 		(shape bidirectional)
 		(at 208.28 149.86 180)
 		(effects
@@ -7421,7 +7421,7 @@
 			)
 		)
 	)
-	(global_label "PA17"
+	(global_label "SCL_2"
 		(shape bidirectional)
 		(at 245.11 160.02 180)
 		(effects
@@ -7481,7 +7481,7 @@
 			)
 		)
 	)
-	(global_label "PA16"
+	(global_label "SDA_2"
 		(shape bidirectional)
 		(at 208.28 129.54 180)
 		(effects
