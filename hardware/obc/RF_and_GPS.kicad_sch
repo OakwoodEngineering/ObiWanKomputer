@@ -3390,7 +3390,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 142.24) (xy 49.53 133.35)
+			(xy 50.8 111.76) (xy 50.8 133.35)
 		)
 		(stroke
 			(width 0)
@@ -3470,7 +3470,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 133.35) (xy 52.07 133.35)
+			(xy 50.8 133.35) (xy 52.07 133.35)
 		)
 		(stroke
 			(width 0)
@@ -6293,7 +6293,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:3.3V")
-		(at 49.53 142.24 180)
+		(at 50.8 111.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6301,7 +6301,7 @@
 		(dnp no)
 		(uuid "48b70324-41d4-4237-8a04-b4411aea2af3")
 		(property "Reference" "#SUPPLY0108"
-			(at 49.53 142.24 0)
+			(at 50.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6310,7 +6310,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 52.07 146.05 0)
+			(at 48.26 107.95 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -6319,7 +6319,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 49.53 142.24 0)
+			(at 50.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6328,7 +6328,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 142.24 0)
+			(at 50.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6337,7 +6337,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 142.24 0)
+			(at 50.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)

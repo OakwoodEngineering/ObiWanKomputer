@@ -9575,7 +9575,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:GND")
-		(at 146.05 153.67 0)
+		(at 146.05 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9583,7 +9583,7 @@
 		(dnp no)
 		(uuid "d7f0c5d7-2adb-4d6f-96fc-6b07a2025aa6")
 		(property "Reference" "#GND0124"
-			(at 146.05 153.67 0)
+			(at 146.05 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9592,7 +9592,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 156.21 0)
+			(at 143.51 153.67 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -9601,7 +9601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 146.05 153.67 0)
+			(at 146.05 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9610,7 +9610,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 146.05 153.67 0)
+			(at 146.05 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9619,7 +9619,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 146.05 153.67 0)
+			(at 146.05 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)

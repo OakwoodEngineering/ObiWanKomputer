@@ -6134,6 +6134,102 @@
 				)
 			)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 191.77 19.05)
@@ -6290,6 +6386,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "744e7acf-9d28-4852-b225-e2cc4c67162b")
+	)
+	(junction
+		(at 74.93 41.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76bc12d1-1783-41bc-9ccd-c2a328ab3f2f")
 	)
 	(junction
 		(at 64.77 49.53)
@@ -7493,7 +7595,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 39.37) (xy 74.93 43.18)
+			(xy 74.93 39.37) (xy 74.93 41.91)
 		)
 		(stroke
 			(width 0)
@@ -8460,6 +8562,16 @@
 			(type default)
 		)
 		(uuid "e1c8ca25-9ed3-4415-9fde-b493f352a765")
+	)
+	(wire
+		(pts
+			(xy 74.93 41.91) (xy 74.93 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1e243e6-b5d5-46b6-be50-f5344d29a495")
 	)
 	(wire
 		(pts
@@ -14318,6 +14430,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 74.93 41.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "74d7b064-c84e-4d2d-b437-cc423d50aee5")
+		(property "Reference" "#FLG0101"
+			(at 73.025 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "1v1"
+			(at 71.12 41.9099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39f09ece-5931-47ad-bcf7-c38fbf38e63b")
+		)
+		(instances
+			(project ""
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
+					(reference "#FLG0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "mainboard:GND")
 		(at 223.52 135.89 0)
 		(mirror y)
@@ -16107,16 +16286,15 @@
 	)
 	(symbol
 		(lib_id "power:+1V1")
-		(at 87.63 16.51 270)
+		(at 87.63 16.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f6eef989-ca87-45ca-b405-6f2669f85ade")
 		(property "Reference" "#PWR0104"
-			(at 83.82 16.51 0)
+			(at 87.63 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16125,12 +16303,11 @@
 			)
 		)
 		(property "Value" "+1V1"
-			(at 91.44 16.5099 90)
+			(at 91.44 14.732 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
