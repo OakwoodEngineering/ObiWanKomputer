@@ -19,3 +19,4 @@
           ordinary SOD-123 pads; substituting 1N5819HW-7-F p/n C82544 for
           order
     - MAX706RESA watchdog timer producing incorrect/unexpected results: the RESET# pin would produce a reset pulse correctly upon powerup when power was toggled (as datasheet indicated), but would then get stuck in a reset loop (RESET# held low) when WDI was held low after the first cycle.
+    - No pin 1 marker for radio module on board
