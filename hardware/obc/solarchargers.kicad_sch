@@ -3,7 +3,11 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "0a8a6715-0934-4af9-b24a-1b63fb60728c")
-	(paper "A4")
+	(paper "USLetter")
+	(title_block
+		(title "Obi Wan Computer")
+		(rev "1")
+	)
 	(lib_symbols
 		(symbol "Device:L"
 			(pin_numbers hide)
@@ -2612,6 +2616,16 @@
 		)
 		(uuid "4e6e928e-06ad-46fc-9d01-65dc4d50238a")
 	)
+	(polyline
+		(pts
+			(xy 159.385 171.45) (xy 159.385 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f333cd9-0b40-454b-8087-a979c1c8b25c")
+	)
 	(wire
 		(pts
 			(xy 171.45 124.46) (xy 171.45 128.27)
@@ -2831,6 +2845,16 @@
 			(type default)
 		)
 		(uuid "75e8152b-1e90-4430-a16f-f605a8d6c522")
+	)
+	(polyline
+		(pts
+			(xy 159.385 168.91) (xy 267.335 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "775e635c-f2b7-4cbb-b682-7289992c3a05")
 	)
 	(wire
 		(pts
@@ -3829,6 +3853,17 @@
 		)
 		(uuid "4c3fe429-8276-4dbc-a746-3284fac04377")
 	)
+	(text "NOTE: Components labeled \"do not install\" (DNI) are not populated by default"
+		(exclude_from_sim no)
+		(at 160.655 171.45 0)
+		(effects
+			(font
+				(size 1.651 1.651)
+			)
+			(justify left bottom)
+		)
+		(uuid "5289015b-a3ff-49f3-8a3d-cdf319d847d7")
+	)
 	(text "XXX: Verify LTC4121"
 		(exclude_from_sim no)
 		(at 117.094 30.226 0)
@@ -3862,6 +3897,19 @@
 			(justify left bottom)
 		)
 		(uuid "93a44c83-304a-4b0d-8085-957c1e5677a2")
+	)
+	(text "Solar Chargers"
+		(exclude_from_sim no)
+		(at 173.736 183.134 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "a0a417c4-17d4-41eb-af09-02894a438d7f")
 	)
 	(text "\nMPPT=75% Voc\nR11=787K, R12=121K\nTo disable MPTT:\nR11=10k; R12=DNI"
 		(exclude_from_sim no)
@@ -3907,6 +3955,28 @@
 			(justify left bottom)
 		)
 		(uuid "d4f4deef-7415-4c95-bf4a-5669c1d83ce5")
+	)
+	(text "Solar_Current_1\nmonitors charge current using:\nIchrg=988*Vprog/Rprog\n3.01K = 400mA max charge current\n"
+		(exclude_from_sim no)
+		(at 192.278 124.714 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "fdc2ef41-ba32-4c8c-94dd-ec1b4915a139")
+	)
+	(text "Solar_Current_1\nmonitors charge current using:\nIchrg=988*Vprog/Rprog\n3.01K = 400mA max charge current\n"
+		(exclude_from_sim no)
+		(at 192.024 53.34 0)
+		(effects
+			(font
+				(size 0.889 0.889)
+			)
+			(justify left bottom)
+		)
+		(uuid "fe337043-dcfd-4630-bb2a-1af9689e723d")
 	)
 	(label "VCHRG_IN"
 		(at 39.37 49.53 0)
