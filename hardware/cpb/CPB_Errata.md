@@ -7,3 +7,4 @@ for the specified change above).
     - DACs glitch at power up.  May be possible to address with power-up sequence (getting 3V3 going before 5V).
     - DAC outputs seem noisy.  May be an artifact of probe technique / test environment ground loops.  Need to float setup and better characterize.
     - Power switches turn off pretty slow, inhibiting PWM.  R96 could get smaller, but that'll get wasteful in power pretty quickly.
+    - Need to rethink connector pinning.  Do we want to put a supply on ADC headers?
