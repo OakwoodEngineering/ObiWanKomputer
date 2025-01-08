@@ -1,10 +1,16 @@
 - Revision 1  
+    - CRITICAL: Missing pullup for MAX22200 SDO.  MAX22200 SDO is open-drain and cannot drive pin high, but we have no pullup on pin.
     - RN components need proper fanout, some currently have vias in pads which causes marginal clearance.
     - Power Glitch needs to be fixed  
         - C5(22nF) needs to be moved between the gate and +VBATT rather than the gate and ground. (Electrically, everything should remain the same except
 for the specified change above).  
     - Q3 doesn't have a base resistor and otherwise needs correction.  After lifting Q3, it is possible to program the microcontroller.
+    - DAC outputs noisy.  Need better bypassing of 5V and possibly AVDD supply; consider layout improvements and guard rings.
     - DACs glitch at power up.  May be possible to address with power-up sequence (getting 3V3 going before 5V).
-    - DAC outputs seem noisy.  May be an artifact of probe technique / test environment ground loops.  Need to float setup and better characterize.
-    - Power switches turn off pretty slow, inhibiting PWM.  R96 could get smaller, but that'll get wasteful in power pretty quickly.
+    - Power switches turn off pretty slow, inhibiting PWM.
+        - R96 should be a smaller value-- perhaps 1/3rd the value to not waste too much power.
+        - Select smaller output FET with lower gate charge.  DMP3098LSD has the same pinout and less than half the gate charge.
+        - Between these two changes, we might "turn off" 7-8x as fast.
     - Need to rethink connector pinning.  Do we want to put a supply on ADC headers?
+    - ENHANCEMENT: Consider adding a power LED for VM
+    - ENHANCEMENT: GPLEDs (amber) could be brighter
