@@ -643,191 +643,6 @@
 				)
 			)
 		)
-		(symbol "Jumper:Jumper_3_Bridged12"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_3_Bridged12"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 3-pole, pins 1+2 closed/bridged"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_3_Bridged12_0_0"
-				(circle
-					(center -3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Bridged12_0_1"
-				(arc
-					(start -0.254 0.508)
-					(mid -1.651 0.9912)
-					(end -3.048 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Bridged12_1_1"
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "SSE_Symbols:BatChrgr_BQ25886RGER"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -5418,16 +5233,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 86.36) (xy 31.75 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b968664-611e-4f95-9b2a-3e66748ae032")
-	)
-	(wire
-		(pts
 			(xy 146.05 33.02) (xy 144.78 33.02)
 		)
 		(stroke
@@ -6078,6 +5883,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 99.06) (xy 45.72 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68ef28b4-7916-4d2c-9daf-bef28279c009")
+	)
+	(wire
+		(pts
 			(xy 124.46 128.27) (xy 124.46 135.89)
 		)
 		(stroke
@@ -6115,16 +5930,6 @@
 			(type default)
 		)
 		(uuid "6dd80e23-aba4-477b-94c5-58c84f95355f")
-	)
-	(wire
-		(pts
-			(xy 31.75 99.06) (xy 45.72 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ee16f8a-f6cf-45fd-b01b-2ac84b459d37")
 	)
 	(wire
 		(pts
@@ -7464,16 +7269,15 @@
 		)
 		(uuid "e80706ab-3bf2-46c6-9d45-d11b0c3a007b")
 	)
-	(label "V_RF"
-		(at 40.64 99.06 0)
-		(fields_autoplaced yes)
+	(text "XXX: Likely to replace power gating circuit"
+		(exclude_from_sim no)
+		(at 209.55 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
-		(uuid "0350ad98-658b-4e07-aa63-a1a745fac0fe")
+		(uuid "fe35bf12-7fe3-4d5d-860e-aee453fd9eb5")
 	)
 	(label "3V3_EN"
 		(at 116.84 135.89 0)
@@ -7901,7 +7705,7 @@
 	)
 	(global_label "VCC_RF1"
 		(shape bidirectional)
-		(at 27.94 92.71 180)
+		(at 30.48 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7910,7 +7714,7 @@
 		)
 		(uuid "9bc8f95c-a153-40ba-b164-b7fe2e649b51")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 27.94 92.71 0)
+			(at 30.48 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14526,200 +14330,6 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
 					(reference "#GND0403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:Jumper_3_Bridged12")
-		(at 31.75 92.71 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060ab2816")
-		(property "Reference" "JP401"
-			(at 33.4518 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Jumper_3_Bridged12"
-			(at 33.4518 91.567 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "mainboard:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm"
-			(at 31.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 31.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Radio Output Vdd Select"
-			(at 35.9918 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "DNI"
-			(at 35.814 94.742 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(bold yes)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 31.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 31.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 31.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 31.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 31.75 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a6122661-f09d-4cd4-aa8d-156042f9c41e")
-		)
-		(pin "2"
-			(uuid "5b8ca3c3-00d0-4567-9d72-93fe2b8c7702")
-		)
-		(pin "3"
-			(uuid "877b5ad0-4533-4ec3-8a88-8504b307a20f")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "JP401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:3.3V")
-		(at 27.94 86.36 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000060bd8824")
-		(property "Reference" "#SUPPLY0401"
-			(at 27.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 23.6474 86.36 90)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 27.94 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "43c5e14e-cf46-446b-ad7c-064558c1404e")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "#SUPPLY0401")
 					(unit 1)
 				)
 			)

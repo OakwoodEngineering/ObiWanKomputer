@@ -1336,269 +1336,6 @@
 				)
 			)
 		)
-		(symbol "mainboard:MMDT2907"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MMDT2907"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/MMDT2907AQ.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "600mA IC, 60V Vce, Dual PNP/PNP Transistors, SOT-363"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "PNP/PNP Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?363*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MMDT2907_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MMDT2907_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MMDT2907_2_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
 		(at 50.8 55.88)
@@ -1886,16 +1623,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 107.95) (xy 195.58 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02360d98-6ecc-42e8-80d9-70a3120d2cda")
-	)
-	(wire
-		(pts
 			(xy 43.18 170.18) (xy 43.18 172.72)
 		)
 		(stroke
@@ -2076,16 +1803,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 104.14) (xy 195.58 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "409537b6-8aed-46bd-9918-dbe754ec0f7e")
-	)
-	(wire
-		(pts
 			(xy 85.09 160.02) (xy 80.01 160.02)
 		)
 		(stroke
@@ -2163,16 +1880,6 @@
 			(type default)
 		)
 		(uuid "50b09cf9-6aef-4fd4-a883-8793160ea1b4")
-	)
-	(wire
-		(pts
-			(xy 194.31 93.98) (xy 195.58 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50c03471-c341-4727-99eb-e15a03e9a2cf")
 	)
 	(wire
 		(pts
@@ -2316,16 +2023,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 100.33) (xy 238.76 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "77d6cd08-539b-4123-bd27-315b6eda9739")
-	)
-	(wire
-		(pts
 			(xy 27.94 172.72) (xy 43.18 172.72)
 		)
 		(stroke
@@ -2343,16 +2040,6 @@
 			(type default)
 		)
 		(uuid "7ba0e15e-739b-4ed9-afaf-98750700a854")
-	)
-	(wire
-		(pts
-			(xy 204.47 93.98) (xy 203.2 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84ce9020-fce4-4df5-b7e8-4ba3196c0628")
 	)
 	(wire
 		(pts
@@ -2396,16 +2083,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 104.14) (xy 203.2 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88cef61e-2aa8-4232-a650-1372f6f18880")
-	)
-	(wire
-		(pts
 			(xy 50.8 119.38) (xy 45.72 119.38)
 		)
 		(stroke
@@ -2443,16 +2120,6 @@
 			(type default)
 		)
 		(uuid "92868b14-0c10-43c1-9348-a367998fcfdf")
-	)
-	(wire
-		(pts
-			(xy 194.31 97.79) (xy 195.58 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "938440bc-1b97-402e-9fac-469b701bdcff")
 	)
 	(wire
 		(pts
@@ -2626,6 +2293,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 55.88) (xy 212.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4e04543-d81e-46ea-b73d-02bc9ba708a5")
+	)
+	(wire
+		(pts
 			(xy 92.71 54.61) (xy 92.71 55.88)
 		)
 		(stroke
@@ -2646,7 +2323,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 25.4) (xy 111.76 78.74)
+			(xy 111.76 25.4) (xy 111.76 69.215)
 		)
 		(stroke
 			(width 0)
@@ -2673,26 +2350,6 @@
 			(type default)
 		)
 		(uuid "e018e712-537a-4d7b-8ae6-4133eca5a5c7")
-	)
-	(wire
-		(pts
-			(xy 229.87 100.33) (xy 231.14 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3badc7c-fe8e-418b-967e-9063dc1494f8")
-	)
-	(wire
-		(pts
-			(xy 204.47 107.95) (xy 203.2 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e4a70935-fd9d-494c-ac03-ebc046b42901")
 	)
 	(wire
 		(pts
@@ -2806,16 +2463,6 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 97.79) (xy 203.2 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f62ad380-140e-47cf-84f4-80ca9403aa88")
-	)
-	(wire
-		(pts
 			(xy 78.74 134.62) (xy 82.55 134.62)
 		)
 		(stroke
@@ -2826,7 +2473,7 @@
 	)
 	(polyline
 		(pts
-			(xy 177.8 78.74) (xy 177.8 25.4)
+			(xy 177.8 69.215) (xy 177.8 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2836,7 +2483,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 78.74) (xy 177.8 78.74)
+			(xy 111.76 69.215) (xy 177.8 69.215)
 		)
 		(stroke
 			(width 0)
@@ -2864,9 +2511,9 @@
 		)
 		(uuid "febd6eed-cd0e-4057-b504-8b9f7179f915")
 	)
-	(text "These novel bus protection circuits\nprevent traditional I2C/SPI failure \nmodes where a single slave failure\ncan disable the entire bus.\n\nLearn more: \nhttps://doi.org/10.36227/techrxiv.15166620\n\nBy default, slave clock and/or data lines \ncan be held low and the Master (SAMD51) \nwill still be able to communicate with the \nremainder of the bus.\n\nThey can individually be bypassed by \nremoving the transistor(s) and soldering\nthe 0ohm the jumpers below."
+	(text "These novel bus protection circuits\nprevent traditional I2C/SPI failure \nmodes where a single slave failure\ncan disable the entire bus.\n\nLearn more: \nhttps://doi.org/10.36227/techrxiv.15166620\n\nBy default, slave clock and/or data lines \ncan be held low and the Master (SAMD51) \nwill still be able to communicate with the \nremainder of the bus."
 		(exclude_from_sim no)
-		(at 115.57 76.2 0)
+		(at 115.57 65.786 0)
 		(effects
 			(font
 				(size 1.7526 1.7526)
@@ -2945,37 +2592,6 @@
 		)
 		(uuid "b8384968-fdd2-4c8c-8e15-9120f17dac7f")
 	)
-	(text "Bus Protection - Bypass Jumpers"
-		(exclude_from_sim no)
-		(at 191.77 87.63 0)
-		(effects
-			(font
-				(size 2.159 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "f8a4a68f-669c-46dc-82b8-d2f5a05617bc")
-	)
-	(global_label "SDA_IMU"
-		(shape bidirectional)
-		(at 204.47 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0390486d-f09d-4416-b78c-89aa29a0117e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SCL_PWR"
 		(shape output)
 		(at 53.34 143.51 0)
@@ -3038,7 +2654,7 @@
 	)
 	(global_label "MISO_RF1"
 		(shape input)
-		(at 196.85 55.88 180)
+		(at 200.66 55.88 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3047,7 +2663,7 @@
 		)
 		(uuid "378a564e-5ce4-4660-aae8-54ef8f4e7ea1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.85 55.88 0)
+			(at 200.66 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3108,66 +2724,6 @@
 		(uuid "440ca752-4315-4eae-9433-38c1eea74db5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 78.74 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "RF1_CS"
-		(shape input)
-		(at 201.93 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "44f69ee3-03b5-48c0-8dea-809fda2568d1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.93 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 194.31 97.79 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "462792c5-423b-4607-851c-4883065b951d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 194.31 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "532056e1-125f-4a68-b64e-b92cc90488f0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3238,7 +2794,7 @@
 	)
 	(global_label "MISO"
 		(shape output)
-		(at 214.63 55.88 0)
+		(at 212.09 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3247,27 +2803,7 @@
 		)
 		(uuid "76354919-2baa-4e98-844b-074f6308032e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 214.63 55.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MISO_RF1"
-		(shape input)
-		(at 240.03 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7b496bd7-0962-4ff9-b2ad-6b1aae1d0eb8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 240.03 100.33 0)
+			(at 212.09 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3296,26 +2832,6 @@
 			)
 		)
 	)
-	(global_label "SDA_PWR"
-		(shape bidirectional)
-		(at 204.47 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a9413fc6-daa3-420d-ab40-918910e0f7b5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "MOSI"
 		(shape input)
 		(at 229.87 55.88 180)
@@ -3336,86 +2852,6 @@
 			)
 		)
 	)
-	(global_label "SCL"
-		(shape input)
-		(at 194.31 104.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bbdb7713-6ac8-49dd-af61-d03f37b30c77")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL_IMU"
-		(shape output)
-		(at 204.47 93.98 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d16fb10e-18c0-4ff2-aeb6-c4bd2c951229")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL_PWR"
-		(shape output)
-		(at 204.47 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d7df60ec-ef73-4338-a50c-d9a907e204b8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 204.47 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape bidirectional)
-		(at 194.31 107.95 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e3b48a39-ce75-48a5-9649-8d5d71678431")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.31 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SDA_IMU"
 		(shape bidirectional)
 		(at 95.25 64.77 0)
@@ -3428,26 +2864,6 @@
 		(uuid "f3e76546-a566-46fa-bd4c-4cb836657115")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 95.25 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "MISO"
-		(shape output)
-		(at 229.87 100.33 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f73e373f-91cb-4822-8244-28b65d9d0f01")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.87 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9712,136 +9128,6 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 205.74 48.26 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005ee9eb56")
-		(property "Reference" "R226"
-			(at 205.74 43.053 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "4.7k"
-			(at 205.74 45.3644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 205.486 49.276 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "4.7k 0603"
-			(at 209.4484 49.9872 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C23162"
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " UNI-ROYAL(Uniroyal Elec)"
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " 0603WAF4701T5E"
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 205.74 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33c5937d-6e29-42b6-9d2c-55916a57ba9e")
-		)
-		(pin "2"
-			(uuid "de1563fa-8c69-4364-bf40-132431208110")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
-					(reference "R226")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
 		(at 233.68 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9857,7 +9143,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "100"
 			(at 233.68 44.0944 90)
 			(effects
 				(font
@@ -9883,7 +9169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1K 0603"
+		(property "Description" ""
 			(at 237.3884 48.7172 0)
 			(effects
 				(font
@@ -9892,7 +9178,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844746"
+		(property "LCSC" ""
 			(at 233.68 46.99 0)
 			(effects
 				(font
@@ -9901,7 +9187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 233.68 46.99 0)
 			(effects
 				(font
@@ -9910,7 +9196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW06031K00FKEAC"
+		(property "Manufacturer_Part_Number" ""
 			(at 233.68 46.99 0)
 			(effects
 				(font
@@ -10294,697 +9580,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 199.39 107.95 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-00005ef1a04a")
-		(property "Reference" "R224"
-			(at 195.58 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 201.93 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 199.136 108.966 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 0603"
-			(at 198.12 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "DNI"
-			(at 199.39 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 199.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 199.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 199.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 199.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 199.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 199.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 199.39 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8aea0c40-1e44-4017-8de9-c0c4cb4325a6")
-		)
-		(pin "2"
-			(uuid "1e01b324-866d-4315-a256-fddae32b1cfa")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
-					(reference "R224")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 199.39 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-00005ef31159")
-		(property "Reference" "R221"
-			(at 195.58 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 201.93 92.71 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 199.136 94.996 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 0603"
-			(at 198.12 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "DNI"
-			(at 199.39 95.25 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 199.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 199.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 199.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 199.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 199.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 199.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 199.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6ff5e24f-432b-4183-a38d-194d9b3cde04")
-		)
-		(pin "2"
-			(uuid "5c910423-f90f-49ad-be4b-2cc45e31333a")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
-					(reference "R221")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 199.39 97.79 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-00005ef31160")
-		(property "Reference" "R222"
-			(at 195.58 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 201.93 96.52 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 199.136 98.806 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 0603"
-			(at 198.12 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "DNI"
-			(at 199.39 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 199.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 199.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 199.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 199.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 199.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 199.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 199.39 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ccbc1ff0-cc31-479b-9ff9-2c67327f2879")
-		)
-		(pin "2"
-			(uuid "0ee8ba07-b1e8-4e0a-a962-09d90d2b5af5")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
-					(reference "R222")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 234.95 100.33 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-00005ef467b2")
-		(property "Reference" "R230"
-			(at 231.14 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 237.49 99.06 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 234.696 101.346 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 234.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 0603"
-			(at 233.68 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "DNI"
-			(at 234.95 101.6 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 234.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 234.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 234.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 234.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 234.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 234.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 234.95 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d25f1c0-0ad3-45ce-b611-a0a5e8297a5a")
-		)
-		(pin "2"
-			(uuid "c99ef0eb-5e9e-4ae5-bec3-c05ece8fcaf5")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
-					(reference "R230")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 199.39 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp yes)
-		(uuid "00000000-0000-0000-0000-00005ef467c4")
-		(property "Reference" "R223"
-			(at 195.58 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0"
-			(at 201.93 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 199.136 105.156 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "0 0603"
-			(at 198.12 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "DNI" "DNI"
-			(at 199.39 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" ""
-			(at 199.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 199.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 199.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 199.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 199.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 199.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 199.39 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9351b1e7-47ed-4498-aaa0-2ea21cb5426a")
-		)
-		(pin "2"
-			(uuid "bcdad6fb-52cb-4306-a7f7-518c8ae791ba")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
-					(reference "R223")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 200.66 55.88 270)
+		(at 204.47 55.88 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10992,15 +9588,15 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060922b6b")
 		(property "Reference" "R225"
-			(at 200.66 50.673 90)
+			(at 204.47 50.673 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "0"
-			(at 200.66 52.9844 90)
+		(property "Value" "100"
+			(at 204.47 52.9844 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11008,7 +9604,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 200.406 56.896 90)
+			(at 204.216 56.896 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11017,7 +9613,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 200.66 55.88 0)
+			(at 204.47 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11026,7 +9622,7 @@
 			)
 		)
 		(property "Description" "0 0603"
-			(at 203.2 50.673 0)
+			(at 207.01 50.673 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11034,8 +9630,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2654002"
-			(at 200.66 55.88 0)
+		(property "LCSC" ""
+			(at 204.47 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11043,8 +9639,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 200.66 55.88 0)
+		(property "Manufacturer_Name" ""
+			(at 204.47 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11052,8 +9648,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
-			(at 200.66 55.88 0)
+		(property "Manufacturer_Part_Number" ""
+			(at 204.47 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11062,7 +9658,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 200.66 55.88 0)
+			(at 204.47 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11071,7 +9667,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 200.66 55.88 0)
+			(at 204.47 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11080,7 +9676,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 200.66 55.88 0)
+			(at 204.47 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11089,7 +9685,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 200.66 55.88 0)
+			(at 204.47 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11129,7 +9725,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "100"
 			(at 233.68 52.9844 90)
 			(effects
 				(font
@@ -11155,7 +9751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1K 0603"
+		(property "Description" ""
 			(at 231.14 50.673 0)
 			(effects
 				(font
@@ -11164,7 +9760,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844746"
+		(property "LCSC" ""
 			(at 233.68 55.88 0)
 			(effects
 				(font
@@ -11173,7 +9769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 233.68 55.88 0)
 			(effects
 				(font
@@ -11182,7 +9778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW06031K00FKEAC"
+		(property "Manufacturer_Part_Number" ""
 			(at 233.68 55.88 0)
 			(effects
 				(font
@@ -11237,166 +9833,6 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
 					(reference "R228")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:MMDT2907")
-		(at 209.55 53.34 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-0000609bb575")
-		(property "Reference" "Q209"
-			(at 209.55 59.309 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BC857BS,115"
-			(at 209.55 61.6204 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 212.09 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/MMDT2907AQ.pdf"
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual PNP BJT - 2PNP"
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Flight" "BC857BS,115"
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BC857BS,115"
-			(at 212.09 59.309 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "BC857BS,115"
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C8654"
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 209.55 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0597610a-bef2-49d1-b43f-c43c7f657a39")
-		)
-		(pin "2"
-			(uuid "3ead136e-5f29-4ac1-8006-44c8b3e6a3b0")
-		)
-		(pin "6"
-			(uuid "e9eb4e3f-4925-4e90-9dea-e17eab58c92a")
-		)
-		(pin "3"
-			(uuid "1c1538c0-55af-41be-b866-53f87b7ebe48")
-		)
-		(pin "4"
-			(uuid "ce6de27f-2d88-48fa-97ae-bb64a99e998d")
-		)
-		(pin "5"
-			(uuid "969bf166-549f-490e-8539-b32c9fae78e2")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005ede7915"
-					(reference "Q209")
 					(unit 1)
 				)
 			)

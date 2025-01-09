@@ -6245,10 +6245,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1fd52715-cb44-4f4d-8731-f60e5bf66677")
 		(property "Reference" "Q506"
-			(at 189.23 91.44 0)
+			(at 188.722 90.932 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6256,7 +6255,7 @@
 			)
 		)
 		(property "Value" "IRF7406PbF"
-			(at 189.23 91.44 0)
+			(at 188.468 92.964 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6557,10 +6556,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "37690ef1-3164-4f48-a642-d862ee792e9e")
 		(property "Reference" "Q505"
-			(at 189.23 66.04 0)
+			(at 188.976 65.024 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6568,7 +6566,7 @@
 			)
 		)
 		(property "Value" "IRF7406PbF"
-			(at 189.23 66.04 0)
+			(at 188.976 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7123,10 +7121,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c657ddf8-745b-4d29-8a4a-9ee5069ecb3e")
 		(property "Reference" "Q507"
-			(at 189.23 116.84 0)
+			(at 188.468 116.332 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7134,7 +7131,7 @@
 			)
 		)
 		(property "Value" "IRF7406PbF"
-			(at 189.23 116.84 0)
+			(at 188.722 118.364 0)
 			(effects
 				(font
 					(size 1.27 1.27)

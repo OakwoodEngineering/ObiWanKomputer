@@ -12,6 +12,16 @@
 		(comment 1 "Derived from PyCubed Mainboard v5")
 	)
 	(lib_symbols)
+	(text "XXX: Proper attribution to PyCubed/ License"
+		(exclude_from_sim no)
+		(at 206.756 163.322 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "0131440c-1935-4822-9b59-2cb358bf1967")
+	)
 	(text "GND is ground reference for components on the schematic. \nGNDREF is the negative terminal of the battery board."
 		(exclude_from_sim no)
 		(at 147.828 54.356 0)
@@ -21,6 +31,16 @@
 			)
 		)
 		(uuid "9369ca93-d712-4852-86c1-8d6813170df1")
+	)
+	(text "XXX: Waiting for: Radio Characterization and master power gating circut\n"
+		(exclude_from_sim no)
+		(at 87.884 169.164 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+			)
+		)
+		(uuid "aa3ef535-23e9-4653-9555-99e2e8087c2d")
 	)
 	(text "PyCubed"
 		(exclude_from_sim no)
