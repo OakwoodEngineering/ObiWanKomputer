@@ -3787,9 +3787,9 @@
 		)
 		(uuid "01f4d15b-d2a9-4fc1-a806-9f8feacce161")
 	)
-	(text "Populating R9=107K,R10=464K\nsets turn-on voltage to 12V (solar input). \nUse this to tune efficiency"
+	(text "Placing this resistor disables \ncharger until VSOLAR > 12V"
 		(exclude_from_sim no)
-		(at 58.42 25.4 0)
+		(at 57.404 25.4 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -3797,17 +3797,6 @@
 			(justify left bottom)
 		)
 		(uuid "13404bda-2321-4a6b-a706-36db52ebe72f")
-	)
-	(text "Populating R9=107K,R10=464K\nsets turn-on voltage to 12V (solar input). \nUse this to tune efficiency"
-		(exclude_from_sim no)
-		(at 59.69 96.52 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "18d89ac0-226e-4003-abaa-18f4b222f3c9")
 	)
 	(text "VSOLAR 9V to 40V"
 		(exclude_from_sim no)
@@ -3956,18 +3945,7 @@
 		)
 		(uuid "d4f4deef-7415-4c95-bf4a-5669c1d83ce5")
 	)
-	(text "Solar_Current_1\nmonitors charge current using:\nIchrg=988*Vprog/Rprog\n3.01K = 400mA max charge current\n"
-		(exclude_from_sim no)
-		(at 192.278 124.714 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "fdc2ef41-ba32-4c8c-94dd-ec1b4915a139")
-	)
-	(text "Solar_Current_1\nmonitors charge current using:\nIchrg=988*Vprog/Rprog\n3.01K = 400mA max charge current\n"
+	(text "Icharge =~ 320 mA\nRprog = 988 x 1.227V/ 320mA = 3.788k\nChoose standard value of 3.83k resulting in 317 mA"
 		(exclude_from_sim no)
 		(at 192.024 53.34 0)
 		(effects
@@ -5751,7 +5729,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "107K"
+		(property "Value" "34.8k"
 			(at 57.15 94.488 0)
 			(effects
 				(font
@@ -5778,7 +5756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "107K 0603"
+		(property "Description" ""
 			(at 54.61 95.25 0)
 			(effects
 				(font
@@ -6832,7 +6810,7 @@
 		(dnp no)
 		(uuid "43970cb1-d7c4-44b5-9eac-28730952125c")
 		(property "Reference" "R419"
-			(at 160.02 50.038 0)
+			(at 154.686 53.848 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -6840,8 +6818,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "3.01K"
-			(at 166.37 51.308 0)
+		(property "Value" "3.83k"
+			(at 166.878 53.848 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -6867,7 +6845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.01K 0603"
+		(property "Description" ""
 			(at 156.21 52.2986 0)
 			(effects
 				(font
@@ -6876,7 +6854,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C137732"
+		(property "LCSC" ""
 			(at 157.48 53.34 0)
 			(effects
 				(font
@@ -7299,7 +7277,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10k"
 			(at 62.23 40.005 0)
 			(effects
 				(font
@@ -7334,7 +7312,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2654002"
+		(property "LCSC" ""
 			(at 62.23 34.29 0)
 			(effects
 				(font
@@ -7343,7 +7321,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 62.23 34.29 0)
 			(effects
 				(font
@@ -7352,7 +7330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
+		(property "Manufacturer_Part_Number" ""
 			(at 62.23 34.29 0)
 			(effects
 				(font
@@ -7882,7 +7860,7 @@
 		(dnp no)
 		(uuid "742116d9-fdf0-450a-87cd-9e8506e302b7")
 		(property "Reference" "R127"
-			(at 161.29 121.158 0)
+			(at 156.21 125.222 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -7890,8 +7868,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "3.01K"
-			(at 167.64 122.428 0)
+		(property "Value" "3.83k"
+			(at 168.148 125.222 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -7917,7 +7895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.01K 0603"
+		(property "Description" ""
 			(at 157.48 123.4186 0)
 			(effects
 				(font
@@ -7926,7 +7904,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C137732"
+		(property "LCSC" ""
 			(at 158.75 124.46 0)
 			(effects
 				(font
@@ -8285,7 +8263,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "10k"
 			(at 63.5 111.125 0)
 			(effects
 				(font
@@ -8320,7 +8298,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2654002"
+		(property "LCSC" ""
 			(at 63.5 105.41 0)
 			(effects
 				(font
@@ -8329,7 +8307,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 63.5 105.41 0)
 			(effects
 				(font
@@ -8338,7 +8316,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " MCT06030Z0000ZP500"
+		(property "Manufacturer_Part_Number" ""
 			(at 63.5 105.41 0)
 			(effects
 				(font
@@ -9049,7 +9027,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Value" "107K"
+		(property "Value" "34.8k"
 			(at 55.88 23.368 0)
 			(effects
 				(font
@@ -9076,7 +9054,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "107K 0603"
+		(property "Description" ""
 			(at 53.34 24.13 0)
 			(effects
 				(font

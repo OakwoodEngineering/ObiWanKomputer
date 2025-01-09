@@ -6175,9 +6175,9 @@
 		)
 		(uuid "6b5ac242-89a8-47b6-bd3f-12833b220aab")
 	)
-	(text "XXX: Does pi pico have a perfered value for R303/4, tend to use 10 or 15\nThis is value written on RP2350B minimlistic design"
+	(text "XXX: 27 was suggested for RP2350B"
 		(exclude_from_sim no)
-		(at 89.916 87.884 0)
+		(at 87.122 70.612 0)
 		(effects
 			(font
 				(size 1.27 1.27)
