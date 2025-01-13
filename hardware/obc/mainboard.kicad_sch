@@ -12,29 +12,32 @@
 		(comment 1 "Derived from PyCubed Mainboard v5")
 	)
 	(lib_symbols)
-	(text "XXX: Proper attribution to PyCubed/ License"
+	(text "The Obi Wan Computer was developed by students at Oakwood High School\nunder the direction of Michael Lyle.  It is based on the PyCubed project\nby Maximillian Holliday, released under the\nCreative Commons Attribution-ShareAlike 4.0 International License.\n\nLikewise, this work, Obi Wan Computer © 2023-2025 by the NyanSat Project\nis licensed under CC BY-SA 4.0. To view a copy of this license, visit \nhttps://creativecommons.org/licenses/by-sa/4.0/"
 		(exclude_from_sim no)
-		(at 206.756 163.322 0)
+		(at 17.526 32.004 0)
 		(effects
 			(font
 				(size 2.54 2.54)
 			)
+			(justify left)
+			(href "https://creativecommons.org/licenses/by-sa/4.0/")
 		)
 		(uuid "0131440c-1935-4822-9b59-2cb358bf1967")
 	)
-	(text "GND is ground reference for components on the schematic. \nGNDREF is the negative terminal of the battery board."
+	(text "GND is ground reference for components on the schematic. \nGNDREF is the negative terminal of the battery board.\n\nXXX need more master info here"
 		(exclude_from_sim no)
-		(at 147.828 54.356 0)
+		(at 80.01 149.606 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "9369ca93-d712-4852-86c1-8d6813170df1")
 	)
 	(text "XXX: Waiting for: Radio Characterization and master power gating circut\n"
 		(exclude_from_sim no)
-		(at 87.884 169.164 0)
+		(at 87.884 181.864 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -42,21 +45,30 @@
 		)
 		(uuid "aa3ef535-23e9-4653-9555-99e2e8087c2d")
 	)
-	(text "PyCubed"
+	(text "Links to other schematic pages:"
 		(exclude_from_sim no)
-		(at 193.802 182.88 0)
+		(at 89.789 56.007 0)
 		(effects
 			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
+				(size 2.159 2.159)
 			)
 			(justify left bottom)
 		)
-		(uuid "bb481b88-6a27-4ce9-8192-e725b3076a37")
+		(uuid "b669ca96-4ebf-469d-9e3f-fbd0dde75e0e")
+	)
+	(text "Documentation of conventions and other information:"
+		(exclude_from_sim no)
+		(at 88.392 143.256 0)
+		(effects
+			(font
+				(size 2.159 2.159)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf308f1a-c3b2-4973-ae4b-8ac997a179fe")
 	)
 	(sheet
-		(at 34.29 67.31)
+		(at 43.815 62.865)
 		(size 30.48 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -68,7 +80,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005cec5a72")
 		(property "Sheetname" "Avionics"
-			(at 34.29 65.9634 0)
+			(at 43.815 61.5184 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -77,7 +89,7 @@
 			)
 		)
 		(property "Sheetfile" "Avionics.kicad_sch"
-			(at 34.29 88.7226 0)
+			(at 43.815 84.2776 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -94,7 +106,7 @@
 		)
 	)
 	(sheet
-		(at 132.08 67.31)
+		(at 141.605 62.865)
 		(size 30.48 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -106,7 +118,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005cec5dde")
 		(property "Sheetname" "Power"
-			(at 132.08 65.9634 0)
+			(at 141.605 61.5184 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -115,7 +127,7 @@
 			)
 		)
 		(property "Sheetfile" "Power.kicad_sch"
-			(at 132.08 88.7226 0)
+			(at 141.605 84.2776 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -132,7 +144,7 @@
 		)
 	)
 	(sheet
-		(at 82.55 67.31)
+		(at 92.075 62.865)
 		(size 30.48 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -144,7 +156,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005cec60eb")
 		(property "Sheetname" "Connectors"
-			(at 82.55 65.9634 0)
+			(at 92.075 61.5184 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -153,7 +165,7 @@
 			)
 		)
 		(property "Sheetfile" "Connectors.kicad_sch"
-			(at 82.55 88.7226 0)
+			(at 92.075 84.2776 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -170,7 +182,7 @@
 		)
 	)
 	(sheet
-		(at 134.62 106.68)
+		(at 144.145 102.235)
 		(size 30.48 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -182,7 +194,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005cec6281")
 		(property "Sheetname" "RF and GPS"
-			(at 134.62 105.3334 0)
+			(at 144.145 100.8884 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -191,7 +203,7 @@
 			)
 		)
 		(property "Sheetfile" "RF_and_GPS.kicad_sch"
-			(at 134.62 128.0926 0)
+			(at 144.145 123.6476 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -208,7 +220,7 @@
 		)
 	)
 	(sheet
-		(at 177.8 67.31)
+		(at 187.325 62.865)
 		(size 30.48 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -220,7 +232,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005cec6476")
 		(property "Sheetname" "Burn Wires"
-			(at 177.8 65.9634 0)
+			(at 187.325 61.5184 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -229,7 +241,7 @@
 			)
 		)
 		(property "Sheetfile" "Burn_Wires.kicad_sch"
-			(at 177.8 88.7226 0)
+			(at 187.325 84.2776 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -246,7 +258,7 @@
 		)
 	)
 	(sheet
-		(at 34.29 106.68)
+		(at 43.815 102.235)
 		(size 30.48 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -258,7 +270,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005ede7915")
 		(property "Sheetname" "Bus Protection"
-			(at 34.29 105.3334 0)
+			(at 43.815 100.8884 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -267,7 +279,7 @@
 			)
 		)
 		(property "Sheetfile" "Bus_Protection.kicad_sch"
-			(at 34.29 128.0926 0)
+			(at 43.815 123.6476 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -284,7 +296,7 @@
 		)
 	)
 	(sheet
-		(at 197.485 106.045)
+		(at 207.01 101.6)
 		(size 31.115 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -296,7 +308,7 @@
 		)
 		(uuid "5728bec1-e38c-4cf8-8d7a-17e9d882a72f")
 		(property "Sheetname" "Solar Chargers"
-			(at 197.485 104.6984 0)
+			(at 207.01 100.2534 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -305,7 +317,7 @@
 			)
 		)
 		(property "Sheetfile" "solarchargers.kicad_sch"
-			(at 197.485 127.4576 0)
+			(at 207.01 123.0126 0)
 			(effects
 				(font
 					(size 2.54 2.54)
