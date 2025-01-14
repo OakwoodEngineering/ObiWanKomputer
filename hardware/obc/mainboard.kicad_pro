@@ -748,6 +748,10 @@
     [
       "5728bec1-e38c-4cf8-8d7a-17e9d882a72f",
       "Solar Chargers"
+    ],
+    [
+      "0ba89562-211f-497f-9372-6f77bd1df388",
+      "Power Supervisor and Watch Dog"
     ]
   ],
   "text_variables": {}

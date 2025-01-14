@@ -1411,269 +1411,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:MBT2222ADW1T1"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MBT2222ADW1T1"
-				(at 5.08 -1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-				(at 5.08 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "600mA IC, 40V Vce, Dual NPN/NPN Transistors, SOT-363"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "NPN/NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?363*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MBT2222ADW1T1_0_1"
-				(polyline
-					(pts
-						(xy 0.635 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "MBT2222ADW1T1_1_1"
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "MBT2222ADW1T1_2_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "mainboard:1.0UF-0603-16V-10%"
 			(pin_names
 				(offset 1.016)
@@ -4754,12 +4491,6 @@
 		(uuid "0a0d6e46-5422-4937-ad90-af8b07c68cc1")
 	)
 	(junction
-		(at 135.89 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0a79e1a0-9b60-4b64-b4f2-0a0a5d4c54fa")
-	)
-	(junction
 		(at 80.01 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4806,12 +4537,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "233ff093-6caa-4b89-b9b6-b7277c5f42fd")
-	)
-	(junction
-		(at 158.75 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "24a4f4f6-356f-49ae-a561-c861e90e96bc")
 	)
 	(junction
 		(at 156.21 87.63)
@@ -4952,12 +4677,6 @@
 		(uuid "89dc0657-857c-458e-8b60-29406fa0232a")
 	)
 	(junction
-		(at 132.08 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8febe009-f91f-4a55-b969-60e00578eb3c")
-	)
-	(junction
 		(at 133.35 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4988,34 +4707,10 @@
 		(uuid "9a9d6210-1d95-488e-afd9-14117a843841")
 	)
 	(junction
-		(at 135.89 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9da0af5b-ac1c-4696-a6f2-76c417ec6e39")
-	)
-	(junction
 		(at 48.26 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5c0bb50-2832-41ac-8415-87095a2418ea")
-	)
-	(junction
-		(at 154.94 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa19330c-352a-4fee-ad9c-91b3ad01341a")
-	)
-	(junction
-		(at 124.46 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ac3f38e0-5fd0-4060-b7ae-6a6486b3b999")
-	)
-	(junction
-		(at 124.46 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ad06054c-5c00-4e0c-afc6-89a6299bb57c")
 	)
 	(junction
 		(at 92.71 93.98)
@@ -5066,12 +4761,6 @@
 		(uuid "c6461122-d5f8-4345-946f-82b11001db4a")
 	)
 	(junction
-		(at 144.78 120.65)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c7cd35f2-0b0f-4e66-b6ef-360b70a8fd68")
-	)
-	(junction
 		(at 132.08 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5082,12 +4771,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cd46a62f-b8b9-43e6-9b27-01dc40dd23a3")
-	)
-	(junction
-		(at 144.78 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d087c142-7565-4794-a9fc-a0c029742fa0")
 	)
 	(junction
 		(at 125.73 34.29)
@@ -5213,16 +4896,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 135.89) (xy 124.46 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a12df1c-4109-434f-a891-71e694349a1d")
-	)
-	(wire
-		(pts
 			(xy 53.34 162.56) (xy 53.34 160.02)
 		)
 		(stroke
@@ -5250,16 +4923,6 @@
 			(type default)
 		)
 		(uuid "0d9e51d0-708b-45f2-99a2-c3a5eb9329df")
-	)
-	(wire
-		(pts
-			(xy 116.84 157.48) (xy 116.84 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dcdd274-f5a6-43c9-8a5c-81e6fb22ebd9")
 	)
 	(wire
 		(pts
@@ -5340,16 +5003,6 @@
 			(type default)
 		)
 		(uuid "15399404-bedf-4674-9e30-d84194ae3eb7")
-	)
-	(wire
-		(pts
-			(xy 154.94 128.27) (xy 154.94 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15744080-6a2b-4bc0-89b3-c32a10c3dc10")
 	)
 	(wire
 		(pts
@@ -5441,16 +5094,6 @@
 		)
 		(uuid "276a0e64-ed38-446b-a488-74b90daafde1")
 	)
-	(wire
-		(pts
-			(xy 162.56 143.51) (xy 158.75 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "280bba23-7716-42ae-93b8-93a6b52e25f8")
-	)
 	(polyline
 		(pts
 			(xy 201.93 102.87) (xy 201.93 115.57)
@@ -5483,16 +5126,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 120.65) (xy 124.46 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32e53a9c-a1d1-4a14-be86-a4bda74029f1")
-	)
-	(wire
-		(pts
 			(xy 151.13 93.98) (xy 148.59 93.98)
 		)
 		(stroke
@@ -5510,16 +5143,6 @@
 			(type default)
 		)
 		(uuid "33c88ef3-9d83-4928-832b-4668395b3ae4")
-	)
-	(polyline
-		(pts
-			(xy 140.97 135.89) (xy 140.97 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34f34af0-a4d5-4b28-9251-cc381ead2085")
 	)
 	(wire
 		(pts
@@ -5613,16 +5236,6 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 144.78) (xy 132.08 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d852c96-2e8e-4fc1-ad2d-53aae51eda87")
-	)
-	(wire
-		(pts
 			(xy 39.37 120.65) (xy 48.26 120.65)
 		)
 		(stroke
@@ -5690,16 +5303,6 @@
 			(type default)
 		)
 		(uuid "4406cc54-a89c-4d18-82f1-521ec966f12d")
-	)
-	(wire
-		(pts
-			(xy 124.46 120.65) (xy 135.89 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46740882-4970-4dd6-85a3-550661b22098")
 	)
 	(wire
 		(pts
@@ -5783,16 +5386,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 143.51) (xy 154.94 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59aba53d-0165-41ab-b25c-09aa3a735f1e")
-	)
-	(wire
-		(pts
 			(xy 173.99 80.01) (xy 191.77 80.01)
 		)
 		(stroke
@@ -5811,15 +5404,15 @@
 		)
 		(uuid "5bf15aa4-3b8d-4d02-997d-d52cc4819d4f")
 	)
-	(polyline
+	(wire
 		(pts
-			(xy 149.86 135.89) (xy 149.86 115.57)
+			(xy 116.84 157.48) (xy 116.84 154.305)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e519762-147d-4836-adbb-c7269f86264d")
+		(uuid "5e3e06ac-dccb-4412-96be-d112c89eb642")
 	)
 	(wire
 		(pts
@@ -5860,16 +5453,6 @@
 			(type default)
 		)
 		(uuid "68ef28b4-7916-4d2c-9daf-bef28279c009")
-	)
-	(wire
-		(pts
-			(xy 124.46 128.27) (xy 124.46 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69ba5beb-e7f6-47f5-b9d3-8658dcf3dc06")
 	)
 	(wire
 		(pts
@@ -5960,16 +5543,6 @@
 			(type default)
 		)
 		(uuid "751fdbce-e3db-4e67-aecf-a6ba6a4b12d1")
-	)
-	(wire
-		(pts
-			(xy 132.08 144.78) (xy 132.08 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75ffa554-48ef-4280-8dd2-3f014589b242")
 	)
 	(polyline
 		(pts
@@ -6093,16 +5666,6 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 120.65) (xy 144.78 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85b155b7-6415-40a3-8006-1758d3e1b4ba")
-	)
-	(wire
-		(pts
 			(xy 39.37 99.06) (xy 48.26 99.06)
 		)
 		(stroke
@@ -6113,13 +5676,13 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 133.35) (xy 154.94 133.35)
+			(xy 116.84 154.305) (xy 120.015 154.305)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "870df7c9-2404-46f0-9190-91e359009ead")
+		(uuid "87d3b7ac-dc4a-4cc3-a7b1-0598d89825f7")
 	)
 	(wire
 		(pts
@@ -6151,16 +5714,6 @@
 		)
 		(uuid "8a3ad4b7-9ba2-42b4-b225-c9380e821b8a")
 	)
-	(polyline
-		(pts
-			(xy 149.86 135.89) (xy 140.97 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b232c9b-39ac-4357-90f8-52f61ad13bf6")
-	)
 	(wire
 		(pts
 			(xy 45.72 165.1) (xy 45.72 162.56)
@@ -6190,16 +5743,6 @@
 			(type default)
 		)
 		(uuid "8c4c493d-264d-4592-8957-b34b6c9b09a3")
-	)
-	(wire
-		(pts
-			(xy 124.46 135.89) (xy 124.46 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c780b15-f57b-4262-a8e9-49b3e48b9635")
 	)
 	(wire
 		(pts
@@ -6240,16 +5783,6 @@
 			(type default)
 		)
 		(uuid "94dbfd47-2d08-4537-8c94-1b10f748caaa")
-	)
-	(wire
-		(pts
-			(xy 143.51 133.35) (xy 144.78 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94f13d1b-d2b9-409f-b3c8-a2927421d602")
 	)
 	(wire
 		(pts
@@ -6343,16 +5876,6 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 144.78) (xy 147.32 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a90df999-f491-4378-bd59-591b48f246b3")
-	)
-	(wire
-		(pts
 			(xy 168.91 54.61) (xy 173.99 54.61)
 		)
 		(stroke
@@ -6370,16 +5893,6 @@
 			(type default)
 		)
 		(uuid "ab5c9b91-5bcf-4d62-b919-e80c40bc43a3")
-	)
-	(wire
-		(pts
-			(xy 172.72 146.05) (xy 170.18 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac129c9a-42fd-41c3-964f-6bf7423bd1ed")
 	)
 	(wire
 		(pts
@@ -6621,16 +6134,6 @@
 		)
 		(uuid "cddd5876-c397-4364-8cda-153ccce0c0b3")
 	)
-	(polyline
-		(pts
-			(xy 149.86 115.57) (xy 140.97 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf37025e-bf92-439b-b0c8-f868b8d488bd")
-	)
 	(wire
 		(pts
 			(xy 199.39 104.14) (xy 213.36 104.14)
@@ -6723,16 +6226,6 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 120.65) (xy 154.94 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9c324bf-3c1c-48bd-9213-2b4023bdb7a6")
-	)
-	(wire
-		(pts
 			(xy 137.16 87.63) (xy 135.89 87.63)
 		)
 		(stroke
@@ -6770,26 +6263,6 @@
 			(type default)
 		)
 		(uuid "db97efa4-f374-48a5-8cef-769f50b59dfb")
-	)
-	(wire
-		(pts
-			(xy 149.86 133.35) (xy 154.94 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc218866-bdb1-4422-a220-f5fa7ae961cb")
-	)
-	(wire
-		(pts
-			(xy 132.08 128.27) (xy 135.89 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dceaaa7a-9f90-4ad7-9a85-fc481ac7b714")
 	)
 	(wire
 		(pts
@@ -7031,16 +6504,6 @@
 		)
 		(uuid "f8ac4a01-6a49-4695-b475-4137c4dafcce")
 	)
-	(wire
-		(pts
-			(xy 144.78 128.27) (xy 144.78 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8d01ccf-a701-4995-9753-d622d4d61827")
-	)
 	(polyline
 		(pts
 			(xy 160.02 171.45) (xy 160.02 168.91)
@@ -7071,28 +6534,6 @@
 			(justify left bottom)
 		)
 		(uuid "07eaf530-ca83-4da2-8dab-c8c1cde74c47")
-	)
-	(text "Sets EN low\ndwell time"
-		(exclude_from_sim no)
-		(at 142.24 119.38 0)
-		(effects
-			(font
-				(size 0.7874 0.7874)
-			)
-			(justify left bottom)
-		)
-		(uuid "0e67594f-6c58-4418-814a-a4d824e8f0d9")
-	)
-	(text "Value is convenient,\nnot necessary. \n10K-80K would\nalso work for R29"
-		(exclude_from_sim no)
-		(at 123.19 132.08 0)
-		(effects
-			(font
-				(size 0.7874 0.7874)
-			)
-			(justify right bottom)
-		)
-		(uuid "16270ef7-b4b3-4b0c-848b-8fa8f21fbae5")
 	)
 	(text "VBATT 2S: 7-9V"
 		(exclude_from_sim no)
@@ -7238,38 +6679,6 @@
 		)
 		(uuid "d81d1e5b-9259-4475-bc5f-8cb7881ac742")
 	)
-	(text "\"One Shot\" Regulator Reset"
-		(exclude_from_sim no)
-		(at 113.03 113.03 0)
-		(effects
-			(font
-				(size 2.159 2.159)
-			)
-			(justify left bottom)
-		)
-		(uuid "e80706ab-3bf2-46c6-9d45-d11b0c3a007b")
-	)
-	(text "XXX: Likely to replace power gating circuit"
-		(exclude_from_sim no)
-		(at 209.55 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fe35bf12-7fe3-4d5d-860e-aee453fd9eb5")
-	)
-	(label "3V3_EN"
-		(at 116.84 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "13d6bc8c-0076-47a6-bc95-f0b494b026c9")
-	)
 	(label "REGN"
 		(at 143.51 87.63 0)
 		(fields_autoplaced yes)
@@ -7293,26 +6702,6 @@
 		(uuid "01f61398-b8ef-4ef5-81c5-7567d1ac82a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 57.15 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBATT"
-		(shape bidirectional)
-		(at 115.57 120.65 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0ee94961-34e7-4322-9023-188f44ef75f9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 115.57 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7603,6 +6992,26 @@
 			)
 		)
 	)
+	(global_label "VBATT"
+		(shape bidirectional)
+		(at 120.015 154.305 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fa7096e-4045-4da8-a433-cb957911d51a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 120.015 154.305 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STAT"
 		(shape bidirectional)
 		(at 177.8 87.63 0)
@@ -7615,26 +7024,6 @@
 		(uuid "712760a4-4c28-41f8-b560-6977e4cf911a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 177.8 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS_RESET"
-		(shape input)
-		(at 172.72 146.05 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92a00a78-ae09-476b-80c5-3c37b4b81b84")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.72 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11713,1522 +11102,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:MBT2222ADW1T1")
-		(at 152.4 138.43 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f121d0b")
-		(property "Reference" "Q402"
-			(at 149.86 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBT2222ADW1T1"
-			(at 156.21 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 157.48 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NPN BJT - 2NPN"
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Flight" "MBT2222ADW1T1G"
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
-			(at 149.86 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "MBT2222ADW1T1G"
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C157366"
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 152.4 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8debd2ba-a4a0-4348-9440-b53ba5a207b2")
-		)
-		(pin "2"
-			(uuid "e347d6af-cda0-4f1a-8380-62545e9e3ffc")
-		)
-		(pin "6"
-			(uuid "15ed71bf-c812-499e-b027-69ada63d2cd7")
-		)
-		(pin "3"
-			(uuid "e0cb3d2f-1a99-4531-9d21-7f1c8f7bd7d9")
-		)
-		(pin "4"
-			(uuid "e419f928-0597-489d-964b-44155dcaac07")
-		)
-		(pin "5"
-			(uuid "cce3dddb-f19b-4176-aa09-7ec358606a8a")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "Q402")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MBT2222ADW1T1")
-		(at 138.43 133.35 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f122771")
-		(property "Reference" "Q401"
-			(at 140.97 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBT2222ADW1T1"
-			(at 133.5786 134.493 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 133.35 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
-			(at 138.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NPN BJT - 2NPN"
-			(at 138.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Flight" "MBT2222ADW1T1G"
-			(at 138.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 138.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
-			(at 140.97 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "MBT2222ADW1T1G"
-			(at 138.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C157366"
-			(at 138.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 138.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 138.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 138.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 138.43 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2bec4c61-0810-4dbe-91f5-f3d869b38502")
-		)
-		(pin "2"
-			(uuid "836fa00c-b8a6-4f6e-9339-851c23a2160b")
-		)
-		(pin "1"
-			(uuid "1d1393b6-fce3-4085-80bb-14fa53941646")
-		)
-		(pin "6"
-			(uuid "b3a4f74c-0dd7-4a55-b838-7523f6f84542")
-		)
-		(pin "4"
-			(uuid "8ae0ea50-8837-4388-866d-a98e12b72cce")
-		)
-		(pin "5"
-			(uuid "f9c691f0-d1cd-4101-b320-b095fbe8a90f")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "Q401")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MBT2222ADW1T1")
-		(at 127 144.78 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f16d261")
-		(property "Reference" "Q401"
-			(at 130.81 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBT2222ADW1T1"
-			(at 143.51 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 121.92 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
-			(at 127 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NPN BJT - 2NPN"
-			(at 127 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Flight" "MBT2222ADW1T1G"
-			(at 127 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 127 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
-			(at 130.81 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "MBT2222ADW1T1G"
-			(at 127 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C157366"
-			(at 127 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 127 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 127 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 127 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 127 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5788fb08-6dd7-4092-9556-818eec26d161")
-		)
-		(pin "4"
-			(uuid "e56e5c92-20d9-4e9d-9280-2dcd8ba0e59c")
-		)
-		(pin "1"
-			(uuid "58445fe1-3262-4d49-b602-3ec66947a520")
-		)
-		(pin "2"
-			(uuid "f447c1bc-fb4b-4a8e-a683-5091409b9c3c")
-		)
-		(pin "5"
-			(uuid "4b0c80fe-7ca1-4496-a173-2c7a43b4b5c5")
-		)
-		(pin "6"
-			(uuid "39ca7518-8453-43e0-828f-b186711ce74f")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "Q401")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:MBT2222ADW1T1")
-		(at 165.1 138.43 0)
-		(mirror y)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f16d267")
-		(property "Reference" "Q402"
-			(at 167.64 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MBT2222ADW1T1"
-			(at 160.2486 139.573 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
-			(at 160.02 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.onsemi.com/pub_link/Collateral/MBT2222ADW1T1-D.PDF"
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual NPN BJT - 2NPN"
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Flight" "MBT2222ADW1T1G"
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "onsemi"
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "MBT2222ADW1T1G"
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C157366"
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 165.1 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed2558d7-6938-4f5f-aca9-30bf5ae1b163")
-		)
-		(pin "2"
-			(uuid "6c0637a0-3377-4344-850a-d5d741381738")
-		)
-		(pin "6"
-			(uuid "aba0d044-b06a-4a2a-a9b0-975d16a63e46")
-		)
-		(pin "3"
-			(uuid "6981a505-ca89-42cd-a719-6e69b4978bc9")
-		)
-		(pin "4"
-			(uuid "1a9395fc-0c58-4e16-a024-5eb3c40a4ea4")
-		)
-		(pin "5"
-			(uuid "47b27a49-83ae-414f-9548-8dc8cae75a03")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "Q402")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:GND")
-		(at 158.75 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f19defc")
-		(property "Reference" "#GND0414"
-			(at 158.75 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 156.21 148.59 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 158.75 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 158.75 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "dd7fc169-0bbe-4025-9030-1b7696df3f74")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "#GND0414")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 170.18 142.24 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f1b2c55")
-		(property "Reference" "R422"
-			(at 171.9072 141.0716 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "10k"
-			(at 171.9072 143.383 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 169.164 142.494 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10k 0603"
-			(at 171.9072 138.5316 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C169849"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "PANASONIC"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 170.18 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28bead30-c22f-4ebd-bc4b-077800b9281c")
-		)
-		(pin "2"
-			(uuid "0c699528-2c38-4b52-b640-457f2279d8ef")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "R422")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 154.94 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f1b44ab")
-		(property "Reference" "R421"
-			(at 156.6672 123.2916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100K"
-			(at 156.6672 125.603 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 153.924 124.714 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 154.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100K 0603"
-			(at 156.6672 120.7516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5369222"
-			(at 154.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 154.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " CRCW0603100KFKEC"
-			(at 154.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 154.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 154.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 154.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 154.94 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "398f9b8e-1792-433c-8f0d-d8665ffe099a")
-		)
-		(pin "2"
-			(uuid "b18d87ec-7e56-40f3-9dc0-13df6bce2481")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "R421")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 144.78 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f1ca9d3")
-		(property "Reference" "R418"
-			(at 146.5072 123.2916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "200K"
-			(at 146.5072 125.603 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.764 124.714 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "200K 0603"
-			(at 146.5072 120.7516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C473261"
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " PANASONIC"
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " ERA3AEB204V"
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 144.78 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8499eed5-da15-4e4d-a0f1-273db3ee40e2")
-		)
-		(pin "1"
-			(uuid "4077f9a7-61e6-492a-9f85-4a664f91406a")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "R418")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 135.89 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f1ea9b1")
-		(property "Reference" "R413"
-			(at 134.1882 123.2916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100K"
-			(at 134.1882 125.603 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 134.874 124.714 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "100K 0603"
-			(at 134.1882 120.7516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5369222"
-			(at 135.89 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 135.89 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " CRCW0603100KFKEC"
-			(at 135.89 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 135.89 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 135.89 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 135.89 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 135.89 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cb24e9d8-f0b2-4ea8-9ca3-3a51f09bad36")
-		)
-		(pin "2"
-			(uuid "a0208414-fc99-4f6b-a9d9-e55788562932")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "R413")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:GND")
-		(at 135.89 140.97 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f1ec250")
-		(property "Reference" "#GND0411"
-			(at 135.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 133.35 143.51 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 135.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 135.89 140.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19a51002-9236-4977-a468-b7bcf893af32")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "#GND0411")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mainboard:GND")
-		(at 124.46 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f20308a")
-		(property "Reference" "#GND0409"
-			(at 124.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 154.94 0)
-			(effects
-				(font
-					(size 1.4986 1.4986)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a66659fd-3b81-4305-b3ed-6b74ed34b753")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "#GND0409")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 124.46 124.46 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f203452")
-		(property "Reference" "R410"
-			(at 122.7582 123.2916 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "73.2K"
-			(at 122.7582 125.603 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 123.444 124.714 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "73.2K 0603"
-			(at 122.7582 120.7516 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C843966"
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Vishay Intertech"
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" " CRCW060373K2FKEA"
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 124.46 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "54d58d68-0089-41be-bb51-ffc70927d2a7")
-		)
-		(pin "1"
-			(uuid "383330f8-b07f-4bcf-825f-0a3f84ecd138")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "R410")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "mainboard:22UF-1210-16V-20%")
 		(at 30.48 172.72 0)
 		(unit 1)
@@ -13355,267 +11228,6 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
 					(reference "C403")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 147.32 133.35 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005f2e9325")
-		(property "Reference" "C413"
-			(at 147.32 128.27 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 147.32 130.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 147.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "10V 10uF X5R ±20% 0603"
-			(at 147.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C85713"
-			(at 147.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
-			(at 147.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "CL10A106MP8NNNC"
-			(at 147.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "10V ok?"
-			(at 147.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 147.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 147.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 147.32 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "7cb000ee-59a2-48fc-898f-947d895579dd")
-		)
-		(pin "1"
-			(uuid "68df00b9-32d7-4367-87bd-92c938f8ada1")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "C413")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 143.51 144.78 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005fbbcdc5")
-		(property "Reference" "R417"
-			(at 143.51 139.573 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20K"
-			(at 143.51 141.8844 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 143.256 143.764 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 143.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "20K 0603"
-			(at 146.05 139.573 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C105575"
-			(at 143.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" ""
-			(at 143.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" ""
-			(at 143.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" ""
-			(at 143.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 143.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 143.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 143.51 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83d06250-9df9-4e70-a465-d46de31504cd")
-		)
-		(pin "2"
-			(uuid "154885d9-0356-4db1-af33-01c603ba8f2b")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "R417")
 					(unit 1)
 				)
 			)
