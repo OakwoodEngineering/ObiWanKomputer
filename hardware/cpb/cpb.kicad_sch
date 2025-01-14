@@ -3716,6 +3716,176 @@
 				)
 			)
 		)
+		(symbol "Device:R_US"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 1.016 -0.254 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Interface_UART:SC16IS750xBS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8319,12 +8489,6 @@
 		(uuid "507f794f-7da3-409b-a61b-22c2624b2135")
 	)
 	(junction
-		(at 49.53 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "50d680ec-5405-4aa0-907f-54849841dd78")
-	)
-	(junction
 		(at 226.06 213.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9013,12 +9177,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f828d105-4780-463c-ac72-a615d90bd0ac")
-	)
-	(junction
-		(at 57.15 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fc517ad4-554b-4c32-bb0e-6108ff24c64f")
 	)
 	(junction
 		(at 152.4 29.21)
@@ -16100,16 +16258,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 39.37) (xy 57.15 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff9317c4-a472-4964-b802-1b53691ff953")
-	)
-	(wire
-		(pts
 			(xy 171.45 238.76) (xy 171.45 247.65)
 		)
 		(stroke
@@ -17756,7 +17904,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 222.25 34.29 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18944,7 +19092,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 271.78 27.94 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19872,7 +20020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 95.25 243.84 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20078,7 +20226,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 295.91 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20148,7 +20296,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 163.83 125.73 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20224,7 +20372,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 406.4 198.12 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20911,7 +21059,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 241.3 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21055,7 +21203,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 406.4 191.77 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21655,7 +21803,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 307.34 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21731,7 +21879,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 134.62 207.01 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -21872,7 +22020,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 307.34 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22030,7 +22178,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 261.62 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22912,7 +23060,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 252.73 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23080,7 +23228,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 262.89 129.54 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23460,7 +23608,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 134.62 217.17 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23536,7 +23684,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 74.93 243.84 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -23690,7 +23838,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 350.52 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24274,7 +24422,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 252.73 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -24733,7 +24881,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 292.1 231.14 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25095,7 +25243,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 252.73 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25339,7 +25487,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 224.79 135.89 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25415,7 +25563,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 95.25 200.66 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -25700,7 +25848,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 153.67 209.55 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -26842,7 +26990,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 146.05 99.06 0)
 		(mirror y)
 		(unit 1)
@@ -26921,7 +27069,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 406.4 185.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27269,7 +27417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 134.62 238.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27423,7 +27571,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 74.93 212.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -27499,7 +27647,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 262.89 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28437,7 +28585,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 134.62 248.92 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28591,7 +28739,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 194.31 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -28841,7 +28989,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 153.67 238.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29424,7 +29572,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 251.46 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29582,7 +29730,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 217.17 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -29982,7 +30130,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 295.91 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30052,7 +30200,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 165.1 107.95 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30269,7 +30417,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 295.91 124.46 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -30534,7 +30682,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 95.25 231.14 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31091,7 +31239,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 134.62 222.25 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31399,7 +31547,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 67.31 29.21 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -31569,7 +31717,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 252.73 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32077,7 +32225,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 95.25 212.09 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32551,7 +32699,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 134.62 252.73 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -32627,7 +32775,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 406.4 204.47 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33043,7 +33191,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 295.91 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -33113,7 +33261,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
+		(lib_id "Device:R_US")
 		(at 224.79 138.43 90)
 		(unit 1)
 		(exclude_from_sim no)
