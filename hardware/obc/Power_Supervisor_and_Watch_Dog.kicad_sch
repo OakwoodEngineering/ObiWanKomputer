@@ -3908,7 +3908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VBUS"
+		(property "Value" "VWATCHEDRAIL"
 			(at 110.49 22.86 0)
 			(effects
 				(font

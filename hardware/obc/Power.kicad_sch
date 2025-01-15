@@ -5696,7 +5696,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 179.07) (xy 25.4 179.07)
+			(xy 33.02 179.07) (xy 29.845 179.07)
 		)
 		(stroke
 			(width 0)
@@ -6575,17 +6575,6 @@
 		)
 		(uuid "0ed56670-357f-40f8-af9c-081f8b6f0cbc")
 	)
-	(text "VBATT 2S: 7-9V"
-		(exclude_from_sim no)
-		(at 26.924 178.816 0)
-		(effects
-			(font
-				(size 1.0668 1.0668)
-			)
-			(justify left bottom)
-		)
-		(uuid "18730087-5bd1-470e-936d-372375e6ffd6")
-	)
 	(text "Regulator - 3.3V OUT"
 		(exclude_from_sim no)
 		(at 71.628 158.496 0)
@@ -6687,6 +6676,17 @@
 		)
 		(uuid "be0f4d36-ca81-4d1b-bdc1-27ac96c821e0")
 	)
+	(text "2S: 7-9V"
+		(exclude_from_sim no)
+		(at 203.2 143.51 0)
+		(effects
+			(font
+				(size 1.0668 1.0668)
+			)
+			(justify left bottom)
+		)
+		(uuid "c62bebe3-dc71-462c-9c15-3bbe202e47a9")
+	)
 	(text "[Current sense resistor] Needs Kelvin sense connection"
 		(exclude_from_sim no)
 		(at 194.31 165.862 0)
@@ -6729,7 +6729,7 @@
 		)
 		(uuid "1b924bda-d88a-48fd-8aae-4a388ec384f7")
 	)
-	(global_label "VBATT"
+	(global_label "VWATCHEDRAIL"
 		(shape bidirectional)
 		(at 53.34 113.03 180)
 		(effects
@@ -6931,9 +6931,9 @@
 			)
 		)
 	)
-	(global_label "VBATT"
+	(global_label "VWATCHEDRAIL"
 		(shape bidirectional)
-		(at 25.4 179.07 180)
+		(at 29.845 179.07 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6942,7 +6942,7 @@
 		)
 		(uuid "4e4f8c34-996f-415b-9dc2-af04765d1968")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 25.4 179.07 0)
+			(at 29.845 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +7031,7 @@
 			)
 		)
 	)
-	(global_label "VBATT"
+	(global_label "VWATCHEDRAIL"
 		(shape bidirectional)
 		(at 122.555 165.735 0)
 		(effects
