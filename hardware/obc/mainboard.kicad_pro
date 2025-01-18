@@ -546,13 +546,13 @@
   },
   "schematic": {
     "annotate_start_num": 100,
-    "bom_export_filename": "bom.csv",
+    "bom_export_filename": "/Users/luketiti/Desktop/mainboard Bom.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
-      "field_delimiter": ",",
+      "field_delimiter": "\t",
       "keep_line_breaks": false,
       "keep_tabs": false,
-      "name": "CSV",
+      "name": "---",
       "ref_delimiter": ",",
       "ref_range_delimiter": "",
       "string_delimiter": "\""

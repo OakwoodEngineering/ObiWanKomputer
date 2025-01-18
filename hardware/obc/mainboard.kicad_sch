@@ -182,7 +182,7 @@
 		)
 	)
 	(sheet
-		(at 156.21 100.33)
+		(at 106.68 95.25)
 		(size 30.48 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -194,7 +194,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005cec6281")
 		(property "Sheetname" "RF and GPS"
-			(at 156.21 98.9834 0)
+			(at 106.68 93.9034 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -203,7 +203,7 @@
 			)
 		)
 		(property "Sheetfile" "RF_and_GPS.kicad_sch"
-			(at 156.21 121.7426 0)
+			(at 106.68 116.6626 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -258,7 +258,7 @@
 		)
 	)
 	(sheet
-		(at 17.145 102.235)
+		(at 43.18 95.885)
 		(size 30.48 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -270,7 +270,7 @@
 		)
 		(uuid "00000000-0000-0000-0000-00005ede7915")
 		(property "Sheetname" "Bus Protection"
-			(at 17.145 100.8884 0)
+			(at 43.18 94.5384 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -279,7 +279,7 @@
 			)
 		)
 		(property "Sheetfile" "Bus_Protection.kicad_sch"
-			(at 17.145 123.6476 0)
+			(at 43.18 117.2976 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -296,7 +296,7 @@
 		)
 	)
 	(sheet
-		(at 60.325 97.79)
+		(at 43.815 136.525)
 		(size 30.48 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -308,7 +308,7 @@
 		)
 		(uuid "0ba89562-211f-497f-9372-6f77bd1df388")
 		(property "Sheetname" "Power Supervisor and Watch Dog"
-			(at 60.325 96.4434 0)
+			(at 43.815 135.1784 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -317,7 +317,7 @@
 			)
 		)
 		(property "Sheetfile" "Power_Supervisor_and_Watch_Dog.kicad_sch"
-			(at 60.325 119.2026 0)
+			(at 43.815 157.9376 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -334,7 +334,7 @@
 		)
 	)
 	(sheet
-		(at 210.82 100.965)
+		(at 167.005 95.25)
 		(size 31.115 20.32)
 		(fields_autoplaced yes)
 		(stroke
@@ -346,7 +346,7 @@
 		)
 		(uuid "5728bec1-e38c-4cf8-8d7a-17e9d882a72f")
 		(property "Sheetname" "Solar Chargers"
-			(at 210.82 99.6184 0)
+			(at 167.005 93.9034 0)
 			(effects
 				(font
 					(size 2.54 2.54)
@@ -355,7 +355,7 @@
 			)
 		)
 		(property "Sheetfile" "solarchargers.kicad_sch"
-			(at 210.82 122.3776 0)
+			(at 167.005 116.6626 0)
 			(effects
 				(font
 					(size 2.54 2.54)
