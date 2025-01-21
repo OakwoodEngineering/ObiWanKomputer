@@ -1,5 +1,4 @@
 - Revision 1  
-    - CRITICAL: Missing pullup for MAX22200 SDO.  MAX22200 SDO is open-drain and cannot drive pin high, but we have no pullup on pin.
     - RN components need proper fanout, some currently have vias in pads which causes marginal clearance.
     - Power Glitch needs to be fixed  
         - C5(22nF) needs to be moved between the gate and +VBATT rather than the gate and ground. (Electrically, everything should remain the same except
@@ -14,3 +13,4 @@ for the specified change above).
     - Need to rethink connector pinning.  Do we want to put a supply on ADC headers?
     - ENHANCEMENT: Consider adding a power LED for VM
     - ENHANCEMENT: GPLEDs (amber) could be brighter
+    - Erroneous previous errata: Missing pullup for MAX22200 SDO.  MAX22200 SDO is open-drain and cannot drive pin high, but we have no pullup on pin.  (there was actually a pull-up).
