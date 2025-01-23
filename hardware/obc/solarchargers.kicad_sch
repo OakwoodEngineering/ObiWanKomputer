@@ -7,6 +7,7 @@
 	(title_block
 		(title "Obi Wan Computer")
 		(rev "1")
+		(company "Luke Titi, Michael Lyle")
 	)
 	(lib_symbols
 		(symbol "Device:L"

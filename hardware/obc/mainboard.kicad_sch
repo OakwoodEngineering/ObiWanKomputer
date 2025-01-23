@@ -8,7 +8,7 @@
 		(title "Obi Wan Computer")
 		(date "2024-06-07")
 		(rev "1")
-		(company "Ruchir Kavulli, Michael Lyle")
+		(company "Ruchir Kavulli, Luke Titi, Michael Lyle")
 		(comment 1 "Derived from PyCubed Mainboard v5")
 	)
 	(lib_symbols)
@@ -138,7 +138,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25"
-					(page "5")
+					(page "6")
 				)
 			)
 		)
@@ -176,7 +176,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25"
-					(page "4")
+					(page "5")
 				)
 			)
 		)
@@ -214,7 +214,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25"
-					(page "7")
+					(page "8")
 				)
 			)
 		)
@@ -252,7 +252,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25"
-					(page "6")
+					(page "7")
 				)
 			)
 		)
@@ -290,7 +290,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25"
-					(page "3")
+					(page "4")
 				)
 			)
 		)
@@ -328,7 +328,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25"
-					(page "9")
+					(page "3")
 				)
 			)
 		)
@@ -366,7 +366,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25"
-					(page "8")
+					(page "9")
 				)
 			)
 		)

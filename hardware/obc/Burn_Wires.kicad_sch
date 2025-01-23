@@ -8,7 +8,7 @@
 		(title "Obi Wan Computer")
 		(date "2024-06-07")
 		(rev "1")
-		(company "Ruchir Kavulli, Michael Lyle")
+		(company "Ruchir Kavulli, Luke Titi, Michael Lyle")
 		(comment 1 "Derived from PyCubed Mainboard v5")
 	)
 	(lib_symbols
@@ -3228,16 +3228,6 @@
 			(justify left bottom)
 		)
 		(uuid "15e93a87-511b-4b87-86d6-3801b6000f99")
-	)
-	(text "XXX: Mr. Lyle Check"
-		(exclude_from_sim no)
-		(at 50.8 54.864 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "198cb799-8901-41fa-88b5-e396b052f7fd")
 	)
 	(text "Threshold ~3A/V;\ndv/dt through thresh 591uV/us\ndA/dt 1.8mA/us\npeaks at around 800mA"
 		(exclude_from_sim no)
