@@ -1844,7 +1844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRF7306"
+		(property "Value" "DMP 3098LSD"
 			(at 141.224 45.72 90)
 			(effects
 				(font
@@ -1883,7 +1883,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C537809 "
+		(property "LCSC" "C531177"
 			(at 139.7 43.18 0)
 			(effects
 				(font
@@ -2359,7 +2359,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "3.3k"
 			(at 127 46.9899 0)
 			(effects
 				(font
@@ -2395,7 +2395,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C844918"
+		(property "LCSC" "C108078"
 			(at 124.46 45.72 0)
 			(effects
 				(font
@@ -2450,7 +2450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IRF7306"
+		(property "Value" "DMP 3098LSD"
 			(at 76.454 45.72 90)
 			(effects
 				(font
@@ -2489,7 +2489,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C537809 "
+		(property "LCSC" "C531177"
 			(at 74.93 43.18 0)
 			(effects
 				(font
