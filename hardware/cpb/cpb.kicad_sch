@@ -17260,28 +17260,6 @@
 		)
 		(uuid "ffc5469a-336e-469a-9b5c-af7e99df1236")
 	)
-	(global_label "VM"
-		(shape input)
-		(at 111.76 107.95 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c2f22752-44aa-46af-a95d-99d012794d3d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 111.76 113.4752 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(symbol
 		(lib_id "Device:C")
 		(at 193.04 219.71 0)
@@ -19249,6 +19227,71 @@
 			(project "cpb"
 				(path "/9a10a1ee-db5a-47ad-90f3-81b92d74d449"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+7.5V")
+		(at 111.76 107.95 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "217f9d4e-c2c9-4640-b0f1-6d59ecba0ce0")
+		(property "Reference" "#PWR081"
+			(at 111.76 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VM"
+			(at 111.76 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+7.5V\""
+			(at 111.76 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "946c83b4-45f6-4868-bb78-d61e2dd7a94f")
+		)
+		(instances
+			(project "cpb"
+				(path "/9a10a1ee-db5a-47ad-90f3-81b92d74d449"
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -25301,7 +25344,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 150.876 70.104 90)
 			(effects
 				(font

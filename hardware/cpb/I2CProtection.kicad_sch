@@ -2184,7 +2184,7 @@
 		)
 		(uuid "fdb9b9fe-cbc6-4477-8b75-9753540e1d10")
 	)
-	(text "Theory of operation:\n\n6.8k pullup on device side of signal.\n\n10nF is charged from power domain, turning first FET on and second FET off.\nBipolar transistors turned on, connecting PROTECT_SIG to DEVICE_SIG.\n\nIf DEVICE_SIG is held low, capacitor discharges, turning off bipolar transistors\nand disconnecting device from bus.\n\nIf PROTECT_SIG is held low by another member of the bus, DEVICE_SIG is low\nand will discharge C36; however C36 will immediately recharge after\ndisconnection.  Hopefully other misbehaving device will be disconnected by\nanother instance of this circuit.\n\nIf PROTECT_PWR is turned off, device is disconnected.\n\n200kohm * 10nF = 2 millisecond time constant\n\nThreshold voltage of BSS138PS is 1.5V max."
+	(text "Derived From PyCubed\n\n\nTheory of operation:\n\n6.8k pullup on device side of signal.\n\n10nF is charged from power domain, turning first FET on and second FET off.\nBipolar transistors turned on, connecting PROTECT_SIG to DEVICE_SIG.\n\nIf DEVICE_SIG is held low, capacitor discharges, turning off bipolar transistors\nand disconnecting device from bus.\n\nIf PROTECT_SIG is held low by another member of the bus, DEVICE_SIG is low\nand will discharge C36; however C36 will immediately recharge after\ndisconnection.  Hopefully other misbehaving device will be disconnected by\nanother instance of this circuit.\n\nIf PROTECT_PWR is turned off, device is disconnected.\n\n200kohm * 10nF = 2 millisecond time constant\n\nThreshold voltage of BSS138PS is 1.5V max."
 		(exclude_from_sim no)
 		(at 185.928 44.958 0)
 		(effects

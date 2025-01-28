@@ -1844,7 +1844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMP 3098LSD"
+		(property "Value" "DMP3098LSD"
 			(at 141.224 45.72 90)
 			(effects
 				(font
@@ -2450,7 +2450,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DMP 3098LSD"
+		(property "Value" "DMP3098LSD"
 			(at 76.454 45.72 90)
 			(effects
 				(font
