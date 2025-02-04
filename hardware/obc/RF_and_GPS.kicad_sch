@@ -2461,19 +2461,13 @@
 		(uuid "184775eb-191b-4073-ab80-1cf0ef19ac8d")
 	)
 	(junction
-		(at 125.73 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "19760122-cbdf-4d44-b562-f1b4ab79b0d8")
-	)
-	(junction
 		(at 104.14 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bdae13a-5c47-4e39-95bd-0478fb042893")
 	)
 	(junction
-		(at 125.73 138.43)
+		(at 104.14 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27ba9ccc-5a7b-452a-bff1-1d8e79dce588")
@@ -2513,12 +2507,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ff90f9b-d190-461d-8c6e-9ddfbc7e3223")
-	)
-	(junction
-		(at 114.3 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b811c75-6aef-48de-bca2-11a235954982")
 	)
 	(junction
 		(at 223.52 55.88)
@@ -2603,18 +2591,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ee50f047-fe29-4998-af5f-b44134a5eba8")
-	)
-	(junction
-		(at 104.14 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f738884e-761e-4059-987b-1c228cf9e514")
-	)
-	(junction
-		(at 114.3 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9c3d227-16bc-4229-b925-89c78ecd6e4d")
 	)
 	(junction
 		(at 118.11 76.2)
@@ -2840,16 +2816,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 133.35) (xy 125.73 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a88d405-2016-4a52-9342-596c443b4524")
-	)
-	(wire
-		(pts
 			(xy 86.36 48.26) (xy 86.36 50.8)
 		)
 		(stroke
@@ -3020,6 +2986,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 92.71) (xy 154.94 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47f93fc2-f5c5-4c13-82e8-5e8f66d1c20c")
+	)
+	(wire
+		(pts
 			(xy 78.74 128.27) (xy 78.74 130.81)
 		)
 		(stroke
@@ -3027,16 +3003,6 @@
 			(type default)
 		)
 		(uuid "48536372-e3bb-4c8d-bf62-836f0aae725b")
-	)
-	(wire
-		(pts
-			(xy 104.14 135.89) (xy 114.3 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49951f48-32ff-4d2f-8384-cf8b518c317d")
 	)
 	(wire
 		(pts
@@ -3100,13 +3066,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 135.89) (xy 125.73 138.43)
+			(xy 104.14 135.89) (xy 104.14 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "665bd46c-0dde-4753-a163-c8ee99f55136")
+	)
+	(wire
+		(pts
+			(xy 121.285 92.71) (xy 128.27 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "68a6169f-9828-40e8-850e-8553966355be")
 	)
 	(wire
 		(pts
@@ -3260,7 +3236,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 92.71) (xy 152.4 92.71)
+			(xy 133.35 92.71) (xy 139.7 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3290,7 +3266,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 138.43) (xy 125.73 138.43)
+			(xy 76.2 138.43) (xy 104.14 138.43)
 		)
 		(stroke
 			(width 0)
@@ -3330,7 +3306,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 138.43) (xy 125.73 142.24)
+			(xy 104.14 138.43) (xy 104.14 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3347,16 +3323,6 @@
 			(type default)
 		)
 		(uuid "b2f733bd-77f3-4e85-ba3e-d095c9f8ede4")
-	)
-	(wire
-		(pts
-			(xy 114.3 135.89) (xy 125.73 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b32ae17c-8773-4eea-882c-15b944b3a707")
 	)
 	(wire
 		(pts
@@ -3427,16 +3393,6 @@
 			(type default)
 		)
 		(uuid "c3be774d-2d24-4c53-b70b-a87133c50de5")
-	)
-	(wire
-		(pts
-			(xy 114.3 128.27) (xy 125.73 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7bb30f0-b4da-4b1d-8417-f42b52f8dc26")
 	)
 	(wire
 		(pts
@@ -3530,16 +3486,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 133.35) (xy 114.3 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ddf77de6-37b8-443b-af97-731724c14a8c")
-	)
-	(wire
-		(pts
 			(xy 101.6 58.42) (xy 113.03 58.42)
 		)
 		(stroke
@@ -3557,16 +3503,6 @@
 			(type default)
 		)
 		(uuid "e6584b81-45fa-46d2-8dae-520f7312a568")
-	)
-	(wire
-		(pts
-			(xy 104.14 128.27) (xy 114.3 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e84c0e8e-006e-4c29-aa22-b2e66d31b8a8")
 	)
 	(wire
 		(pts
@@ -3820,7 +3756,7 @@
 	)
 	(global_label "GPS_PWR_IN"
 		(shape bidirectional)
-		(at 152.4 92.71 180)
+		(at 121.285 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3829,7 +3765,7 @@
 		)
 		(uuid "30c0c437-933e-42a7-a6d9-da8c68cd528e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 92.71 0)
+			(at 121.285 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4235,6 +4171,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 210.82 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "18a689e9-7bdb-4f2e-8706-b7149b5f2421")
 		)
@@ -4459,6 +4404,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 237.49 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e6cbb604-018d-4540-bcff-b9cb523ec8c0")
 		)
@@ -4610,6 +4564,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 237.49 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 237.49 49.53 0)
 			(effects
 				(font
@@ -4775,6 +4738,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 113.03 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e515314b-632b-41ce-87b9-aa4315522b0d")
 		)
@@ -4931,6 +4903,15 @@
 					(size 1.27 1.27)
 					(bold yes)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 83.82 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "17"
@@ -5177,6 +5158,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 53.34 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7311bead-f3af-4e0a-9358-e5daa074e32f")
 		)
@@ -5365,6 +5355,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 80.01 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 80.01 48.26 0)
 			(effects
 				(font
@@ -5779,6 +5778,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 172.72 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a666e3eb-b38c-42e4-b71d-545478f14205")
 		)
@@ -5977,6 +5985,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 92.71 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9a404711-c743-4b2b-8c7c-f8a689063e11")
 		)
@@ -6081,6 +6098,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 63.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 63.5 113.03 0)
 			(effects
 				(font
@@ -6253,6 +6279,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 213.36 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "87c0f34a-2977-4a0a-9bb1-133c443b0b4c")
 		)
@@ -6369,7 +6404,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:C_Small")
-		(at 125.73 130.81 0)
+		(at 142.24 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6377,7 +6412,7 @@
 		(dnp no)
 		(uuid "4a659221-bf1d-4974-81c7-774ef3323f7b")
 		(property "Reference" "C117"
-			(at 127.762 129.794 0)
+			(at 141.605 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6421,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 128.016 132.08 0)
+			(at 147.955 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6430,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 125.73 130.81 0)
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6404,7 +6439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 130.81 0)
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6413,7 +6448,7 @@
 			)
 		)
 		(property "Description" "10V 10uF X5R ±20% 0603"
-			(at 125.73 130.81 0)
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6422,7 +6457,7 @@
 			)
 		)
 		(property "LCSC" "C85713"
-			(at 125.73 130.81 0)
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6431,7 +6466,7 @@
 			)
 		)
 		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
-			(at 125.73 130.81 0)
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6440,7 +6475,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL10A106MP8NNNC"
-			(at 125.73 130.81 0)
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6449,7 +6484,7 @@
 			)
 		)
 		(property "Notes" "10V ok?"
-			(at 125.73 130.81 0)
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6458,7 +6493,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 125.73 130.81 0)
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +6502,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 125.73 130.81 0)
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6476,7 +6511,16 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 125.73 130.81 0)
+			(at 142.24 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 142.24 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6608,6 +6652,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 81.28 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 81.28 130.81 0)
 			(effects
 				(font
@@ -6814,6 +6867,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 104.14 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3afab4ed-005b-4fb5-bdaf-c3c27d8f2708")
 		)
@@ -6897,7 +6959,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:GND")
-		(at 125.73 144.78 0)
+		(at 104.14 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6905,7 +6967,7 @@
 		(dnp no)
 		(uuid "bcdbdd44-153a-4d46-8618-e401ab2ca013")
 		(property "Reference" "#GND0112"
-			(at 125.73 144.78 0)
+			(at 104.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,7 +6976,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.19 147.32 0)
+			(at 101.6 147.32 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -6923,7 +6985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 144.78 0)
+			(at 104.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6932,7 +6994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 144.78 0)
+			(at 104.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6941,7 +7003,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 125.73 144.78 0)
+			(at 104.14 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6963,7 +7025,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:C_Small")
-		(at 114.3 130.81 0)
+		(at 130.81 92.71 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6971,7 +7033,7 @@
 		(dnp no)
 		(uuid "fbe42780-b7f6-4b59-8d56-326cc82ede7c")
 		(property "Reference" "C116"
-			(at 116.078 130.302 0)
+			(at 130.175 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6980,7 +7042,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 116.586 132.08 0)
+			(at 135.255 91.44 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6989,7 +7051,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 114.3 130.81 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,7 +7060,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 130.81 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7007,7 +7069,7 @@
 			)
 		)
 		(property "Description" "16V 1uF X7R ±10% 0603"
-			(at 114.3 130.81 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +7078,7 @@
 			)
 		)
 		(property "LCSC" "C59782"
-			(at 114.3 130.81 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,7 +7087,7 @@
 			)
 		)
 		(property "Notes" "16V ok?"
-			(at 114.3 130.81 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,7 +7096,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 114.3 130.81 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,7 +7105,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 114.3 130.81 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +7114,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 114.3 130.81 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +7123,7 @@
 			)
 		)
 		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
-			(at 114.3 130.81 0)
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7070,7 +7132,16 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " CL10B105KO8NNNC"
-			(at 114.3 130.81 0)
+			(at 130.81 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 130.81 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

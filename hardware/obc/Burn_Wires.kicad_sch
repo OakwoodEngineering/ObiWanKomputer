@@ -2355,6 +2355,12 @@
 		(uuid "a1e9c6b0-da31-405f-bb07-1010389e31f9")
 	)
 	(junction
+		(at 151.13 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a94b755d-3491-40c6-8b61-66b9ac06ec01")
+	)
+	(junction
 		(at 201.93 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2407,6 +2413,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ddf4fb4a-205d-434e-977f-f03e0cee24b4")
+	)
+	(junction
+		(at 151.13 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4b1363a-4f3a-421f-a8c3-bebf29ebbeda")
 	)
 	(junction
 		(at 176.53 71.12)
@@ -3819,6 +3831,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 214.63 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac88d046-4bb5-4aa8-b6f7-6af4de54ea1d")
 		)
@@ -3954,6 +3975,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 156.21 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f23e206-8c5f-4e90-921f-616948627b34")
 		)
@@ -4037,7 +4067,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:RESISTOR0603")
-		(at 151.13 102.87 0)
+		(at 151.13 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4045,7 +4075,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000593af3fc")
 		(property "Reference" "R503"
-			(at 151.13 101.346 0)
+			(at 146.05 100.33 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4054,7 +4084,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 151.13 104.394 0)
+			(at 146.05 104.775 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4081,7 +4111,7 @@
 			)
 		)
 		(property "Description" "10k 0603"
-			(at 151.13 98.806 0)
+			(at 147.066 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4144,6 +4174,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 151.13 102.87 0)
 			(effects
 				(font
@@ -4276,6 +4315,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 151.13 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 151.13 78.74 0)
 			(effects
 				(font
@@ -4434,6 +4482,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 163.83 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4c0f213f-5f4f-4b67-8ac2-033fdb0a6675")
 		)
@@ -4569,6 +4626,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 156.21 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d59d257b-7910-4721-8674-9e6e4ea2eec4")
 		)
@@ -4693,6 +4759,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 168.91 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 168.91 76.2 0)
 			(effects
 				(font
@@ -4861,6 +4936,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 214.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40c998fb-dd39-41cd-a9ea-b0c65a42958c")
 		)
@@ -4988,6 +5072,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 168.91 100.33 0)
 			(effects
 				(font
@@ -5138,6 +5231,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 163.83 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 163.83 81.28 0)
 			(effects
 				(font
@@ -5348,6 +5450,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 78.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 78.74 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9d42e97a-2ab6-4476-8c4f-bb0741b17912")
 		)
@@ -5480,6 +5600,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 156.21 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8d56599-6a6a-41b1-bbdf-683d5caedf42")
 		)
@@ -5551,6 +5680,15 @@
 			)
 		)
 		(property "LCSC" "C23869 "
+			(at 53.34 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 53.34 78.74 0)
 			(effects
 				(font
@@ -5694,6 +5832,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 151.13 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "414a3327-dd30-4ee3-ae50-ef5ac0c18730")
 		)
@@ -5816,6 +5963,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 189.23 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 189.23 91.44 0)
 			(effects
 				(font
@@ -6002,6 +6158,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 214.63 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8be5f122-c670-4049-b677-d461f842efee")
 		)
@@ -6064,6 +6229,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 34.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 34.29 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 34.29 72.39 0)
 			(effects
 				(font
@@ -6194,6 +6377,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 189.23 66.04 0)
 			(effects
 				(font
@@ -6436,6 +6628,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 163.83 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "59628da5-59e1-4b8f-9d34-94544464623c")
 		)
@@ -6579,6 +6780,15 @@
 			)
 		)
 		(property "LCSC" "C520642"
+			(at 97.79 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 97.79 73.66 0)
 			(effects
 				(font
@@ -6741,6 +6951,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 59.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 59.69 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3d60a36d-01a3-4b53-a470-475733d1826a")
 		)
@@ -6865,6 +7093,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 168.91 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 168.91 125.73 0)
 			(effects
 				(font
@@ -7003,6 +7240,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 189.23 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "0a5fbeb0-77e6-4ad7-819e-a89e10c547e7")
 		)
@@ -7082,6 +7328,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 39.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 39.37 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 39.37 81.28 0)
 			(effects
 				(font

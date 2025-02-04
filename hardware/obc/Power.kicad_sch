@@ -4431,6 +4431,126 @@
 				)
 			)
 		)
+		(symbol "power:VBUS"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VBUS"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"VBUS\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VBUS_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VBUS_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 191.77 157.48)
@@ -5086,6 +5206,16 @@
 	)
 	(wire
 		(pts
+			(xy 29.845 179.07) (xy 33.02 179.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34e1b85b-50b0-4f20-ba0d-488b3386048c")
+	)
+	(wire
+		(pts
 			(xy 240.03 100.33) (xy 227.33 100.33)
 		)
 		(stroke
@@ -5136,7 +5266,7 @@
 	)
 	(polyline
 		(pts
-			(xy 167.64 144.78) (xy 195.58 144.78)
+			(xy 163.195 144.78) (xy 195.58 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5496,7 +5626,7 @@
 	)
 	(polyline
 		(pts
-			(xy 167.64 160.02) (xy 167.64 144.78)
+			(xy 163.195 160.02) (xy 163.195 144.78)
 		)
 		(stroke
 			(width 0)
@@ -5603,16 +5733,6 @@
 			(type default)
 		)
 		(uuid "84aa5bcc-79ee-4d17-9b05-f84252b7d4bd")
-	)
-	(wire
-		(pts
-			(xy 33.02 179.07) (xy 29.845 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84fb6be0-f387-46ee-b42f-844766695c3f")
 	)
 	(wire
 		(pts
@@ -5746,7 +5866,7 @@
 	)
 	(polyline
 		(pts
-			(xy 195.58 160.02) (xy 167.64 160.02)
+			(xy 195.58 160.02) (xy 163.195 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5873,6 +5993,16 @@
 			(type default)
 		)
 		(uuid "af43af20-8117-4306-b698-97097a6ddb7f")
+	)
+	(wire
+		(pts
+			(xy 33.655 113.03) (xy 53.34 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af9d1828-c9fe-4a58-95ca-0e56e7429db9")
 	)
 	(wire
 		(pts
@@ -6514,7 +6644,7 @@
 		)
 		(uuid "fe928ea0-b01a-4a84-b016-a86c09f3ea23")
 	)
-	(text "Set RF Voltage:\nVOUT=1.21*(1+R55/R59)+(3E-6*R55)\nVOUT=5V (R55=10K, R59=3.3K)\n"
+	(text "Set RF Voltage:\nVOUT=1.21*(1+R402/R403)+(3E-6*R402)\nVOUT=5V (R402=10K, R403=3.3K)\n"
 		(exclude_from_sim no)
 		(at 56.642 129.286 0)
 		(effects
@@ -6524,16 +6654,6 @@
 			(justify left bottom)
 		)
 		(uuid "07eaf530-ca83-4da2-8dab-c8c1cde74c47")
-	)
-	(text "XXX: consider using smaller FET, though, because GPS doesn't need\nTHAT much power switched.  Ideally a small Vgs(th) too."
-		(exclude_from_sim no)
-		(at 82.55 36.195 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0ed56670-357f-40f8-af9c-081f8b6f0cbc")
 	)
 	(text "Regulator - 3.3V OUT"
 		(exclude_from_sim no)
@@ -6657,7 +6777,7 @@
 		)
 		(uuid "c62bebe3-dc71-462c-9c15-3bbe202e47a9")
 	)
-	(text "[Current sense resistor] Needs Kelvin sense connection"
+	(text "LAYOUT: [Current sense resistor] Needs Kelvin sense connection"
 		(exclude_from_sim no)
 		(at 194.31 165.862 0)
 		(effects
@@ -6667,9 +6787,9 @@
 		)
 		(uuid "d3c8c3d9-61f1-4dd1-ac03-312b02071d28")
 	)
-	(text "Current Sense Resistor:\n1.0 Ohm is about \n0.3mW power lost\nas heat"
+	(text "FULLSCALE (105mV)^{2} / 0.1 = 110 mW"
 		(exclude_from_sim no)
-		(at 169.164 153.416 0)
+		(at 163.83 147.32 0)
 		(effects
 			(font
 				(size 0.889 0.889)
@@ -6688,16 +6808,6 @@
 		)
 		(uuid "dfda266b-92ed-4010-9f0e-a5f804bef632")
 	)
-	(text "XXX incorrect comment"
-		(exclude_from_sim no)
-		(at 177.546 143.764 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e83217da-bf75-4716-90ba-9aa0768ab5ab")
-	)
 	(label "REGN"
 		(at 201.93 118.11 0)
 		(fields_autoplaced yes)
@@ -6708,26 +6818,6 @@
 			(justify left bottom)
 		)
 		(uuid "1b924bda-d88a-48fd-8aae-4a388ec384f7")
-	)
-	(global_label "VWATCHEDRAIL"
-		(shape bidirectional)
-		(at 53.34 113.03 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "01f61398-b8ef-4ef5-81c5-7567d1ac82a2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 53.34 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "VBATT"
 		(shape bidirectional)
@@ -6911,26 +7001,6 @@
 			)
 		)
 	)
-	(global_label "VWATCHEDRAIL"
-		(shape bidirectional)
-		(at 29.845 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4e4f8c34-996f-415b-9dc2-af04765d1968")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.845 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "USB_D-"
 		(shape bidirectional)
 		(at 196.85 87.63 180)
@@ -7003,26 +7073,6 @@
 		(uuid "633a35e7-b29f-483f-b076-6aa57a3c4659")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 240.03 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VWATCHEDRAIL"
-		(shape bidirectional)
-		(at 122.555 165.735 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6fa7096e-4045-4da8-a433-cb957911d51a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.555 165.735 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7330,6 +7380,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 53.34 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a19d4b9-9828-4a53-924d-1976446c3413")
 		)
@@ -7460,6 +7519,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 134.62 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b543ea4d-b3ed-43f3-b9a8-b0e5ab9e8d94")
 		)
@@ -7566,6 +7634,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 191.77 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 191.77 152.4 0)
 			(effects
 				(font
@@ -7771,6 +7848,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 144.78 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "31ef1a6d-c3b8-4f22-add5-29d83983344d")
 		)
@@ -7903,6 +7989,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 22.86 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e389573e-4ab1-4c58-9478-61bb0657c419")
 		)
@@ -8027,6 +8122,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 144.78 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 144.78 173.99 0)
 			(effects
 				(font
@@ -8175,6 +8279,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 41.91 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 41.91 168.91 0)
 			(effects
 				(font
@@ -8443,6 +8556,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 229.87 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9e87da7a-d5c0-4328-97a3-c8d720e98397")
 		)
@@ -8567,6 +8689,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 236.22 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 236.22 91.44 0)
 			(effects
 				(font
@@ -8772,6 +8903,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 240.03 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3d296da3-8f0f-4e63-acd8-c57d2c9b354d")
 		)
@@ -8968,6 +9108,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 218.44 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8c1b2b3-4abc-4af9-96c0-5ac245f1271b")
 		)
@@ -9092,6 +9241,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 198.12 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 198.12 118.11 0)
 			(effects
 				(font
@@ -9297,6 +9455,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 191.77 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "98c54f9c-0159-4d43-89d5-c1c5fd7d98d5")
 		)
@@ -9445,6 +9612,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1716fa36-7cb4-4282-951d-0a8defa736c2")
 		)
@@ -9585,6 +9761,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 203.2 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 203.2 133.35 0)
 			(effects
 				(font
@@ -9749,6 +9934,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 223.52 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f3b54004-3b93-4696-beee-fcbccf05b79a")
 		)
@@ -9873,6 +10067,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 240.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 240.03 91.44 0)
 			(effects
 				(font
@@ -10014,6 +10217,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 190.5 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "32edd480-27af-497d-9b48-7ab6c30d9de8")
 		)
@@ -10139,6 +10351,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 190.5 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 190.5 114.3 0)
 			(effects
 				(font
@@ -10344,6 +10565,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 201.93 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f03ac7da-5bcf-4078-8124-9e80a5786b03")
 		)
@@ -10466,6 +10696,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 248.92 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 248.92 147.32 0)
 			(effects
 				(font
@@ -10671,6 +10910,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 203.2 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "943f9f83-e1d9-4ac3-97aa-45a0de7e6139")
 		)
@@ -10795,6 +11043,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 194.31 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 194.31 114.3 0)
 			(effects
 				(font
@@ -10952,6 +11209,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 226.06 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c00c7b4f-1880-495b-b0fa-62024f503cec")
 		)
@@ -11076,6 +11342,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 33.02 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 33.02 184.15 0)
 			(effects
 				(font
@@ -11228,6 +11503,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 53.34 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 53.34 110.49 0)
 			(effects
 				(font
@@ -11446,6 +11730,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 35.56 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "57764b55-6675-4a17-ad18-f9af40ec972a")
 		)
@@ -11579,6 +11872,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 44.45 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6725c77f-770f-4eca-9129-0895fc34e943")
 		)
@@ -11704,6 +12006,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 44.45 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 44.45 135.89 0)
 			(effects
 				(font
@@ -11908,6 +12219,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 124.46 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c7607080-56d5-4afe-9636-7b28d09e2842")
 		)
@@ -12098,6 +12418,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 132.08 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 132.08 176.53 0)
 			(effects
 				(font
@@ -12370,6 +12699,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 33.02 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1c6b48f4-a964-4b00-ba1a-0fe549cd9260")
 		)
@@ -12494,6 +12832,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 43.18 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -12652,6 +12999,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 121.92 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "fd87a1c5-0d57-46b9-a02a-a9f62a64ec3a")
 		)
@@ -12752,6 +13108,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 67.945 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 67.945 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 67.945 71.755 0)
 			(effects
 				(font
@@ -12949,6 +13323,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 184.15 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "34532d30-7235-4f5d-8008-604cc825f254")
 		)
@@ -13011,6 +13394,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 88.265 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 88.265 66.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 88.265 66.675 0)
 			(effects
 				(font
@@ -13086,6 +13487,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C23162"
+			(at 62.865 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 62.865 62.865 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b4626b7a-5f01-4c59-8123-09226709b012")
 		)
@@ -13096,6 +13515,72 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
 					(reference "R139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 122.555 165.735 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65418906-1253-4e74-9549-fb414296a84d")
+		(property "Reference" "#PWR0110"
+			(at 122.555 169.545 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VWATCHEDRAIL"
+			(at 122.555 160.655 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 122.555 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 122.555 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 122.555 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eda41116-c2f7-49b3-9685-1a757f0dff07")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -13145,6 +13630,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 107.315 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23162"
+			(at 107.315 71.755 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 107.315 71.755 0)
 			(effects
 				(font
@@ -13232,6 +13735,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 81.915 69.215 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33b19be5-e4a4-4e90-9e32-6546588e649d")
 		)
@@ -13245,6 +13757,71 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
 					(reference "Q104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VBUS")
+		(at 29.845 179.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f24a577-64c2-4c15-b3f9-58270c35d1e7")
+		(property "Reference" "#PWR0109"
+			(at 29.845 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VWATCHEDRAIL"
+			(at 30.48 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.845 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.845 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 29.845 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f3eb4fc6-e7e7-491e-bacb-24919d260acf")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -13367,6 +13944,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 212.09 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "23"
 			(uuid "99877096-bdb9-4f12-bc63-448fd8cc17fa")
 		)
@@ -13452,6 +14038,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VBUS")
+		(at 33.655 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c9f4695c-260f-410f-973a-f89b4233a8aa")
+		(property "Reference" "#PWR0111"
+			(at 33.655 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VWATCHEDRAIL"
+			(at 33.655 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.655 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.655 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VBUS\""
+			(at 33.655 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55abcab4-43bc-45a0-9155-4cee1c6b8940")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:IRF7404")
 		(at 126.365 64.135 270)
 		(mirror x)
@@ -13510,6 +14162,15 @@
 			)
 		)
 		(property "LCSC" "C520642"
+			(at 126.365 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 126.365 64.135 0)
 			(effects
 				(font

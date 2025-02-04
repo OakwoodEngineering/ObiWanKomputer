@@ -12,6 +12,145 @@
 		(comment 1 "Derived from PyCubed Mainboard v5")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016) hide)
@@ -5572,18 +5711,6 @@
 		(uuid "4c339cb3-cfd0-4717-b08a-aaa0df760203")
 	)
 	(junction
-		(at 31.75 169.545)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "53eab9c0-3753-418e-b674-cf18f0ccffe1")
-	)
-	(junction
-		(at 31.75 177.165)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5472f9ab-3d98-4dac-9239-a45b934f8897")
-	)
-	(junction
 		(at 38.1 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5957,7 +6084,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.655 64.135) (xy 28.575 64.135)
+			(xy 34.29 100.965) (xy 29.21 100.965)
 		)
 		(stroke
 			(width 0)
@@ -6277,16 +6404,6 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 177.165) (xy 31.75 169.545)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3232bc6b-28bc-463a-b41b-38be25efbf40")
-	)
-	(wire
-		(pts
 			(xy 226.06 26.67) (xy 237.49 26.67)
 		)
 		(stroke
@@ -6307,7 +6424,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.845 75.565) (xy 29.845 74.295)
+			(xy 30.48 112.395) (xy 30.48 111.125)
 		)
 		(stroke
 			(width 0)
@@ -6507,7 +6624,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.845 74.295) (xy 28.575 74.295)
+			(xy 30.48 111.125) (xy 29.21 111.125)
 		)
 		(stroke
 			(width 0)
@@ -6997,7 +7114,7 @@
 	)
 	(wire
 		(pts
-			(xy 28.575 71.755) (xy 38.735 71.755)
+			(xy 29.21 108.585) (xy 39.37 108.585)
 		)
 		(stroke
 			(width 0)
@@ -7014,6 +7131,16 @@
 			(type default)
 		)
 		(uuid "9228249c-d25f-463d-9283-b18ca2b8cfb6")
+	)
+	(wire
+		(pts
+			(xy 31.115 66.04) (xy 36.83 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9242045d-7be3-4014-83e9-afda32e75826")
 	)
 	(wire
 		(pts
@@ -7264,6 +7391,16 @@
 			(type default)
 		)
 		(uuid "b11df0fb-34f7-4801-af23-c0934fc2f061")
+	)
+	(wire
+		(pts
+			(xy 44.45 66.04) (xy 57.15 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1d42cf3-7fac-4a77-a19c-2bfc02ac8b84")
 	)
 	(wire
 		(pts
@@ -7577,7 +7714,7 @@
 	)
 	(wire
 		(pts
-			(xy 28.575 69.215) (xy 38.735 69.215)
+			(xy 29.21 106.045) (xy 39.37 106.045)
 		)
 		(stroke
 			(width 0)
@@ -7787,7 +7924,7 @@
 	)
 	(wire
 		(pts
-			(xy 28.575 66.675) (xy 38.735 66.675)
+			(xy 29.21 103.505) (xy 39.37 103.505)
 		)
 		(stroke
 			(width 0)
@@ -7847,7 +7984,7 @@
 	)
 	(text "JTAG"
 		(exclude_from_sim no)
-		(at 29.083 58.293 0)
+		(at 29.718 95.123 0)
 		(effects
 			(font
 				(size 2.159 2.159)
@@ -7880,15 +8017,35 @@
 		)
 		(uuid "7050b320-9c2f-4763-a70a-6c5a477c2983")
 	)
-	(text "Place close to access"
+	(text "LAYOUT: PG 7-8 Layout details\n"
 		(exclude_from_sim no)
-		(at 183.896 75.946 0)
+		(at 45.085 50.165 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "764d66d8-dae1-4736-b2c8-253d967b7961")
+	)
+	(text "LAYOUT: Place close to access"
+		(exclude_from_sim no)
+		(at 180.34 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "7cc373d9-f02d-4c75-9b80-da0c85103487")
+	)
+	(text "USB_BOOT circuit"
+		(exclude_from_sim no)
+		(at 36.195 61.595 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bb089146-80a5-4d99-9089-fd0344120e18")
 	)
 	(text "Decoupling"
 		(exclude_from_sim no)
@@ -7945,7 +8102,7 @@
 		(uuid "3e688883-b420-444a-a3d9-129a9cf907da")
 	)
 	(label "SWCLK"
-		(at 38.735 69.215 180)
+		(at 39.37 106.045 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8077,7 +8234,7 @@
 		(uuid "9b97e05e-3b6d-4ccb-bcd4-f647b231c7c1")
 	)
 	(label "SWDIO"
-		(at 38.735 66.675 180)
+		(at 39.37 103.505 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8132,7 +8289,7 @@
 		(uuid "ddb6df25-5bd7-42fb-b61b-add3030f9dad")
 	)
 	(label "~{RESET}"
-		(at 38.735 71.755 180)
+		(at 39.37 108.585 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8174,6 +8331,17 @@
 			(justify left bottom)
 		)
 		(uuid "e3802cdb-73ed-41de-93cf-628e38140954")
+	)
+	(label "QSPI_SS"
+		(at 57.15 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e6e44c02-f5b9-4cd3-9216-35c844a423c6")
 	)
 	(label "QSPI_SD1"
 		(at 72.39 135.89 180)
@@ -8408,7 +8576,7 @@
 	)
 	(global_label "GND"
 		(shape bidirectional)
-		(at 29.845 74.295 0)
+		(at 30.48 111.125 0)
 		(effects
 			(font
 				(size 0.254 0.254)
@@ -8417,7 +8585,7 @@
 		)
 		(uuid "51840d4c-7d67-447f-9e94-4ce164b7f30f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 29.845 74.295 0)
+			(at 30.48 111.125 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9142,6 +9310,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 212.09 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d841e8e2-7478-4aab-80bd-2ccf40fdc743")
 		)
@@ -9265,6 +9442,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 212.09 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 212.09 157.48 0)
 			(effects
 				(font
@@ -9472,6 +9658,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 207.01 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e2750e08-399e-47df-a76f-23c156a86712")
 		)
@@ -9605,6 +9800,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 173.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2a231f3c-f951-450f-a621-94deb587f42d")
 		)
@@ -9730,6 +9934,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 173.99 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 173.99 125.73 0)
 			(effects
 				(font
@@ -9882,6 +10095,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 200.66 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 200.66 78.74 0)
 			(effects
 				(font
@@ -10162,6 +10384,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 214.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c970738f-eb05-4e2f-865d-f3645b87e4ff")
 		)
@@ -10360,6 +10591,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 162.56 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "353b0b53-e360-4ea8-8ac5-d03eeff02859")
 		)
@@ -10429,6 +10669,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1705"
+			(at 41.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 41.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "613c3af8-8e59-4f80-89dc-92bcca8a5fd1")
 		)
@@ -10490,6 +10748,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 58.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1705"
+			(at 58.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -10700,6 +10976,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 64.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08f985c3-559d-445e-b44e-ba19bae670a1")
 		)
@@ -10848,6 +11133,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 66.04 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "de8596da-2c66-431d-8ed5-48e4c8c052e8")
 		)
@@ -10890,7 +11184,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 26.416 175.514 90)
 			(effects
 				(font
@@ -10909,6 +11203,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C100044"
+			(at 25.4 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 25.4 175.26 0)
 			(effects
 				(font
@@ -11053,6 +11365,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 21.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 21.59 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "46a94051-55ea-4ef4-ac2f-86d641c17455")
 		)
@@ -11114,6 +11444,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 62.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 62.23 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 62.23 118.11 0)
 			(effects
 				(font
@@ -11258,6 +11606,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 191.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 191.77 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7ba113e2-9aeb-4611-9ad2-d4b5351ffcc7")
 		)
@@ -11328,6 +11694,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 214.63 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 214.63 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "37c967d1-0555-4677-ba1b-6f470749b942")
 		)
@@ -11389,6 +11773,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 63.5 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 63.5 165.735 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 63.5 165.735 0)
 			(effects
 				(font
@@ -11512,6 +11914,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 175.26 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 175.26 101.6 0)
 			(effects
 				(font
@@ -11653,6 +12064,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 74.93 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4980aa6f-9eaa-4565-b8ab-ed2771fcb502")
 		)
@@ -11663,6 +12083,140 @@
 			(project ""
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
 					(reference "L101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 26.035 66.04 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b18d0db-5d1f-48ec-a8a0-b2d24f0fa970")
+		(property "Reference" "J102"
+			(at 26.035 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x05"
+			(at 24.003 67.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
+			(at 26.035 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 26.035 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 26.035 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DNI" "NP_JLC"
+			(at 20.32 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+			)
+		)
+		(property "LCSC" ""
+			(at 26.035 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 26.035 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 26.035 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 26.035 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 26.035 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 26.035 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5b0be66-04ac-4d4a-9242-93f31cca7410")
+		)
+		(pin "2"
+			(uuid "2f9e61d7-092e-4a0e-aa8c-3287d44e3192")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
+					(reference "J102")
 					(unit 1)
 				)
 			)
@@ -11781,6 +12335,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 168.91 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 168.91 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 168.91 24.13 0)
 			(effects
 				(font
@@ -11989,6 +12561,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C108661"
+			(at 54.61 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 54.61 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4f349c4-3e37-4d6a-b7b7-d238b3c12842")
 		)
@@ -12059,6 +12649,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 237.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 237.49 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c9ca1c4e-f6ca-4bbb-bf41-978f18185a81")
 		)
@@ -12120,6 +12728,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 22.225 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 22.225 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 22.225 24.13 0)
 			(effects
 				(font
@@ -12398,6 +13024,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 226.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 226.06 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "644d7289-ac51-4619-b9cc-946709639f5d")
 		)
@@ -12415,7 +13059,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:GND")
-		(at 29.845 78.105 0)
+		(at 30.48 114.935 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12424,7 +13068,7 @@
 		(dnp no)
 		(uuid "6e6aee0f-e960-4b8a-a0fc-6830c2784c4a")
 		(property "Reference" "#GND0133"
-			(at 29.845 78.105 0)
+			(at 30.48 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12433,7 +13077,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 32.385 80.645 0)
+			(at 33.02 117.475 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -12442,7 +13086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 29.845 78.105 0)
+			(at 30.48 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12451,7 +13095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.845 78.105 0)
+			(at 30.48 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12460,7 +13104,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.845 78.105 0)
+			(at 30.48 114.935 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12526,6 +13170,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 248.92 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 248.92 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 248.92 24.13 0)
 			(effects
 				(font
@@ -12684,8 +13346,75 @@
 		)
 	)
 	(symbol
+		(lib_id "mainboard:GND")
+		(at 31.115 71.12 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "857b8b35-d8f2-44c3-9869-8f4b4d045778")
+		(property "Reference" "#GND0136"
+			(at 31.115 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 33.655 73.66 0)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 31.115 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.115 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 31.115 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1e084654-9dc7-427a-ab89-6c5889abb26c")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
+					(reference "#GND0136")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 23.495 69.215 0)
+		(at 24.13 106.045 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12694,7 +13423,7 @@
 		(dnp no)
 		(uuid "896d1e17-5603-425b-9dd6-bd8f131c90b2")
 		(property "Reference" "J305"
-			(at 24.765 61.595 0)
+			(at 25.4 98.425 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12703,7 +13432,7 @@
 			)
 		)
 		(property "Value" "Conn_01x05"
-			(at 21.463 70.4596 0)
+			(at 22.098 107.2896 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12713,7 +13442,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 23.495 69.215 0)
+			(at 24.13 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12722,7 +13451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 23.495 69.215 0)
+			(at 24.13 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12731,7 +13460,7 @@
 			)
 		)
 		(property "Description" "Vertical Header - 0.1in (2.54mm)"
-			(at 23.495 69.215 0)
+			(at 24.13 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12740,7 +13469,7 @@
 			)
 		)
 		(property "DNI" "NP_JLC"
-			(at 18.161 68.961 0)
+			(at 18.796 105.791 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12749,7 +13478,7 @@
 			)
 		)
 		(property "LCSC" ""
-			(at 23.495 69.215 0)
+			(at 24.13 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12758,7 +13487,7 @@
 			)
 		)
 		(property "Notes" ""
-			(at 23.495 69.215 0)
+			(at 24.13 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12767,7 +13496,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 23.495 69.215 0)
+			(at 24.13 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12776,7 +13505,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 23.495 69.215 0)
+			(at 24.13 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12785,7 +13514,16 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 23.495 69.215 0)
+			(at 24.13 106.045 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 24.13 106.045 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12869,6 +13607,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C107037"
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 48.26 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8cc959ac-231c-49d4-8781-d623430c3b96")
 		)
@@ -12928,6 +13684,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 48.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C107037"
+			(at 48.26 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 48.26 81.28 0)
 			(effects
 				(font
@@ -13070,6 +13844,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C20625731"
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 66.04 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "d57e48cb-bdbc-4477-8aa9-c3a009ae37ea")
 		)
@@ -13197,6 +13989,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 187.96 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3dc7f5ef-431d-4282-bfc2-9c573b2370d5")
 		)
@@ -13259,6 +14060,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 30.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 30.48 125.73 0)
 			(effects
 				(font
@@ -13404,6 +14214,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 203.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 203.2 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9770379e-caa1-4d82-8b1e-08abb6add4de")
 		)
@@ -13466,6 +14294,15 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 31.75 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 31.75 173.355 0)
 			(effects
 				(font
@@ -13738,6 +14575,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 162.56 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0ff888f9-d6e0-4998-a293-0cf4f4bc1865")
 		)
@@ -13748,6 +14594,73 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
 					(reference "R129")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 40.64 66.04 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c5292292-849d-4154-aa99-f67ebbb46a85")
+		(property "Reference" "R149"
+			(at 35.56 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 45.085 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 40.894 65.024 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 40.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1d5ac2fc-8d4f-4304-af34-d8e2514b19cb")
+		)
+		(pin "2"
+			(uuid "2c763a6e-af3f-4159-9d3d-2582cbfc0320")
+		)
+		(instances
+			(project ""
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5a72"
+					(reference "R149")
 					(unit 1)
 				)
 			)
@@ -13800,6 +14713,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 180.34 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 180.34 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 180.34 24.13 0)
 			(effects
 				(font
@@ -13943,6 +14874,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1591"
+			(at 259.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 259.08 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bbb02016-86bd-40cf-9307-25ab18401d1d")
 		)
@@ -14077,6 +15026,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C844746"
+			(at 80.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 80.01 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa2c43b5-cd98-4a15-96ee-80de9db8e998")
 		)
@@ -14094,7 +15061,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:3.3V")
-		(at 33.655 64.135 0)
+		(at 34.29 100.965 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14103,7 +15070,7 @@
 		(dnp no)
 		(uuid "d786a9d9-3f89-4f8c-8ecf-1bcd1875f264")
 		(property "Reference" "#SUPPLY0102"
-			(at 33.655 64.135 0)
+			(at 34.29 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14112,7 +15079,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 34.671 60.579 0)
+			(at 35.306 97.409 0)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -14121,7 +15088,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.655 64.135 0)
+			(at 34.29 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14130,7 +15097,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.655 64.135 0)
+			(at 34.29 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14139,7 +15106,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 33.655 64.135 0)
+			(at 34.29 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14273,6 +15240,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 116.84 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 116.84 73.66 0)
 			(effects
 				(font
@@ -14588,6 +15564,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1705"
+			(at 62.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 62.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c8e1a07-70d9-42cd-bff6-7a924a4ae995")
 		)
@@ -14657,6 +15651,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1705"
+			(at 46.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 46.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "5fc5fc9b-0911-40c6-a9dd-fe9436554682")
 		)
@@ -14718,6 +15730,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 66.04 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 66.04 193.675 0)
 			(effects
 				(font
@@ -14870,6 +15891,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 34.29 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 34.29 44.45 0)
 			(effects
 				(font

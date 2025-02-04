@@ -2991,6 +2991,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C844746"
+			(at 205.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 205.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "30e7fc5f-6400-46cb-bc5c-82e433c7580e")
 		)
@@ -3061,6 +3079,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C844746"
+			(at 83.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 83.82 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5a90383a-0a31-4c22-9adf-d20032555c17")
 		)
@@ -3120,6 +3156,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59782"
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 73.66 64.77 0)
 			(effects
 				(font
@@ -3264,6 +3318,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C59782"
+			(at 83.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 83.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf7cac78-2441-4819-9314-5307e9565b78")
 		)
@@ -3326,6 +3398,24 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C59782"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 196.85 83.82 0)
 			(effects
 				(font
@@ -3419,6 +3509,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 146.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3b2d2fa-6640-4677-93c0-e54b75d1e188")
 		)
@@ -3501,6 +3600,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C123420"
+			(at 29.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 29.21 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d75b794b-9899-4390-bac3-8e7ff17a43b1")
 		)
@@ -3571,6 +3688,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C105579"
+			(at 114.935 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 114.935 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5badf620-1f84-4a44-9a50-a8c99525ae44")
 		)
@@ -3613,7 +3748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_SOD-323"
 			(at 175.26 69.85 0)
 			(effects
 				(font
@@ -3677,6 +3812,15 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BAT20JFILM"
+			(at 175.26 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 175.26 69.85 0)
 			(effects
 				(font
@@ -3754,6 +3898,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C169849"
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 62.23 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "138502e6-64cd-4e94-bb3f-cb433da055d9")
 		)
@@ -3823,6 +3985,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C123420"
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 96.52 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "92399ffb-83e9-4020-a6d7-c68177d985c1")
 		)
@@ -3863,7 +4043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 66.929 25.654 90)
 			(effects
 				(font
@@ -3882,6 +4062,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 66.675 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C100044"
+			(at 66.675 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 66.675 26.67 0)
 			(effects
 				(font
@@ -3949,6 +4147,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C114669"
+			(at 176.53 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 176.53 58.42 0)
 			(effects
 				(font
@@ -4036,6 +4252,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 93.98 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e4535e8f-0989-4843-b363-b4e60aa41389")
 		)
@@ -4101,6 +4326,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C105579"
+			(at 186.69 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 186.69 80.01 0)
 			(effects
 				(font
@@ -4245,6 +4488,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1705"
+			(at 109.855 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 109.855 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3233d44-fbca-480e-95c6-556265bebb6f")
 		)
@@ -4314,6 +4575,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C105579"
+			(at 222.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 222.25 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "75cec306-0d98-4594-8e46-f93171de4883")
 		)
@@ -4375,6 +4654,24 @@
 			)
 		)
 		(property "Description" ""
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1591"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 128.27 78.74 0)
 			(effects
 				(font
@@ -4460,6 +4757,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 219.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 219.71 77.47 0)
 			(effects
 				(font
@@ -4558,6 +4864,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 114.935 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61a17e4e-7fb1-4bab-a8cd-41a0a5c5aee1")
 		)
@@ -4635,6 +4950,15 @@
 			)
 		)
 		(property "Notes" ""
+			(at 194.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 194.31 69.85 0)
 			(effects
 				(font
@@ -4725,6 +5049,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C105579"
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 83.82 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "89167162-8e7d-471c-a195-25ce582c974f")
 		)
@@ -4799,6 +5141,15 @@
 			)
 		)
 		(property "LCSC" "C537809 "
+			(at 44.45 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 44.45 45.72 0)
 			(effects
 				(font
@@ -4910,6 +5261,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "db97e38a-c20c-49e4-a790-a4757e817010")
 		)
@@ -4983,6 +5343,24 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C123420"
+			(at 213.36 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 213.36 83.82 0)
 			(effects
 				(font
@@ -5065,6 +5443,15 @@
 			)
 		)
 		(property "LCSC" "C537809 "
+			(at 62.23 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 62.23 36.83 0)
 			(effects
 				(font

@@ -2163,7 +2163,7 @@
 	)
 	(polyline
 		(pts
-			(xy 177.8 25.4) (xy 111.76 25.4)
+			(xy 183.515 25.4) (xy 111.76 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2473,7 +2473,7 @@
 	)
 	(polyline
 		(pts
-			(xy 177.8 69.215) (xy 177.8 25.4)
+			(xy 183.515 69.215) (xy 183.515 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2483,7 +2483,7 @@
 	)
 	(polyline
 		(pts
-			(xy 111.76 69.215) (xy 177.8 69.215)
+			(xy 111.76 69.215) (xy 183.515 69.215)
 		)
 		(stroke
 			(width 0)
@@ -2511,7 +2511,7 @@
 		)
 		(uuid "febd6eed-cd0e-4057-b504-8b9f7179f915")
 	)
-	(text "These novel bus protection circuits\nprevent traditional I2C/SPI failure \nmodes where a single slave failure\ncan disable the entire bus.\n\nLearn more: \nhttps://doi.org/10.36227/techrxiv.15166620\n\nBy default, slave clock and/or data lines \ncan be held low and the Master (SAMD51) \nwill still be able to communicate with the \nremainder of the bus."
+	(text "These novel bus protection circuits from PyCubed\nprevent traditional I2C/SPI failure \nmodes where a single slave failure\ncan disable the entire bus.\n\nLearn more: \nhttps://doi.org/10.36227/techrxiv.15166620\n\nBy default, slave clock and/or data lines \ncan be held low and the Master (SAMD51) \nwill still be able to communicate with the \nremainder of the bus."
 		(exclude_from_sim no)
 		(at 115.57 65.786 0)
 		(effects
@@ -2591,6 +2591,16 @@
 			(justify left bottom)
 		)
 		(uuid "b8384968-fdd2-4c8c-8e15-9120f17dac7f")
+	)
+	(text "XXX: Could elect to remove power mon protection to save space"
+		(exclude_from_sim no)
+		(at 130.81 137.795 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e0b45078-dced-4e5c-a0f2-13d05a036754")
 	)
 	(global_label "SCL_PWR"
 		(shape output)
@@ -3013,6 +3023,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 29.21 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b9f471e4-a9e4-4d13-a903-dd6c145046cd")
 		)
@@ -3182,6 +3201,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 44.45 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a42bb7a4-2f50-4869-b22d-6b98e7dad52c")
 		)
@@ -3335,6 +3363,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 45.72 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 45.72 71.12 0)
 			(effects
 				(font
@@ -3504,6 +3541,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 45.72 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b4cf0f3f-1a10-4436-b023-6d73a1644fb4")
 		)
@@ -3640,6 +3686,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 50.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 50.8 90.17 0)
 			(effects
 				(font
@@ -3845,6 +3900,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d33c19ae-7a1e-4042-a2e0-9614c8101ce1")
 		)
@@ -3969,6 +4033,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 45.72 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 45.72 44.45 0)
 			(effects
 				(font
@@ -4172,6 +4245,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 39.37 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "158741d5-ca45-4286-8f6d-dc9bd7af5604")
 		)
@@ -4296,6 +4378,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 38.1 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 38.1 77.47 0)
 			(effects
 				(font
@@ -4501,6 +4592,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 50.8 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf654546-d4fe-4d25-a039-32db91d759b6")
 		)
@@ -4642,6 +4742,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 87.63 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 87.63 71.12 0)
 			(effects
 				(font
@@ -4811,6 +4920,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 87.63 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6f6adfde-7aeb-4930-81ea-112dff1db670")
 		)
@@ -4947,6 +5065,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 92.71 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -5152,6 +5279,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 87.63 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f18eba76-b21f-4503-bab7-09313a1a9bea")
 		)
@@ -5347,6 +5483,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 81.28 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8ab9eb6-21ac-492d-8d5d-e0298f0d20e8")
 		)
@@ -5504,6 +5649,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 86.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eb2546dd-f487-45f4-a9cc-f78fa657ee36")
 		)
@@ -5640,6 +5794,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 92.71 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -5845,6 +6008,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 80.01 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8f3ff895-41fd-4f12-99e6-e24658416a7a")
 		)
@@ -6001,6 +6173,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 71.12 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd31ec58-bbe0-4aec-a7c3-b77da76d28ae")
 		)
@@ -6137,6 +6318,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 92.71 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 92.71 50.8 0)
 			(effects
 				(font
@@ -6294,6 +6484,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 45.72 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6415814-e429-40f6-bcb5-aba6d06c9295")
 		)
@@ -6430,6 +6629,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 50.8 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 50.8 168.91 0)
 			(effects
 				(font
@@ -6635,6 +6843,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 45.72 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e4af47fd-ad7f-4caf-b47b-201a88428945")
 		)
@@ -6830,6 +7047,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 39.37 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0109a801-5614-401c-85aa-478684b9e1e2")
 		)
@@ -6987,6 +7213,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 44.45 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4417f861-1b36-4f0f-9abf-c1843fa805e0")
 		)
@@ -7123,6 +7358,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 50.8 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 50.8 158.75 0)
 			(effects
 				(font
@@ -7328,6 +7572,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 38.1 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "00212dd9-3a27-41cd-99a3-5978cc61e924")
 		)
@@ -7484,6 +7737,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 29.21 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4b2b898a-5778-4f92-b9f7-e571b0bf80dd")
 		)
@@ -7620,6 +7882,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 50.8 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 50.8 129.54 0)
 			(effects
 				(font
@@ -7777,6 +8048,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 87.63 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2e6b4311-4bd0-4849-a1e3-baf944b170f6")
 		)
@@ -7913,6 +8193,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 92.71 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 92.71 168.91 0)
 			(effects
 				(font
@@ -8118,6 +8407,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 87.63 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8d3f6a7-1934-4fef-9f61-60e662d5a95a")
 		)
@@ -8313,6 +8611,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 81.28 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0287820f-8836-470e-9346-e6db376f95f1")
 		)
@@ -8470,6 +8777,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 86.36 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4ec25f9-afb6-4b91-963a-cd0d55531fd9")
 		)
@@ -8606,6 +8922,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 92.71 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 92.71 158.75 0)
 			(effects
 				(font
@@ -8811,6 +9136,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 80.01 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ccb8ae09-b9f4-4bdd-a680-3b09d7cbf70a")
 		)
@@ -8967,6 +9301,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 71.12 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a8dd71f8-7de7-4125-a04e-bac875e148d6")
 		)
@@ -9111,6 +9454,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 92.71 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63365478-5d1c-4e08-be0d-d5a38a9aab19")
 		)
@@ -9178,7 +9530,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C105588"
 			(at 233.68 46.99 0)
 			(effects
 				(font
@@ -9233,6 +9585,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 233.68 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 233.68 46.99 0)
 			(effects
 				(font
@@ -9382,6 +9743,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 45.72 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 45.72 149.86 0)
 			(effects
 				(font
@@ -9551,6 +9921,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 87.63 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "782c8834-9bc3-44c9-95e7-a83c45f34b17")
 		)
@@ -9630,7 +10009,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C105588"
 			(at 204.47 55.88 0)
 			(effects
 				(font
@@ -9685,6 +10064,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 204.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 204.47 55.88 0)
 			(effects
 				(font
@@ -9760,7 +10148,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C105588"
 			(at 233.68 55.88 0)
 			(effects
 				(font
@@ -9815,6 +10203,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 233.68 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 233.68 55.88 0)
 			(effects
 				(font

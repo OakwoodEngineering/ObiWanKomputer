@@ -4944,6 +4944,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 86.995) (xy 132.08 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2db1ad4-99d2-43f3-a871-908142e1c2ae")
+	)
+	(wire
+		(pts
 			(xy 255.27 54.61) (xy 255.27 49.53)
 		)
 		(stroke
@@ -5403,16 +5413,6 @@
 		)
 		(uuid "0751979a-ad69-4ca7-bb72-2a49432e45b6")
 	)
-	(text "XXX: Not sure if this should stay as GNDREF"
-		(exclude_from_sim no)
-		(at 198.12 50.038 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "330bbab5-e00d-44d3-8e45-96b9081b3fb4")
-	)
 	(text "Add jumper to allow\nUSB battery charging\n(even inside P-Pod).\n"
 		(exclude_from_sim no)
 		(at 180.34 115.57 0)
@@ -5457,16 +5457,6 @@
 			(justify left bottom)
 		)
 		(uuid "59432d6e-d4a4-497f-a12e-bd3a696b907c")
-	)
-	(text "XXX: 27 was suggested for RP2350B"
-		(exclude_from_sim no)
-		(at 87.122 70.612 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7b59616d-8d71-406d-bd71-174f60a01ec6")
 	)
 	(text "Battery\nTerminals"
 		(exclude_from_sim no)
@@ -5532,7 +5522,7 @@
 		)
 		(uuid "c9b4af0a-9ea3-4333-b6d0-d5b4207f5caf")
 	)
-	(text "Make accessible from access port"
+	(text "LAYOUT: Make accessible from access port"
 		(exclude_from_sim no)
 		(at 158.242 154.178 0)
 		(effects
@@ -5586,6 +5576,16 @@
 			(justify left bottom)
 		)
 		(uuid "ed052419-5278-4231-ae31-1e8cdec9078a")
+	)
+	(text "LAYOUT: Make accessible from access port"
+		(exclude_from_sim no)
+		(at 80.01 88.265 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed11d8ea-9bf1-4bc3-b293-38ec986a974e")
 	)
 	(text "Add jumper to allow\nUSB to power the board\n(even inside P-Pod).\n"
 		(exclude_from_sim no)
@@ -6286,6 +6286,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 58.42 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "1b6f7355-dcd8-4e0f-808c-973921f299da")
 		)
@@ -6463,6 +6472,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 175.26 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a2af951-43d6-4b05-85ff-2dec645e0ad2")
 		)
@@ -6587,6 +6605,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 185.42 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -6726,6 +6753,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 109.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85b3733b-0bc3-4130-bf67-7165f3d4cb73")
 		)
@@ -6849,6 +6885,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 101.6 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 101.6 57.15 0)
 			(effects
 				(font
@@ -6989,6 +7034,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 132.08 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "974c2c4c-61ee-4af3-ba7d-f29d6f53f0dd")
 		)
@@ -7006,7 +7060,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 132.08 83.82 0)
+		(at 132.08 86.995 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7014,7 +7068,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e52b364")
 		(property "Reference" "#PWR0301"
-			(at 132.08 90.17 0)
+			(at 132.08 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7023,7 +7077,7 @@
 			)
 		)
 		(property "Value" "GNDREF"
-			(at 132.207 88.2142 0)
+			(at 132.207 91.3892 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +7085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 83.82 0)
+			(at 132.08 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +7094,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 83.82 0)
+			(at 132.08 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +7103,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 83.82 0)
+			(at 132.08 86.995 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7439,6 +7493,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 238.76 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d32610d-d127-4bfd-98e3-fed37c651dee")
 		)
@@ -7541,6 +7604,15 @@
 			)
 		)
 		(property "Notes" "Between mounting hole and ground."
+			(at 246.38 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 246.38 43.18 0)
 			(effects
 				(font
@@ -7654,6 +7726,15 @@
 			)
 		)
 		(property "Notes" "Between mounting hole and ground."
+			(at 246.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 246.38 30.48 0)
 			(effects
 				(font
@@ -7990,6 +8071,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 82.55 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2f328645-70c4-4533-996e-24c4091514c4")
 		)
@@ -8120,6 +8210,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 251.46 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "73eec7a6-1e70-4ae8-9a2b-7b3a8da9f471")
 		)
@@ -8234,6 +8333,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 238.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 238.76 43.18 0)
 			(effects
 				(font
@@ -8427,6 +8535,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 238.76 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2c996405-1e8d-4716-b08b-9250494d2476")
 		)
@@ -8544,6 +8661,15 @@
 					(bold yes)
 				)
 				(justify right top)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 154.94 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
@@ -8671,6 +8797,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 246.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fa5fa1b6-02ec-479d-aa4d-4009b9fb7a5c")
 		)
@@ -8776,6 +8911,15 @@
 			)
 		)
 		(property "Notes" "Between mounting hole and ground."
+			(at 246.38 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 246.38 49.53 0)
 			(effects
 				(font
@@ -8915,6 +9059,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 82.55 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56340e3f-b2b6-42cb-aaf9-003c4b8f1192")
 		)
@@ -9037,6 +9190,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 238.76 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63cef770-9030-4a18-b41f-de56ba763532")
 		)
@@ -9150,6 +9312,15 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
+			(at 176.53 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
 			(at 176.53 128.27 0)
 			(effects
 				(font
@@ -9300,6 +9471,15 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Type" ""
+			(at 261.62 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3cfe3531-a520-456e-996a-7136f83a12ce")
 		)
@@ -9401,6 +9581,15 @@
 					(size 1.27 1.27)
 					(bold yes)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 217.17 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"
@@ -9638,6 +9827,15 @@
 					(size 1.27 1.27)
 					(bold yes)
 				)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 185.42 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "3"
