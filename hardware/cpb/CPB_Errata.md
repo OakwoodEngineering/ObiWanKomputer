@@ -15,5 +15,6 @@ for the specified change above).
     - ENHANCEMENT: GPLEDs (amber) could be brighter
     - Erroneous previous errata: Missing pullup for MAX22200 SDO.  MAX22200 SDO is open-drain and cannot drive pin high, but we have no pullup on pin.  (there was actually a pull-up).
 - Revision A
+    - Documentation: part number for RN2 was incorrect.  Using C93675 instead of the single 0603 that is in the BOM.
     - Documentation: 33 ohm resistors were ordered as C844927 due to shortfall of C844553.
     - Documentation: Some datasheet URLs in BOM were incorrect.
