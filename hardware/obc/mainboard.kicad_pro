@@ -525,7 +525,8 @@
       "VBATT": "rgb(31, 255, 2)",
       "VBATT_SENSE": "rgb(22, 255, 20)",
       "VBUS_IN": "rgb(255, 4, 2)",
-      "VSOLAR": "rgb(255, 153, 5)"
+      "VSOLAR": "rgb(255, 153, 5)",
+      "VWATCHEDRAIL": "rgb(228, 148, 255)"
     },
     "netclass_assignments": null,
     "netclass_patterns": []
