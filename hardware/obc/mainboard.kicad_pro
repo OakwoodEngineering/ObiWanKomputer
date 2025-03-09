@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.127,
         "silk_text_upright": true,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -547,7 +547,7 @@
   },
   "schematic": {
     "annotate_start_num": 100,
-    "bom_export_filename": "/Users/luketiti/Desktop/mainboard Bom.csv",
+    "bom_export_filename": "../../../../Desktop/mainboard.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": "\t",

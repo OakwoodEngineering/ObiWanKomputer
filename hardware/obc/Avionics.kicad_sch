@@ -7808,7 +7808,7 @@
 	)
 	(text "PSRAM"
 		(exclude_from_sim no)
-		(at 52.705 174.625 0)
+		(at 53.975 175.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10598,8 +10598,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 49.1841 125.73 0)
+		(property "Value" "AS3016204-0108X0IWAY"
+			(at 47.625 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10635,6 +10635,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 64.77 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22409903"
 			(at 64.77 146.05 0)
 			(effects
 				(font
@@ -14384,6 +14393,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C844746"
+			(at 40.64 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1d5ac2fc-8d4f-4304-af34-d8e2514b19cb")
 		)
@@ -15444,8 +15462,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "~"
-			(at 50.4541 173.355 0)
+		(property "Value" "IS66WVR8M8FBLL-104NLI"
+			(at 50.165 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15453,7 +15471,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_6x5mm_P1.27mm_EP3.4x4mm"
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
 			(at 66.04 193.675 0)
 			(effects
 				(font
@@ -15481,6 +15499,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 66.04 193.675 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" " C139966"
 			(at 66.04 193.675 0)
 			(effects
 				(font

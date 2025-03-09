@@ -3868,19 +3868,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00001c775628")
 		(property "Reference" "R506"
-			(at 156.21 99.314 0)
+			(at 151.13 95.885 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify bottom)
 			)
 		)
 		(property "Value" "4.7k"
-			(at 156.21 96.266 0)
+			(at 160.655 97.79 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify top)
 			)
@@ -4216,7 +4216,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000710310b2")
 		(property "Reference" "R502"
-			(at 152.654 78.74 0)
+			(at 146.05 78.105 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4225,7 +4225,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 149.606 78.74 0)
+			(at 147.32 80.01 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -4357,7 +4357,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000079442ea3")
 		(property "Reference" "Q503"
-			(at 157.48 109.22 90)
+			(at 155.575 109.22 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -4519,19 +4519,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00007e6356e8")
 		(property "Reference" "R505"
-			(at 156.21 75.184 0)
+			(at 151.13 71.755 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify bottom)
 			)
 		)
 		(property "Value" "4.7k"
-			(at 156.21 72.136 0)
+			(at 160.02 73.025 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify top)
 			)
@@ -4660,19 +4660,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000094142453")
 		(property "Reference" "R508"
-			(at 167.386 76.2 0)
+			(at 172.72 74.295 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify bottom)
 			)
 		)
 		(property "Value" "100k"
-			(at 170.434 76.2 0)
+			(at 172.72 78.105 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify top)
 			)
@@ -4973,19 +4973,19 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000abc3816a")
 		(property "Reference" "R509"
-			(at 167.386 100.33 0)
+			(at 172.72 98.425 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify bottom)
 			)
 		)
 		(property "Value" "100k"
-			(at 170.434 100.33 0)
+			(at 172.72 102.235 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify top)
 			)
@@ -5114,7 +5114,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000f75d19b8")
 		(property "Reference" "Q502"
-			(at 160.02 85.09 90)
+			(at 155.575 85.725 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -5493,19 +5493,19 @@
 		(dnp no)
 		(uuid "03fa90b6-db54-48ab-8c88-a6928f1c2df2")
 		(property "Reference" "R507"
-			(at 156.21 124.714 0)
+			(at 151.765 121.285 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify bottom)
 			)
 		)
 		(property "Value" "4.7k"
-			(at 156.21 121.666 0)
+			(at 160.655 122.555 0)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify top)
 			)
@@ -5725,7 +5725,7 @@
 		(dnp no)
 		(uuid "1f9cba64-e4d9-4f4e-9137-8b85a279ae5c")
 		(property "Reference" "R504"
-			(at 152.654 128.27 0)
+			(at 146.685 128.27 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -5734,7 +5734,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 149.606 128.27 0)
+			(at 146.685 128.905 90)
 			(effects
 				(font
 					(size 1.778 1.778)
@@ -6503,7 +6503,7 @@
 		(dnp no)
 		(uuid "55a9cb9c-6d3b-4508-81e9-c12ada522d83")
 		(property "Reference" "Q504"
-			(at 157.48 134.62 90)
+			(at 155.575 134.62 90)
 			(effects
 				(font
 					(size 1.4986 1.4986)
@@ -6994,19 +6994,19 @@
 		(dnp no)
 		(uuid "a15214ac-872b-4ebc-b3a8-0c85f465bc13")
 		(property "Reference" "R510"
-			(at 167.386 125.73 0)
+			(at 172.72 124.46 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify bottom)
 			)
 		)
 		(property "Value" "100k"
-			(at 170.434 125.73 0)
+			(at 172.085 128.27 90)
 			(effects
 				(font
-					(size 1.778 1.778)
+					(size 1.27 1.27)
 				)
 				(justify top)
 			)

@@ -2539,10 +2539,28 @@
 		(uuid "6a52e13b-f0ce-4776-805c-a6c7ae23d415")
 	)
 	(junction
+		(at 154.94 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6aed1404-4e2c-49c5-a541-0416299503a5")
+	)
+	(junction
 		(at 231.14 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6dd0797d-267c-4999-8809-cd05b8745255")
+	)
+	(junction
+		(at 144.78 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "70dfbc14-5d98-4d4f-a680-d223a9be95ac")
+	)
+	(junction
+		(at 137.795 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "882c42ea-34bf-4f11-84a2-455904fc2686")
 	)
 	(junction
 		(at 219.71 55.88)
@@ -2573,6 +2591,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d48c03cc-5b6f-4d33-97ea-e810791fda46")
+	)
+	(junction
+		(at 144.78 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dfc8d821-0922-48c6-b06e-00474ac57411")
 	)
 	(junction
 		(at 81.28 128.27)
@@ -2946,6 +2970,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.795 97.79) (xy 144.78 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be22d6a-1e61-4860-8b6b-658b2aad888e")
+	)
+	(wire
+		(pts
 			(xy 59.69 58.42) (xy 59.69 53.34)
 		)
 		(stroke
@@ -3076,7 +3110,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.285 92.71) (xy 128.27 92.71)
+			(xy 121.285 92.71) (xy 137.795 92.71)
 		)
 		(stroke
 			(width 0)
@@ -3233,16 +3267,6 @@
 			(type default)
 		)
 		(uuid "8ed176ca-5643-4a7f-8fa1-e41b40cb3504")
-	)
-	(wire
-		(pts
-			(xy 133.35 92.71) (xy 139.7 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9115dbc2-7486-4b7c-938c-6c4fce628204")
 	)
 	(wire
 		(pts
@@ -3486,6 +3510,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.795 92.71) (xy 144.78 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd3ca753-0909-4cf2-82fb-248cfe35ac95")
+	)
+	(wire
+		(pts
 			(xy 101.6 58.42) (xy 113.03 58.42)
 		)
 		(stroke
@@ -3576,6 +3610,16 @@
 	)
 	(wire
 		(pts
+			(xy 144.78 97.79) (xy 154.94 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe5c336d-e933-4fdb-bd0a-afc303933e6e")
+	)
+	(wire
+		(pts
 			(xy 154.94 87.63) (xy 152.4 87.63)
 		)
 		(stroke
@@ -3661,16 +3705,6 @@
 			(justify left bottom)
 		)
 		(uuid "e5dbb9ec-2e7c-4bd9-a088-2fd18074eacd")
-	)
-	(text "XXX: Did we fix footprint?"
-		(exclude_from_sim no)
-		(at 168.148 35.814 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "fe1cc0ce-3497-4cef-b596-ec758390b588")
 	)
 	(label "RF_IN"
 		(at 194.31 59.69 90)
@@ -6115,6 +6149,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C194919"
+			(at 63.5 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "9"
 			(uuid "3eabdc7a-4158-4c25-ac6d-0ae620394686")
 		)
@@ -6404,7 +6447,7 @@
 	)
 	(symbol
 		(lib_id "mainboard:C_Small")
-		(at 142.24 92.71 90)
+		(at 144.78 95.25 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6412,7 +6455,7 @@
 		(dnp no)
 		(uuid "4a659221-bf1d-4974-81c7-774ef3323f7b")
 		(property "Reference" "C117"
-			(at 141.605 91.44 90)
+			(at 143.51 95.885 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6421,7 +6464,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 147.955 91.44 90)
+			(at 143.51 89.535 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6430,7 +6473,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 142.24 92.71 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6439,7 +6482,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 92.71 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6448,7 +6491,7 @@
 			)
 		)
 		(property "Description" "10V 10uF X5R ±20% 0603"
-			(at 142.24 92.71 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6457,7 +6500,7 @@
 			)
 		)
 		(property "LCSC" "C85713"
-			(at 142.24 92.71 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6466,7 +6509,7 @@
 			)
 		)
 		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
-			(at 142.24 92.71 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6475,7 +6518,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "CL10A106MP8NNNC"
-			(at 142.24 92.71 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6484,7 +6527,7 @@
 			)
 		)
 		(property "Notes" "10V ok?"
-			(at 142.24 92.71 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6493,7 +6536,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 142.24 92.71 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6502,7 +6545,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 142.24 92.71 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6511,7 +6554,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 142.24 92.71 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6520,7 +6563,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 142.24 92.71 0)
+			(at 144.78 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,7 +7068,8 @@
 	)
 	(symbol
 		(lib_id "mainboard:C_Small")
-		(at 130.81 92.71 90)
+		(at 137.795 95.25 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7033,7 +7077,7 @@
 		(dnp no)
 		(uuid "fbe42780-b7f6-4b59-8d56-326cc82ede7c")
 		(property "Reference" "C116"
-			(at 130.175 91.44 90)
+			(at 139.065 95.885 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7042,7 +7086,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 135.255 91.44 90)
+			(at 139.065 90.805 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7051,7 +7095,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 130.81 92.71 0)
+			(at 137.795 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +7104,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 92.71 0)
+			(at 137.795 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +7113,7 @@
 			)
 		)
 		(property "Description" "16V 1uF X7R ±10% 0603"
-			(at 130.81 92.71 0)
+			(at 137.795 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +7122,7 @@
 			)
 		)
 		(property "LCSC" "C59782"
-			(at 130.81 92.71 0)
+			(at 137.795 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7087,7 +7131,7 @@
 			)
 		)
 		(property "Notes" "16V ok?"
-			(at 130.81 92.71 0)
+			(at 137.795 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7096,7 +7140,7 @@
 			)
 		)
 		(property "Height" ""
-			(at 130.81 92.71 0)
+			(at 137.795 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7105,7 +7149,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 130.81 92.71 0)
+			(at 137.795 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7114,7 +7158,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 130.81 92.71 0)
+			(at 137.795 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7123,7 +7167,7 @@
 			)
 		)
 		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
-			(at 130.81 92.71 0)
+			(at 137.795 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7132,7 +7176,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" " CL10B105KO8NNNC"
-			(at 130.81 92.71 0)
+			(at 137.795 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7141,7 +7185,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 130.81 92.71 0)
+			(at 137.795 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
