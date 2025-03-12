@@ -100,7 +100,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25"
-					(page "2")
+					(page "5")
 				)
 			)
 		)
@@ -138,7 +138,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25"
-					(page "6")
+					(page "2")
 				)
 			)
 		)
@@ -176,7 +176,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25"
-					(page "5")
+					(page "9")
 				)
 			)
 		)
@@ -290,7 +290,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25"
-					(page "4")
+					(page "6")
 				)
 			)
 		)
@@ -366,7 +366,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25"
-					(page "9")
+					(page "4")
 				)
 			)
 		)

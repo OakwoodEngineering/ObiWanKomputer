@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.127,
         "silk_text_upright": true,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.55
         }
       },
       "diff_pair_dimensions": [
@@ -521,6 +521,7 @@
       "3.3V": "rgb(255, 7, 242)",
       "GND": "rgb(24, 40, 255)",
       "GNDREF": "rgb(16, 255, 242)",
+      "Net-(J307-In)": "rgb(255, 0, 170)",
       "Net-(J603-In)": "rgb(255, 0, 170)",
       "VBATT": "rgb(31, 255, 2)",
       "VBATT_SENSE": "rgb(22, 255, 20)",
@@ -546,7 +547,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 100,
+    "annotate_start_num": 200,
     "bom_export_filename": "../../../../Desktop/mainboard.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -753,24 +754,24 @@
       "Root"
     ],
     [
-      "00000000-0000-0000-0000-00005cec5a72",
-      "Avionics"
+      "00000000-0000-0000-0000-00005cec5dde",
+      "Power"
     ],
     [
       "0ba89562-211f-497f-9372-6f77bd1df388",
       "Power Supervisor and Watch Dog"
     ],
     [
+      "5728bec1-e38c-4cf8-8d7a-17e9d882a72f",
+      "Solar Chargers"
+    ],
+    [
+      "00000000-0000-0000-0000-00005cec5a72",
+      "Avionics"
+    ],
+    [
       "00000000-0000-0000-0000-00005ede7915",
       "Bus Protection"
-    ],
-    [
-      "00000000-0000-0000-0000-00005cec60eb",
-      "Connectors"
-    ],
-    [
-      "00000000-0000-0000-0000-00005cec5dde",
-      "Power"
     ],
     [
       "00000000-0000-0000-0000-00005cec6476",
@@ -781,8 +782,8 @@
       "RF and GPS"
     ],
     [
-      "5728bec1-e38c-4cf8-8d7a-17e9d882a72f",
-      "Solar Chargers"
+      "00000000-0000-0000-0000-00005cec60eb",
+      "Connectors"
     ]
   ],
   "text_variables": {}

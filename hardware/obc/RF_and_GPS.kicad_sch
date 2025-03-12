@@ -4097,7 +4097,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000038a56a55")
-		(property "Reference" "R602"
+		(property "Reference" "R302"
 			(at 207.01 77.2414 0)
 			(effects
 				(font
@@ -4223,7 +4223,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "R602")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -4238,7 +4238,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005123c17d")
-		(property "Reference" "#GND0607"
+		(property "Reference" "#GND0309"
 			(at 242.57 63.5 0)
 			(effects
 				(font
@@ -4289,7 +4289,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "#GND0607")
+					(reference "#GND0309")
 					(unit 1)
 				)
 			)
@@ -4304,7 +4304,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d3a148b")
-		(property "Reference" "J603"
+		(property "Reference" "J306"
 			(at 233.68 35.56 90)
 			(effects
 				(font
@@ -4456,7 +4456,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "J603")
+					(reference "J306")
 					(unit 1)
 				)
 			)
@@ -4472,7 +4472,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d3a5b0d")
-		(property "Reference" "J604"
+		(property "Reference" "J307"
 			(at 233.68 49.53 90)
 			(effects
 				(font
@@ -4624,7 +4624,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "J604")
+					(reference "J307")
 					(unit 1)
 				)
 			)
@@ -4639,7 +4639,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d3a5ea0")
-		(property "Reference" "J602"
+		(property "Reference" "J305"
 			(at 114.8334 47.3202 90)
 			(effects
 				(font
@@ -4790,7 +4790,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "J602")
+					(reference "J305")
 					(unit 1)
 				)
 			)
@@ -4805,7 +4805,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d44fe4a")
-		(property "Reference" "U601"
+		(property "Reference" "U302"
 			(at 91.694 51.562 0)
 			(effects
 				(font
@@ -5002,7 +5002,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "U601")
+					(reference "U302")
 					(unit 1)
 				)
 			)
@@ -5018,7 +5018,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d460268")
-		(property "Reference" "#GND0603"
+		(property "Reference" "#GND0305"
 			(at 118.11 78.74 0)
 			(effects
 				(font
@@ -5069,7 +5069,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "#GND0603")
+					(reference "#GND0305")
 					(unit 1)
 				)
 			)
@@ -5084,7 +5084,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005e073ebc")
-		(property "Reference" "R601"
+		(property "Reference" "R301"
 			(at 51.6128 57.0738 90)
 			(effects
 				(font
@@ -5210,7 +5210,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "R601")
+					(reference "R301")
 					(unit 1)
 				)
 			)
@@ -5225,7 +5225,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00006091151b")
-		(property "Reference" "#SUPPLY0601"
+		(property "Reference" "#SUPPLY0302"
 			(at 53.34 50.8 0)
 			(effects
 				(font
@@ -5276,7 +5276,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "#SUPPLY0601")
+					(reference "#SUPPLY0302")
 					(unit 1)
 				)
 			)
@@ -5291,7 +5291,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060dab7e8")
-		(property "Reference" "C601"
+		(property "Reference" "C301"
 			(at 80.01 42.4434 90)
 			(effects
 				(font
@@ -5415,7 +5415,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "C601")
+					(reference "C301")
 					(unit 1)
 				)
 			)
@@ -5431,7 +5431,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000060daec8a")
-		(property "Reference" "#GND0601"
+		(property "Reference" "#GND0302"
 			(at 77.47 50.8 0)
 			(effects
 				(font
@@ -5482,7 +5482,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "#GND0601")
+					(reference "#GND0302")
 					(unit 1)
 				)
 			)
@@ -5497,7 +5497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00007a046983")
-		(property "Reference" "#GND0604"
+		(property "Reference" "#GND0306"
 			(at 149.86 72.39 0)
 			(effects
 				(font
@@ -5548,7 +5548,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "#GND0604")
+					(reference "#GND0306")
 					(unit 1)
 				)
 			)
@@ -5563,7 +5563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-000087f2849f")
-		(property "Reference" "#GND0605"
+		(property "Reference" "#GND0307"
 			(at 154.94 100.33 0)
 			(effects
 				(font
@@ -5614,7 +5614,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "#GND0605")
+					(reference "#GND0307")
 					(unit 1)
 				)
 			)
@@ -5629,7 +5629,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000a043859c")
-		(property "Reference" "#GND0606"
+		(property "Reference" "#GND0308"
 			(at 205.74 72.39 0)
 			(effects
 				(font
@@ -5680,7 +5680,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "#GND0606")
+					(reference "#GND0308")
 					(unit 1)
 				)
 			)
@@ -5695,7 +5695,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-0000f6f52858")
-		(property "Reference" "U602"
+		(property "Reference" "U303"
 			(at 160.02 100.33 0)
 			(effects
 				(font
@@ -5896,7 +5896,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "U602")
+					(reference "U303")
 					(unit 1)
 				)
 			)
@@ -5911,7 +5911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "269eb047-120e-441a-bb58-b1a489ab68e9")
-		(property "Reference" "C114"
+		(property "Reference" "C306"
 			(at 94.996 129.54 0)
 			(effects
 				(font
@@ -6037,7 +6037,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "C114")
+					(reference "C306")
 					(unit 1)
 				)
 			)
@@ -6052,7 +6052,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3d8b5b3c-decc-4ceb-b2bc-0551d49af19b")
-		(property "Reference" "U102"
+		(property "Reference" "U301"
 			(at 63.5 111.76 0)
 			(effects
 				(font
@@ -6209,7 +6209,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "U102")
+					(reference "U301")
 					(unit 1)
 				)
 			)
@@ -6225,7 +6225,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46411e62-d77b-40d7-b069-c8413393e542")
-		(property "Reference" "U603"
+		(property "Reference" "U304"
 			(at 213.995 34.29 0)
 			(effects
 				(font
@@ -6373,7 +6373,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "U603")
+					(reference "U304")
 					(unit 1)
 				)
 			)
@@ -6388,7 +6388,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "48b70324-41d4-4237-8a04-b4411aea2af3")
-		(property "Reference" "#SUPPLY0108"
+		(property "Reference" "#SUPPLY0301"
 			(at 50.8 111.76 0)
 			(effects
 				(font
@@ -6439,7 +6439,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "#SUPPLY0108")
+					(reference "#SUPPLY0301")
 					(unit 1)
 				)
 			)
@@ -6454,7 +6454,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4a659221-bf1d-4974-81c7-774ef3323f7b")
-		(property "Reference" "C117"
+		(property "Reference" "C309"
 			(at 143.51 95.885 90)
 			(effects
 				(font
@@ -6580,7 +6580,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "C117")
+					(reference "C309")
 					(unit 1)
 				)
 			)
@@ -6595,7 +6595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "67a79d86-65a2-404d-b574-577cd8b87982")
-		(property "Reference" "C113"
+		(property "Reference" "C302"
 			(at 83.566 129.54 0)
 			(effects
 				(font
@@ -6721,7 +6721,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "C113")
+					(reference "C302")
 					(unit 1)
 				)
 			)
@@ -6736,7 +6736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "74a1c8aa-2f9e-4676-a74b-4162634bda72")
-		(property "Reference" "#GND0111"
+		(property "Reference" "#GND0301"
 			(at 41.91 147.32 0)
 			(effects
 				(font
@@ -6787,7 +6787,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "#GND0111")
+					(reference "#GND0301")
 					(unit 1)
 				)
 			)
@@ -6802,7 +6802,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9f14fd9c-ceb7-4ef9-8c8d-d43315ba783c")
-		(property "Reference" "C115"
+		(property "Reference" "C307"
 			(at 105.664 130.048 0)
 			(effects
 				(font
@@ -6928,7 +6928,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "C115")
+					(reference "C307")
 					(unit 1)
 				)
 			)
@@ -6943,7 +6943,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a46257de-ea32-46af-b3bf-bb0c24929109")
-		(property "Reference" "#SUPPLY0110"
+		(property "Reference" "#SUPPLY0303"
 			(at 78.74 111.76 0)
 			(effects
 				(font
@@ -6994,7 +6994,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "#SUPPLY0110")
+					(reference "#SUPPLY0303")
 					(unit 1)
 				)
 			)
@@ -7009,7 +7009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bcdbdd44-153a-4d46-8618-e401ab2ca013")
-		(property "Reference" "#GND0112"
+		(property "Reference" "#GND0303"
 			(at 104.14 144.78 0)
 			(effects
 				(font
@@ -7060,7 +7060,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "#GND0112")
+					(reference "#GND0303")
 					(unit 1)
 				)
 			)
@@ -7076,7 +7076,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbe42780-b7f6-4b59-8d56-326cc82ede7c")
-		(property "Reference" "C116"
+		(property "Reference" "C308"
 			(at 139.065 95.885 90)
 			(effects
 				(font
@@ -7202,7 +7202,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec6281"
-					(reference "C116")
+					(reference "C308")
 					(unit 1)
 				)
 			)
