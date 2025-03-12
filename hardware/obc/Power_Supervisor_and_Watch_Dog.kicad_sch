@@ -2981,7 +2981,7 @@
 		)
 		(uuid "61867c25-9ff3-410a-bd64-db7d1febe44d")
 	)
-	(text "Power glitch / high current draw:\n\n1. VBUS (or VBATT) falls suddenly by about 2V\n	this corresponds to many amperes of draw at our impedance.\n2. 4.7uF from VBUS to PWREN turns on FET A.\n3. FET B turns off power.\n4. VBUS falling further capaciively pulls down PWREN even more forcibly (hysteresis)."
+	(text "Power glitch / high current draw:\n\n1. VBUS (or VRAIL) falls suddenly by about 2V\n	this corresponds to many amperes of draw at our impedance.\n2. 4.7uF from VBUS to PWREN turns on FET A.\n3. FET B turns off power.\n4. VBUS falling further capaciively pulls down PWREN even more forcibly (hysteresis)."
 		(exclude_from_sim no)
 		(at 44.704 155.448 0)
 		(effects
@@ -3003,7 +3003,7 @@
 		)
 		(uuid "b11258cf-1ee4-4d6d-93b4-31f51cb4d7d2")
 	)
-	(text "Power-up:\n\n1. VBUS remains low while VBATT rises.\n2. 4.7uF capacitor between VBUS and PWREN keeps PWREN near 0V\n3. Negative gate-to-source voltage (because PWREN < VBATT) turns FET A on.\n4. FET A keeps FET B's gate near 0V, so FET B stays off, until..\n5. 220k resistor charges 4.7uF and PWREN rises enough to turn FET A off.\n	PWREN must rise to VBATT - VGSth for this to happen.\n6. 10k pulldown on FET B gate turns FET B on.\n7. VBUS rising discharges timer 47uF capacitor through first NPN transistor."
+	(text "Power-up:\n\n1. VBUS remains low while VRAIL rises.\n2. 4.7uF capacitor between VBUS and PWREN keeps PWREN near 0V\n3. Negative gate-to-source voltage (because PWREN < VRAIL) turns FET A on.\n4. FET A keeps FET B's gate near 0V, so FET B stays off, until..\n5. 220k resistor charges 4.7uF and PWREN rises enough to turn FET A off.\n	PWREN must rise to VRAIL - VGSth for this to happen.\n6. 10k pulldown on FET B gate turns FET B on.\n7. VBUS rising discharges timer 47uF capacitor through first NPN transistor."
 		(exclude_from_sim no)
 		(at 44.45 115.316 0)
 		(effects
@@ -3058,7 +3058,7 @@
 		)
 		(uuid "c340d48c-1871-49fe-b0f1-9c423abc3613")
 	)
-	(global_label "VBATT"
+	(global_label "VRAIL"
 		(shape bidirectional)
 		(at 25.4 26.67 180)
 		(effects

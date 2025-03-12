@@ -3969,7 +3969,7 @@
 		)
 		(uuid "ffc02e95-e597-4e7b-af9d-42c0eaff49f7")
 	)
-	(global_label "VBATT"
+	(global_label "VRAIL"
 		(shape bidirectional)
 		(at 175.26 138.43 0)
 		(effects
@@ -4349,7 +4349,7 @@
 			)
 		)
 	)
-	(global_label "VBATT"
+	(global_label "VRAIL"
 		(shape bidirectional)
 		(at 173.99 67.31 0)
 		(effects

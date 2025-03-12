@@ -8818,7 +8818,7 @@
 			)
 		)
 	)
-	(global_label "VBATT"
+	(global_label "VRAIL"
 		(shape input)
 		(at 214.63 146.05 0)
 		(effects

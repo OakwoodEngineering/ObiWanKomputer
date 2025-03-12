@@ -3360,7 +3360,7 @@
 			)
 		)
 	)
-	(global_label "VBATT"
+	(global_label "VRAIL"
 		(shape bidirectional)
 		(at 57.15 62.23 180)
 		(effects

@@ -5435,16 +5435,6 @@
 		)
 		(uuid "46acaf03-af77-488d-95b6-4db086a259c2")
 	)
-	(text "SCL2"
-		(exclude_from_sim no)
-		(at 107.442 151.892 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-		)
-		(uuid "46bd1ce5-6360-4a8c-81d0-2d613ae9cc0a")
-	)
 	(text "Connectors"
 		(exclude_from_sim no)
 		(at 211.074 183.134 0)
@@ -5469,7 +5459,7 @@
 		)
 		(uuid "8c8fe7ac-3887-4853-bc37-ac1b8774c1bf")
 	)
-	(text "\"VCHRG\""
+	(text "\"PACKPOS\""
 		(exclude_from_sim no)
 		(at 52.705 141.605 0)
 		(effects
@@ -5511,16 +5501,6 @@
 			)
 		)
 		(uuid "af0ddee0-f61c-4a43-bd71-87f4fb00706d")
-	)
-	(text "SDA2"
-		(exclude_from_sim no)
-		(at 107.442 149.352 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-		)
-		(uuid "c9b4af0a-9ea3-4333-b6d0-d5b4207f5caf")
 	)
 	(text "LAYOUT: Make accessible from access port"
 		(exclude_from_sim no)
@@ -5671,7 +5651,7 @@
 			)
 		)
 	)
-	(global_label "VCHRG"
+	(global_label "PACKPOS"
 		(shape bidirectional)
 		(at 50.165 156.845 270)
 		(effects
@@ -5893,7 +5873,7 @@
 			)
 		)
 	)
-	(global_label "VBATT_SENSE"
+	(global_label "INH_POS"
 		(shape bidirectional)
 		(at 201.93 69.85 0)
 		(effects
@@ -5953,7 +5933,7 @@
 			)
 		)
 	)
-	(global_label "VBATT"
+	(global_label "VRAIL"
 		(shape input)
 		(at 105.41 124.46 90)
 		(effects
@@ -6093,7 +6073,7 @@
 			)
 		)
 	)
-	(global_label "VCHRG"
+	(global_label "PACKPOS"
 		(shape bidirectional)
 		(at 196.85 53.34 0)
 		(effects
@@ -6133,7 +6113,7 @@
 			)
 		)
 	)
-	(global_label "VBATT"
+	(global_label "VRAIL"
 		(shape bidirectional)
 		(at 45.085 156.845 270)
 		(effects
@@ -7076,7 +7056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
+		(property "Value" "PACKNEG"
 			(at 132.207 91.3892 0)
 			(effects
 				(font
@@ -7141,7 +7121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
+		(property "Value" "PACKNEG"
 			(at 180.467 66.6242 0)
 			(effects
 				(font
@@ -7842,7 +7822,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GNDREF"
+		(property "Value" "PACKNEG"
 			(at 53.975 163.195 90)
 			(effects
 				(font
