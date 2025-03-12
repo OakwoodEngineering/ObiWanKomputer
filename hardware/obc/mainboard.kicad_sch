@@ -24,7 +24,7 @@
 		)
 		(uuid "0131440c-1935-4822-9b59-2cb358bf1967")
 	)
-	(text "GND is ground reference for components on the schematic. \nGNDREF is the negative terminal of the battery board.\n\nXXX need more master info here"
+	(text "GND is ground reference for components on the schematic. \nPACKNEG is the negative terminal of the battery board.\n\nXXX need more master info here"
 		(exclude_from_sim no)
 		(at 153.162 157.734 0)
 		(effects
