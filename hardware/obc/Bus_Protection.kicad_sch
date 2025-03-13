@@ -10,6 +10,7 @@
 		(rev "1")
 		(company "Ruchir Kavulli, Luke Titi, Michael Lyle")
 		(comment 1 "Derived from PyCubed Mainboard v5")
+		(comment 2 "NOTE: Components labeled \"do not install\" (DNI) are not populated by default")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -1691,16 +1692,6 @@
 		)
 		(uuid "28f6e36e-58b9-4a29-a496-de2bedc4431b")
 	)
-	(polyline
-		(pts
-			(xy 160.02 168.91) (xy 267.97 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2a255fe2-caac-4f3b-82ad-dc197664fbfb")
-	)
 	(wire
 		(pts
 			(xy 50.8 154.94) (xy 50.8 152.4)
@@ -1750,16 +1741,6 @@
 			(type default)
 		)
 		(uuid "335bd62c-0af2-436d-87c2-88c57e068144")
-	)
-	(polyline
-		(pts
-			(xy 160.02 171.45) (xy 160.02 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3831b160-2a31-478f-aa94-b555dab2a42e")
 	)
 	(wire
 		(pts
@@ -2533,17 +2514,6 @@
 		)
 		(uuid "16a56518-9488-4ea8-8f34-13ab1328c69e")
 	)
-	(text "NOTE: Components labeled \"do not install\" (DNI) are not populated by default"
-		(exclude_from_sim no)
-		(at 161.29 171.45 0)
-		(effects
-			(font
-				(size 1.651 1.651)
-			)
-			(justify left bottom)
-		)
-		(uuid "6630ca9d-232a-4326-9fa7-bc03dc3f40a1")
-	)
 	(text "NOTE"
 		(exclude_from_sim no)
 		(at 113.03 30.48 0)
@@ -2556,19 +2526,6 @@
 			(justify left bottom)
 		)
 		(uuid "80bfc3bd-1751-40d4-8d59-8f41c2a821a7")
-	)
-	(text "Bus Protection"
-		(exclude_from_sim no)
-		(at 205.232 183.388 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a1f9fbcd-68fe-4ca9-85e2-71aba1f83adc")
 	)
 	(text "I2C Bus Protection - Power Monitor"
 		(exclude_from_sim no)
@@ -2591,16 +2548,6 @@
 			(justify left bottom)
 		)
 		(uuid "b8384968-fdd2-4c8c-8e15-9120f17dac7f")
-	)
-	(text "XXX: Could elect to remove power mon protection to save space"
-		(exclude_from_sim no)
-		(at 130.81 137.795 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "e0b45078-dced-4e5c-a0f2-13d05a036754")
 	)
 	(global_label "SCL_PWR"
 		(shape output)
@@ -9495,7 +9442,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "27"
 			(at 233.68 44.0944 90)
 			(effects
 				(font
@@ -9530,7 +9477,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105588"
+		(property "LCSC" ""
 			(at 233.68 46.99 0)
 			(effects
 				(font
@@ -9974,7 +9921,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "27"
 			(at 204.47 52.9844 90)
 			(effects
 				(font
@@ -10000,7 +9947,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0 0603"
+		(property "Description" ""
 			(at 207.01 50.673 0)
 			(effects
 				(font
@@ -10009,7 +9956,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105588"
+		(property "LCSC" ""
 			(at 204.47 55.88 0)
 			(effects
 				(font
@@ -10113,7 +10060,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "27"
 			(at 233.68 52.9844 90)
 			(effects
 				(font
@@ -10148,7 +10095,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105588"
+		(property "LCSC" ""
 			(at 233.68 55.88 0)
 			(effects
 				(font

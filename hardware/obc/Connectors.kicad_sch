@@ -10,6 +10,7 @@
 		(rev "1")
 		(company "Ruchir Kavulli, Luke Titi, Michael Lyle")
 		(comment 1 "Derived from PyCubed Mainboard v5")
+		(comment 2 "NOTE: Components labeled \"do not install\" (DNI) are not populated by default")
 	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0"
@@ -4172,16 +4173,6 @@
 		)
 		(uuid "3c031713-26a9-405a-8181-5d5dfdf9bc72")
 	)
-	(polyline
-		(pts
-			(xy 158.75 168.91) (xy 266.7 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40727757-88f0-4fe7-aa8b-47c6b47a54b0")
-	)
 	(wire
 		(pts
 			(xy 215.265 130.81) (xy 220.345 130.81)
@@ -4862,16 +4853,6 @@
 		)
 		(uuid "b77ef4ac-75db-476f-b427-82a224797e29")
 	)
-	(polyline
-		(pts
-			(xy 158.75 171.45) (xy 158.75 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdb5210b-0447-4c98-89ea-5da749f32325")
-	)
 	(wire
 		(pts
 			(xy 45.085 156.845) (xy 45.085 151.765)
@@ -5402,17 +5383,6 @@
 		)
 		(uuid "ffc4308e-a7e5-4e35-9a50-e61ef1d55d13")
 	)
-	(text "NOTE: Components labeled \"do not install\" (DNI) are not populated by default"
-		(exclude_from_sim no)
-		(at 160.02 171.45 0)
-		(effects
-			(font
-				(size 1.651 1.651)
-			)
-			(justify left bottom)
-		)
-		(uuid "0751979a-ad69-4ca7-bb72-2a49432e45b6")
-	)
 	(text "Add jumper to allow\nUSB battery charging\n(even inside P-Pod).\n"
 		(exclude_from_sim no)
 		(at 51.435 133.985 0)
@@ -5434,19 +5404,6 @@
 			(justify left bottom)
 		)
 		(uuid "46acaf03-af77-488d-95b6-4db086a259c2")
-	)
-	(text "Connectors"
-		(exclude_from_sim no)
-		(at 211.074 183.134 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "59432d6e-d4a4-497f-a12e-bd3a696b907c")
 	)
 	(text "Battery\nTerminals"
 		(exclude_from_sim no)
@@ -7979,7 +7936,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 0603 100mW 75V ±1%"
+		(property "Description" ""
 			(at 82.55 60.96 0)
 			(effects
 				(font
@@ -7988,7 +7945,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C138286"
+		(property "LCSC" ""
 			(at 82.55 58.42 0)
 			(effects
 				(font
@@ -7997,7 +7954,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 82.55 58.42 0)
 			(effects
 				(font
@@ -8006,7 +7963,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " AC0603FR-0710RL"
+		(property "Manufacturer_Part_Number" ""
 			(at 82.55 58.42 0)
 			(effects
 				(font
@@ -8967,7 +8924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10 0603 100mW 75V ±1%"
+		(property "Description" ""
 			(at 82.55 68.58 0)
 			(effects
 				(font
@@ -8976,7 +8933,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" " C138286"
+		(property "LCSC" ""
 			(at 82.55 66.04 0)
 			(effects
 				(font
@@ -8985,7 +8942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 82.55 66.04 0)
 			(effects
 				(font
@@ -8994,7 +8951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " AC0603FR-0710RL"
+		(property "Manufacturer_Part_Number" ""
 			(at 82.55 66.04 0)
 			(effects
 				(font

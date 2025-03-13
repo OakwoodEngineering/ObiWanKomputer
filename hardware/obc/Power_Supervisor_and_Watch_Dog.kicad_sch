@@ -9,8 +9,148 @@
 		(date "2024-06-07")
 		(rev "1")
 		(company "Luke Titi, Michael Lyle")
+		(comment 2 "NOTE: Components labeled \"do not install\" (DNI) are not populated by default")
 	)
 	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -464,187 +604,6 @@
 					(at 0 -3.81 90)
 					(length 1.27)
 					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2057,16 +2016,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 26.67) (xy 109.855 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "023027e6-d8d4-4df6-a1b3-0326e1796f35")
-	)
-	(wire
-		(pts
 			(xy 96.52 34.29) (xy 109.855 34.29)
 		)
 		(stroke
@@ -2277,7 +2226,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 26.67) (xy 60.96 26.67)
+			(xy 29.21 26.67) (xy 63.5 26.67)
 		)
 		(stroke
 			(width 0)
@@ -2475,16 +2424,6 @@
 		)
 		(uuid "8514fc02-a2ce-47c3-b007-8babfdafaa49")
 	)
-	(polyline
-		(pts
-			(xy 158.75 171.45) (xy 158.75 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e350bfd-fac0-4d5d-9256-1388874e2988")
-	)
 	(wire
 		(pts
 			(xy 73.025 91.44) (xy 73.025 93.98)
@@ -2587,6 +2526,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 25.4) (xy 66.04 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abfcb381-4bfe-4998-a74d-6baa9609e1b0")
+	)
+	(wire
+		(pts
 			(xy 62.23 74.93) (xy 62.23 91.44)
 		)
 		(stroke
@@ -2597,6 +2546,16 @@
 	)
 	(wire
 		(pts
+			(xy 63.5 25.4) (xy 63.5 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aecfca5b-6c6e-4527-bf8e-cf318aff500e")
+	)
+	(wire
+		(pts
 			(xy 29.21 43.18) (xy 29.21 34.29)
 		)
 		(stroke
@@ -2604,6 +2563,16 @@
 			(type default)
 		)
 		(uuid "afba1d0d-fd4e-47b8-9a65-50c04cc4e1a5")
+	)
+	(wire
+		(pts
+			(xy 66.04 26.67) (xy 109.855 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0ccca44-acc5-4af3-9174-7e8a17e34a2f")
 	)
 	(wire
 		(pts
@@ -2704,16 +2673,6 @@
 			(type default)
 		)
 		(uuid "cc44042f-07a2-4e88-9df0-f5a24454a283")
-	)
-	(polyline
-		(pts
-			(xy 158.75 168.91) (xy 266.7 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ceed2071-d33d-4cf4-a14c-3260d593e067")
 	)
 	(wire
 		(pts
@@ -2935,30 +2894,6 @@
 			(justify left top)
 		)
 		(uuid "0ef42bee-5579-49f9-8034-b71fbc1337df")
-	)
-	(text "Power Supervisor and Watch Dog\n"
-		(exclude_from_sim no)
-		(at 190.5 180.975 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "459f9612-546f-4aa7-a00e-306c8c9bc381")
-	)
-	(text "NOTE: Components labeled \"do not install\" (DNI) are not populated by default"
-		(exclude_from_sim no)
-		(at 160.02 171.45 0)
-		(effects
-			(font
-				(size 1.651 1.651)
-			)
-			(justify left bottom)
-		)
-		(uuid "5188e617-f441-4ab2-be1f-a9f33644a297")
 	)
 	(text "WDT_WDI operation:\n\n1. Only pulses are coupled through 1.0uF coupling capacitor from WDT_WDI.\n2. Rising edges turn on the first NPN transistor for awhile.\n3. The first NPN transistor discharges the 47uF timing capacitor.\n	Current is limited by 47 ohm resistor in series with timing capacitor.\n4. Since TIMER is stopped from rising, power stays on."
 		(exclude_from_sim no)
@@ -4035,73 +3970,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 64.77 26.67 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "4e50529d-6dbd-4ecb-9f31-f083a62ba044")
-		(property "Reference" "JP51"
-			(at 59.436 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SolderJumper_2_Open"
-			(at 77.47 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
-			(at 64.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 64.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 64.77 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c81161a6-4b3f-4607-b45e-cb5ad22b4a55")
-		)
-		(pin "1"
-			(uuid "41a778ac-e75f-4012-8a2b-792be9dc7d60")
-		)
-		(instances
-			(project ""
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/0ba89562-211f-497f-9372-6f77bd1df388"
-					(reference "JP51")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 62.23 71.12 0)
 		(unit 1)
@@ -4688,6 +4556,76 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/0ba89562-211f-497f-9372-6f77bd1df388"
 					(reference "C53")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 63.5 20.32 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b16f0790-124d-427b-9f3f-c07ab96bbec2")
+		(property "Reference" "J201"
+			(at 68.58 19.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 68.58 21.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x02_P2.00mm_Vertical"
+			(at 63.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 63.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 63.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c5815d7-9d0e-4b2f-89e5-4c8c38dc6621")
+		)
+		(pin "2"
+			(uuid "28ef243e-7238-4bb5-ad9e-c25bcaf55288")
+		)
+		(instances
+			(project ""
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/0ba89562-211f-497f-9372-6f77bd1df388"
+					(reference "J201")
 					(unit 1)
 				)
 			)

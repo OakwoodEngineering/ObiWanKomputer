@@ -10,6 +10,7 @@
 		(rev "1")
 		(company "Ruchir Kavulli, Luke Titi, Michael Lyle")
 		(comment 1 "Derived from PyCubed Mainboard v5")
+		(comment 2 "NOTE: Components labeled \"do not install\" (DNI) are not populated by default")
 	)
 	(lib_symbols)
 	(text "The Obi Wan Computer was developed by students at Oakwood High School\nunder the direction of Michael Lyle.  It is based on the PyCubed project\nby Maximillian Holliday, released under the\nCreative Commons Attribution-ShareAlike 4.0 International License.\n\nLikewise, this work, Obi Wan Computer © 2023-2025 by the NyanSat Project\nis licensed under CC BY-SA 4.0. To view a copy of this license, visit \nhttps://creativecommons.org/licenses/by-sa/4.0/"

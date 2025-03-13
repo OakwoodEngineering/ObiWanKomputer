@@ -8,6 +8,7 @@
 		(title "Obi Wan Computer")
 		(rev "1")
 		(company "Luke Titi, Michael Lyle")
+		(comment 2 "NOTE: Components labeled \"do not install\" (DNI) are not populated by default")
 	)
 	(lib_symbols
 		(symbol "Device:L"
@@ -2287,16 +2288,6 @@
 		)
 		(uuid "2c9ac4ef-fc77-427c-86fb-bfc63083be20")
 	)
-	(polyline
-		(pts
-			(xy 91.44 129.54) (xy 63.5 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d9e7941-4fc3-471d-a72c-0b3748f55746")
-	)
 	(wire
 		(pts
 			(xy 115.57 182.88) (xy 113.03 182.88)
@@ -2387,16 +2378,6 @@
 		)
 		(uuid "3708cdd1-cd85-44a1-97e0-768279b93c6b")
 	)
-	(polyline
-		(pts
-			(xy 91.44 146.05) (xy 91.44 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ac7981d-4b1f-4b76-9558-d6875d5203b3")
-	)
 	(wire
 		(pts
 			(xy 73.66 105.41) (xy 73.66 97.79)
@@ -2416,16 +2397,6 @@
 			(type default)
 		)
 		(uuid "3d90ec64-15b1-430a-b749-6993c55b39ed")
-	)
-	(polyline
-		(pts
-			(xy 63.5 146.05) (xy 91.44 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eea1f9e-2a07-4657-a7c5-be942042ea31")
 	)
 	(wire
 		(pts
@@ -2616,16 +2587,6 @@
 			(type default)
 		)
 		(uuid "4e6e928e-06ad-46fc-9d01-65dc4d50238a")
-	)
-	(polyline
-		(pts
-			(xy 159.385 171.45) (xy 159.385 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f333cd9-0b40-454b-8087-a979c1c8b25c")
 	)
 	(wire
 		(pts
@@ -2846,16 +2807,6 @@
 			(type default)
 		)
 		(uuid "75e8152b-1e90-4430-a16f-f605a8d6c522")
-	)
-	(polyline
-		(pts
-			(xy 159.385 168.91) (xy 267.335 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "775e635c-f2b7-4cbb-b682-7289992c3a05")
 	)
 	(wire
 		(pts
@@ -3507,16 +3458,6 @@
 		)
 		(uuid "d2b5c241-cfef-4334-8980-66918b31c157")
 	)
-	(polyline
-		(pts
-			(xy 63.5 129.54) (xy 63.5 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3e19e76-6434-44c8-bd38-e64d3169cb8a")
-	)
 	(wire
 		(pts
 			(xy 146.05 138.43) (xy 166.37 138.43)
@@ -3843,17 +3784,6 @@
 		)
 		(uuid "4c3fe429-8276-4dbc-a746-3284fac04377")
 	)
-	(text "NOTE: Components labeled \"do not install\" (DNI) are not populated by default"
-		(exclude_from_sim no)
-		(at 160.655 171.45 0)
-		(effects
-			(font
-				(size 1.651 1.651)
-			)
-			(justify left bottom)
-		)
-		(uuid "5289015b-a3ff-49f3-8a3d-cdf319d847d7")
-	)
 	(text "XXX: Verify LTC4121"
 		(exclude_from_sim no)
 		(at 117.094 30.226 0)
@@ -3877,7 +3807,7 @@
 		)
 		(uuid "81875c35-b87b-4986-8b3a-05d572b89909")
 	)
-	(text "\nMPPT=75% Voc\nR11=787K, R12=121K\nTo disable MPTT:\nR11=10k; R12=DNI"
+	(text "\nMPPT=75% Voc\nR123=123K, R12=121K\nTo disable MPTT:\nR11=10k; R12=DNI"
 		(exclude_from_sim no)
 		(at 63.5 73.66 0)
 		(effects
@@ -3887,30 +3817,6 @@
 			(justify left bottom)
 		)
 		(uuid "93a44c83-304a-4b0d-8085-957c1e5677a2")
-	)
-	(text "Solar Chargers"
-		(exclude_from_sim no)
-		(at 173.736 183.134 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "a0a417c4-17d4-41eb-af09-02894a438d7f")
-	)
-	(text "\nMPPT=75% Voc\nR11=787K, R12=121K\nTo disable MPTT:\nR11=10k; R12=DNI"
-		(exclude_from_sim no)
-		(at 64.77 144.78 0)
-		(effects
-			(font
-				(size 0.889 0.889)
-			)
-			(justify left bottom)
-		)
-		(uuid "b5363d47-0f75-46ef-b180-e2bcca86fef9")
 	)
 	(text "2S Li-Ion Battery Solar Charging Circuit"
 		(exclude_from_sim no)
@@ -3923,19 +3829,6 @@
 		)
 		(uuid "c175d0a4-ed50-4b3b-af08-026bb4ac52d2")
 	)
-	(text "MPPT on by default"
-		(exclude_from_sim no)
-		(at 64.77 138.43 0)
-		(effects
-			(font
-				(size 0.9906 0.9906)
-				(thickness 0.1981)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "d4f4deef-7415-4c95-bf4a-5669c1d83ce5")
-	)
 	(text "Icharge =~ 320 mA\nRprog = 988 x 1.227V/ 320mA = 3.788k\nChoose standard value of 3.83k resulting in 317 mA"
 		(exclude_from_sim no)
 		(at 192.024 53.34 0)
@@ -3946,28 +3839,6 @@
 			(justify left bottom)
 		)
 		(uuid "fe337043-dcfd-4630-bb2a-1af9689e723d")
-	)
-	(label "VCHRG_IN"
-		(at 39.37 49.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3f248835-842f-4105-a76a-a879fc593e54")
-	)
-	(label "VCHRG_IN"
-		(at 40.64 120.65 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ffc02e95-e597-4e7b-af9d-42c0eaff49f7")
 	)
 	(global_label "VRAIL"
 		(shape bidirectional)
@@ -9948,7 +9819,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d89d7937-7533-4314-bc09-468cf0f6b26f")
-		(property "Reference" "JP106"
+		(property "Reference" "JP101"
 			(at 102.87 174.498 0)
 			(effects
 				(font
@@ -10104,7 +9975,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/5728bec1-e38c-4cf8-8d7a-17e9d882a72f"
-					(reference "JP106")
+					(reference "JP101")
 					(unit 1)
 				)
 			)
@@ -10817,7 +10688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f9011c23-61af-4aac-901a-dc3f50b1af7c")
-		(property "Reference" "JP101"
+		(property "Reference" "JP106"
 			(at 21.59 151.638 0)
 			(effects
 				(font
@@ -10973,7 +10844,7 @@
 		(instances
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/5728bec1-e38c-4cf8-8d7a-17e9d882a72f"
-					(reference "JP101")
+					(reference "JP106")
 					(unit 1)
 				)
 			)

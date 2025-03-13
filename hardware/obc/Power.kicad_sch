@@ -10,6 +10,7 @@
 		(rev "1")
 		(company "Ruchir Kavulli, Luke Titi, Michael Lyle")
 		(comment 1 "Derived from PyCubed Mainboard v5")
+		(comment 2 "NOTE: Components labeled \"do not install\" (DNI) are not populated by default")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint"
@@ -5396,16 +5397,6 @@
 		)
 		(uuid "3b7c30eb-2023-478b-aa2c-947077c89353")
 	)
-	(polyline
-		(pts
-			(xy 160.02 168.91) (xy 267.97 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c8dce2a-7579-4cbc-9fb2-b6ef93955258")
-	)
 	(wire
 		(pts
 			(xy 126.365 69.215) (xy 126.365 71.755)
@@ -6756,16 +6747,6 @@
 		)
 		(uuid "f90a6474-2ae4-4bd2-a531-d95a5c64779a")
 	)
-	(polyline
-		(pts
-			(xy 160.02 171.45) (xy 160.02 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe2aaffc-adb2-4fad-8c8c-b6aa34370b5d")
-	)
 	(wire
 		(pts
 			(xy 44.45 124.46) (xy 44.45 118.11)
@@ -6852,17 +6833,6 @@
 		)
 		(uuid "969eab25-eea3-45b0-823c-bff7f0e7251f")
 	)
-	(text "NOTE: Components labeled \"do not install\" (DNI) are not populated by default"
-		(exclude_from_sim no)
-		(at 161.29 171.45 0)
-		(effects
-			(font
-				(size 1.651 1.651)
-			)
-			(justify left bottom)
-		)
-		(uuid "9bb4f3ef-43e8-4a45-a442-92522a27f6ee")
-	)
 	(text "Battery Power Monitor"
 		(exclude_from_sim no)
 		(at 207.01 138.43 0)
@@ -6873,19 +6843,6 @@
 			(justify left bottom)
 		)
 		(uuid "a69452d3-8778-4e57-be81-fb51e310db0e")
-	)
-	(text "Power"
-		(exclude_from_sim no)
-		(at 219.71 182.88 0)
-		(effects
-			(font
-				(size 5.08 5.08)
-				(thickness 1.016)
-				(bold yes)
-			)
-			(justify left bottom)
-		)
-		(uuid "b696bde0-1729-42a8-b0bd-52242cdade27")
 	)
 	(text "Addr: 0x94"
 		(exclude_from_sim no)
