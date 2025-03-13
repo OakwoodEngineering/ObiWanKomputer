@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.127,
         "silk_text_upright": true,
         "zones": {
-          "min_clearance": 0.55
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -523,6 +523,8 @@
       "GNDREF": "rgb(16, 255, 242)",
       "Net-(J307-In)": "rgb(255, 0, 170)",
       "Net-(J603-In)": "rgb(255, 0, 170)",
+      "PACKNEG": "rgb(31, 255, 2)",
+      "PACKPOS": "rgb(22, 255, 20)",
       "VBATT": "rgb(31, 255, 2)",
       "VBATT_SENSE": "rgb(22, 255, 20)",
       "VBUS_IN": "rgb(255, 4, 2)",
