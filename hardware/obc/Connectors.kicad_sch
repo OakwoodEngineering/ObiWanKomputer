@@ -5383,6 +5383,16 @@
 		)
 		(uuid "ffc4308e-a7e5-4e35-9a50-e61ef1d55d13")
 	)
+	(text "Connected directly to PACKNEG to allow\ncharging even when PACKNEG inhibit switch is open\nand third RBF jumper is not installed."
+		(exclude_from_sim no)
+		(at 81.534 96.52 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3a73bba2-6fab-4958-9893-8219dc8f8aec")
+	)
 	(text "Add jumper to allow\nUSB battery charging\n(even inside P-Pod).\n"
 		(exclude_from_sim no)
 		(at 51.435 133.985 0)

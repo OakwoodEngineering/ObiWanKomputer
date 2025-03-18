@@ -2884,7 +2884,7 @@
 		)
 		(uuid "ff832793-3360-4bb6-a429-bf590a54236f")
 	)
-	(text "External reset operation:\n\n1. Darlington pair on right side of schematic turns on.\n2. RC network stretches short pulses and ensures PWREN falls.\n3. This turns on FETA, off FETB, and VBUS falls.\n4. 4.7uF capacitor helps; as VBUS falls, PWREN falls more sharply.\n5. When PWREN charges back up, power is restored (goto step 5 of power-up)."
+	(text "External reset operation:\n\n1. Darlington pair on right side of schematic turns on.\n2. RC network stretches short pulses and ensures PWREN falls.\n3. This turns on FETA, off FETB, and VWATCHEDRAIL falls.\n4. 4.7uF capacitor helps; as VBUS falls, PWREN falls more sharply.\n5. When PWREN charges back up, power is restored (goto step 5 of power-up)."
 		(exclude_from_sim no)
 		(at 127 138.43 0)
 		(effects
@@ -2916,7 +2916,7 @@
 		)
 		(uuid "61867c25-9ff3-410a-bd64-db7d1febe44d")
 	)
-	(text "Power glitch / high current draw:\n\n1. VBUS (or VRAIL) falls suddenly by about 2V\n	this corresponds to many amperes of draw at our impedance.\n2. 4.7uF from VBUS to PWREN turns on FET A.\n3. FET B turns off power.\n4. VBUS falling further capaciively pulls down PWREN even more forcibly (hysteresis)."
+	(text "Power glitch / high current draw:\n\n1. VWATCHEDRAIL (or VRAIL) falls suddenly by about 2V\n	this corresponds to many amperes of draw at our impedance.\n2. 4.7uF from VBUS to PWREN turns on FET A.\n3. FET B turns off power.\n4. VWATCHEDRAIL falling further capacitively pulls down PWREN even more forcibly (hysteresis)."
 		(exclude_from_sim no)
 		(at 44.704 155.448 0)
 		(effects
@@ -2927,7 +2927,7 @@
 		)
 		(uuid "877c2c9a-ed60-47f8-aad8-14498d4c3568")
 	)
-	(text "Watchdog operation:\n\n1. VBus is high, so 220k resistor charges 47uF timer capacitor.\n2. When timer capacitor charges over 1.4V, Darlington bipolar pair turns on.\n3. This discharges PWREN 4.7uF capacitor to ground, turning on the FET A\n	Current is limited by 47 ohm resistor in series.\n4. FET B turns off.\n5. VBUS falling pulls PWREN down even more forcibly via 4.7uF capacitor, ensuring\nFET A stays on. (hysteresis).\n6. When PWREN charges back up, power is restored (goto step 5 of power-up)."
+	(text "Watchdog operation:\n\n1. VWATCHEDRAIL is high, so 220k resistor charges 47uF timer capacitor.\n2. When timer capacitor charges over 1.4V, Darlington bipolar pair turns on.\n3. This discharges PWREN 4.7uF capacitor to ground, turning on the FET A\n	Current is limited by 47 ohm resistor in series.\n4. FET B turns off.\n5. VWATCHEDRAIL falling pulls PWREN down even more forcibly via 4.7uF capacitor, ensuring\nFET A stays on. (hysteresis).\n6. When PWREN charges back up, power is restored (goto step 5 of power-up)."
 		(exclude_from_sim no)
 		(at 127 115.316 0)
 		(effects
@@ -2938,7 +2938,7 @@
 		)
 		(uuid "b11258cf-1ee4-4d6d-93b4-31f51cb4d7d2")
 	)
-	(text "Power-up:\n\n1. VBUS remains low while VRAIL rises.\n2. 4.7uF capacitor between VBUS and PWREN keeps PWREN near 0V\n3. Negative gate-to-source voltage (because PWREN < VRAIL) turns FET A on.\n4. FET A keeps FET B's gate near 0V, so FET B stays off, until..\n5. 220k resistor charges 4.7uF and PWREN rises enough to turn FET A off.\n	PWREN must rise to VRAIL - VGSth for this to happen.\n6. 10k pulldown on FET B gate turns FET B on.\n7. VBUS rising discharges timer 47uF capacitor through first NPN transistor."
+	(text "Power-up:\n\n1. VWATCHEDRAIL remains low while VRAIL rises.\n2. 4.7uF capacitor between VBUS and PWREN keeps PWREN near 0V\n3. Negative gate-to-source voltage (because PWREN < VRAIL) turns FET A on.\n4. FET A keeps FET B's gate near 0V, so FET B stays off, until..\n5. 220k resistor charges 4.7uF and PWREN rises enough to turn FET A off.\n	PWREN must rise to VRAIL - VGSth for this to happen.\n6. 10k pulldown on FET B gate turns FET B on.\n7. VWATCHEDRAIL rising discharges timer 47uF capacitor through first\n   NPN transistor."
 		(exclude_from_sim no)
 		(at 44.45 115.316 0)
 		(effects

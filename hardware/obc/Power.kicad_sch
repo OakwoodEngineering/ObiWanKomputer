@@ -6757,7 +6757,7 @@
 		)
 		(uuid "fe928ea0-b01a-4a84-b016-a86c09f3ea23")
 	)
-	(text "Set RF Voltage:\nVOUT=1.21*(1+R402/R403)+(3E-6*R402)\nVOUT=5V (R402=10K, R403=3.3K)\n"
+	(text "Set RF Voltage:\nVOUT=1.21*(1+R1/R2)+(3E-6*R402)\nVOUT=5V"
 		(exclude_from_sim no)
 		(at 56.642 129.286 0)
 		(effects
@@ -6778,16 +6778,6 @@
 			(justify left bottom)
 		)
 		(uuid "18ee30d6-fb4f-47ee-9531-950aa9b683ba")
-	)
-	(text "Threshold ~3A/V;\ndv/dt through thresh 591uV/us\ndA/dt 1.8mA/us\npeaks at around 800mA"
-		(exclude_from_sim no)
-		(at 98.933 77.089 0)
-		(effects
-			(font
-				(size 0.85 0.85)
-			)
-		)
-		(uuid "2490481c-faad-4494-b4cc-357a0345aacc")
 	)
 	(text "RF Regulator"
 		(exclude_from_sim no)
@@ -6822,7 +6812,17 @@
 		)
 		(uuid "854400ec-5f90-4bab-94bc-d9291ddc4913")
 	)
-	(text "Input Current Limit\nMax input current (IINMAX)=KILIM/RILIM\nKILIM = 1098 to 1276 at most\nIINMAX=400mA=3.16 kohm"
+	(text "Charge current limit\n1.5k selects ~390mA"
+		(exclude_from_sim no)
+		(at 171.196 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "908947da-6c1a-45d8-8fff-37e9243610d0")
+	)
+	(text "Input Current Limit\nMax input current (IINMAX)=KILIM/RILIM\nKILIM = 1098 to 1276 at most\nIINMAX=1.1A yields 1kohm"
 		(exclude_from_sim no)
 		(at 212.344 130.556 0)
 		(effects
@@ -6886,16 +6886,6 @@
 			(justify left bottom)
 		)
 		(uuid "d81d1e5b-9259-4475-bc5f-8cb7881ac742")
-	)
-	(text "Linearize power switch\nto limit inrush;\nlimit fault currents."
-		(exclude_from_sim no)
-		(at 112.903 55.499 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "dfda266b-92ed-4010-9f0e-a5f804bef632")
 	)
 	(label "REGN"
 		(at 201.93 118.11 0)
@@ -10901,7 +10891,7 @@
 				)
 			)
 		)
-		(property "Value" "3.16K"
+		(property "Value" "1k"
 			(at 203.2 128.27 90)
 			(effects
 				(font
@@ -10927,7 +10917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "3.16K 0603"
+		(property "Description" ""
 			(at 200.66 130.81 0)
 			(effects
 				(font
@@ -10936,7 +10926,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C185333"
+		(property "LCSC" ""
 			(at 203.2 125.73 0)
 			(effects
 				(font
@@ -10945,7 +10935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " YAGEO"
+		(property "Manufacturer_Name" ""
 			(at 203.2 125.73 0)
 			(effects
 				(font
@@ -10954,7 +10944,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " RC0603FR-073K16L"
+		(property "Manufacturer_Part_Number" ""
 			(at 203.2 125.73 0)
 			(effects
 				(font
@@ -13322,7 +13312,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "4.7k"
+		(property "Value" "1.5k"
 			(at 185.674 81.28 90)
 			(effects
 				(font
@@ -13349,7 +13339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7k 0603"
+		(property "Description" "3.3k 0603"
 			(at 184.15 80.01 0)
 			(effects
 				(font
@@ -13358,7 +13348,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" ""
 			(at 184.15 80.01 0)
 			(effects
 				(font
@@ -13367,7 +13357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer_Name" ""
 			(at 184.15 80.01 0)
 			(effects
 				(font
@@ -13376,7 +13366,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " 0603WAF4701T5E"
+		(property "Manufacturer_Part_Number" ""
 			(at 184.15 80.01 0)
 			(effects
 				(font

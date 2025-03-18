@@ -3807,7 +3807,7 @@
 		)
 		(uuid "81875c35-b87b-4986-8b3a-05d572b89909")
 	)
-	(text "\nMPPT=75% Voc\nR123=123K, R12=121K\nTo disable MPTT:\nR11=10k; R12=DNI"
+	(text "\nMPPT=75% Voc\nR123=787K, R125=121K\nTo disable MPTT:\nR11=10k; R12=DNI"
 		(exclude_from_sim no)
 		(at 63.5 73.66 0)
 		(effects

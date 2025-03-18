@@ -4270,7 +4270,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d3a148b")
 		(property "Reference" "J306"
-			(at 233.68 35.56 90)
+			(at 237.49 32.512 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4438,7 +4438,7 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d3a5b0d")
 		(property "Reference" "J307"
-			(at 233.68 49.53 90)
+			(at 236.982 53.086 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4605,14 +4605,14 @@
 		(dnp no)
 		(uuid "00000000-0000-0000-0000-00005d3a5ea0")
 		(property "Reference" "J305"
-			(at 114.8334 47.3202 90)
+			(at 113.284 50.038 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SMA RA Connector"
+		(property "Value" "~"
 			(at 114.8334 49.6316 90)
 			(effects
 				(font

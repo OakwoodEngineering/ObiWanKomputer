@@ -13779,7 +13779,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9d351860-60c2-4bea-bf2c-6a9dc9c1e6f3")
 		(property "Reference" "R152"
@@ -13791,7 +13791,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "10k"
 			(at 33.02 126.9999 0)
 			(effects
 				(font
@@ -14013,7 +14013,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adda0246-b290-4d3e-b05f-49d25e5fc711")
 		(property "Reference" "R153"
@@ -14025,7 +14025,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "10k"
 			(at 34.29 174.6249 0)
 			(effects
 				(font
