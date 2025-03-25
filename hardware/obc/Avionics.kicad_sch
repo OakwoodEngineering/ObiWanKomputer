@@ -9345,7 +9345,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 203.2 151.13 0)
 			(effects
 				(font
@@ -9354,7 +9354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CL10B104KB8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 203.2 151.13 0)
 			(effects
 				(font
@@ -9469,7 +9469,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 175.7172 109.3216 0)
 			(effects
 				(font
@@ -9487,7 +9487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 173.99 113.03 0)
 			(effects
 				(font
@@ -9496,7 +9496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 173.99 113.03 0)
 			(effects
 				(font
@@ -9611,7 +9611,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 190.9572 122.0216 0)
 			(effects
 				(font
@@ -9629,7 +9629,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 189.23 125.73 0)
 			(effects
 				(font
@@ -9638,7 +9638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 189.23 125.73 0)
 			(effects
 				(font
@@ -10071,7 +10071,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 237.49 80.01 0)
 			(effects
 				(font
@@ -10080,7 +10080,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CL10B104KB8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 237.49 80.01 0)
 			(effects
 				(font
@@ -10335,7 +10335,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10V 4.7uF X5R ±10% 0603"
 			(at 41.91 27.94 0)
 			(effects
 				(font
@@ -10354,6 +10354,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 41.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+			(at 41.91 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A475KP8NNNC"
 			(at 41.91 27.94 0)
 			(effects
 				(font
@@ -10422,7 +10440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10V 4.7uF X5R ±10% 0603"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -10441,6 +10459,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 58.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+			(at 58.42 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A475KP8NNNC"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -10679,7 +10715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 62.23 97.79 0)
 			(effects
 				(font
@@ -10697,7 +10733,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 66.04 93.98 0)
 			(effects
 				(font
@@ -10706,7 +10742,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 66.04 93.98 0)
 			(effects
 				(font
@@ -10974,7 +11010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 21.59 44.45 0)
 			(effects
 				(font
@@ -11061,7 +11097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 62.23 118.11 0)
 			(effects
 				(font
@@ -11215,7 +11251,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 191.77 24.13 0)
 			(effects
 				(font
@@ -11303,7 +11339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 214.63 24.13 0)
 			(effects
 				(font
@@ -11456,7 +11492,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 60.96 166.37 0)
 			(effects
 				(font
@@ -11552,7 +11588,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C142306"
+		(property "LCSC" "C84256"
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -11561,7 +11597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Everlight Elec"
+		(property "Manufacturer_Name" ""
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -11570,7 +11606,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " 17-215SURC/S530-A2/TR8"
+		(property "Manufacturer_Part_Number" ""
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -11721,7 +11757,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
+		(property "Footprint" "Inductor_SMD:L_1806_4516Metric"
 			(at 74.93 41.91 0)
 			(effects
 				(font
@@ -11757,7 +11793,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C77110"
+		(property "LCSC" "C42411119"
 			(at 74.93 41.91 0)
 			(effects
 				(font
@@ -12027,7 +12063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 168.91 24.13 0)
 			(effects
 				(font
@@ -12333,7 +12369,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 237.49 24.13 0)
 			(effects
 				(font
@@ -12420,7 +12456,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 22.225 24.13 0)
 			(effects
 				(font
@@ -12708,7 +12744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 226.06 24.13 0)
 			(effects
 				(font
@@ -12862,7 +12898,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 248.92 24.13 0)
 			(effects
 				(font
@@ -13331,7 +13367,7 @@
 				)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pF"
 			(at 50.8 74.93 90)
 			(effects
 				(font
@@ -13416,7 +13452,7 @@
 				)
 			)
 		)
-		(property "Value" "15p"
+		(property "Value" "15pF"
 			(at 51.054 80.264 90)
 			(effects
 				(font
@@ -13809,7 +13845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 30.48 125.73 0)
 			(effects
 				(font
@@ -13818,7 +13854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 30.48 125.73 0)
 			(effects
 				(font
@@ -13828,6 +13864,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 30.48 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C169849"
 			(at 30.48 125.73 0)
 			(effects
 				(font
@@ -13964,7 +14009,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 203.2 24.13 0)
 			(effects
 				(font
@@ -14043,7 +14088,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 31.75 173.355 0)
 			(effects
 				(font
@@ -14052,7 +14097,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 31.75 173.355 0)
 			(effects
 				(font
@@ -14062,6 +14107,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 31.75 173.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C169849"
 			(at 31.75 173.355 0)
 			(effects
 				(font
@@ -14392,7 +14446,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 40.64 66.04 0)
 			(effects
 				(font
@@ -14401,7 +14455,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 40.64 66.04 0)
 			(effects
 				(font
@@ -14480,7 +14534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 180.34 24.13 0)
 			(effects
 				(font
@@ -14633,7 +14687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 259.08 24.13 0)
 			(effects
 				(font
@@ -14776,7 +14830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 78.74 81.28 0)
 			(effects
 				(font
@@ -14785,7 +14839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 78.74 81.28 0)
 			(effects
 				(font
@@ -15332,7 +15386,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10V 4.7uF X5R ±10% 0603"
 			(at 62.23 27.94 0)
 			(effects
 				(font
@@ -15351,6 +15405,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 62.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+			(at 62.23 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A475KP8NNNC"
 			(at 62.23 27.94 0)
 			(effects
 				(font
@@ -15419,7 +15491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10V 4.7uF X5R ±10% 0603"
 			(at 46.99 43.18 0)
 			(effects
 				(font
@@ -15438,6 +15510,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 46.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+			(at 46.99 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A475KP8NNNC"
 			(at 46.99 43.18 0)
 			(effects
 				(font
@@ -15479,7 +15569,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "IS66WVR8M8FBLL-104NLI"
+		(property "Value" "VTI7064MSME"
 			(at 50.165 194.31 0)
 			(effects
 				(font
@@ -15676,7 +15766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 34.29 44.45 0)
 			(effects
 				(font

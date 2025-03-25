@@ -4597,7 +4597,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SSE_Footprints:TDK_1008_4.9x5.5mm"
+		(property "Footprint" "NyanSat_Footprints:TDK VLCF5020T-330MR62-1"
 			(at 90.17 125.73 0)
 			(effects
 				(font
@@ -4633,7 +4633,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
+		(property "Manufacturer_Name" ""
 			(at 90.17 125.73 0)
 			(effects
 				(font
@@ -4660,7 +4660,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2046704"
+		(property "LCSC" "C2043695"
 			(at 90.17 125.73 0)
 			(effects
 				(font
@@ -7309,7 +7309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0 0603"
+		(property "Description" ""
 			(at 62.23 39.878 0)
 			(effects
 				(font
@@ -8349,7 +8349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "0 0603"
+		(property "Description" ""
 			(at 63.5 110.998 0)
 			(effects
 				(font
@@ -10006,7 +10006,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SSE_Footprints:TDK_1008_4.9x5.5mm"
+		(property "Footprint" "NyanSat_Footprints:TDK VLCF5020T-330MR62-1"
 			(at 88.9 54.61 0)
 			(effects
 				(font
@@ -10042,7 +10042,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "TDK"
+		(property "Manufacturer_Name" ""
 			(at 88.9 54.61 0)
 			(effects
 				(font
@@ -10069,7 +10069,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2046704"
+		(property "LCSC" "C2043695"
 			(at 88.9 54.61 0)
 			(effects
 				(font

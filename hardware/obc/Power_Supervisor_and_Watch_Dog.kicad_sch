@@ -3089,7 +3089,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 205.74 77.47 0)
 			(effects
 				(font
@@ -3098,7 +3098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 205.74 77.47 0)
 			(effects
 				(font
@@ -3177,7 +3177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 83.82 71.12 0)
 			(effects
 				(font
@@ -3186,7 +3186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 83.82 71.12 0)
 			(effects
 				(font
@@ -3634,6 +3634,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 146.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
+			(at 146.05 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3b2d2fa-6640-4677-93c0-e54b75d1e188")
 		)
@@ -3804,7 +3822,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105579"
+		(property "LCSC" "C114623"
 			(at 114.935 86.36 0)
 			(effects
 				(font
@@ -4005,7 +4023,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 62.23 71.12 0)
 			(effects
 				(font
@@ -4014,7 +4032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 62.23 71.12 0)
 			(effects
 				(font
@@ -4510,7 +4528,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 109.855 43.18 0)
 			(effects
 				(font
@@ -4519,7 +4537,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "10V 4.7uF X5R ±10% 0603"
 			(at 109.855 43.18 0)
 			(effects
 				(font
@@ -4538,6 +4556,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 109.855 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+			(at 109.855 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CL10A475KP8NNNC"
 			(at 109.855 43.18 0)
 			(effects
 				(font
@@ -4616,6 +4652,15 @@
 				(hide yes)
 			)
 		)
+		(property "DNI" "NP_JLC"
+			(at 63.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8c5815d7-9d0e-4b2f-89e5-4c8c38dc6621")
 		)
@@ -4685,7 +4730,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C105579"
+		(property "LCSC" "C114623"
 			(at 222.25 58.42 0)
 			(effects
 				(font
@@ -4763,7 +4808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "50V 100nF X7R ±10% 0603"
 			(at 128.27 78.74 0)
 			(effects
 				(font
@@ -4876,6 +4921,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 219.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 219.71 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
 			(at 219.71 77.47 0)
 			(effects
 				(font
@@ -5069,6 +5132,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 194.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 194.31 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
 			(at 194.31 69.85 0)
 			(effects
 				(font
@@ -5372,6 +5453,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "onsemi"
+			(at 153.67 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "MBT2222ADW1T1G"
 			(at 153.67 77.47 0)
 			(effects
 				(font

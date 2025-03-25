@@ -6365,7 +6365,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 175.26 58.42 0)
 			(effects
 				(font
@@ -6374,7 +6374,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CL10B104KB8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 175.26 58.42 0)
 			(effects
 				(font
@@ -6945,7 +6945,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 132.08 68.58 0)
 			(effects
 				(font
@@ -7955,7 +7955,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137753"
 			(at 82.55 58.42 0)
 			(effects
 				(font
@@ -8085,7 +8085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1K 0603"
+		(property "Description" ""
 			(at 216.9922 132.1816 0)
 			(effects
 				(font
@@ -8103,7 +8103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 215.265 135.89 0)
 			(effects
 				(font
@@ -8112,7 +8112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW06031K00FKEAC"
+		(property "Manufacturer_Part_Number" ""
 			(at 215.265 135.89 0)
 			(effects
 				(font
@@ -8943,7 +8943,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137753"
 			(at 82.55 66.04 0)
 			(effects
 				(font
@@ -9346,7 +9346,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1K 0603"
+		(property "Description" ""
 			(at 227.1522 132.1816 0)
 			(effects
 				(font
@@ -9364,7 +9364,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 225.425 135.89 0)
 			(effects
 				(font
@@ -9373,7 +9373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW06031K00FKEAC"
+		(property "Manufacturer_Part_Number" ""
 			(at 225.425 135.89 0)
 			(effects
 				(font

@@ -7405,7 +7405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 53.975 176.53 0)
 			(effects
 				(font
@@ -7414,7 +7414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CL10B104KB8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 53.975 176.53 0)
 			(effects
 				(font
@@ -9115,7 +9115,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 220.98 112.903 0)
 			(effects
 				(font
@@ -9133,7 +9133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 218.44 118.11 0)
 			(effects
 				(font
@@ -9142,7 +9142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 218.44 118.11 0)
 			(effects
 				(font
@@ -9292,7 +9292,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 198.12 118.11 0)
 			(effects
 				(font
@@ -10572,7 +10572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1K 0603"
+		(property "Description" ""
 			(at 199.39 154.94 0)
 			(effects
 				(font
@@ -10590,7 +10590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay Intertech"
+		(property "Manufacturer_Name" ""
 			(at 201.93 153.67 0)
 			(effects
 				(font
@@ -10599,7 +10599,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CRCW06031K00FKEAC"
+		(property "Manufacturer_Part_Number" ""
 			(at 201.93 153.67 0)
 			(effects
 				(font
@@ -10926,7 +10926,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C844746"
 			(at 203.2 125.73 0)
 			(effects
 				(font
@@ -11058,7 +11058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 196.0372 115.6716 0)
 			(effects
 				(font
@@ -11076,7 +11076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 194.31 114.3 0)
 			(effects
 				(font
@@ -11085,7 +11085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 194.31 114.3 0)
 			(effects
 				(font
@@ -11879,7 +11879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 46.1772 124.5616 0)
 			(effects
 				(font
@@ -11897,7 +11897,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 44.45 128.27 0)
 			(effects
 				(font
@@ -11906,7 +11906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 44.45 128.27 0)
 			(effects
 				(font
@@ -13348,7 +13348,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C482642"
 			(at 184.15 80.01 0)
 			(effects
 				(font

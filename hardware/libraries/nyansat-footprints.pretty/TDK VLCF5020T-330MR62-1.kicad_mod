@@ -1,0 +1,234 @@
+(footprint "TDK VLCF5020T-330MR62-1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2ca50771-c2bc-4159-9a59-3714b2daf3f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "TDK VLCF5020T-330MR62-1"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "14b06d8f-57e6-4d2e-89f3-6bc848237695")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7818314f-0704-4a37-850c-a41270247343")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fbde720b-7c0c-4609-98d0-f223f1ceb70f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c6c749b0-b0f0-4b28-9d88-69410a2a5797")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.2 -5.76)
+		(end -3.2 -5.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47d9b8a5-da12-4a17-a79c-cfa9ba6ae2fd")
+	)
+	(fp_line
+		(start -3.2 -5.76)
+		(end 3 -5.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "05f304b7-a21a-4824-befa-a08c6b34e44d")
+	)
+	(fp_line
+		(start -3.2 -0.24)
+		(end -3.2 -0.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38cd2bd9-f948-46ca-b129-01e76071269e")
+	)
+	(fp_line
+		(start -3.2 -0.24)
+		(end 3 -0.24)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "116600af-442c-4f76-85c0-429a2c52bcc6")
+	)
+	(fp_line
+		(start 3 -5.76)
+		(end 3 -5.36)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abfb012c-12fb-411f-a8b4-4b48d18e713d")
+	)
+	(fp_line
+		(start 3 -0.24)
+		(end 3 -0.64)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b8d9d7a0-892f-444c-b15b-1d88de7f36c6")
+	)
+	(fp_line
+		(start -3.4 -6)
+		(end -3.4 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1ae2ae79-b3e0-4f62-b4c8-d6947930984d")
+	)
+	(fp_line
+		(start -3.4 0)
+		(end 3.2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "852cb8b9-1892-4ae0-9b9e-e85da3aec2bf")
+	)
+	(fp_line
+		(start 3.2 -6)
+		(end -3.4 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "877288cc-abc5-4201-806b-e96ac6264796")
+	)
+	(fp_line
+		(start 3.2 0)
+		(end 3.2 -6)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "70219841-1a1a-4770-a8d1-58a9ec02180e")
+	)
+	(fp_line
+		(start -3 -5.5)
+		(end -3 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8e14111f-0d48-4e35-9f09-a712fb89ddde")
+	)
+	(fp_line
+		(start -3 -0.5)
+		(end 2.8 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "35d07bbe-e566-46dc-9adb-02d618b94450")
+	)
+	(fp_line
+		(start 2.8 -5.5)
+		(end -3 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cdb0d834-9821-4937-ba01-227b0c438b36")
+	)
+	(fp_line
+		(start 2.8 -0.5)
+		(end 2.8 -5.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d8cb0315-5d15-40fe-a2a4-ba549e1f754c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "92c0263f-4bc2-44ae-a600-973c36364cea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.85 -3)
+		(size 2.2 4.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "49561e54-0034-4c4e-a816-d221daed8677")
+	)
+	(pad "2" smd rect
+		(at 1.65 -3)
+		(size 2.2 4.9)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fbea8582-098b-4a18-8a76-4694fb03c888")
+	)
+)

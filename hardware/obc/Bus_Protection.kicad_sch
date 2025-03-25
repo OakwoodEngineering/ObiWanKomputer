@@ -3775,7 +3775,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 52.5272 47.0916 0)
 			(effects
 				(font
@@ -3793,7 +3793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 50.8 50.8 0)
 			(effects
 				(font
@@ -3802,7 +3802,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 50.8 50.8 0)
 			(effects
 				(font
@@ -3916,7 +3916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 44.0182 40.7416 0)
 			(effects
 				(font
@@ -3934,7 +3934,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 45.72 44.45 0)
 			(effects
 				(font
@@ -3943,7 +3943,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 45.72 44.45 0)
 			(effects
 				(font
@@ -5154,7 +5154,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 85.9282 40.7416 0)
 			(effects
 				(font
@@ -5172,7 +5172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 87.63 44.45 0)
 			(effects
 				(font
@@ -5181,7 +5181,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 87.63 44.45 0)
 			(effects
 				(font
@@ -6201,7 +6201,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 94.4372 47.0916 0)
 			(effects
 				(font
@@ -6219,7 +6219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 92.71 50.8 0)
 			(effects
 				(font
@@ -6228,7 +6228,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 92.71 50.8 0)
 			(effects
 				(font
@@ -6718,7 +6718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 44.0182 119.4816 0)
 			(effects
 				(font
@@ -6736,7 +6736,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 45.72 123.19 0)
 			(effects
 				(font
@@ -6745,7 +6745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 45.72 123.19 0)
 			(effects
 				(font
@@ -7765,7 +7765,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 52.5272 125.8316 0)
 			(effects
 				(font
@@ -7783,7 +7783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 50.8 129.54 0)
 			(effects
 				(font
@@ -7792,7 +7792,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 50.8 129.54 0)
 			(effects
 				(font
@@ -8282,7 +8282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 85.9282 119.4816 0)
 			(effects
 				(font
@@ -8300,7 +8300,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 87.63 123.19 0)
 			(effects
 				(font
@@ -8309,7 +8309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 87.63 123.19 0)
 			(effects
 				(font
@@ -9329,7 +9329,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 94.4372 125.8316 0)
 			(effects
 				(font
@@ -9347,7 +9347,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 92.71 129.54 0)
 			(effects
 				(font
@@ -9356,7 +9356,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 92.71 129.54 0)
 			(effects
 				(font
@@ -9477,7 +9477,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137753"
 			(at 233.68 46.99 0)
 			(effects
 				(font
@@ -9956,7 +9956,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137753"
 			(at 204.47 55.88 0)
 			(effects
 				(font
@@ -10095,7 +10095,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C137753"
 			(at 233.68 55.88 0)
 			(effects
 				(font

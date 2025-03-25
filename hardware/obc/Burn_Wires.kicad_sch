@@ -3378,7 +3378,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 159.766 102.87 0)
 			(effects
 				(font
@@ -3405,7 +3405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 163.83 102.87 0)
 			(effects
 				(font
@@ -3414,7 +3414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 163.83 102.87 0)
 			(effects
 				(font
@@ -3519,7 +3519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 167.894 78.74 0)
 			(effects
 				(font
@@ -3546,7 +3546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 163.83 78.74 0)
 			(effects
 				(font
@@ -3555,7 +3555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 163.83 78.74 0)
 			(effects
 				(font
@@ -4722,6 +4722,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3279781"
+			(at 199.39 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0ed2168e-ebb2-436d-af3a-ec9686dc680a")
 		)
@@ -5117,7 +5126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 167.894 128.27 0)
 			(effects
 				(font
@@ -5144,7 +5153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 163.83 128.27 0)
 			(effects
 				(font
@@ -5153,7 +5162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 163.83 128.27 0)
 			(effects
 				(font
@@ -5592,6 +5601,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C3279781"
+			(at 199.39 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "608be39e-1aa4-4752-89ff-6d20bdc6c88c")
 		)
@@ -5901,6 +5919,15 @@
 			)
 		)
 		(property "Description" "-6.7A Id, -20V Vds, P-Channel HEXFET Power MOSFET, SO-8"
+			(at 199.39 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3279781"
 			(at 199.39 97.79 0)
 			(effects
 				(font

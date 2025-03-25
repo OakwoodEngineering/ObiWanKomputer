@@ -4098,7 +4098,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 218.44 70.8914 0)
 			(effects
 				(font
@@ -4116,7 +4116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 222.25 74.93 0)
 			(effects
 				(font
@@ -4125,7 +4125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 222.25 74.93 0)
 			(effects
 				(font
@@ -5085,7 +5085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10k 0603"
+		(property "Description" ""
 			(at 54.1528 57.0738 0)
 			(effects
 				(font
@@ -5112,7 +5112,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "PANASONIC"
+		(property "Manufacturer_Name" ""
 			(at 53.34 58.42 0)
 			(effects
 				(font
@@ -5121,7 +5121,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ3GEYJ103V"
+		(property "Manufacturer_Part_Number" ""
 			(at 53.34 58.42 0)
 			(effects
 				(font
@@ -5864,7 +5864,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 92.71 130.81 0)
 			(effects
 				(font
@@ -5873,7 +5873,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CL10B104KB8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 92.71 130.81 0)
 			(effects
 				(font
@@ -6548,7 +6548,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 81.28 130.81 0)
 			(effects
 				(font
@@ -6557,7 +6557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CL10B104KB8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 81.28 130.81 0)
 			(effects
 				(font
