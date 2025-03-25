@@ -7,7 +7,7 @@
 	(title_block
 		(title "Obi Wan Computer")
 		(date "2024-06-07")
-		(rev "1")
+		(rev "A")
 		(company "Ruchir Kavulli, Luke Titi, Michael Lyle")
 		(comment 1 "Derived from PyCubed Mainboard v5")
 		(comment 2 "NOTE: Components labeled \"do not install\" (DNI) are not populated by default")
