@@ -5110,7 +5110,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 80.01 48.26 0)
 			(effects
 				(font
@@ -5119,7 +5119,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85713"
+		(property "LCSC" "C344022"
 			(at 80.01 48.26 0)
 			(effects
 				(font
@@ -5128,7 +5128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 80.01 48.26 0)
 			(effects
 				(font
@@ -5137,7 +5137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL10A106MP8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 80.01 48.26 0)
 			(effects
 				(font
@@ -5146,7 +5146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 80.01 48.26 0)
 			(effects
 				(font
@@ -6119,7 +6119,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -6128,7 +6128,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85713"
+		(property "LCSC" "C344022"
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -6137,7 +6137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -6146,7 +6146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL10A106MP8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -6155,7 +6155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 144.78 97.79 0)
 			(effects
 				(font
@@ -6449,7 +6449,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "16V ok?"
+		(property "Notes" ""
 			(at 104.14 130.81 0)
 			(effects
 				(font
@@ -6705,7 +6705,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "16V ok?"
+		(property "Notes" ""
 			(at 132.08 97.79 0)
 			(effects
 				(font

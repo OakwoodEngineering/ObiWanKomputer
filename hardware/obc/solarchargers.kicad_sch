@@ -5067,7 +5067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 50.8 130.81 0)
 			(effects
 				(font
@@ -5076,7 +5076,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85713"
+		(property "LCSC" "C344022"
 			(at 50.8 130.81 0)
 			(effects
 				(font
@@ -5085,7 +5085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 50.8 130.81 0)
 			(effects
 				(font
@@ -5094,7 +5094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL10A106MP8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 50.8 130.81 0)
 			(effects
 				(font
@@ -5103,7 +5103,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 50.8 130.81 0)
 			(effects
 				(font
@@ -5190,7 +5190,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -5199,7 +5199,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85713"
+		(property "LCSC" "C344022"
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -5208,7 +5208,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -5217,7 +5217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL10A106MP8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -5226,7 +5226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 49.53 59.69 0)
 			(effects
 				(font
@@ -7146,7 +7146,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 22uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -7155,7 +7155,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C84419"
+		(property "LCSC" "C2762594"
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -7164,7 +7164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Murata Electronics"
+		(property "Manufacturer_Name" ""
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -7173,7 +7173,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " GRM188R61A226ME15D"
+		(property "Manufacturer_Part_Number" ""
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -7182,7 +7182,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -9507,7 +9507,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 22uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 146.05 146.05 0)
 			(effects
 				(font
@@ -9516,7 +9516,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C84419"
+		(property "LCSC" "C2762594"
 			(at 146.05 146.05 0)
 			(effects
 				(font
@@ -9525,7 +9525,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Murata Electronics"
+		(property "Manufacturer_Name" ""
 			(at 146.05 146.05 0)
 			(effects
 				(font
@@ -9534,7 +9534,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " GRM188R61A226ME15D"
+		(property "Manufacturer_Part_Number" ""
 			(at 146.05 146.05 0)
 			(effects
 				(font
@@ -9543,7 +9543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 146.05 146.05 0)
 			(effects
 				(font

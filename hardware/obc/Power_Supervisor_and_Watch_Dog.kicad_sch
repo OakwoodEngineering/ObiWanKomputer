@@ -3341,7 +3341,7 @@
 				)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1uF"
 			(at 78.105 63.5 90)
 			(effects
 				(font
@@ -3367,7 +3367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16V 1uF X7R ±10% 0603"
 			(at 73.66 64.77 0)
 			(effects
 				(font
@@ -3386,6 +3386,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+			(at 73.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " CL10B105KO8NNNC"
 			(at 73.66 64.77 0)
 			(effects
 				(font
@@ -3494,7 +3512,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1uF"
 			(at 87.63 44.4499 0)
 			(effects
 				(font
@@ -3521,7 +3539,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16V 1uF X7R ±10% 0603"
 			(at 83.82 43.18 0)
 			(effects
 				(font
@@ -3540,6 +3558,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 83.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+			(at 83.82 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " CL10B105KO8NNNC"
 			(at 83.82 43.18 0)
 			(effects
 				(font
@@ -3582,7 +3618,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1.0uF"
+		(property "Value" "1uF"
 			(at 200.66 85.0899 0)
 			(effects
 				(font
@@ -3609,7 +3645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "16V 1uF X7R ±10% 0603"
 			(at 196.85 83.82 0)
 			(effects
 				(font
@@ -3628,6 +3664,24 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+			(at 196.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" " CL10B105KO8NNNC"
 			(at 196.85 83.82 0)
 			(effects
 				(font
@@ -5097,7 +5151,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 113.9698 73.66 0)
 			(effects
 				(font
@@ -5115,7 +5169,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 114.935 77.47 0)
 			(effects
 				(font
@@ -5124,7 +5178,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C94034"
+		(property "LCSC" "C124129"
 			(at 114.935 77.47 0)
 			(effects
 				(font
@@ -5134,6 +5188,15 @@
 			)
 		)
 		(property "Sim.Type" ""
+			(at 114.935 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Murata"
 			(at 114.935 77.47 0)
 			(effects
 				(font

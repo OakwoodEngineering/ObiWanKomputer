@@ -4950,16 +4950,16 @@
 		(uuid "e52baf96-93b2-49cf-a352-7a80615c0bdb")
 	)
 	(junction
-		(at 232.41 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ecb301e9-d214-4606-9122-8eb6a78e8ac8")
-	)
-	(junction
 		(at 50.8 166.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ecb93700-d847-4173-b529-f7d6f812dc47")
+	)
+	(junction
+		(at 232.41 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1c88a6d-12a4-4d54-822c-c6dc056b02f8")
 	)
 	(junction
 		(at 88.265 71.755)
@@ -5196,6 +5196,16 @@
 			(type default)
 		)
 		(uuid "21aff3dd-47f6-4863-a649-0d7bec974bee")
+	)
+	(wire
+		(pts
+			(xy 232.41 85.09) (xy 250.19 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22fde318-b495-4703-ae08-1dbc090ff6dd")
 	)
 	(wire
 		(pts
@@ -5979,7 +5989,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 85.09) (xy 250.19 85.09)
+			(xy 227.33 85.09) (xy 232.41 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6076,16 +6086,6 @@
 			(type default)
 		)
 		(uuid "a6f34a22-a8b0-4161-b72a-4d35b4dab912")
-	)
-	(wire
-		(pts
-			(xy 227.33 85.09) (xy 232.41 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aaa16b0b-6d17-4786-88a9-85359ad40da1")
 	)
 	(wire
 		(pts
@@ -7819,7 +7819,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "16V ok?"
+		(property "Notes" ""
 			(at 144.78 191.77 0)
 			(effects
 				(font
@@ -7924,7 +7924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 22uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 22.86 166.37 0)
 			(effects
 				(font
@@ -7933,7 +7933,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C84419"
+		(property "LCSC" "C2762594"
 			(at 22.86 166.37 0)
 			(effects
 				(font
@@ -7942,7 +7942,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Murata Electronics"
+		(property "Manufacturer_Name" ""
 			(at 22.86 166.37 0)
 			(effects
 				(font
@@ -7951,7 +7951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " GRM188R61A226ME15D"
+		(property "Manufacturer_Part_Number" ""
 			(at 22.86 166.37 0)
 			(effects
 				(font
@@ -7960,7 +7960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 22.86 166.37 0)
 			(effects
 				(font
@@ -8204,7 +8204,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "Footprint Marked as Issue - 3.3uH for 3V3 switching"
+		(property "Notes" ""
 			(at 41.91 168.91 0)
 			(effects
 				(font
@@ -8542,7 +8542,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 22uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 236.22 91.44 0)
 			(effects
 				(font
@@ -8551,7 +8551,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C84419"
+		(property "LCSC" "C2762594"
 			(at 236.22 91.44 0)
 			(effects
 				(font
@@ -8560,7 +8560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Murata Electronics"
+		(property "Manufacturer_Name" ""
 			(at 236.22 91.44 0)
 			(effects
 				(font
@@ -8569,7 +8569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " GRM188R61A226ME15D"
+		(property "Manufacturer_Part_Number" ""
 			(at 236.22 91.44 0)
 			(effects
 				(font
@@ -8578,7 +8578,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 236.22 91.44 0)
 			(effects
 				(font
@@ -8730,7 +8730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 240.03 102.87 0)
 			(effects
 				(font
@@ -8739,7 +8739,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85713"
+		(property "LCSC" "C344022"
 			(at 240.03 102.87 0)
 			(effects
 				(font
@@ -8748,7 +8748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 240.03 102.87 0)
 			(effects
 				(font
@@ -8757,7 +8757,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL10A106MP8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 240.03 102.87 0)
 			(effects
 				(font
@@ -8766,7 +8766,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 240.03 102.87 0)
 			(effects
 				(font
@@ -9246,7 +9246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "16V ok?"
+		(property "Notes" ""
 			(at 191.77 58.42 0)
 			(effects
 				(font
@@ -9301,127 +9301,6 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
 					(reference "C9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L")
-		(at 232.41 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-00005def010f")
-		(property "Reference" "L2"
-			(at 234.95 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1uH"
-			(at 234.95 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Inductor_SMD:L_1008_2520Metric"
-			(at 232.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/P02/JETE243A-9105.pdf"
-			(at 232.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "3A 1uH ±20% 3.4A 1008"
-			(at 232.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" " Murata Electronics"
-			(at 232.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DFE2HCAH1R0MJ0L"
-			(at 234.95 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C5247968"
-			(at 232.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Notes" "Footprint Marked as Issue  - 1uH for USB charging"
-			(at 232.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at 232.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Type" ""
-			(at 232.41 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1716fa36-7cb4-4282-951d-0a8defa736c2")
-		)
-		(pin "2"
-			(uuid "42297823-166f-4191-834a-c492c335968c")
-		)
-		(instances
-			(project "mainboard"
-				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -9617,7 +9496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -9626,7 +9505,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85713"
+		(property "LCSC" "C344022"
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -9635,7 +9514,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -9644,7 +9523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL10A106MP8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -9653,7 +9532,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 223.52 58.42 0)
 			(effects
 				(font
@@ -9740,7 +9619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 22uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 240.03 91.44 0)
 			(effects
 				(font
@@ -9749,7 +9628,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C84419"
+		(property "LCSC" "C2762594"
 			(at 240.03 91.44 0)
 			(effects
 				(font
@@ -9758,7 +9637,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Murata Electronics"
+		(property "Manufacturer_Name" ""
 			(at 240.03 91.44 0)
 			(effects
 				(font
@@ -9767,7 +9646,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " GRM188R61A226ME15D"
+		(property "Manufacturer_Part_Number" ""
 			(at 240.03 91.44 0)
 			(effects
 				(font
@@ -9776,7 +9655,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 240.03 91.44 0)
 			(effects
 				(font
@@ -10324,7 +10203,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CL10B332KB8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 248.92 147.32 0)
 			(effects
 				(font
@@ -10889,7 +10768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "16V ok?"
+		(property "Notes" ""
 			(at 30.48 184.15 0)
 			(effects
 				(font
@@ -11179,7 +11058,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 10uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 35.56 125.73 0)
 			(effects
 				(font
@@ -11188,7 +11067,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C85713"
+		(property "LCSC" "C344022"
 			(at 35.56 125.73 0)
 			(effects
 				(font
@@ -11197,7 +11076,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Samsung Electro-Mechanics"
+		(property "Manufacturer_Name" ""
 			(at 35.56 125.73 0)
 			(effects
 				(font
@@ -11206,7 +11085,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL10A106MP8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 35.56 125.73 0)
 			(effects
 				(font
@@ -11215,7 +11094,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 35.56 125.73 0)
 			(effects
 				(font
@@ -11830,7 +11709,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " CL10B332KB8NNNC"
+		(property "Manufacturer_Part_Number" ""
 			(at 132.08 176.53 0)
 			(effects
 				(font
@@ -12058,7 +11937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 22uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -12067,7 +11946,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C84419"
+		(property "LCSC" "C2762594"
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -12076,7 +11955,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Murata Electronics"
+		(property "Manufacturer_Name" ""
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -12085,7 +11964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " GRM188R61A226ME15D"
+		(property "Manufacturer_Part_Number" ""
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -12094,7 +11973,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 33.02 166.37 0)
 			(effects
 				(font
@@ -12217,7 +12096,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "16V ok?"
+		(property "Notes" ""
 			(at 43.18 184.15 0)
 			(effects
 				(font
@@ -13737,6 +13616,127 @@
 			(project "mainboard"
 				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:L")
+		(at 232.41 81.28 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cfdc7c78-a71d-42cc-9d88-c392e28c371d")
+		(property "Reference" "L2"
+			(at 235.585 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3uH"
+			(at 236.22 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SSE_Footprints:L_TDK_1008_2.5x2.0mm"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://product.tdk.com/en/system/files?file=dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_tfm252012alma_en.pdf"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "2A ±20% 1008 3.3uH Shielded Inductor"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "TDK"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "TFM252012ALMA3R3MTAA"
+			(at 233.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C404805"
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Notes" ""
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 232.41 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "859a9aea-badf-4ffd-b861-4001a4b78c03")
+		)
+		(pin "2"
+			(uuid "320ca5ba-f9f1-4297-bdfd-9657e31a8e9b")
+		)
+		(instances
+			(project "mainboard"
+				(path "/e3ac22ea-6806-4807-a025-571315789c25/00000000-0000-0000-0000-00005cec5dde"
+					(reference "L2")
 					(unit 1)
 				)
 			)

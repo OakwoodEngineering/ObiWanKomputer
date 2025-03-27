@@ -6434,7 +6434,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 22uF X5R ±20% 0603"
+		(property "Description" ""
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -6443,7 +6443,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C84419"
+		(property "LCSC" "C2762594"
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -6452,7 +6452,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " Murata Electronics"
+		(property "Manufacturer_Name" ""
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -6461,7 +6461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " GRM188R61A226ME15D"
+		(property "Manufacturer_Part_Number" ""
 			(at 185.42 58.42 0)
 			(effects
 				(font
@@ -6470,7 +6470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Notes" "10V ok?"
+		(property "Notes" ""
 			(at 185.42 58.42 0)
 			(effects
 				(font
