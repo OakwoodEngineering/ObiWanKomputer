@@ -9033,24 +9033,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 215.9 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 215.9 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 215.9 143.51 0)
 			(effects
@@ -9165,24 +9147,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 215.9 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 215.9 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 215.9 151.13 0)
 			(effects
 				(font
@@ -9381,24 +9345,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 203.2 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 203.2 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 203.2 151.13 0)
 			(effects
@@ -9515,24 +9461,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 173.99 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 173.99 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 173.99 113.03 0)
 			(effects
 				(font
@@ -9665,24 +9593,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 189.23 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 189.23 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 189.23 125.73 0)
 			(effects
@@ -9763,15 +9673,6 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "WS2812B-B"
-			(at 204.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Worldsemi"
 			(at 204.47 78.74 0)
 			(effects
@@ -9783,15 +9684,6 @@
 		)
 		(property "Manufacturer_Part_Number" " WS2812B-B/W"
 			(at 212.09 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "WS2812B-B"
-			(at 204.47 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9818,24 +9710,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 204.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 204.47 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 204.47 78.74 0)
 			(effects
 				(font
@@ -10107,24 +9981,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 237.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 237.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 237.49 80.01 0)
 			(effects
@@ -10185,7 +10041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 166.37 157.48 0)
 			(effects
 				(font
@@ -10240,24 +10096,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 166.37 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 166.37 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 166.37 157.48 0)
 			(effects
 				(font
@@ -10769,24 +10607,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 66.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 66.04 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 66.04 93.98 0)
 			(effects
@@ -10847,7 +10667,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 25.4 175.26 0)
 			(effects
 				(font
@@ -11570,7 +11390,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -11616,24 +11436,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 182.88 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 182.88 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 182.88 101.6 0)
 			(effects
 				(font
@@ -11836,7 +11638,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x05"
+		(property "Value" "Conn_01x02"
 			(at 24.003 67.2846 0)
 			(effects
 				(font
@@ -11855,7 +11657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 26.035 66.04 0)
 			(effects
 				(font
@@ -11901,24 +11703,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 26.035 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 26.035 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 26.035 66.04 0)
 			(effects
 				(font
@@ -12272,7 +12056,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 54.61 24.13 0)
 			(effects
 				(font
@@ -13299,24 +13083,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 24.13 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 24.13 106.045 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 24.13 106.045 0)
 			(effects
@@ -13384,7 +13150,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 48.26 76.2 0)
 			(effects
 				(font
@@ -13469,7 +13235,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 48.26 81.28 0)
 			(effects
 				(font
@@ -13758,24 +13524,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 205.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 205.74 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 205.74 101.6 0)
 			(effects
 				(font
@@ -14307,7 +14055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 166.37 160.02 0)
 			(effects
 				(font
@@ -14362,24 +14110,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 166.37 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 166.37 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 166.37 160.02 0)
 			(effects
 				(font

@@ -2074,6 +2074,26 @@
 		)
 		(uuid "07e69558-f072-49fe-b2b9-edb2b2d10049")
 	)
+	(polyline
+		(pts
+			(xy 109.855 93.98) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0c5c501b-3cc5-43c6-90fc-b374013a3050")
+	)
+	(polyline
+		(pts
+			(xy 180.34 60.96) (xy 180.34 93.98)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0de49519-92fb-44cf-832d-111f90152fb4")
+	)
 	(wire
 		(pts
 			(xy 148.59 63.5) (xy 156.21 63.5)
@@ -2083,6 +2103,16 @@
 			(type default)
 		)
 		(uuid "1332c677-4292-4e0a-a816-d23357f9d542")
+	)
+	(polyline
+		(pts
+			(xy 109.855 60.96) (xy 180.34 60.96)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "19ef316f-eb8d-47d9-8c9e-9c9ed5262442")
 	)
 	(wire
 		(pts
@@ -2156,7 +2186,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 62.23) (xy 222.25 63.5)
+			(xy 222.25 60.96) (xy 222.25 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2356,16 +2386,6 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 53.34) (xy 222.25 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6e55d933-f548-4473-9e83-0743f94301b1")
-	)
-	(wire
-		(pts
 			(xy 222.25 63.5) (xy 222.25 72.39)
 		)
 		(stroke
@@ -2383,6 +2403,16 @@
 			(type default)
 		)
 		(uuid "716d859c-eeb6-4c93-83d0-64c0af19924f")
+	)
+	(polyline
+		(pts
+			(xy 243.84 60.96) (xy 243.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "7ec68b9b-6fd1-4633-91b6-2da9dac4478e")
 	)
 	(wire
 		(pts
@@ -2624,6 +2654,16 @@
 		)
 		(uuid "b71d345b-ac70-4d56-9b07-d24e62f80183")
 	)
+	(polyline
+		(pts
+			(xy 180.34 60.96) (xy 243.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "bb762267-0eba-40ba-976a-abdc47927596")
+	)
 	(wire
 		(pts
 			(xy 175.26 63.5) (xy 196.85 63.5)
@@ -2673,6 +2713,16 @@
 			(type default)
 		)
 		(uuid "cc44042f-07a2-4e88-9df0-f5a24454a283")
+	)
+	(polyline
+		(pts
+			(xy 180.34 93.98) (xy 243.84 93.98)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "cd8a7ae0-53f7-40e4-ac02-a748bc81609e")
 	)
 	(wire
 		(pts
@@ -2884,6 +2934,18 @@
 		)
 		(uuid "ff832793-3360-4bb6-a429-bf590a54236f")
 	)
+	(rectangle
+		(start 45.085 60.96)
+		(end 109.855 93.98)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid d0ede93e-ca5c-41ce-adbd-9f8238f8a76a)
+	)
 	(text "External reset operation:\n\n1. Darlington pair on right side of schematic turns on.\n2. RC network stretches short pulses and ensures PWREN falls.\n3. This turns on FETA, off FETB, and VWATCHEDRAIL falls.\n4. 4.7uF capacitor helps; as VBUS falls, PWREN falls more sharply.\n5. When PWREN charges back up, power is restored (goto step 5 of power-up)."
 		(exclude_from_sim no)
 		(at 127 138.43 0)
@@ -2906,15 +2968,16 @@
 		)
 		(uuid "5973f003-0033-4385-9c07-5bcb6240330a")
 	)
-	(text "XXX: Improve description with reference designators\n\nSince ref des may change, for now we talk about function indirectly."
+	(text "Timer circuit pulls down PWREN\nwhen timer expires."
 		(exclude_from_sim no)
-		(at 58.42 183.896 0)
+		(at 110.236 95.758 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left top)
 		)
-		(uuid "61867c25-9ff3-410a-bd64-db7d1febe44d")
+		(uuid "6ed50ce4-7592-4fd4-93af-80102dad48f8")
 	)
 	(text "Power glitch / high current draw:\n\n1. VWATCHEDRAIL (or VRAIL) falls suddenly by about 2V\n	this corresponds to many amperes of draw at our impedance.\n2. 4.7uF from VBUS to PWREN turns on FET A.\n3. FET B turns off power.\n4. VWATCHEDRAIL falling further capacitively pulls down PWREN even more forcibly (hysteresis)."
 		(exclude_from_sim no)
@@ -2938,6 +3001,28 @@
 		)
 		(uuid "b11258cf-1ee4-4d6d-93b4-31f51cb4d7d2")
 	)
+	(text "This circuit removes power from microcontroller--\nwhen micro requests OR when it fails to toggle\nwatchdog signal promptly.\n\nIt is a countermeasure to single-event latchup\nand microcontroller hangs."
+		(exclude_from_sim no)
+		(at 154.432 23.622 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b4b920b8-0379-49f7-af5a-9eecc7e0d087")
+	)
+	(text "Short pulse of VBUS_RESET pulls \ndown PWREN, triggering power cycle."
+		(exclude_from_sim no)
+		(at 180.848 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c07f666f-e485-43cf-a5d1-b77fe1381f46")
+	)
 	(text "Power-up:\n\n1. VWATCHEDRAIL remains low while VRAIL rises.\n2. 4.7uF capacitor between VBUS and PWREN keeps PWREN near 0V\n3. Negative gate-to-source voltage (because PWREN < VRAIL) turns FET A on.\n4. FET A keeps FET B's gate near 0V, so FET B stays off, until..\n5. 220k resistor charges 4.7uF and PWREN rises enough to turn FET A off.\n	PWREN must rise to VRAIL - VGSth for this to happen.\n6. 10k pulldown on FET B gate turns FET B on.\n7. VWATCHEDRAIL rising discharges timer 47uF capacitor through first\n   NPN transistor."
 		(exclude_from_sim no)
 		(at 44.45 115.316 0)
@@ -2948,6 +3033,17 @@
 			(justify left top)
 		)
 		(uuid "dd2982c7-25f1-4787-9106-b225ca26152d")
+	)
+	(text "Reset timer when\nWDT_WDI rises or\nwhen watched rail\nrises."
+		(exclude_from_sim no)
+		(at 44.958 95.758 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "dee74748-c418-439f-8b27-144228d73fb6")
 	)
 	(text "Theory of operation:"
 		(exclude_from_sim no)
@@ -3262,7 +3358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 73.66 64.77 0)
 			(effects
 				(font
@@ -3416,7 +3512,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 83.82 43.18 0)
 			(effects
 				(font
@@ -3504,7 +3600,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 196.85 83.82 0)
 			(effects
 				(font
@@ -3716,7 +3812,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 29.21 48.26 0)
 			(effects
 				(font
@@ -3804,7 +3900,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.935 86.36 0)
 			(effects
 				(font
@@ -3891,7 +3987,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 175.26 69.85 0)
 			(effects
 				(font
@@ -4110,7 +4206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 96.52 43.18 0)
 			(effects
 				(font
@@ -4195,7 +4291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 176.53 58.42 0)
 			(effects
 				(font
@@ -4374,7 +4470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 186.69 80.01 0)
 			(effects
 				(font
@@ -4634,7 +4730,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 63.5 20.32 0)
 			(effects
 				(font
@@ -4678,7 +4774,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 222.25 58.42 0)
+		(at 222.25 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4686,7 +4782,7 @@
 		(dnp no)
 		(uuid "bed6916d-7200-4d66-9d41-661c9030a20c")
 		(property "Reference" "R61"
-			(at 224.79 57.1499 0)
+			(at 224.79 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +4791,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 224.79 59.6899 0)
+			(at 224.79 58.4199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,7 +4800,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 223.266 58.674 90)
+			(at 223.266 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4712,8 +4808,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 222.25 58.42 0)
+		(property "Datasheet" ""
+			(at 222.25 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,7 +4818,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 222.25 58.42 0)
+			(at 222.25 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4731,7 +4827,7 @@
 			)
 		)
 		(property "LCSC" "C114623"
-			(at 222.25 58.42 0)
+			(at 222.25 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4740,7 +4836,7 @@
 			)
 		)
 		(property "Sim.Type" ""
-			(at 222.25 58.42 0)
+			(at 222.25 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5010,7 +5106,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 114.935 77.47 0)
 			(effects
 				(font
@@ -5222,7 +5318,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 83.82 86.36 0)
 			(effects
 				(font
@@ -5542,7 +5638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 213.36 83.82 0)
 			(effects
 				(font

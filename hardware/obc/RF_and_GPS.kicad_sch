@@ -4152,24 +4152,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 222.25 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 222.25 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 222.25 74.93 0)
 			(effects
@@ -4322,15 +4304,6 @@
 				)
 			)
 		)
-		(property "Flight" "901-144"
-			(at 237.49 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Samtec Inc."
 			(at 231.14 35.56 0)
 			(effects
@@ -4342,15 +4315,6 @@
 		)
 		(property "Manufacturer_Part_Number" "MMCXV-J-P-HF-ST-EM1-ND "
 			(at 231.14 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "901-144"
-			(at 237.49 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4377,24 +4341,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 237.49 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 237.49 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 237.49 35.56 0)
 			(effects
 				(font
@@ -4490,15 +4436,6 @@
 				)
 			)
 		)
-		(property "Flight" "901-144"
-			(at 237.49 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Samtec Inc."
 			(at 231.14 49.53 0)
 			(effects
@@ -4510,15 +4447,6 @@
 		)
 		(property "Manufacturer_Part_Number" "MMCXV-J-P-HF-ST-EM1-ND "
 			(at 231.14 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "901-144"
-			(at 237.49 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,24 +4473,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 237.49 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 237.49 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 237.49 49.53 0)
 			(effects
 				(font
@@ -4647,15 +4557,6 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "901-144"
-			(at 113.03 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Samtec Inc."
 			(at 112.2934 47.3202 0)
 			(effects
@@ -4667,15 +4568,6 @@
 		)
 		(property "Manufacturer_Part_Number" "MMCXV-J-P-HF-ST-EM1-ND "
 			(at 112.2934 47.3202 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "901-144"
-			(at 113.03 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4702,24 +4594,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 113.03 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 113.03 53.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 113.03 53.34 0)
 			(effects
 				(font
@@ -4814,15 +4688,6 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" "RFM98PW"
-			(at 83.82 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "HopeRF"
 			(at 83.82 66.04 0)
 			(effects
@@ -4834,15 +4699,6 @@
 		)
 		(property "Manufacturer_Part_Number" "RFM98PW"
 			(at 78.74 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "RFM98PW"
-			(at 83.82 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4869,24 +4725,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 83.82 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 83.82 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 83.82 66.04 0)
 			(effects
 				(font
@@ -5139,24 +4977,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 53.34 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 53.34 58.42 0)
 			(effects
@@ -5336,24 +5156,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 80.01 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 80.01 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 80.01 48.26 0)
 			(effects
 				(font
@@ -5675,24 +5477,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 172.72 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 172.72 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Sky Traq"
 			(at 172.72 80.01 0)
 			(effects
@@ -5900,24 +5684,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 92.71 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 92.71 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 92.71 130.81 0)
 			(effects
@@ -6013,24 +5779,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 63.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 63.5 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 63.5 113.03 0)
 			(effects
 				(font
@@ -6177,24 +5925,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 213.36 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 213.36 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 213.36 35.56 0)
 			(effects
 				(font
@@ -6443,24 +6173,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 144.78 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 144.78 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 144.78 97.79 0)
 			(effects
@@ -6576,24 +6288,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 81.28 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 81.28 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 81.28 130.81 0)
 			(effects
 				(font
@@ -6765,24 +6459,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 104.14 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 104.14 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 104.14 130.81 0)
 			(effects
 				(font
@@ -7039,24 +6715,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 132.08 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 132.08 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 132.08 97.79 0)
 			(effects
 				(font

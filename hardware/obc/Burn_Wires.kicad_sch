@@ -3018,15 +3018,6 @@
 				)
 			)
 		)
-		(property "Flight" "22-23-2037"
-			(at 212.598 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Molex"
 			(at 220.98 102.87 0)
 			(effects
@@ -3037,15 +3028,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "	 0022112032"
-			(at 212.598 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "22-23-2037"
 			(at 212.598 105.41 0)
 			(effects
 				(font
@@ -3073,24 +3055,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 220.98 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 220.98 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 220.98 102.87 0)
 			(effects
 				(font
@@ -3217,24 +3181,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 168.91 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 168.91 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 168.91 97.79 0)
 			(effects
 				(font
@@ -3432,24 +3378,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 163.83 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 163.83 102.87 0)
 			(effects
@@ -3573,24 +3501,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 163.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 163.83 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 163.83 78.74 0)
 			(effects
@@ -3669,15 +3579,6 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" ""
-			(at 176.53 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Infineon Technologies"
 			(at 176.53 105.41 0)
 			(effects
@@ -3689,15 +3590,6 @@
 		)
 		(property "Manufacturer_Part_Number" "IRLML2803TRPBF"
 			(at 172.72 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "2302"
-			(at 176.53 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3724,24 +3616,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 176.53 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 176.53 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 176.53 105.41 0)
 			(effects
 				(font
@@ -3876,24 +3750,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 168.91 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 168.91 73.66 0)
 			(effects
@@ -4017,24 +3873,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 181.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 181.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 181.61 76.2 0)
 			(effects
@@ -4123,15 +3961,6 @@
 				)
 			)
 		)
-		(property "Flight" "22-23-2037"
-			(at 212.598 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Molex"
 			(at 220.98 78.74 0)
 			(effects
@@ -4142,15 +3971,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "	 0022112032"
-			(at 212.598 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "22-23-2037"
 			(at 212.598 81.28 0)
 			(effects
 				(font
@@ -4178,24 +3998,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 220.98 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 220.98 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 220.98 78.74 0)
 			(effects
 				(font
@@ -4330,24 +4132,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 181.61 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 181.61 100.33 0)
 			(effects
@@ -4426,15 +4210,6 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" ""
-			(at 176.53 81.28 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Infineon Technologies"
 			(at 176.53 81.28 0)
 			(effects
@@ -4446,15 +4221,6 @@
 		)
 		(property "Manufacturer_Part_Number" "IRLML2803TRPBF"
 			(at 175.26 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "2302"
-			(at 176.53 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4481,24 +4247,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 176.53 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 176.53 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 176.53 81.28 0)
 			(effects
 				(font
@@ -4798,7 +4546,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 91.44 81.28 0)
 			(effects
 				(font
@@ -4940,24 +4688,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 168.91 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 168.91 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 168.91 123.19 0)
 			(effects
 				(font
@@ -5180,24 +4910,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 163.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 163.83 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 163.83 128.27 0)
 			(effects
@@ -5286,15 +4998,6 @@
 				)
 			)
 		)
-		(property "Flight" "22-23-2037"
-			(at 212.598 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Molex"
 			(at 220.98 128.27 0)
 			(effects
@@ -5305,15 +5008,6 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "	 0022112032"
-			(at 212.598 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "22-23-2037"
 			(at 212.598 130.81 0)
 			(effects
 				(font
@@ -5341,24 +5035,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 220.98 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 220.98 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 220.98 128.27 0)
 			(effects
 				(font
@@ -5428,7 +5104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 40.64 72.39 0)
 			(effects
 				(font
@@ -5697,15 +5373,6 @@
 				(hide yes)
 			)
 		)
-		(property "Flight" ""
-			(at 176.53 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Manufacturer_Name" "Infineon Technologies"
 			(at 176.53 130.81 0)
 			(effects
@@ -5717,15 +5384,6 @@
 		)
 		(property "Manufacturer_Part_Number" "IRLML2803TRPBF"
 			(at 172.72 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Proto" "2302"
-			(at 176.53 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5752,24 +5410,6 @@
 			)
 		)
 		(property "Height" ""
-			(at 176.53 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 176.53 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
 			(at 176.53 130.81 0)
 			(effects
 				(font
@@ -6181,7 +5821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -6331,24 +5971,6 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 181.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 181.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Sim.Type" ""
 			(at 181.61 125.73 0)
 			(effects
@@ -6409,7 +6031,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 49.53 81.28 0)
 			(effects
 				(font
