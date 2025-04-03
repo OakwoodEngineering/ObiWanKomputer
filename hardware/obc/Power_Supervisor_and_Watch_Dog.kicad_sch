@@ -4191,7 +4191,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" "C191124"
 			(at 62.23 71.12 0)
 			(effects
 				(font
@@ -4687,7 +4687,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "10V 4.7uF X5R ±10% 0603"
+		(property "Description" "16V 4.7uF X5R ±10% 0603"
 			(at 109.855 43.18 0)
 			(effects
 				(font
@@ -4696,7 +4696,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1705"
+		(property "LCSC" " C19666"
 			(at 109.855 43.18 0)
 			(effects
 				(font
@@ -4723,7 +4723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CL10A475KP8NNNC"
+		(property "Manufacturer_Part_Number" "CL10A475KO8NNNC"
 			(at 109.855 43.18 0)
 			(effects
 				(font

@@ -3622,7 +3622,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" "C191124"
 			(at 50.8 50.8 0)
 			(effects
 				(font
@@ -3745,7 +3745,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" "C191124"
 			(at 45.72 44.45 0)
 			(effects
 				(font
@@ -4242,7 +4242,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C473261"
+		(property "LCSC" "C118142"
 			(at 50.8 80.01 0)
 			(effects
 				(font
@@ -4260,7 +4260,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " ERA3AEB204V"
+		(property "Manufacturer_Part_Number" "ERJ3EKF2003V"
 			(at 50.8 80.01 0)
 			(effects
 				(font
@@ -4821,7 +4821,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" "C191124"
 			(at 87.63 44.45 0)
 			(effects
 				(font
@@ -5272,7 +5272,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C473261"
+		(property "LCSC" "C118142"
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -5290,7 +5290,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " ERA3AEB204V"
+		(property "Manufacturer_Part_Number" "ERJ3EKF2003V"
 			(at 92.71 80.01 0)
 			(effects
 				(font
@@ -5724,7 +5724,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" "C191124"
 			(at 92.71 50.8 0)
 			(effects
 				(font
@@ -6169,7 +6169,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" "C191124"
 			(at 45.72 123.19 0)
 			(effects
 				(font
@@ -6620,7 +6620,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C473261"
+		(property "LCSC" "C118142"
 			(at 50.8 158.75 0)
 			(effects
 				(font
@@ -6638,7 +6638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " ERA3AEB204V"
+		(property "Manufacturer_Part_Number" "ERJ3EKF2003V"
 			(at 50.8 158.75 0)
 			(effects
 				(font
@@ -7072,7 +7072,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" "C191124"
 			(at 50.8 129.54 0)
 			(effects
 				(font
@@ -7517,7 +7517,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" "C191124"
 			(at 87.63 123.19 0)
 			(effects
 				(font
@@ -7968,7 +7968,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C473261"
+		(property "LCSC" "C118142"
 			(at 92.71 158.75 0)
 			(effects
 				(font
@@ -7986,7 +7986,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " ERA3AEB204V"
+		(property "Manufacturer_Part_Number" "ERJ3EKF2003V"
 			(at 92.71 158.75 0)
 			(effects
 				(font
@@ -8420,7 +8420,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" "C191124"
 			(at 92.71 129.54 0)
 			(effects
 				(font

@@ -3135,7 +3135,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7k 0603"
+		(property "Description" ""
 			(at 168.91 101.854 0)
 			(effects
 				(font
@@ -3144,7 +3144,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C840629"
 			(at 168.91 97.79 0)
 			(effects
 				(font
@@ -3153,7 +3153,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer_Name" ""
 			(at 168.91 97.79 0)
 			(effects
 				(font
@@ -3162,7 +3162,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " 0603WAF4701T5E"
+		(property "Manufacturer_Part_Number" ""
 			(at 168.91 97.79 0)
 			(effects
 				(font
@@ -3333,7 +3333,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" "C191124"
 			(at 163.83 102.87 0)
 			(effects
 				(font
@@ -3456,7 +3456,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" "C191124"
 			(at 163.83 78.74 0)
 			(effects
 				(font
@@ -3696,7 +3696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7k 0603"
+		(property "Description" ""
 			(at 168.91 77.724 0)
 			(effects
 				(font
@@ -3705,7 +3705,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C840629"
 			(at 168.91 73.66 0)
 			(effects
 				(font
@@ -3714,7 +3714,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer_Name" ""
 			(at 168.91 73.66 0)
 			(effects
 				(font
@@ -3723,7 +3723,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " 0603WAF4701T5E"
+		(property "Manufacturer_Part_Number" ""
 			(at 168.91 73.66 0)
 			(effects
 				(font
@@ -4555,7 +4555,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 91.44 81.28 0)
 			(effects
 				(font
@@ -4564,7 +4564,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C840629"
 			(at 91.44 81.28 0)
 			(effects
 				(font
@@ -4642,7 +4642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "4.7k 0603"
+		(property "Description" ""
 			(at 168.91 127.254 0)
 			(effects
 				(font
@@ -4651,7 +4651,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C840629"
 			(at 168.91 123.19 0)
 			(effects
 				(font
@@ -4660,7 +4660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" " UNI-ROYAL(Uniroyal Elec)"
+		(property "Manufacturer_Name" ""
 			(at 168.91 123.19 0)
 			(effects
 				(font
@@ -4669,7 +4669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" " 0603WAF4701T5E"
+		(property "Manufacturer_Part_Number" ""
 			(at 168.91 123.19 0)
 			(effects
 				(font
@@ -4865,7 +4865,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C169849"
+		(property "LCSC" "C191124"
 			(at 163.83 128.27 0)
 			(effects
 				(font
@@ -5113,7 +5113,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 40.64 72.39 0)
 			(effects
 				(font
@@ -5122,7 +5122,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C840629"
 			(at 40.64 72.39 0)
 			(effects
 				(font
@@ -5830,7 +5830,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -5839,7 +5839,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C840629"
 			(at 78.74 76.2 0)
 			(effects
 				(font
@@ -6040,7 +6040,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
+		(property "Description" ""
 			(at 49.53 81.28 0)
 			(effects
 				(font
@@ -6049,7 +6049,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C23162"
+		(property "LCSC" "C840629"
 			(at 49.53 81.28 0)
 			(effects
 				(font
