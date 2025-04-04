@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.127,
         "silk_text_upright": true,
         "zones": {
-          "min_clearance": 0.41
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -521,6 +521,7 @@
       "3.3V": "rgb(255, 7, 242)",
       "GND": "rgb(24, 40, 255)",
       "GNDREF": "rgb(16, 255, 242)",
+      "Net-(H4-Pad1)": "rgb(255, 0, 170)",
       "Net-(J307-In)": "rgb(255, 0, 170)",
       "Net-(J603-In)": "rgb(255, 0, 170)",
       "PACKNEG": "rgb(31, 255, 2)",
@@ -539,7 +540,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "mainboard.net",
-      "plot": "",
+      "plot": "tmp/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -684,7 +685,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
