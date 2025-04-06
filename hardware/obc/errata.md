@@ -22,3 +22,5 @@
     - MAX706RESA watchdog timer producing incorrect/unexpected results: the RESET# pin would produce a reset pulse correctly upon powerup when power was toggled (as datasheet indicated), but would then get stuck in a reset loop (RESET# held low) when WDI was held low after the first cycle.
     - No pin 1 marker for radio module on board
     - USB port needs to be accessible through the access port
+- Revision AF
+    - 4.7k resistor in BOM was out of stock, built with C491210 instead.
