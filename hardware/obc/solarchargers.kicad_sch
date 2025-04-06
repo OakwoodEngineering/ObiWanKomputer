@@ -4790,7 +4790,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2091473"
+		(property "LCSC" "C416579"
 			(at 148.59 132.08 0)
 			(effects
 				(font
@@ -4799,7 +4799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Panasonic"
 			(at 148.59 132.08 0)
 			(effects
 				(font
@@ -4808,7 +4808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "ERJ2RKF8453X"
 			(at 148.59 132.08 0)
 			(effects
 				(font
@@ -5928,7 +5928,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C2091473"
+		(property "LCSC" "C416579"
 			(at 147.32 60.96 0)
 			(effects
 				(font
@@ -5937,7 +5937,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" ""
+		(property "Manufacturer_Name" "Panasonic"
 			(at 147.32 60.96 0)
 			(effects
 				(font
@@ -5946,7 +5946,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" ""
+		(property "Manufacturer_Part_Number" "ERJ2RKF8453X"
 			(at 147.32 60.96 0)
 			(effects
 				(font

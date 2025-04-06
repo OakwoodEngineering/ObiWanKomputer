@@ -4430,7 +4430,7 @@
 				)
 			)
 		)
-		(property "Value" "IRF7406PbF"
+		(property "Value" "IRF9393"
 			(at 199.39 116.84 90)
 			(effects
 				(font
@@ -4468,7 +4468,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3279781"
+		(property "LCSC" "C520642"
 			(at 199.39 123.19 0)
 			(effects
 				(font
@@ -5236,7 +5236,7 @@
 				)
 			)
 		)
-		(property "Value" "IRF7406PbF"
+		(property "Value" "IRF9393"
 			(at 199.39 67.31 90)
 			(effects
 				(font
@@ -5274,7 +5274,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3279781"
+		(property "LCSC" "C520642"
 			(at 199.39 73.66 0)
 			(effects
 				(font
@@ -5526,7 +5526,7 @@
 				)
 			)
 		)
-		(property "Value" "IRF7406PbF"
+		(property "Value" "IRF9393"
 			(at 199.39 91.44 90)
 			(effects
 				(font
@@ -5564,7 +5564,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3279781"
+		(property "LCSC" "C520642"
 			(at 199.39 97.79 0)
 			(effects
 				(font

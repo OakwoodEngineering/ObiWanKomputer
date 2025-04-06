@@ -11559,7 +11559,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_1806_4516Metric"
+		(property "Footprint" "NyanSat_Footprints:L_pol_2016"
 			(at 74.93 41.91 0)
 			(effects
 				(font
