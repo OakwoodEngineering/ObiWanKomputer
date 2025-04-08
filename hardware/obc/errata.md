@@ -24,3 +24,4 @@
     - USB port needs to be accessible through the access port
 - Revision AF
     - 4.7k resistor in BOM was out of stock, built with C491210 instead.
+    - 845k resistor in BOM incorrect, built with C51263 instead.
