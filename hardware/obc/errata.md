@@ -25,3 +25,7 @@
 - Revision AF
     - 4.7k resistor in BOM was out of stock, built with C491210 instead.
     - 845k resistor in BOM incorrect, built with C51263 instead.
+    - Components are to close to stacking connector, works for flight but inconvenient on the ground
+    - ENHANCEMENTS:
+	- Should use a switching power supply for radio to save power
+	- Add space for payload castellated modules like original PyCubed
